@@ -1,2 +1,5 @@
 let APUESTAS_ABIERTAS = [
+	[[11000,"Kuopio PS","Tromso IL","local",2.2],[11100,"Wisla Krakow","Rapid Vienna","local",2.45],[11100,"FC Noah","Sliema WS","local",1.833],[11100,"VMFD Zalgiris","Pafos FC","local",2.25],[11100,"Sumqayit","MOL Fehervar FC","visitante",2.1],[11100,"FC Iberia 1999","FK Partizani Tirana","visitante",2.25],[11100,"FC Milsami Orhei","FC Astana","visitante",2.1],"2,206,144"],
+	[[11100,"FC Noah","Sliema WS","over",2.05],[11100,"Sumqayit","MOL Fehervar FC","over",2.15],[11100,"VMFD Zalgiris","Pafos FC","over",2.1],[11100,"FC Iberia 1999","FK Partizani Tirana","over",2.1],[11100,"FC Milsami Orhei","FC Astana","over",2.1],"408,179"],
+	[[11100,"FC Milsami Orhei","FC Astana","mitad",1.45],[11100,"FC Iberia 1999","FK Partizani Tirana","mitad",1.45],[11100,"VMFD Zalgiris","Pafos FC","mitad",1.45],[11100,"Sumqayit","MOL Fehervar FC","mitad",1.45],[11100,"FC Noah","Sliema WS","mitad",1.42],"62,771"],
 ]
