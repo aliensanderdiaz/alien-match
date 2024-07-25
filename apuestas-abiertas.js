@@ -1,4 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11130,"Zira","DAC Dunajska Streda","mitad",1.571],[11145,"FC Zimbru","FC Ararat Armenia","mitad",1.42],"22,314"],
-	[[11100,"Sumqayit","MOL Fehervar FC","over",2.15],[11100,"VMFD Zalgiris","Pafos FC","over",2.1],[11100,"FC Iberia 1999","FK Partizani Tirana","over",2.1],[11100,"FC Milsami Orhei","FC Astana","over",2.1],"408,179"],
+	[[11800,"Corinthians SP","Gremio RS","local",2.15],[11645,"Atletico Lanus","CA Belgrano","visitante",2.9],[11645,"Platense","Velez Sarsfield","visitante",2.7],[11700,"Cuiaba MT","Palestino","visitante",3.35],"563,956"],
+	[[11600,"Gualaceo SC","Guayaquil City FC","over",2.55],[11645,"Atletico Lanus","CA Belgrano","over",2.55],[11645,"Platense","Velez Sarsfield","over",3.7],[11700,"Cuiaba MT","Palestino","over",2.5],[11800,"Corinthians SP","Gremio RS","over",2.5],"1,503,703"],
+	[[11645,"Atletico Lanus","CA Belgrano","mitad",1.55],[11645,"Platense","Velez Sarsfield","mitad",1.8],[11700,"Cuiaba MT","Palestino","mitad",1.55],[11800,"Corinthians SP","Gremio RS","mitad",1.55],[11600,"Gualaceo SC","Guayaquil City FC","mitad",1.533],"102,779"],
 ]
