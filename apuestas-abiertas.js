@@ -1,2 +1,5 @@
 let APUESTAS_ABIERTAS = [
+	[[11100,"Puszcza Niepolomice","Gornik Zabrze","local",2.15],[11100,"AFC Hermanstadt","Unirea Slobozia","local",2.2],[11200,"NK Dinamo Zagreb","Shakhtar Donetsk","local",1.95],[11330,"Bolton Wanderers","Fiorentina","local",2.75],[11330,"Lechia Gdansk","Motor Lublin","local",1.769],[11400,"FCSB","FC Otelul Galati","local",1.95],[11200,"Heerenveen","Rayo Vallecano","visitante",1.769],"1,548,218"],
+	[[11100,"Puszcza Niepolomice","Gornik Zabrze","mitad",1.444],[11100,"AFC Hermanstadt","Unirea Slobozia","mitad",1.533],[11300,"Club Almagro","Defensores de Belgrano","mitad",1.727],[11400,"FCSB","FC Otelul Galati","mitad",1.48],"56,619"],
+	[[11400,"FCSB","FC Otelul Galati","over",2.3],[11300,"Union Comercio","Atlético Grau","over",2.1],[11100,"AFC Hermanstadt","Unirea Slobozia","over",2.35],[11100,"Puszcza Niepolomice","Gornik Zabrze","over",2.05],[10800,"Empoli","Spezia","over",2],[11300,"Club Almagro","Defensores de Belgrano","over",2.75],"2,751,503"],
 ]
