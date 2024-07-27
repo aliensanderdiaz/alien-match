@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[12200,"Leones Negros","CD Tapatio","local",1.769],[12000,"Pumas Unam","Austin FC","local",1.95],[11730,"Sportivo Trinidense","Guarani Asuncion","visitante",1.95],[11930,"Ituano SP","Vila Nova FC","visitante",2.05],"137,914"],
-	[[11845,"Temperley","CA San Telmo","over",2.95],[11930,"Ituano SP","Vila Nova FC","over",2.25],[11500,"Comerciantes Unidos","Carlos Mannucci","over",2.05],[11930,"Real Cartagena","Atletico Huila","over",2.2],[12030,"Universitario de Deportes","Alianza Lima","over",2.5],"748,378"],
-	[[11930,"Ituano SP","Vila Nova FC","mitad",1.5],[11930,"Real Cartagena","Atletico Huila","mitad",1.48],[12030,"Universitario de Deportes","Alianza Lima","mitad",1.55],[11730,"Sportivo Trinidense","Guarani Asuncion","mitad",1.42],[11500,"Comerciantes Unidos","Carlos Mannucci","mitad",1.444],[11845,"Temperley","CA San Telmo","mitad",1.7],"119,984"],
+	[[12030,"Universitario de Deportes","Alianza Lima","over",2.625],[12200,"Leones Negros","CD Tapatio","local",1.769],[12200,"Los Angeles FC","Tijuana","local",1.571],[12000,"Pumas Unam","Austin FC","local",2.1],"153,260"],
+	[[12000,"Venados FC","CD Tepatitlan de Morelos","mitad",1.8],[12030,"Universitario de Deportes","Alianza Lima","mitad",1.6],"28,800"],
+	[[11845,"Temperley","CA San Telmo","over",2.95],[11930,"Ituano SP","Vila Nova FC","over",2.25],[11930,"Real Cartagena","Atletico Huila","over",2.2],[12030,"Universitario de Deportes","Alianza Lima","over",2.5],"748,378"],
 ]
