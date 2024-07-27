@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[10830,"Karlsruher SC","Strasbourg","local",1.95],[10830,"Hannover 96","Wolfsburg","visitante",1.9],[10830,"NEC Nijmegen","Olympiacos","visitante",1.9],[10900,"Clyde","Montrose","visitante",2.15],[10900,"Ipswich Town","Fortuna Dusseldorf","visitante",2.15],"325,401"],
-	[[10800,"Miramar Misiones","Cerro Largo FC","over",2.15],"21.500"],
-	[[10800,"Miramar Misiones","Cerro Largo FC","mitad",1.45],"20,590"],
+	[[11000,"FK Pardubice","MFK Karvina","local",2.05],[11030,"Atletico Fenix Montevideo","Progreso","local",2.15],[11100,"FC Sion","Lausanne Sports","local",1.85],[11100,"CS Municipal Studentesc Iasi","Gloria Buzau","local",2.05],[11000,"Uzbekistán Olímpico","Egipto Olímpico","visitante",2.55],[11030,"Radomiak Radom","Jagiellonia Bialystok","visitante",1.85],[11100,"PSV Eindhoven","Valencia","visitante",2.1],[11115,"Beerschot","OH Leuven","visitante",1.9],[11130,"Deportes Copiapo","Coquimbo","visitante",1.95],[11100,"Grasshoppers","FC Luzern","visitante",1.85],"11,350,345"],
+	[[11000,"Uzbekistán Olímpico","Egipto Olímpico","over",2.1],[11030,"Atletico Fenix Montevideo","Progreso","over",2.15],[11100,"CS Municipal Studentesc Iasi","Gloria Buzau","over",2.3],"103,845"],
+	[[11000,"Uzbekistán Olímpico","Egipto Olímpico","mitad",1.45],[11030,"Atletico Fenix Montevideo","Progreso","mitad",1.48],[11100,"CS Municipal Studentesc Iasi","Gloria Buzau","mitad",1.5],"32,190"],
 ]
