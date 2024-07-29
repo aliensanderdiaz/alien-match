@@ -1,6 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11000,"FK Mlada Boleslav","FC Slovacko","local",1.909],[11030,"GKS Piast Gliwice","Slask Wroclaw","local",1.95],[11030,"CA Cerro","Rampla Juniors","local",2.1],[11000,"Banik Ostrava","FK Baumit Jablonec","visitante",2.2],"171,990"],
-	[[11030,"GKS Piast Gliwice","Slask Wroclaw","over",2.55],[11030,"CA Cerro","Rampla Juniors","over",2.2],[11030,"AC Arezzo","Juve Stabia","over",2.45],[11030,"GFK Tikvesh Kavadarci","FK Shkendija 79","over",2],"274,890"],
-	[[11030,"GKS Piast Gliwice","Slask Wroclaw","mitad",1.55],[11030,"CA Cerro","Rampla Juniors","mitad",1.48],[11030,"AC Arezzo","Juve Stabia","mitad",1.48],"33,951"],
-	[[10900,"Bragantino SP","Fluminense RJ","over",2.2],"22.000"],
+	[[11100,"FC Uta Arad","Universitatea Cluj","over",2.15],[11300,"CA Barracas Central","Atletico Tucuman","over",2.5],[11300,"Atletico River Plate (Uru)","Racing Club Montevideo","over",2.15],[11400,"Petrolul Ploiesti","Rapid Bucharest","over",2],[11430,"Defensa Y Justicia","Platense","over",2.875],[11500,"Deportivo Garcilaso","Cusco FC","over",2],"1,328,969"],
+	[[11300,"CA Barracas Central","Atletico Tucuman","mitad",1.55],[11430,"Defensa Y Justicia","Platense","mitad",1.65],[11100,"FC Uta Arad","Universitatea Cluj","mitad",1.45],[11300,"Atletico River Plate (Uru)","Racing Club Montevideo","mitad",1.48],[11400,"Petrolul Ploiesti","Rapid Bucharest","mitad",1.42],[11500,"Deportivo Garcilaso","Cusco FC","mitad",1.42],"110,668"],
+	[[11300,"Atletico River Plate (Uru)","Racing Club Montevideo","local",2.35],[11400,"Petrolul Ploiesti","Rapid Bucharest","local",2.55],[11430,"Defensa Y Justicia","Platense","local",2.3],[11100,"FC Uta Arad","Universitatea Cluj","visitante",2.15],[11200,"Rakow Czestochowa","Cracovia Krakow","visitante",2.8],[11300,"CA Barracas Central","Atletico Tucuman","visitante",2.4],"1,991,332"],
 ]
