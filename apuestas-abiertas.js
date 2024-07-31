@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11000,"Brasil (F)","España (F)","local",2.25],[11100,"Montpellier","Saint Etienne","visitante",2.15],"48,375"],
-	[[11200,"Getafe","Real Zaragoza","mitad",1.42],[11200,"Real Sociedad","Osasuna","mitad",1.48],[11200,"Valencia","Levante","mitad",1.444],[11200,"Elche","CD Castellon","mitad",1.42],[11200,"Espanyol","SD Huesca","mitad",1.45],[11230,"Sanluqueno","Real Linense","mitad",1.48],"131,358"],
-	[[11200,"Getafe","Real Zaragoza","over",2.05],[11200,"Real Sociedad","Osasuna","over",2.15],[11200,"Valencia","Levante","over",2.1],[11200,"Elche","CD Castellon","over",2],[11200,"Espanyol","SD Huesca","over",2.15],[11230,"Sanluqueno","Real Linense","over",2.2],"1,794,968"],
+	[[11700,"Athletico PR","Bragantino SP","local",1.8],[11800,"Flamengo RJ","Palmeiras SP","local",1.93],[11830,"Boca Juniors","Banfield","local",2.05],[11630,"Union Santa Fe","Rosario Central","visitante",3.2],[11700,"CRB Maceio AL","Atletico MG","visitante",2],[11830,"Liverpool","Arsenal","visitante",1.615],"736,274"],
+	[[11630,"Union Santa Fe","Rosario Central","mitad",1.7],[11830,"Boca Juniors","Banfield","mitad",1.571],[11700,"Athletico PR","Bragantino SP","mitad",1.45],[11700,"CRB Maceio AL","Atletico MG","mitad",1.55],[11800,"Flamengo RJ","Palmeiras SP","mitad",1.45],[11830,"Hartford Athletic FC","Detroit City","mitad",1.42],"123,623"],
+	[[11630,"Union Santa Fe","Rosario Central","over",3.1],[11700,"Athletico PR","Bragantino SP","over",2.15],[11700,"CRB Maceio AL","Atletico MG","over",2.55],[11800,"Flamengo RJ","Palmeiras SP","over",2.1],[11830,"Boca Juniors","Banfield","over",2.625],"936,891"],
 ]
