@@ -1,5 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11700,"Athletico PR","Bragantino SP","local",1.8],[11800,"Flamengo RJ","Palmeiras SP","local",1.93],[11830,"Boca Juniors","Banfield","local",2.05],[11630,"Union Santa Fe","Rosario Central","visitante",3.2],[11700,"CRB Maceio AL","Atletico MG","visitante",2],[11830,"Liverpool","Arsenal","visitante",1.615],"736,274"],
-	[[11630,"Union Santa Fe","Rosario Central","mitad",1.7],[11830,"Boca Juniors","Banfield","mitad",1.571],[11700,"Athletico PR","Bragantino SP","mitad",1.45],[11700,"CRB Maceio AL","Atletico MG","mitad",1.55],[11800,"Flamengo RJ","Palmeiras SP","mitad",1.45],[11830,"Hartford Athletic FC","Detroit City","mitad",1.42],"123,623"],
-	[[11630,"Union Santa Fe","Rosario Central","over",3.1],[11700,"Athletico PR","Bragantino SP","over",2.15],[11700,"CRB Maceio AL","Atletico MG","over",2.55],[11800,"Flamengo RJ","Palmeiras SP","over",2.1],[11830,"Boca Juniors","Banfield","over",2.625],"936,891"],
+	[[12000,"FC Dallas","FC Juarez","local",1.909],[12000,"Nashville SC","Mazatlan FC","local",1.8],[12100,"Manchester United","Real Betis","local",1.75],"60,136"],
+	[[12000,"FBC Melgar","Universitario de Deportes","over",2.25],[12010,"Independiente Medellin","Boyaca Chico FC","over",2.2],"49,500"],
+	[[12010,"Independiente Medellin","Boyaca Chico FC","mitad",1.42],[12000,"FBC Melgar","Universitario de Deportes","mitad",1.48],"21,016"],
+	[[11910,"Mitre Santiago Del Estero","Temperley","over",3],[12010,"Independiente Medellin","Boyaca Chico FC","over",2.2],[11900,"Cuniburo FC","Gualaceo SC","over",2.45],[11930,"Atletico GO","Vasco Da Gama RJ","over",2.5],[11930,"Corinthians SP","Gremio RS","over",2.9],[11930,"Carlos Mannucci","Asociacion Deportiva Tarma","over",2.2],[12000,"FBC Melgar","Universitario de Deportes","over",2.375],"6,125,398"],
 ]
