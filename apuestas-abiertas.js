@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[12200,"Atletico Morelia","CD Tapatio","local",1.95],[11700,"Juventude RS","Fluminense RJ","visitante",2.65],[12000,"Toluca","Chicago Fire","visitante",2],"103,350"],
-	[[11500,"UTC Cajamarca","Alianza Atletico","over",2.35],[11700,"Juventude RS","Fluminense RJ","over",3.25],[11900,"Always Ready","The Strongest","over",2.05],[12200,"Atletico Morelia","CD Tapatio","over",2.1],[11730,"Cerro Porteño","Sportivo Ameliano","over",2.05],[11900,"Guayaquil City FC","Vargas Torres","over",2.35],[11930,"Llaneros FC","Union Magdalena","over",2.1],"3,326,330"],
-	[[12200,"Atletico Morelia","CD Tapatio","mitad",1.45],[11500,"UTC Cajamarca","Alianza Atletico","mitad",1.533],[11700,"Juventude RS","Fluminense RJ","mitad",1.727],[11730,"Cerro Porteño","Sportivo Ameliano","mitad",1.42],[11900,"Guayaquil City FC","Vargas Torres","mitad",1.48],[11900,"Always Ready","The Strongest","mitad",1.444],[11930,"Llaneros FC","Union Magdalena","mitad",1.42],"215,203"],
+	[[11900,"Always Ready","The Strongest","over",2],[12200,"Atletico Morelia","CD Tapatio","over",2.1],[11730,"Cerro Porteño","Sportivo Ameliano","over",2.05],[11900,"Guayaquil City FC","Vargas Torres","over",2.1],[11930,"Llaneros FC","Union Magdalena","over",2.1],"379,701"],
+	[[12200,"Atletico Morelia","CD Tapatio","local",1.95],[12000,"Toluca","Chicago Fire","visitante",2],"103,350"],
+	[[12200,"Atletico Morelia","CD Tapatio","mitad",1.45],[11730,"Cerro Porteño","Sportivo Ameliano","mitad",1.42],[11900,"Guayaquil City FC","Vargas Torres","mitad",1.48],[11900,"Always Ready","The Strongest","mitad",1.444],[11930,"Llaneros FC","Union Magdalena","mitad",1.42],"215,203"],
 ]
