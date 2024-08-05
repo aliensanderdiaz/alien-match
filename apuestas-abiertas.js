@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11950,"Deportivo Cali","Independiente Medellin","over",2.54],"25.500"],
-	[[11950,"Deportivo Cali","Independiente Medellin","local",2.55],[12000,"Saint Louis FC","FC Juarez","local",1.85],[12130,"Chivas Guadalajara","L.A. Galaxy","local",1.95],"91,991"],
-	[[11950,"Deportivo Cali","Independiente Medellin","mitad",1.533],"278,324"],
+	[[11100,"Marruecos Olímpico","España Olímpico","local",2.375],[11230,"Deportivo Riestra","Central Cordoba","local",2.1],[11400,"St Johnstone","Aberdeen","local",2.25],[11100,"Unirea Slobozia","FC Uta Arad","visitante",2.55],[11200,"Cracovia Krakow","Widzew Lodz","visitante",2.15],[11400,"Rapid Bucharest","Sepsi OSK","visitante",2.3],[11500,"Gimnasia LP","Rosario Central","visitante",2.65],"3,749,884"],
+	[[11100,"Marruecos Olímpico","España Olímpico","over",2],[11100,"Unirea Slobozia","FC Uta Arad","over",2.55],[11230,"Deportivo Riestra","Central Cordoba","over",2.5],[11400,"St Johnstone","Aberdeen","over",2],[11500,"Gimnasia LP","Rosario Central","over",2.4],"612,000"],
+	[[11100,"Marruecos Olímpico","España Olímpico","mitad",1.42],[11230,"Deportivo Riestra","Central Cordoba","mitad",1.571],[11400,"St Johnstone","Aberdeen","mitad",1.42],[11500,"Gimnasia LP","Rosario Central","mitad",1.533],[11100,"Unirea Slobozia","FC Uta Arad","mitad",1.571],[11500,"Atletico de Cali","Bogota FC","mitad",1.42],"108,415"],
 ]
