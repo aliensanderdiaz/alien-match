@@ -1,7 +1,7 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"Gimnasia LP","Rosario Central","visitante",2.62],"26.250"],
-	[[11500,"Gimnasia LP","Rosario Central","over",2.54],"25.500"],
-	[[11500,"Gimnasia LP","Rosario Central","mitad",1.57],"15.714"],
-	[[11500,"Gimnasia LP","Rosario Central","over",2.55],[11630,"Chapecoense SC","Mirassol SP","over",3],[11700,"Club Atletico Atlanta","Gimnasia Y Esgrima Mendoza","over",2.9],[11700,"Ferro Carril Oeste","Agropecuario Argentino","over",2.625],[11710,"Estudiantes Rio Cuarto","CA Aldosivi","over",3.1],"1,805,304"],
-	[[11500,"Gimnasia LP","Rosario Central","mitad",1.571],[11630,"Chapecoense SC","Mirassol SP","mitad",1.666],[11700,"Club Atletico Atlanta","Gimnasia Y Esgrima Mendoza","mitad",1.65],[11700,"Ferro Carril Oeste","Agropecuario Argentino","mitad",1.6],[11710,"Estudiantes Rio Cuarto","CA Aldosivi","mitad",1.727],"119,429"],
+	[[11100,"EE.UU (F)","Alemania (F)","mitad",1.48],[11215,"Midtjylland","Ferencvarosi TC","mitad",1.45],[11330,"Lille","Fenerbahce","mitad",1.42],[11400,"Brasil (F)","España (F)","mitad",1.42],[11400,"Recreativo Huelva","CF Cordoba","mitad",1.48],"64,042"],
+	[[11100,"EE.UU (F)","Alemania (F)","over",2.2],[11100,"Qarabag FK","Ludogorets","over",2],[11215,"Midtjylland","Ferencvarosi TC","over",2.15],[11330,"Lille","Fenerbahce","over",2],[11400,"Brasil (F)","España (F)","over",2.1],[11400,"Recreativo Huelva","CF Cordoba","over",2.15],"854,238"],
+	[[11200,"Malmo FF","PAOK Thessaloniki","local",1.8],[11215,"Midtjylland","Ferencvarosi TC","local",1.85],[11220,"Polonia Bytom","GKS Jastrzebie","local",1.769],[11400,"Brasil (F)","España (F)","local",3.2],[10900,"Hutnik Nowa Huta","Zaglebie Lubin II","visitante",1.93],[11100,"Qarabag FK","Ludogorets","visitante",2.55],[11100,"EE.UU (F)","Alemania (F)","visitante",2.65],[11200,"Podbeskidzie Bielsko-Biala","Stomil Olsztyn","visitante",2.55],[11300,"Dynamo Kiev","Glasgow Rangers","visitante",2.05],[11330,"Lille","Fenerbahce","visitante",2.25],[11400,"Recreativo Huelva","CF Cordoba","visitante",2.25],"65,070,049"],
+	[[12000,"Atlético Nacional","Rionegro Aguilas","over",2.2],"22.000"],
+	[[12000,"Atlético Nacional","Rionegro Aguilas","mitad",1.45],"14.500"],
 ]
