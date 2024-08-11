@@ -1,6 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[10930,"VfB Stuttgart II","TSV 1860 München","local",2],[10900,"Aberdeen","St Mirren","visitante",2.75],[10900,"Juventude RS","Botafogo RJ","visitante",1.95],[10930,"Estoril","CD Santa Clara","visitante",2.5],[10930,"FC Zurich","Lausanne Sports","visitante",2.05],[10930,"Servette FC","FC Basel","visitante",2.05],[10945,"De Graafschap","Volendam","visitante",1.95],"2,197,251"],
+	[[11030,"Puszcza Niepolomice","Legia Warsaw","visitante",1.769],[11100,"Sepsi OSK","CS U Craiova","visitante",2],[11115,"Sivasspor","Trabzonspor","visitante",2.1],[11130,"Charleroi","KAA Gent","visitante",1.85],[11130,"Audax Italiano","Union Espanola","visitante",1.93],"265,316"],
+	[[11100,"Brescia","Venezia","over",2.05],[11115,"Boluspor","Igdir Belediyespor","over",2.25],[11130,"Neman Grodno","FC Gomel","over",2],"92,250"],
+	[[11115,"Boluspor","Igdir Belediyespor","mitad",1.5],[11130,"Neman Grodno","FC Gomel","mitad",1.42],"21,300"],
 	[[10900,"Juventude RS","Botafogo RJ","over",2.1],[10900,"Bandirmaspor","Erzurum BB","over",2.05],[10930,"Estoril","CD Santa Clara","over",2.45],[10930,"Krylia Sovetov Samara","Fakel Voronezh","over",2.55],"268,955"],
-	[[10900,"Juventude RS","Botafogo RJ","mitad",1.45],[10930,"Estoril","CD Santa Clara","mitad",1.533],[10900,"Bandirmaspor","Erzurum BB","mitad",1.42],[10930,"Krylia Sovetov Samara","Fakel Voronezh","mitad",1.571],"49,612"],
-	[[10730,"Slutsksakhar Slutsk","Torpedo Zhodino","over",2.15],[10730,"Karpaty LVIV","Kryvbas Kryvyi Rih","over",2.1],[10800,"Torreense","Feirense","over",2.05],"92,558"],
 ]
