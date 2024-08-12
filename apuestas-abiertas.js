@@ -1,6 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11200,"GKS Piast Gliwice","GKS Katowice","local",1.8],[11100,"Petrolul Ploiesti","Universitatea Cluj","visitante",2.4],[11200,"FC Felgueiras 1932","Portimonense SC","visitante",2.3],"99,360"],
-	[[11100,"Petrolul Ploiesti","Universitatea Cluj","over",2.5],[11100,"Frosinone","SC Pisa","over",2.05],[11200,"GKS Piast Gliwice","GKS Katowice","over",2.2],[11200,"FC Felgueiras 1932","Portimonense SC","over",2.25],"253,688"],
-	[[11200,"GKS Piast Gliwice","GKS Katowice","mitad",1.48],[11100,"Petrolul Ploiesti","Universitatea Cluj","mitad",1.571],[11100,"Frosinone","SC Pisa","mitad",1.444],[11200,"FC Felgueiras 1932","Portimonense SC","mitad",1.48],"49,719"],
-	[[11200,"GKS Piast Gliwice","GKS Katowice","local",1.8],[11100,"Petrolul Ploiesti","Universitatea Cluj","visitante",2.25],[11200,"FC Felgueiras 1932","Portimonense SC","visitante",2.3],[11300,"Jong AZ Alkmaar","Roda JC","visitante",1.75],[11300,"Jong PSV","Jong Ajax","visitante",1.8],[11400,"CS Municipal Studentesc Iasi","Dinamo Bucuresti","visitante",2.25],[11300,"Caykur Rizespor","Istanbul Basaksehir FK","visitante",1.909],[11300,"Bodrum Belediyesi Bodrumspor","Gaziantep BB","visitante",2.2],[11400,"Luton Town","Burnley","visitante",2.15],[11415,"Arouca","Vitoria Guimaraes","visitante",2],"21,461,802"],
+	[[11415,"Arouca","Vitoria Guimaraes","visitante",1.95],"81,754"],
+	[[11400,"CS Municipal Studentesc Iasi","Dinamo Bucuresti","over",2.2],[11415,"Arouca","Vitoria Guimaraes","over",2],"44,000"],
+	[[11415,"Arouca","Vitoria Guimaraes","mitad",1.42],"21,016"],
+	[[11300,"Caykur Rizespor","Istanbul Basaksehir FK","over",2],[11300,"Bodrum Belediyesi Bodrumspor","Gaziantep BB","over",2.4],[11415,"Arouca","Vitoria Guimaraes","over",2],[11337,"Gimnasia y Tiro de Salta","Colon de Santa Fe","over",3.3],[11400,"CS Municipal Studentesc Iasi","Dinamo Bucuresti","over",2.2],"696,960"],
 ]
