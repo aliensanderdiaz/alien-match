@@ -125,9 +125,10 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         let partido_string = `${partido.local} - ${partido.visitante}`
         // console.log({ partido_string, acumuladoEnteroFavorito })
 
-        let mitad = partido.mitad ? `<a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=GSH1' }" target="_blank" rel="noopener noreferrer">M</a>` : ''
+        let mitad = partido.mitad ? ` <a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=GSH1' }" target="_blank" rel="noopener noreferrer">M</a>` : ` <a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=OUH1' }" target="_blank" rel="noopener noreferrer">M</a>`
         let local = partido.mitadFavorito ? ` <a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=OU1H' }" target="_blank" rel="noopener noreferrer">L</a>`: ''
         let visitante = partido.mitadFavorito ? ` <a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=OU1A' }" target="_blank" rel="noopener noreferrer">V</a>`: ''
+        let over = ` <a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=HCTG' }" target="_blank" rel="noopener noreferrer">O</a>`
 
         // let cantidad_de_letras = partido_string.length
         html += `
@@ -139,7 +140,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <strong>
                     <a href="${ baseUrl + partido.codigoWplay }" target="_blank" rel="noopener noreferrer">${partido.liga}</a>
                 </strong>
-                ${ mitad } ${ local } ${ visitante }    
+                ${ mitad } ${ local } ${ visitante }    ${ over }    
             </div>
             <div class="col-2 border">
                 <strong class="elegir-favorito ${partido.favorito === 'local' ? 'bg-success text-white' : ''}" onclick="elegirFavorito(${indice}, 'local')">
