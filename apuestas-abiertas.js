@@ -1,9 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[12130,"Seattle Sounders","Pumas Unam","local",2],"20.000"],
-	[[12130,"Seattle Sounders","Pumas Unam","over",2],"20.000"],
-	[[12130,"Seattle Sounders","Pumas Unam","mitad",1.42],"14.200"],
-	[[11200,"Twente","FC Salzburg","local",1.769],[11300,"Ludogorets","Qarabag FK","local",1.95],[11200,"Apoel Nicosia","Slovan Bratislava","visitante",2.4],[11200,"Bodo Glimt","Jagiellonia Bialystok","visitante",2.4],[11230,"The New Saints FC","FC Petrocub","visitante",2.2],[11300,"Ferencvarosi TC","Midtjylland","visitante",2.25],"983,664"],
-	[[11200,"Apoel Nicosia","Slovan Bratislava","over",2.04],"20.500"],
-	[[11200,"Apoel Nicosia","Slovan Bratislava","mitad",1.42],"14.200"],
-	[[12000,"Fortaleza FC","Deportivo Pereira","over",2.875],[12130,"Seattle Sounders","Pumas Unam","over",2],"57,500"],
+	[[11700,"Gremio RS","Fluminense RJ","local",2.4],[11700,"Huachipato","Racing Club","visitante",1.85],"44,400"],
+	[[11530,"Bogota FC","Real Cartagena","over",2.1],[11645,"Deportivo Tachira","Portuguesa FC","over",2.5],[11700,"Gremio RS","Fluminense RJ","over",3.2],[11700,"Huachipato","Racing Club","over",2.2],[11730,"Boca Juniors de Cali","Cucuta Deportivo","over",2.35],"868,560"],
+	[[11700,"Gremio RS","Fluminense RJ","mitad",1.727],[11700,"Huachipato","Racing Club","mitad",1.48],[11645,"Deportivo Tachira","Portuguesa FC","mitad",1.55],[11530,"Bogota FC","Real Cartagena","mitad",1.45],[11730,"Boca Juniors de Cali","Cucuta Deportivo","mitad",1.5],"86,181"],
+	[[11345,"Portsmouth","Millwall","over",2],[11400,"Guayaquil City FC","Cumbaya FC","over",2.3],[11400,"Rayo Zuliano","Zamora FC","over",2.5],"115,000"],
 ]
