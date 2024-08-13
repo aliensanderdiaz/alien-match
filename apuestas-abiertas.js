@@ -1,9 +1,9 @@
 let APUESTAS_ABIERTAS = [
-	[[11600,"Orsomarso","Tigres FC","over",2.25],[11630,"Club Tacuary","Club General Caballero JLM","over",2.35],[11700,"CA Tigre","Godoy Cruz","over",3.1],"163,913"],
-	[[11700,"CA Tigre","Godoy Cruz","local",2.6],[11630,"Club Tacuary","Club General Caballero JLM","visitante",2.45],"63,700"],
-	[[11700,"CA Tigre","Godoy Cruz","mitad",1.7],[11600,"Orsomarso","Tigres FC","mitad",1.5],[11630,"Club Tacuary","Club General Caballero JLM","mitad",1.533],"39,100"],
-	[[11700,"CA Tigre","Godoy Cruz","local",2.6],[11900,"Nacional Asuncion","Sportivo Luqueno","local",2.3],[11630,"Club Tacuary","Club General Caballero JLM","visitante",2.45],[11800,"Guarani SP","Vila Nova FC","visitante",2.5],[11900,"Goias GO","Ceara CE","visitante",2.625],[11900,"Tecnico Universitario","Aucas","visitante",2.3],"2,211,385"],
-	[[11600,"Orsomarso","Tigres FC","over",2.25],[11630,"Club Tacuary","Club General Caballero JLM","over",2.35],[11700,"CA Tigre","Godoy Cruz","over",3.1],[11800,"Guarani SP","Vila Nova FC","over",2.55],[11900,"Goias GO","Ceara CE","over",2.7],[11900,"Tecnico Universitario","Aucas","over",2.25],[11900,"Nacional Asuncion","Sportivo Luqueno","over",2.3],[11910,"Temperley","Deportivo Madryn","over",3.25],"18,980,591"],
-	[[11700,"CA Tigre","Godoy Cruz","mitad",1.7],[11800,"Guarani SP","Vila Nova FC","mitad",1.571],[11900,"Goias GO","Ceara CE","mitad",1.615],[11900,"Tecnico Universitario","Aucas","mitad",1.48],[11600,"Orsomarso","Tigres FC","mitad",1.5],[11630,"Club Tacuary","Club General Caballero JLM","mitad",1.533],[11900,"Nacional Asuncion","Sportivo Luqueno","mitad",1.5],[11910,"Temperley","Deportivo Madryn","mitad",1.75],"385,601"],
-	[[11415,"Arouca","Vitoria Guimaraes","over",2],"44,000"],
+	[[12130,"Seattle Sounders","Pumas Unam","local",2],"20.000"],
+	[[12130,"Seattle Sounders","Pumas Unam","over",2],"20.000"],
+	[[12130,"Seattle Sounders","Pumas Unam","mitad",1.42],"14.200"],
+	[[11200,"Twente","FC Salzburg","local",1.769],[11300,"Ludogorets","Qarabag FK","local",1.95],[11200,"Apoel Nicosia","Slovan Bratislava","visitante",2.4],[11200,"Bodo Glimt","Jagiellonia Bialystok","visitante",2.4],[11230,"The New Saints FC","FC Petrocub","visitante",2.2],[11300,"Ferencvarosi TC","Midtjylland","visitante",2.25],"983,664"],
+	[[11200,"Apoel Nicosia","Slovan Bratislava","over",2.04],"20.500"],
+	[[11200,"Apoel Nicosia","Slovan Bratislava","mitad",1.42],"14.200"],
+	[[12000,"Fortaleza FC","Deportivo Pereira","over",2.875],[12130,"Seattle Sounders","Pumas Unam","over",2],"57,500"],
 ]
