@@ -1,6 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11700,"Gremio RS","Fluminense RJ","local",2.4],[11700,"Huachipato","Racing Club","visitante",1.85],"44,400"],
-	[[11530,"Bogota FC","Real Cartagena","over",2.1],[11645,"Deportivo Tachira","Portuguesa FC","over",2.5],[11700,"Gremio RS","Fluminense RJ","over",3.2],[11700,"Huachipato","Racing Club","over",2.2],[11730,"Boca Juniors de Cali","Cucuta Deportivo","over",2.35],"868,560"],
-	[[11700,"Gremio RS","Fluminense RJ","mitad",1.727],[11700,"Huachipato","Racing Club","mitad",1.48],[11645,"Deportivo Tachira","Portuguesa FC","mitad",1.55],[11530,"Bogota FC","Real Cartagena","mitad",1.45],[11730,"Boca Juniors de Cali","Cucuta Deportivo","mitad",1.5],"86,181"],
-	[[11345,"Portsmouth","Millwall","over",2],[11400,"Guayaquil City FC","Cumbaya FC","over",2.3],[11400,"Rayo Zuliano","Zamora FC","over",2.5],"115,000"],
+	[[11100,"Pro Vercelli","Piacenza","local",2.1],[11230,"Real Linense","AD Ceuta","local",2.65],[11100,"MOL Fehervar FC","AC Omonia Nicosia","visitante",2.05],"114,083"],
+	[[11100,"Pro Vercelli","Piacenza","over",2.1],[11100,"Enosis Neon Paralimni","Nea Salamina Famagusta","over",2],[11130,"Sociedad Tarazona","Real Madrid Castilla","over",2.2],[11200,"La Union CF","UCAM Murcia","over",2.3],[11230,"Real Linense","AD Ceuta","over",2.1],"446,292"],
+	[[11100,"Pro Vercelli","Piacenza","mitad",1.45],[11130,"Sociedad Tarazona","Real Madrid Castilla","mitad",1.444],[11200,"Athletic Torrellano","Orihuela CF","mitad",1.5],[11200,"La Union CF","UCAM Murcia","mitad",1.45],[11230,"Real Linense","AD Ceuta","mitad",1.45],"66,054"],
 ]
