@@ -1,8 +1,8 @@
 // const HORA = 11208
 // const HORA = 10000
-const HORA = 10000
-const FECHA_PARTIDO_MANANA = 1072600000
-const FECHA_PARTIDO_HOY = 1072500000 + HORA
+const HORA = 11059
+const FECHA_PARTIDO_MANANA = 1081600000
+const FECHA_PARTIDO_HOY    = 1081500000 + HORA
 
 const fs = require('node:fs');
 const readline = require('node:readline');
@@ -160,9 +160,10 @@ async function main() {
 
             if (opciones.includes(line) && !esMundial) {
                 let liga = `${lineas[indice - 2]} - ${lineas[indice - 1]}`
+                // console.log({ liga })
                 let ligaEncontrada = LIGAS_OBJETOS.find(ligaObjeto => ligaObjeto.nombreFlashcore === liga)
-                // console.log({ testigo: 'opciones.includes(line)', line, lineas, liga, ligaEncontrada })
                 if (!ligaEncontrada) {
+                    // console.log({ testigo: 'opciones.includes(line)', line, lineas, liga, ligaEncontrada })
                     // console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
                     let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar ${liga}`
                     throw new Error(mensajeDeError)
@@ -291,7 +292,13 @@ async function main() {
 
             if (line.startsWith(' ★ ')) {
                 let ligaWplayName = line.replace(' ★ ', '')
-                ligaDelPartido = LIGAS_OBJETOS.find(l => l.nombreWplay === ligaWplayName)?.abreviado || ''
+                // if (ligaWplayName === 'Olympics Matches Men') {
+                //     console.log({ ligaWplayName })
+                // }
+                ligaDelPartido = LIGAS_OBJETOS.find(l => l.nombreWplay.toLowerCase() === ligaWplayName.toLowerCase())?.abreviado || ''
+                if (ligaWplayName === 'Olympics Matches Men') {
+                    console.log({ ligaWplayName, ligaDelPartido })
+                }
                 if (ligaDelPartido === '') {
                     console.log({ ligaWplayName })
                     throw new Error('Una liga no fue encontrada, arregla para seguir')
@@ -333,6 +340,10 @@ async function main() {
 
 
                 if (partido.hora < FECHA_PARTIDO_MANANA && partido.hora >= FECHA_PARTIDO_HOY) {
+                    // console.log({ ligaDelPartido })
+                    if (ligaDelPartido === 'I-OLIHE') {
+                        // console.log({ partido })
+                    }
                     PartidosWplay.push(partido)
                     // console.log({ partido })
                 }
@@ -1096,6 +1107,7 @@ async function main() {
         let ligaDelPartido = ''
 
         let cantidadApostada = 0
+        let esRecuperarApuesta = false
 
 
         for await (const line of rl) {
@@ -1104,6 +1116,16 @@ async function main() {
             // continue
 
             let lineModificado = ''
+
+            if (esRecuperarApuesta) {
+                esRecuperarApuesta = false
+                continue
+            }
+
+            if (line.startsWith('RECUPERAR')) {
+                esRecuperarApuesta = true
+                continue
+            }
 
             if (line.startsWith('$')) {
                 lineModificado = line.replace('$', '')
@@ -1142,6 +1164,8 @@ async function main() {
                     arrayLine[4] * 1,
                 ]
 
+                // console.log({ partidoMitad })
+
                 if (isNaN(partidoMitad[4])) {
                     let valorTemp = arrayLine[4].replace('$', '')
                     // console.log({ valorTemp })
@@ -1171,9 +1195,10 @@ async function main() {
                 } else if (line === 'Imprimir' && partidos.length === 1) {
                     
                     let total = partidos[0][4]
+                    console.log({ total, cantidadApostada })
                     partidos[0][4] = Math.floor((total / cantidadApostada) * 100) / 100
                     total = total.toLocaleString()
-                    console.log({ total })
+                    console.log({ total, 'partidos[0][4]': partidos[0][4] })
                     partidos.push(total)
                     if (partidos.length > 0) {
                         arraySalida.push(partidos)

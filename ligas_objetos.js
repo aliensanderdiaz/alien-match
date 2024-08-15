@@ -9,14 +9,65 @@
 
 let LIGAS_OBJETOS = [
     {
-    nombreFlashcore: 'Juegos Olímpicos',
-    "nombreWplay": 'FÚTBOL OLÍMPICOS (HOMBRES)',
-    "abreviado": 'I-OLIH',
-    "codigoWplay": 45631,
-    mitad: true,
-    favorito: true,
-},
-    
+        nombreFlashcore: 'EUROPA - Supercopa UEFA',
+        "nombreWplay": 'UEFA - Super Copa',
+        "abreviado": 'SUPE',
+        "codigoWplay": 20106,
+        mitad: true,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'Juegos Olímpicos Femenino',
+        "nombreWplay": 'Olímpicos Partidos Mujeres',
+        "abreviado": 'OLIM',
+        "codigoWplay": 1424780,
+        mitad: true,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'Juegos Olímpicos Femenino - Playoffs',
+        "nombreWplay": 'Olímpicos Partidos Mujeres',
+        "abreviado": 'OLIM',
+        "codigoWplay": 1424780,
+        mitad: true,
+        favorito: true
+    },
+
+    {
+        nombreFlashcore: 'Juegos Olímpicos - Playoffs',
+        "nombreWplay": 'FÚTBOL OLÍMPICOS (HOMBRES)',
+        "abreviado": 'I-OLIH',
+        "codigoWplay": 45631,
+        mitad: true,
+        favorito: true,
+    },
+
+    {
+        nombreFlashcore: 'Juegos Olímpicos',
+        "nombreWplay": 'FÚTBOL OLÍMPICOS (HOMBRES)',
+        "abreviado": 'I-OLIH',
+        "codigoWplay": 45631,
+        mitad: true,
+        favorito: true,
+    },
+
+    {
+        nombreFlashcore: 'Juegos Olímpicos',
+        "nombreWplay": 'Olímpicos Partidos Hombres',
+        "abreviado": 'I-OLIH',
+        "codigoWplay": 45631,
+        mitad: true,
+        favorito: true,
+    },
+    {
+        nombreFlashcore: 'Juegos Olímpicos',
+        "nombreWplay": 'Olympics Matches Men',
+        "abreviado": 'I-OLIHE',
+        "codigoWplay": 45631,
+        mitad: true,
+        favorito: true,
+    },
+
     {
         nombreFlashcore: 'SUDAMÉRICA - Copa América',
         "nombreWplay": 'COPA AMÉRICA',
@@ -25,7 +76,7 @@ let LIGAS_OBJETOS = [
         mitad: true,
         favorito: true
     },
-    
+
     {
         nombreFlashcore: 'SUDAMÉRICA - Copa América - Playoffs',
         "nombreWplay": 'COPA AMÉRICA',
@@ -147,6 +198,14 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'COPPA ITALIA',
         "abreviado": 'ITAC',
         "codigoWplay": 19417,
+        mitad: false,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'BÉLGICA - Copa - Clasificación',
+        "nombreWplay": 'BÉLGICA - 1RA DIVISIÓN A copa',
+        "abreviado": "YE-BELC",
+        "codigoWplay": 19372 + 1,
         mitad: true,
         favorito: true
     },
@@ -207,11 +266,19 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        nombreFlashcore: 'EUROPA - Emirates Cup',
+        nombreWplay: 'Emirates Cup',
+        abreviado: 'AMIEC',
+        codigoWplay: 33024,
+        mitad: false,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'Amistosos de Clubs',
         nombreWplay: 'AMISTOSOS ELITE',
         abreviado: 'AMIE',
         codigoWplay: 617783,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -219,7 +286,7 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'AMISTOSOS CLUBES',
         abreviado: 'AMIC',
         codigoWplay: 20183,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -227,7 +294,7 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'AMISTOSOS',
         abreviado: 'I-AMI',
         codigoWplay: 19287,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -386,6 +453,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "INGLATERRA - FA Community Shield",
+        "nombreWplay": 'Inglaterra - Community Shield',
+        "abreviado": "R-INGFC",
+        "codigoWplay": 19897,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "INGLATERRA - FA Cup",
         "nombreWplay": 'INGLATERRA - FA CUP',
         "abreviado": "R-INGF",
@@ -504,6 +579,22 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "RUSIA - Copa de Rusia - Fase Grupos",
+        "nombreWplay": 'COPA DE RUSIA',
+        "abreviado": "YE-RUSC",
+        "codigoWplay": 19467,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "RUSIA - Copa de Rusia - Regions Path",
+        "nombreWplay": 'COPA DE RUSIA',
+        "abreviado": "YE-RUSC",
+        "codigoWplay": 19467,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "RUSIA - Copa de Rusia - Superfinal",
         "nombreWplay": 'COPA DE RUSIA',
         "abreviado": "YE-RUSC",
@@ -603,6 +694,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "ECUADOR - Liga Pro - Primera fase",
+        "nombreWplay": 'ECUADOR - PRIMERA A',
+        "abreviado": "ZA-ECU1",
+        "codigoWplay": 19373,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ECUADOR - Liga Pro - Segunda fase",
         "nombreWplay": 'ECUADOR - PRIMERA A',
         "abreviado": "ZA-ECU1",
         "codigoWplay": 19373,
@@ -836,7 +935,7 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "INGLATERRA - EFL Cup",
-        "nombreWplay": '',
+        "nombreWplay": 'Inglaterra - EFL Cup',
         "abreviado": "R-INGE",
         "codigoWplay": 19163,
         mitad: true,
@@ -983,6 +1082,14 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'HOLANDA - EREDIVISIE',
         "abreviado": "YE-HOL1",
         "codigoWplay": 19358,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "PAÍSES BAJOS - Johan Cruyff Shield",
+        "nombreWplay": 'Holanda - Supercopa',
+        "abreviado": "YE-HOLS",
+        "codigoWplay": 19988,
         mitad: true,
         favorito: true
     },
@@ -1228,6 +1335,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "UCRANIA - Premier League - Clasificación Adicional",
+        "nombreWplay": 'UCRANIA - PREMIER LEAGUE',
+        "abreviado": "YE-UCR1",
+        "codigoWplay": 19383,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "UCRANIA - Premier League - Descenso",
         "nombreWplay": 'UCRANIA - PREMIER LEAGUE',
         "abreviado": "YE-UCR1",
@@ -1245,7 +1360,7 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "ARGENTINA - Copa de la Liga Profesional",
-        "nombreWplay": 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
+        "nombreWplay": 'Argentina - Liga Profesional de Fútbol',
         "abreviado": "ZA-ARG1",
         "codigoWplay": 19296,
         mitad: true,
@@ -1317,6 +1432,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "BRASIL - Brasileirao Serie A",
+        "nombreWplay": 'BRASIL - SERIE A',
+        "abreviado": "ZA-BRA1",
+        "codigoWplay": 19297,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "BRASIL - Brasileirao Serie B",
         "nombreWplay": 'BRASIL - SERIE B',
         "abreviado": "ZA-BRA2",
@@ -1343,6 +1466,14 @@ let LIGAS_OBJETOS = [
     {
         "nombreFlashcore": "COLOMBIA - Primera A - Apertura",
         "nombreWplay": 'COLOMBIA - PRIMERA A',
+        "abreviado": "ZA-COL1",
+        "codigoWplay": 19311,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "COLOMBIA - Primera A - Apertura",
+        "nombreWplay": 'Colombia - Primera A',
         "abreviado": "ZA-COL1",
         "codigoWplay": 19311,
         mitad: true,
@@ -1413,6 +1544,22 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "NORTE, CENTROAMÉRICA Y CARIBE - Leagues Cup",
+        "nombreWplay": 'Leagues Cup',
+        "abreviado": "I-LEAC",
+        "codigoWplay": 29935,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "NORTE, CENTROAMÉRICA Y CARIBE - Leagues Cup - Playoffs",
+        "nombreWplay": 'Leagues Cup',
+        "abreviado": "I-LEAC",
+        "codigoWplay": 29935,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ESTADOS UNIDOS - MLS",
         "nombreWplay": 'EE.UU - MLS',
         "abreviado": "ZA-EST1",
@@ -1425,6 +1572,15 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'MLS ALL STAR GAME',
         "abreviado": "ZA-ESTA",
         "codigoWplay": 451833,
+        mitad: true,
+        favorito: true
+    },
+
+    {
+        "nombreFlashcore": "SUDAMÉRICA - Copa Libertadores - Playoffs",
+        "nombreWplay": 'COPA LIBERTADORES',
+        "abreviado": "ZA-LIBE",
+        "codigoWplay": 19462,
         mitad: true,
         favorito: true
     },
@@ -1567,6 +1723,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "URUGUAY - Primera División - Torneo Intermedio - Playoffs",
+        "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-URU1",
+        "codigoWplay": 19398,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "URUGUAY - Primera División - Torneo Intermedio",
         "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
         "abreviado": "ZA-URU1",
@@ -1603,6 +1767,15 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
         "abreviado": "ZA-VEN1",
         "codigoWplay": 20080,
+        mitad: false,
+        favorito: false
+    },
+
+    {
+        "nombreFlashcore": "COLOMBIA - Liga Femenina - Playoffs",
+        "nombreWplay": 'COLOMBIA - LIGA FEMENINA',
+        "abreviado": "ZF-COL",
+        "codigoWplay": 48455,
         mitad: false,
         favorito: false
     },
