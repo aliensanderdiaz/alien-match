@@ -1,6 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11100,"FC Pyunik Yerevan","Ordabasy Shymkent","local",2],[11100,"Legia Warsaw","Brondby IF","local",1.95],[11200,"FC Sheriff Tiraspol","NK Olimpija Ljubljana","local",2.375],[11100,"Rapid Vienna","Trabzonspor","visitante",1.95],[11100,"Lincoln Red Imps","Dinamo Minsk","visitante",1.8],[11100,"Sabah","Saint Patrick FC","visitante",2.95],[11130,"Zira","NK Osijek","visitante",2.3],[11200,"IF Elfsborg","HNK Rijeka","visitante",2.2],[11200,"Brann Bergen","St Mirren","visitante",3],[11200,"Pafos FC","CSKA 1948","visitante",3.2],[11200,"Hapoel Beer Sheva","FK Mlada Boleslav","visitante",2.2],[11200,"Tromso IL","Kilmarnock","visitante",2.75],"281,860,669"],
-	[[11100,"Lincoln Red Imps","Dinamo Minsk","mitad",1.42],[11100,"FC Pyunik Yerevan","Ordabasy Shymkent","mitad",1.42],[11130,"Zira","NK Osijek","mitad",1.45],[11200,"Athletic Bilbao","Getafe","mitad",1.42],[11200,"FC Sheriff Tiraspol","NK Olimpija Ljubljana","mitad",1.42],"58,955"],
-	[[11100,"Lincoln Red Imps","Dinamo Minsk","over",2],[11100,"FC Pyunik Yerevan","Ordabasy Shymkent","over",2],[11130,"Zira","NK Osijek","over",2.05],[11200,"Athletic Bilbao","Getafe","over",2.1],[11200,"FC Sheriff Tiraspol","NK Olimpija Ljubljana","over",2],"344,400"],
-	[[11930,"Talleres de Cordoba","River Plate","over",2.6],[11930,"Palestino","Independiente Medellin","over",3],"374,400"],
+	[[11400,"FK Decic Tuzi","HJK Helsinki","local",2.2],[11430,"Real Betis","Girona","local",2.05],[11400,"Shamrock Rovers","NK Celje","visitante",1.95],[11400,"Larne","KF Ballkani","visitante",2.25],"197,876"],
+	[[11400,"Larne","KF Ballkani","mitad",1.53],"15,333"],
+	[[11400,"Larne","KF Ballkani","over",2.4],"24,000"],
+	[[11300,"KF Drita","FK Auda","over",2.2],[11300,"Alianza Atletico","Cusco FC","over",2.35],[11330,"Granada","Albacete Balompie","over",2.15],"111,155"],
 ]
