@@ -1,9 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11700,"Libertad Asuncion","Sportivo Ameliano","local",1.85],[11700,"Athletico PR","CA Belgrano","local",1.769],[11700,"Nacional Montevideo","Sao Paulo SP","visitante",2.6],"85,100"],
-	[[11700,"Nacional Montevideo","Sao Paulo SP","over",2.85],[11700,"Libertad Asuncion","Sportivo Ameliano","over",2.35],[11700,"Athletico PR","CA Belgrano","over",2.2],"147,345"],
-	[[11700,"Nacional Montevideo","Sao Paulo SP","mitad",1.65],[11700,"Libertad Asuncion","Sportivo Ameliano","mitad",1.5],[11700,"Athletico PR","CA Belgrano","mitad",1.45],"35,888"],
-	[[11700,"Libertad Asuncion","Sportivo Ameliano","local",1.85],[11700,"Athletico PR","CA Belgrano","local",1.769],[11900,"Operario PR","Ituano SP","local",1.8],[11700,"Nacional Montevideo","Sao Paulo SP","visitante",2.55],[11930,"Boca Juniors","Cruzeiro MG","visitante",2.75],"413,144"],
-	[[11700,"Nacional Montevideo","Sao Paulo SP","mitad",1.65],[11700,"Libertad Asuncion","Sportivo Ameliano","mitad",1.5],[11700,"Athletico PR","CA Belgrano","mitad",1.45],[11900,"Operario PR","Ituano SP","mitad",1.55],[11930,"Boca Juniors","Cruzeiro MG","mitad",1.571],[11845,"Caracas FC","Estudiantes de Merida","mitad",1.4],"122,376"],
-	[[11700,"Nacional Montevideo","Sao Paulo SP","over",2.85],[11700,"Libertad Asuncion","Sportivo Ameliano","over",2.35],[11700,"Athletico PR","CA Belgrano","over",2.2],[11900,"Operario PR","Ituano SP","over",2.55],[11930,"Boca Juniors","Cruzeiro MG","over",2.65],"995,684"],
-	[[11500,"Talleres de Remedios de Escalada","Banfield","over",2.65],[11515,"Comerciantes Unidos","UTC Cajamarca","over",2.15],[11530,"Club Nueve de Octubre","Manta FC","over",2.2],[11600,"FC Angostura","Carabobo FC","over",2.4],"300,828"],
+	[[11900,"Operario PR","Ituano SP","local",1.769],[11930,"Boca Juniors","Cruzeiro MG","visitante",2.75],"48,654"],
+	[[11900,"Operario PR","Ituano SP","over",2.55],[11930,"Boca Juniors","Cruzeiro MG","over",2.625],[11845,"Caracas FC","Estudiantes de Merida","over",1.93],"129,189"],
+	[[11900,"Operario PR","Ituano SP","mitad",1.55],[11930,"Boca Juniors","Cruzeiro MG","mitad",1.571],"34,100"],
 ]
