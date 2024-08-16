@@ -1,6 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11630,"Sportivo Luqueno","Guarani Asuncion","local",2.4],[11700,"Platense","CA Barracas Central","local",2.05],[11700,"Ponte Preta SP","Goias GO","local",2.1],[11700,"Montevideo Wanderers","CA Cerro","local",2.15],"222,138"],
-	[[11515,"Universidad Cesar Vallejo","Sport Boys Association","over",2.25],[11630,"Sportivo Luqueno","Guarani Asuncion","over",2.5],[11700,"Platense","CA Barracas Central","over",2.9],[11700,"Ponte Preta SP","Goias GO","over",2.45],[11700,"Montevideo Wanderers","CA Cerro","over",2.35],"939,192"],
-	[[11700,"Platense","CA Barracas Central","mitad",1.615],[11700,"Ponte Preta SP","Goias GO","mitad",1.55],[11515,"Universidad Cesar Vallejo","Sport Boys Association","mitad",1.48],[11630,"Sportivo Luqueno","Guarani Asuncion","mitad",1.571],[11700,"Montevideo Wanderers","CA Cerro","mitad",1.533],"89,290"],
-	[[11330,"Brescia","Palermo","over",2.1],[11430,"Las Palmas","Sevilla","over",2.2],[11430,"CF Cadiz","Real Zaragoza","over",3.1],"300,762"],
+	[[11900,"Libertad (Ecu)","Macara","local",2.2],[11900,"CS 2 de Mayo","Sportivo Trinidense","local",2.1],[11930,"Novorizontino SP","America Mineiro MG","local",2.2],[11900,"Newells Old Boys","Racing Club","visitante",2.3],[11900,"Vila Nova FC","Sport Recife PE","visitante",2.35],"549,364"],
+	[[11900,"Newells Old Boys","Racing Club","over",2.55],[11900,"Vila Nova FC","Sport Recife PE","over",2.55],[11900,"Libertad (Ecu)","Macara","over",2.4],[11930,"Novorizontino SP","America Mineiro MG","over",2.9],[11900,"CS 2 de Mayo","Sportivo Trinidense","over",2.35],[11930,"Independiente Santa Fe (F)","Deportivo Cali (F)","over",2.35],"2,499,340"],
+	[[11900,"Newells Old Boys","Racing Club","mitad",1.571],[11900,"Vila Nova FC","Sport Recife PE","mitad",1.571],[11900,"Libertad (Ecu)","Macara","mitad",1.533],[11930,"Novorizontino SP","America Mineiro MG","mitad",1.65],[11900,"CS 2 de Mayo","Sportivo Trinidense","mitad",1.533],[11930,"Independiente Santa Fe (F)","Deportivo Cali (F)","mitad",1.5],"143,694"],
+	[[11800,"Colo Colo","Coquimbo","over",2.1],"21,000"],
 ]
