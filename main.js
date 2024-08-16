@@ -1,8 +1,11 @@
 // const HORA = 11208
 // const HORA = 10000
-const HORA = 11529
-const FECHA_PARTIDO_MANANA = 1081600000
-const FECHA_PARTIDO_HOY    = 1081500000 + HORA
+const HORA = 10000
+
+const FECHA_PARTIDO_MANANA = 1081700000
+let FECHA_PARTIDO_HOY      = 1081600000
+
+FECHA_PARTIDO_HOY += HORA
 
 const fs = require('node:fs');
 const readline = require('node:readline');

@@ -551,7 +551,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'DFB POKAL',
         "abreviado": "ALEC",
         "codigoWplay": 19433,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -1716,6 +1716,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "URUGUAY - Primera División - Apertura",
+        "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-URU1",
+        "codigoWplay": 19398,
+        mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "URUGUAY - Primera División - Clausura",
         "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
         "abreviado": "ZA-URU1",
         "codigoWplay": 19398,
