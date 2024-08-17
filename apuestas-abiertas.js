@@ -1,7 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[10900,"Northampton","Exeter City","over",2.1],[10900,"Huddersfield","Stevenage","over",2],[10900,"Braintree Town","Yeovil Town","over",2.25],[10900,"York City","Tamworth FC","over",2],[10930,"Rio Ave","Sporting Farense","over",2],[10930,"Juventud de Las Piedras","Uruguay Montevideo FC","over",2.5],"945,000"],
-	[[10900,"Swansea","Preston","over",2.1],[10900,"Bristol City","Millwall","over",2.35],[10900,"Watford","Stoke City","over",2],[10900,"Reading","Wigan","over",2],[10900,"Rotherham","Bristol Rovers","over",2],[10900,"Cambridge United","Crawley Town","over",2],"789,600"],
-	[[11000,"Brest","Marseille","over",2],[11000,"Ferrol","Malaga","over",2.55],[11000,"SD Eibar","CD Castellon","over",2.05],[11000,"Deportivo Madryn","Brown de Adrogue","over",2.875],"300,581"],
-	[[11000,"SD Eibar","CD Castellon","local",1.8],[11000,"Ferrol","Malaga","visitante",2.45],[11000,"Brest","Marseille","visitante",2.05],[11000,"MFK Karvina","Bohemians 1905","visitante",2.05],"185,330"],
-	[[11000,"Brest","Marseille","mitad",1.444],[11000,"Ferrol","Malaga","mitad",1.571],[11000,"SD Eibar","CD Castellon","mitad",1.42],[11000,"Deportivo Madryn","Brown de Adrogue","mitad",1.615],"52,067"],
+	[[11115,"St Truiden","FCV Dender EH","local",2.05],[11130,"Parma","Fiorentina","local",2.25],[11100,"FC Botosani","FC Uta Arad","visitante",2.35],[11115,"Kayserispor","Sivasspor","visitante",2.15],[11130,"Union Espanola","Cobreloa","visitante",2.5],[11130,"West Ham United","Aston Villa","visitante",2],"1,165,233"],
+	[[11100,"Estudiantes de Buenos Aires","San Martin de San Juan","over",3.25],[11115,"St Truiden","FCV Dender EH","over",2],[11100,"FC Botosani","FC Uta Arad","over",2.1],[11115,"Erzurum BB","Ankaragucu","over",2.15],[11130,"Independiente Juniors","Guayaquil City FC","over",2.55],"748,361"],
+	[[11100,"FC Botosani","FC Uta Arad","mitad",1.45],[11100,"Estudiantes de Buenos Aires","San Martin de San Juan","mitad",1.75],[11115,"Erzurum BB","Ankaragucu","mitad",1.45],[11130,"Independiente Juniors","Guayaquil City FC","mitad",1.5],"55,191"],
+	[[11000,"Ferrol","Malaga","over",2.55],[11000,"SD Eibar","CD Castellon","over",2.05],[11000,"Deportivo Madryn","Brown de Adrogue","over",2.875],"300,581"],
 ]

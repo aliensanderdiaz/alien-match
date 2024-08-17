@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
     {
+        nombreFlashcore: 'ALEMANIA - DFL-Supercup',
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": 'ALES',
+        "codigoWplay": 19830,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'EUROPA - Supercopa UEFA',
         "nombreWplay": 'UEFA - Super Copa',
         "abreviado": 'SUPE',
@@ -628,6 +636,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "ESCOCIA - League Cup",
+        "nombreWplay": 'ESCOCIA - LEAGUE CUP',
+        "abreviado": "R-ESCL",
+        "codigoWplay": 19409,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ESCOCIA - League Cup - Playoffs",
         "nombreWplay": 'ESCOCIA - LEAGUE CUP',
         "abreviado": "R-ESCL",
         "codigoWplay": 19409,
