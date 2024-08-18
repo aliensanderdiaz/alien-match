@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11630,"Botafogo SP","Paysandu PA","local",2.2],[11530,"Cerro Porteño","Olimpia Asuncion","visitante",2.8],[11630,"Botafogo RJ","Flamengo RJ","visitante",2.4],"280,896"],
-	[[11530,"Cerro Porteño","Olimpia Asuncion","over",2.25],[11529,"Tigres FC","Leones FC","over",2],[11630,"Botafogo RJ","Flamengo RJ","over",2.35],[11630,"Botafogo SP","Paysandu PA","over",2.55],[11630,"Almirante Brown","Nueva Chicago","over",3],"808,988"],
-	[[11630,"Botafogo RJ","Flamengo RJ","mitad",1.5],[11630,"Botafogo SP","Paysandu PA","mitad",1.571],[11530,"Cerro Porteño","Olimpia Asuncion","mitad",1.5],[11630,"Almirante Brown","Nueva Chicago","mitad",1.7],"85,352"],
+	[[11745,"Atletico Bucaramanga","América de Cali","over",2.8],[11800,"Club Sport Emelec","El Nacional","over",2.1],[11830,"Huracan","CA Belgrano","over",2.8],[11830,"Colon de Santa Fe","Gimnasia Y Esgrima Mendoza","over",2.8],[11830,"Royal Pari","Club Aurora","over",2],"921,984"],
+	[[11800,"Club Sport Emelec","El Nacional","local",1.8],[11830,"Huracan","CA Belgrano","local",1.85],[11745,"Atletico Bucaramanga","América de Cali","visitante",2.45],[11905,"Tijuana","Santos Laguna","visitante",2.8],"228,438"],
+	[[11745,"Atletico Bucaramanga","América de Cali","mitad",1.615],[11800,"Club Sport Emelec","El Nacional","mitad",1.45],[11830,"Huracan","CA Belgrano","mitad",1.6],[11830,"Colon de Santa Fe","Gimnasia Y Esgrima Mendoza","mitad",1.65],[11830,"Royal Pari","Club Aurora","mitad",1.42],"87,808"],
 ]
