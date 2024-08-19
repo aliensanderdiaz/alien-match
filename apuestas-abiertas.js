@@ -1,7 +1,9 @@
 let APUESTAS_ABIERTAS = [
-	[[11645,"Godoy Cruz","Deportivo Riestra","local",1.95],[11600,"Patriotas Boyaca","Once Caldas","visitante",2.55],[11645,"Union Santa Fe","Argentinos Juniors","visitante",3],"149,175"],
-	[[11505,"Talleres de Remedios de Escalada","Guillermo Brown","over",3],[11530,"Universidad Cesar Vallejo","Alianza Atletico","over",2.1],[11600,"Patriotas Boyaca","Once Caldas","over",2.9],[11645,"Union Santa Fe","Argentinos Juniors","over",3.1],[11645,"Godoy Cruz","Deportivo Riestra","over",2.6],[11700,"Montevideo City Torque","La Luz FC","over",2.35],"3,460,521"],
-	[[11600,"Patriotas Boyaca","Once Caldas","mitad",1.666],[11645,"Union Santa Fe","Argentinos Juniors","mitad",1.7],[11645,"Godoy Cruz","Deportivo Riestra","mitad",1.55],[11505,"Talleres de Remedios de Escalada","Guillermo Brown","mitad",1.666],[11530,"Universidad Cesar Vallejo","Alianza Atletico","mitad",1.45],[11700,"Montevideo City Torque","La Luz FC","mitad",1.48],"157,075"],
-	[[11415,"CF Estrela","FC Famalicao","over",2.05],[11430,"Villarreal","Atlético Madrid","over",1.7],"34,850"],
-	[[11345,"Juventus","Como","over",1.95],[11345,"FC Martigues","Lorient","over",2.1],[11345,"FC Metz","SC Bastia","over",2.35],[11415,"CF Estrela","FC Famalicao","over",2.1],[11430,"Villarreal","Atlético Madrid","over",1.8],[11400,"Farul Constanta","AFC Hermanstadt","over",1.909],"694,449"],
+	[[11800,"EC Vitoria","Cruzeiro MG","over",2.8],[11815,"Jaguares De Córdoba","Tolima","over",2.55],"71,400"],
+	[[11800,"EC Vitoria","Cruzeiro MG","visitante",2.55],[11815,"Jaguares De Córdoba","Tolima","visitante",2.2],"56,100"],
+	[[11800,"EC Vitoria","Cruzeiro MG","mitad",1.615],[11815,"Jaguares De Córdoba","Tolima","mitad",1.571],"25,385"],
+	[[11900,"Defensa Y Justicia","Banfield","local",2.2],[11730,"Sportivo Ameliano","Libertad Asuncion","visitante",1.95],[11800,"EC Vitoria","Cruzeiro MG","visitante",2.6],[11815,"Jaguares De Córdoba","Tolima","visitante",2.2],[11900,"Tecnico Universitario","Delfin","visitante",2.625],"644,144"],
+	[[11730,"Sportivo Ameliano","Libertad Asuncion","over",2.15],[11800,"EC Vitoria","Cruzeiro MG","over",2.75],[11815,"Jaguares De Córdoba","Tolima","over",2.55],[11900,"Defensa Y Justicia","Banfield","over",2.4],[11900,"Tecnico Universitario","Delfin","over",2.15],[11905,"Quilmes AC","Agropecuario Argentino","over",2.85],[11910,"Club Atletico Atlanta","Deportivo Moron","over",3.1],"6,873,336"],
+	[[11800,"EC Vitoria","Cruzeiro MG","mitad",1.615],[11815,"Jaguares De Córdoba","Tolima","mitad",1.571],[11900,"Defensa Y Justicia","Banfield","mitad",1.533],[11900,"Tecnico Universitario","Delfin","mitad",1.45],[11730,"Sportivo Ameliano","Libertad Asuncion","mitad",1.48],[11905,"Quilmes AC","Agropecuario Argentino","mitad",1.65],[11910,"Club Atletico Atlanta","Deportivo Moron","mitad",1.7],"234,299"],
+	[[11645,"Union Santa Fe","Argentinos Juniors","over",3.2],[11700,"Montevideo City Torque","La Luz FC","over",2.3],"195,040"],
 ]
