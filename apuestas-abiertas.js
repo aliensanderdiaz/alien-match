@@ -1,7 +1,7 @@
 let APUESTAS_ABIERTAS = [
-	[[12000,"Boyaca Chico FC","Envigado FC","visitante",3],"30,000"],
-	[[12000,"Boyaca Chico FC","Envigado FC","over",2.54],"25,500"],
-	[[12000,"Boyaca Chico FC","Envigado FC","mitad",1.55],"15,500"],
-	[[11830,"Huracan","CA Belgrano","over",2.65],[11830,"Colon de Santa Fe","Gimnasia Y Esgrima Mendoza","over",2.875],[11830,"Royal Pari","Club Aurora","over",2],"152,375"],
-	[[11745,"Atletico Bucaramanga","América de Cali","over",2.8],[11800,"Club Sport Emelec","El Nacional","over",2.1],[11830,"Huracan","CA Belgrano","over",2.8],[11830,"Colon de Santa Fe","Gimnasia Y Esgrima Mendoza","over",2.8],[11830,"Royal Pari","Club Aurora","over",2],"921,984"],
+	[[11645,"Godoy Cruz","Deportivo Riestra","local",1.95],[11600,"Patriotas Boyaca","Once Caldas","visitante",2.55],[11645,"Union Santa Fe","Argentinos Juniors","visitante",3],"149,175"],
+	[[11505,"Talleres de Remedios de Escalada","Guillermo Brown","over",3],[11530,"Universidad Cesar Vallejo","Alianza Atletico","over",2.1],[11600,"Patriotas Boyaca","Once Caldas","over",2.9],[11645,"Union Santa Fe","Argentinos Juniors","over",3.1],[11645,"Godoy Cruz","Deportivo Riestra","over",2.6],[11700,"Montevideo City Torque","La Luz FC","over",2.35],"3,460,521"],
+	[[11600,"Patriotas Boyaca","Once Caldas","mitad",1.666],[11645,"Union Santa Fe","Argentinos Juniors","mitad",1.7],[11645,"Godoy Cruz","Deportivo Riestra","mitad",1.55],[11505,"Talleres de Remedios de Escalada","Guillermo Brown","mitad",1.666],[11530,"Universidad Cesar Vallejo","Alianza Atletico","mitad",1.45],[11700,"Montevideo City Torque","La Luz FC","mitad",1.48],"157,075"],
+	[[11415,"CF Estrela","FC Famalicao","over",2.05],[11430,"Villarreal","Atlético Madrid","over",1.7],"34,850"],
+	[[11345,"Juventus","Como","over",1.95],[11345,"FC Martigues","Lorient","over",2.1],[11345,"FC Metz","SC Bastia","over",2.35],[11415,"CF Estrela","FC Famalicao","over",2.1],[11430,"Villarreal","Atlético Madrid","over",1.8],[11400,"Farul Constanta","AFC Hermanstadt","over",1.909],"694,449"],
 ]
