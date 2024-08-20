@@ -1707,6 +1707,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "PARAGUAY - Copa Paraguay",
+        "nombreWplay": 'PARAGUAY - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-PARC",
+        "codigoWplay": 19359,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "PERÚ - Liga 1 - Apertura",
         "nombreWplay": 'PERÚ - PRIMERA DIVISIÓN',
         "abreviado": "ZA-PER1",
