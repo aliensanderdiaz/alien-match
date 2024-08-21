@@ -1,11 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11400,"Lille","Slavia Prague","local",1.85],[11400,"Bodo Glimt","Red Star Belgrade","visitante",2.25],"41,625"],
-	[[11400,"Lille","Slavia Prague","over",2.2],[11400,"Rayo Zuliano","Academia Puerto Cabello","over",2.2],"48,400"],
-	[[11400,"Lille","Slavia Prague","mitad",1.48],[11400,"Rayo Zuliano","Academia Puerto Cabello","mitad",1.48],"21,904"],
-	[[11400,"Lille","Slavia Prague","local",1.9],[11400,"Bodo Glimt","Red Star Belgrade","visitante",2.25],"42,750"],
-	[[11345,"Woking FC","Dagenham & Redbridge","over",2],[11345,"Yeovil Town","Ebbsfleet United","over",2.15],[11345,"Tamworth FC","Hartlepool","over",2],[11400,"Lille","Slavia Prague","over",2.2],[11400,"Rayo Zuliano","Academia Puerto Cabello","over",2.15],"406,780"],
-	[[11400,"Lille","Slavia Prague","mitad",1.48],[11345,"Woking FC","Dagenham & Redbridge","mitad",1.444],[11345,"Yeovil Town","Ebbsfleet United","mitad",1.45],[11345,"Tamworth FC","Hartlepool","mitad",1.42],[11400,"Rayo Zuliano","Academia Puerto Cabello","mitad",1.45],"90,631"],
-	[[11400,"NK Dinamo Zagreb","Qarabag FK","local",1.727],[11400,"Lille","Slavia Prague","local",1.769],[11400,"Bodo Glimt","Red Star Belgrade","visitante",2.4],"140,018"],
-	[[11300,"UTC Cajamarca","Asociacion Deportiva Tarma","over",2],[11345,"Southend United","Boston United","over",2.15],[11345,"York City","Rochdale","over",2],[11345,"Woking FC","Dagenham & Redbridge","over",2.05],[11345,"Yeovil Town","Ebbsfleet United","over",2.1],[11400,"Lille","Slavia Prague","over",2],"1,666,035"],
-	[[11345,"Woking FC","Dagenham & Redbridge","mitad",1.444],[11345,"Yeovil Town","Ebbsfleet United","mitad",1.42],"90,283"],
+	[[11400,"Malmo FF","AC Sparta Prague","visitante",2.15],[11400,"Midtjylland","Slovan Bratislava","visitante",2.8],[11400,"Dynamo Kiev","FC Salzburg","visitante",1.85],"111,370"],
+	[[11200,"Atletico Astorga","Salamanca CF","over",2.05],[11330,"CD Xerez","Real Linense","over",2.15],[11400,"CD Estradense","SD Compostela","over",2.1],[11500,"Bogota FC","Internacional FC de Palmira","over",2],[11500,"Boca Juniors de Cali","Real Cartagena","over",2.2],[11600,"CD Real Santander","Barranquilla","over",2.1],[11530,"CA 3 de Febrero","Club General Caballero JLM","over",2],"1,710,463"],
+	[[11200,"Atletico Astorga","Salamanca CF","mitad",1.42],[11330,"CD Xerez","Real Linense","mitad",1.45],[11400,"CD Estradense","SD Compostela","mitad",1.444],[11500,"Bogota FC","Internacional FC de Palmira","mitad",1.42],[11500,"Boca Juniors de Cali","Real Cartagena","mitad",1.48],[11530,"CA 3 de Febrero","Club General Caballero JLM","mitad",1.42],[11600,"CD Real Santander","Barranquilla","mitad",1.45],"128,696"],
 ]
