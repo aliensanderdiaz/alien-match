@@ -1063,9 +1063,13 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "EUROPA - Europa League - Clasificación",
-        "nombreWplay": 'UEFA - EUROPA LEAGUE QUALIFYING',
-        "abreviado": "U-EUROC",
-        "codigoWplay": 61810,
+        // "nombreWplay": 'UEFA - EUROPA LEAGUE QUALIFYING',
+        "nombreWplay": 'UEFA - Liga Europa',
+        // "abreviado": "U-EUROC",
+        "abreviado": "U-EURO",
+        // "codigoWplay": 61810,
+        "codigoWplay": 19162,
+        
         mitad: false,
         favorito: true
     },
@@ -1708,9 +1712,9 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "PARAGUAY - Copa Paraguay",
-        "nombreWplay": 'PARAGUAY - PRIMERA DIVISIÓN',
+        "nombreWplay": 'PARAGUAY - Copa Paraguay',
         "abreviado": "ZA-PARC",
-        "codigoWplay": 19359,
+        "codigoWplay": 52190,
         mitad: false,
         favorito: true
     },

@@ -1,6 +1,8 @@
 let APUESTAS_ABIERTAS = [
-	[[10430,"Gamba Osaka","Avispa Fukuoka","local",2.05],[10500,"Pohang Steelers","Daegu FC","local",1.8],[10500,"Kyoto Sanga","FC Tokyo","local",1.9],[10500,"Shonan Bellmare","Nagoya Grampus","local",2],[10530,"Incheon United","Jeonbuk Hyundai Motors","local",1.95],[10600,"Greuther Furth","Paderborn","local",1.75],[10630,"Bristol City","Coventry","local",2],[10630,"Hull City","Millwall","local",2.05],[10630,"Burton Albion","Stevenage","local",2.15],[10630,"Crewe Alexandra","Swindon Town","local",1.95],[10500,"Urawa Red Diamonds","Kawasaki Frontale","visitante",1.8],[10500,"FC Felgueiras 1932","Feirense","visitante",2.65],[10530,"FC Seoul","Gangwon FC","visitante",2.1],[10600,"SC Preussen Münster","1. FC Kaiserslautern","visitante",1.75],[10630,"Brighton","Manchester United","visitante",1.9],[10630,"Tranmere","Walsall","visitante",2.05],"499,987,456"],
-	[[10430,"Gamba Osaka","Avispa Fukuoka","over",2.55],[10500,"Shonan Bellmare","Nagoya Grampus","over",2.1],[10630,"Hull City","Millwall","over",2.05],[10500,"FC Felgueiras 1932","Feirense","over",2.15],[10630,"Burton Albion","Stevenage","over",2],"472,043"],
-	[[10430,"Gamba Osaka","Avispa Fukuoka","mitad",1.571],[10500,"Shonan Bellmare","Nagoya Grampus","mitad",1.45],[10630,"Hull City","Millwall","mitad",1.444],[10630,"Burton Albion","Stevenage","mitad",1.42],[10500,"FC Felgueiras 1932","Feirense","mitad",1.48],"69,169"],
-	[[12200,"Club Atletico La Paz","Venados FC","local",1.95],[12205,"Tijuana","Monterrey","visitante",1.8],"35,100"],
+	[[11200,"Levante","CF Cadiz","local",2.05],[11200,"Barcelona","Athletic Bilbao","visitante",2.55],[11200,"Panseraikos","Aris Thessaloniki","visitante",1.9],"99,323"],
+	[[11200,"Levante","CF Cadiz","over",2.375],[11200,"Panseraikos","Aris Thessaloniki","over",2.05],[11200,"Slavia Mozyr","Shakhter Soligorsk","over",2.1],"102,244"],
+	[[11200,"Levante","CF Cadiz","mitad",1.533],[11200,"Panseraikos","Aris Thessaloniki","mitad",1.444],[11200,"Slavia Mozyr","Shakhter Soligorsk","mitad",1.45],"32,115"],
+	[[11115,"Sivasspor","Eyupspor","local",2.05],[11130,"OFI Crete","Atromitos","local",2.05],[11130,"Udinese","Lazio","visitante",2.1],"88,253"],
+	[[11105,"Arsenal de Sarandi","San Martin de Tucuman","over",3.7],[11130,"Udinese","Lazio","over",2.2],[11130,"OFI Crete","Atromitos","over",2],"162,800"],
+	[[11130,"Udinese","Lazio","mitad",1.48],[11105,"Arsenal de Sarandi","San Martin de Tucuman","mitad",1.833],[11130,"OFI Crete","Atromitos","mitad",1.42],"38,529"],
 ]

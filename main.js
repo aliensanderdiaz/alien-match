@@ -1,12 +1,9 @@
-// const HORA = 11208
-// const HORA = 10000
 let HORA = 10000
 
-HORA += 1514
+const FECHA_PARTIDO_MANANA = 1082500000
+HORA += 1201
 
-const FECHA_PARTIDO_MANANA = 1082100000
-let FECHA_PARTIDO_HOY      = 1082000000
-
+let FECHA_PARTIDO_HOY      = FECHA_PARTIDO_MANANA - 100000
 FECHA_PARTIDO_HOY += HORA
 
 const fs = require('node:fs');
@@ -928,8 +925,20 @@ async function main() {
                 partidoTemp.local,
                 partidoTemp.visitante,
                 partidoTemp.favorito,
-                partidoTemp.favorito === 'local' ? partidoTemp.localMitad : partidoTemp.visitanteMitad,
+                partidoTemp.favorito === 'local' ? partidoTemp.localMitad : partidoTemp.favorito === 'visitante' ? partidoTemp.visitanteMitad : 1,
             ]
+
+            if (partidoMitad[2] === '') {
+                console.log(partidoMitad)
+                // throw new Error('No se eligio favorito en un partido')
+                continue
+            }
+
+            if (partidoMitad[3] === 1) {
+                console.log(partidoMitad)
+                // throw new Error('La cuota del favorito es 1')
+                continue
+            }
     
             PartidosFavorito.push(partidoMitad)
         }
