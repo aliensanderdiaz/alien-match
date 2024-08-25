@@ -1,3 +1,5 @@
+const MAXIMO_A_GANAR = 3000000 / 10000
+
 let PARTIDOS_BACKUP = [...PARTIDOS_OPTIMIZADOS]
 let indiceFavorito = 0
 let favorito = 'local'
@@ -93,7 +95,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         if (partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
             acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
         }
-        if (acumulado > 50000) {
+        if (acumulado > MAXIMO_A_GANAR) {
             acumulado = 1
         }
         let acumuladoEntero = Math.floor(acumulado)
@@ -106,7 +108,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             // console.log('CUALQUIERA')
             // acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaCualquiera * 100) / 100
         }
-        if (acumuladoFavorito > 50000) {
+        if (acumuladoFavorito > MAXIMO_A_GANAR) {
             acumuladoFavorito = 1
         }
         let acumuladoEnteroFavorito = Math.floor(acumuladoFavorito)
@@ -116,7 +118,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             acumuladoOver = Math.floor(acumuladoOver * partido.over * 100) / 100
             // console.log('Over')
         }
-        if (acumuladoOver > 50000) {
+        if (acumuladoOver > MAXIMO_A_GANAR) {
             acumuladoOver = 1
         }
         let acumuladoEnteroOver = Math.floor(acumuladoOver)
@@ -429,7 +431,7 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
         if (partido.cuotaCualquiera) {
             acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
         }
-        if (acumulado > 50000) {
+        if (acumulado > MAXIMO_A_GANAR) {
             acumulado = 1
         }
         let acumuladoEntero = Math.floor(acumulado)
