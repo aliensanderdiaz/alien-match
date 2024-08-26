@@ -1,7 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11345,"Verona","Juventus","over",2.15],[11345,"Red Star Paris","Ajaccio","over",2.55],[11400,"CA Barracas Central","Velez Sarsfield","over",2.15],[11400,"Central Cordoba","Banfield","over",2.9],[11430,"CF Cordoba","Burgos CF","over",2.375],[11410,"Nueva Chicago","Colon de Santa Fe","over",3],"2,435,566"],
-	[[11345,"Red Star Paris","Ajaccio","mitad",1.571],[11430,"CF Cordoba","Burgos CF","mitad",1.533],[11345,"Verona","Juventus","mitad",1.45],[11400,"CA Barracas Central","Velez Sarsfield","mitad",1.45],[11400,"Central Cordoba","Banfield","mitad",1.65],[11410,"Nueva Chicago","Colon de Santa Fe","mitad",1.7],"142,102"],
-	[[11345,"Verona","Juventus","visitante",1.85],[11345,"Red Star Paris","Ajaccio","visitante",2.55],[11400,"CA Barracas Central","Velez Sarsfield","visitante",1.9],[11400,"Central Cordoba","Banfield","visitante",2.8],[11400,"FC Uta Arad","Farul Constanta","visitante",2],[11430,"CF Cordoba","Burgos CF","visitante",2.5],"1,254,855"],
-	[[11300,"Union Comercio","Cusco FC","mitad",1.45],"14,500"],
-	[[11300,"Union Comercio","Cusco FC","over",2.04],"20,500"],
+	[[11900,"Ceara CE","Novorizontino SP","local",1.95],[11900,"Estudiantes de La Plata","Boca Juniors","visitante",2.75],[11900,"Vasco Da Gama RJ","Athletico PR","visitante",2.5],[11900,"Imbabura SC","Orense SC","visitante",2.05],[12000,"Fortaleza FC","Independiente Medellin","visitante",2.5],"687,070"],
+	[[11900,"Vasco Da Gama RJ","Athletico PR","over",2.1],[11900,"Estudiantes de La Plata","Boca Juniors","over",2.75],[11900,"Ceara CE","Novorizontino SP","over",2.55],[11900,"Imbabura SC","Orense SC","over",2.1],[12000,"Fortaleza FC","Independiente Medellin","over",2.35],[12000,"Carlos Mannucci","Atlético Grau","over",2.2],"1,598,829"],
+	[[11900,"Vasco Da Gama RJ","Athletico PR","mitad",1.45],[11900,"Estudiantes de La Plata","Boca Juniors","mitad",1.615],[11900,"Ceara CE","Novorizontino SP","mitad",1.571],[11900,"Imbabura SC","Orense SC","mitad",1.45],[12000,"Fortaleza FC","Independiente Medellin","mitad",1.533],[12000,"Carlos Mannucci","Atlético Grau","mitad",1.48],"121,117"],
 ]
