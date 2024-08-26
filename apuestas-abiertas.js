@@ -1,5 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11130,"Cagliari","Como","local",1.93],[11200,"Korona Kielce","Stal Mielec","local",2],[11100,"Gloria Buzau","Universitatea Cluj","visitante",1.909],[11200,"Cartagena","Real Zaragoza","visitante",2.25],"165,805"],
-	[[10500,"LNZ Cherkasy","Karpaty LVIV","over",2.375],[10730,"FC Levy Bereg Kiev","Chernomorets Odessa","over",2],[10900,"Yeovil Town","Rochdale","over",2],[10900,"Southend United","Dagenham & Redbridge","over",2.05],[10900,"Woking FC","Hartlepool","over",2],[11000,"Kolos Kovalyovka","Veres Rivne","over",2.15],[11130,"Cagliari","Como","over",2],[11200,"Korona Kielce","Stal Mielec","over",2.15],[11200,"Cartagena","Real Zaragoza","over",2.7],[11100,"Gloria Buzau","Universitatea Cluj","over",2.15],"20,903,384"],
-	[[11200,"Korona Kielce","Stal Mielec","mitad",1.48],[11200,"Cartagena","Real Zaragoza","mitad",1.615],[10500,"LNZ Cherkasy","Karpaty LVIV","mitad",1.533],[10730,"FC Levy Bereg Kiev","Chernomorets Odessa","mitad",1.42],[10900,"Yeovil Town","Rochdale","mitad",1.42],[10900,"Southend United","Dagenham & Redbridge","mitad",1.42],[10900,"Woking FC","Hartlepool","mitad",1.444],[11000,"Kolos Kovalyovka","Veres Rivne","mitad",1.45],[11100,"Gloria Buzau","Universitatea Cluj","mitad",1.45],"318,769"],
+	[[11100,"LNZ Cherkasy","Karpaty LVIV","over",2.5],[11130,"Cagliari","Como","over",2],[11200,"Korona Kielce","Stal Mielec","over",2.1],[11200,"Cartagena","Real Zaragoza","over",2.65],[11100,"Gloria Buzau","Universitatea Cluj","over",2.1],[11300,"Union Comercio","Cusco FC","over",2],"1,168,650"],
+	[[11130,"Cagliari","Como","mitad",1.42],[11200,"Korona Kielce","Stal Mielec","mitad",1.45],[11200,"Cartagena","Real Zaragoza","mitad",1.6],[11300,"Union Comercio","Cusco FC","mitad",1.444],"73,758"],
+	[[11100,"LNZ Cherkasy","Karpaty LVIV","over",2.37],"23,750"],
+	[[11130,"Cagliari","Como","local",1.93],[11200,"Korona Kielce","Stal Mielec","local",2],[11200,"Cartagena","Real Zaragoza","visitante",2.25],"165,805"],
 ]
