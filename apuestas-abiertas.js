@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11900,"Ceara CE","Novorizontino SP","local",1.95],[11900,"Estudiantes de La Plata","Boca Juniors","visitante",2.75],[11900,"Vasco Da Gama RJ","Athletico PR","visitante",2.5],[11900,"Imbabura SC","Orense SC","visitante",2.05],[12000,"Fortaleza FC","Independiente Medellin","visitante",2.5],"687,070"],
-	[[11900,"Vasco Da Gama RJ","Athletico PR","over",2.1],[11900,"Estudiantes de La Plata","Boca Juniors","over",2.75],[11900,"Ceara CE","Novorizontino SP","over",2.55],[11900,"Imbabura SC","Orense SC","over",2.1],[12000,"Fortaleza FC","Independiente Medellin","over",2.35],[12000,"Carlos Mannucci","Atlético Grau","over",2.2],"1,598,829"],
-	[[11900,"Vasco Da Gama RJ","Athletico PR","mitad",1.45],[11900,"Estudiantes de La Plata","Boca Juniors","mitad",1.615],[11900,"Ceara CE","Novorizontino SP","mitad",1.571],[11900,"Imbabura SC","Orense SC","mitad",1.45],[12000,"Fortaleza FC","Independiente Medellin","mitad",1.533],[12000,"Carlos Mannucci","Atlético Grau","mitad",1.48],"121,117"],
+	[[11200,"RCD Mallorca","Sevilla","visitante",2.55],"26,181"],
+	[[11130,"Fakel Voronezh","Rubin Kazan","mitad",1.5],[11200,"RCD Mallorca","Sevilla","mitad",1.5],[11130,"Spartak Moscow","FC Dynamo Makhachkala","mitad",1.4],"31,500"],
+	[[11130,"Spartak Moscow","FC Dynamo Makhachkala","over",2],[11130,"Fakel Voronezh","Rubin Kazan","over",2.3],[11200,"RCD Mallorca","Sevilla","over",2.35],"108,100"],
 ]
