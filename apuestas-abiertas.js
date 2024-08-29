@@ -1,5 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[11700,"OHiggins","Union La Calera","local",1.95],[11815,"Atletico Bucaramanga","Independiente Santa Fe","local",2.6],[11630,"Sol de America","Guarani Asuncion","visitante",2.15],[11730,"Cruzeiro MG","Internacional RS","visitante",2.6],[11730,"Criciuma SC","Bragantino SP","visitante",2.35],[11830,"Philadelphia Union","Columbus Crew","visitante",1.85],"862,497"],
-	[[11630,"Sol de America","Guarani Asuncion","over",2.3],[11700,"OHiggins","Union La Calera","over",2.1],[11730,"Cruzeiro MG","Internacional RS","over",2.45],[11730,"Criciuma SC","Bragantino SP","over",2.1],[11815,"Atletico Bucaramanga","Independiente Santa Fe","over",3.1],"534,939"],
-	[[11730,"Cruzeiro MG","Internacional RS","mitad",1.55],[11730,"Criciuma SC","Bragantino SP","mitad",1.45],[11815,"Atletico Bucaramanga","Independiente Santa Fe","mitad",1.7],[11630,"Sol de America","Guarani Asuncion","mitad",1.5],[11700,"OHiggins","Union La Calera","mitad",1.45],"58,171"],
 ]
