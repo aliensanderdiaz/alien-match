@@ -1,5 +1,8 @@
 let APUESTAS_ABIERTAS = [
-	[[11830,"Toronto FC","DC United","local",1.75],[11900,"Botafogo RJ","Fortaleza CE","local",1.769],[11900,"Boca Juniors","Rosario Central","local",1.95],[11800,"Guarani Asuncion","Cerro Porteño","visitante",2],[11830,"Charlotte FC","Atlanta United","visitante",2.1],[11930,"Chicago Fire","Inter Miami CF","visitante",1.85],[11900,"CD Everton Vina Del Mar","Union Espanola","visitante",2.3],[11930,"FC Dallas","Colorado Rapids","visitante",2],[11930,"Austin FC","Vancouver Whitecaps FC","visitante",2.05],"4,423,743"],
-	[[11800,"LDU Quito","Barcelona SC","over",2.1],[11800,"Indy Eleven","Pittsburgh Riverhounds","over",2.3],[11900,"Boca Juniors","Rosario Central","over",2.55],[11900,"Botafogo RJ","Fortaleza CE","over",2.1],[11800,"Guarani Asuncion","Cerro Porteño","over",2.2],[11900,"Gimnasia Jujuy","CA Guemes","over",3],[11930,"Llaneros FC","Tigres FC","over",2.05],"3,499,487"],
-	[[11800,"LDU Quito","Barcelona SC","mitad",1.42],[11900,"Boca Juniors","Rosario Central","mitad",1.55],[11900,"Botafogo RJ","Fortaleza CE","mitad",1.42],[11800,"Guarani Asuncion","Cerro Porteño","mitad",1.48],[11800,"Indy Eleven","Pittsburgh Riverhounds","mitad",1.5],[11900,"Gimnasia Jujuy","CA Guemes","mitad",1.666],[11930,"Llaneros FC","Tigres FC","mitad",1.42],"164,210"],
+	[[10745,"Legia Warsaw","Motor Lublin","visitante",2.95],[10800,"AS Monaco","RC Lens","visitante",2.2],[10800,"Feirense","Benfica B","visitante",2.2],[10830,"1. FC Heidenheim","Augsburg","visitante",2.05],[10830,"FC Botosani","Petrolul Ploiesti","visitante",2.625],"768,335"],
+	[[10800,"Feirense","Benfica B","mitad",1.45],[10830,"FC Botosani","Petrolul Ploiesti","mitad",1.615],"23,423"],
+	[[10800,"Feirense","Benfica B","over",2.1],[10830,"FC Botosani","Petrolul Ploiesti","over",2.75],"57,750"],
+	[[10730,"Newcastle","Tottenham","visitante",1.727],[10730,"Chelsea","Crystal Palace","visitante",2.3],[10730,"Zwolle","Heracles Almelo","visitante",2.25],[10730,"Sigma Olomouc","Banik Ostrava","visitante",1.95],[10730,"MFK Karvina","Dukla Praha","visitante",2.4],"418,328"],
+	[[10730,"Isloch","Slutsksakhar Slutsk","over",2.04],"20,500"],
+	[[10730,"Isloch","Slutsksakhar Slutsk","mitad",1.42],"14,200"],
 ]
