@@ -1,8 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[10745,"Legia Warsaw","Motor Lublin","visitante",2.95],[10800,"AS Monaco","RC Lens","visitante",2.2],[10800,"Feirense","Benfica B","visitante",2.2],[10830,"1. FC Heidenheim","Augsburg","visitante",2.05],[10830,"FC Botosani","Petrolul Ploiesti","visitante",2.625],"768,335"],
-	[[10800,"Feirense","Benfica B","mitad",1.45],[10830,"FC Botosani","Petrolul Ploiesti","mitad",1.615],"23,423"],
-	[[10800,"Feirense","Benfica B","over",2.1],[10830,"FC Botosani","Petrolul Ploiesti","over",2.75],"57,750"],
-	[[10730,"Newcastle","Tottenham","visitante",1.727],[10730,"Chelsea","Crystal Palace","visitante",2.3],[10730,"Zwolle","Heracles Almelo","visitante",2.25],[10730,"Sigma Olomouc","Banik Ostrava","visitante",1.95],[10730,"MFK Karvina","Dukla Praha","visitante",2.4],"418,328"],
-	[[10730,"Isloch","Slutsksakhar Slutsk","over",2.04],"20,500"],
-	[[10730,"Isloch","Slutsksakhar Slutsk","mitad",1.42],"14,200"],
+	[[11000,"AC Le Havre","AJ Auxerre","local",2.25],[11000,"Angers SCO","Nice","local",2.85],[11000,"Stade Reims","Rennes","local",2.15],[11000,"Manchester United","Liverpool","local",2],[10945,"PSV Eindhoven","GO Ahead Eagles","visitante",3.2],[11000,"Slavia Prague","FK Pardubice","visitante",4.5],[11000,"FK Teplice","FK Mlada Boleslav","visitante",2],[11000,"Deportivo La Coruna","Ferrol","visitante",2.75],[11000,"Burgos CF","CD Castellon","visitante",2.05],[11000,"Osasuna","Celta de Vigo","visitante",2.25],[11000,"CD Alaves","Las Palmas","visitante",3],"302,188,998"],
+	[[11000,"CD Alaves","Las Palmas","over",2.3],[11000,"Osasuna","Celta de Vigo","over",2],[11000,"Deportivo La Coruna","Ferrol","over",2.35],[11000,"Angers SCO","Nice","over",2.3],[11000,"AC Le Havre","AJ Auxerre","over",2.1],"522,123"],
+	[[11000,"CD Alaves","Las Palmas","mitad",1.48],[11000,"Osasuna","Celta de Vigo","mitad",1.42],[11000,"Deportivo La Coruna","Ferrol","mitad",1.5],[11000,"Angers SCO","Nice","mitad",1.5],[11000,"AC Le Havre","AJ Auxerre","mitad",1.45],"68,565"],
+	[[10830,"FC Botosani","Petrolul Ploiesti","over",2.75],"57,750"],
 ]

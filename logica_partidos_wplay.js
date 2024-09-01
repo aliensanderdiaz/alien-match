@@ -1,4 +1,4 @@
-const MAXIMO_A_GANAR = 3000000 / 10000
+const MAXIMO_A_GANAR = 300000 / 10000
 
 let PARTIDOS_BACKUP = [...PARTIDOS_OPTIMIZADOS]
 let indiceFavorito = 0
@@ -61,6 +61,9 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     let acumulado = 1
     let acumuladoFavorito = 1
     let acumuladoOver = 1
+    let borrarAcumulado = false
+    let borrarAcumuladoFavorito = false
+    let borrarAcumuladoOver = false
 
     let codeLigues = []
     let codeLiguesNoHalf = []
@@ -91,15 +94,24 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             }
         }
 
+        if (borrarAcumulado) {
+            acumulado = 1
+            borrarAcumulado = false
+        }
 
         if (partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
             acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
         }
+
         if (acumulado > MAXIMO_A_GANAR) {
-            acumulado = 1
+            borrarAcumulado = true
         }
         let acumuladoEntero = Math.floor(acumulado)
 
+        if (borrarAcumuladoFavorito) {
+            acumuladoFavorito = 1
+            borrarAcumuladoFavorito = false
+        }
 
         if (partido.cuotaFavorito && partido.cuotaFavorito >= 1.74 ) {
             acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaFavorito * 100) / 100
@@ -108,18 +120,24 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             // console.log('CUALQUIERA')
             // acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaCualquiera * 100) / 100
         }
+
         if (acumuladoFavorito > MAXIMO_A_GANAR) {
-            acumuladoFavorito = 1
+            borrarAcumuladoFavorito = true
         }
         let acumuladoEnteroFavorito = Math.floor(acumuladoFavorito)
 
+        if (borrarAcumuladoOver) {
+            acumuladoOver = 1
+            borrarAcumuladoOver = false
+        }
 
         if (partido.over && partido.over >= 2 ) {
             acumuladoOver = Math.floor(acumuladoOver * partido.over * 100) / 100
             // console.log('Over')
         }
+
         if (acumuladoOver > MAXIMO_A_GANAR) {
-            acumuladoOver = 1
+            borrarAcumuladoOver = true
         }
         let acumuladoEnteroOver = Math.floor(acumuladoOver)
 

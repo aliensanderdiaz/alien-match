@@ -1,9 +1,11 @@
 let HORA = 10000
 
-const FECHA_PARTIDO_MANANA = 1082600000
-HORA += 744
+
+const FECHA_PARTIDO_MANANA = 1090200000
+HORA += 1001
 
 let FECHA_PARTIDO_HOY      = FECHA_PARTIDO_MANANA - 100000
+// let FECHA_PARTIDO_HOY      = 1083100000
 FECHA_PARTIDO_HOY += HORA
 
 const fs = require('node:fs');
@@ -92,8 +94,8 @@ async function main() {
                 let liga = `${lineas[indice]}`
                 let ligaEncontrada = LIGAS_OBJETOS.find(ligaObjeto => ligaObjeto.nombreFlashcore === liga)
                 if (!ligaEncontrada) {
-                    console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
                     let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar ${liga}`
+                    console.log({ nombreFlashcore: liga, error: mensajeDeError })
                     throw new Error(mensajeDeError)
                 }
                 let ligaObjeto = {

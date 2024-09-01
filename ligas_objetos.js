@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
     {
+        nombreFlashcore: 'Mundial Femenino Sub-20',
+        "nombreWplay": 'FEMENINO INTERNACIONAL - COPA MUNDIAL U20',
+        "abreviado": 'ZM-M20',
+        "codigoWplay": 47028,
+        mitad: false,
+        favorito: false
+    },
+    {
         nombreFlashcore: 'ALEMANIA - DFL-Supercup',
         "nombreWplay": 'SUPER COPA',
         "abreviado": 'ALES',
@@ -465,6 +473,14 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'Inglaterra - Community Shield',
         "abreviado": "R-INGFC",
         "codigoWplay": 19897,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "INGLATERRA - FA Cup - Clasificación",
+        "nombreWplay": 'INGLATERRA - FA CUP',
+        "abreviado": "R-INGF",
+        "codigoWplay": 19207,
         mitad: true,
         favorito: true
     },
