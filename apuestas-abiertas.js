@@ -1,5 +1,9 @@
 let APUESTAS_ABIERTAS = [
-	[[11100,"Unirea Slobozia","Gloria Buzau","visitante",2.8],[11200,"SD Eibar","Levante","visitante",2.2],"61,600"],
+	[[11300,"CA San Telmo","Arsenal de Sarandi","over",2.9],[11300,"CA San Miguel","Patronato Parana","over",2.95],[11300,"CA Defensores Unidos","Club Almagro","over",3.1],[11300,"Amedspor","Kocaelispor","over",2.25],[11330,"Universitatea Cluj","Dinamo Bucuresti","over",2.25],[11330,"Talleres de Remedios de Escalada","CA All Boys","over",3.7],"4,967,621"],
+	[[11330,"Universitatea Cluj","Dinamo Bucuresti","local",1.85],"18,500"],
+	[[11300,"CA San Telmo","Arsenal de Sarandi","mitad",1.666],[11300,"CA San Miguel","Patronato Parana","mitad",1.615],[11300,"CA Defensores Unidos","Club Almagro","mitad",1.7],[11300,"Amedspor","Kocaelispor","mitad",1.5],[11330,"Universitatea Cluj","Dinamo Bucuresti","mitad",1.48],[11330,"Talleres de Remedios de Escalada","CA All Boys","mitad",1.8],"182,894"],
+	[[11330,"Universitatea Cluj","Dinamo Bucuresti","local",1.85],[11430,"Elche","CF Cordoba","local",1.95],[11500,"Gimnasia LP","Argentinos Juniors","visitante",2.85],"102,814"],
+	[[11300,"CA San Telmo","Arsenal de Sarandi","over",2.9],[11300,"CA San Miguel","Patronato Parana","over",2.95],[11300,"CA Defensores Unidos","Club Almagro","over",3.35],[11300,"Amedspor","Kocaelispor","over",2.25],[11330,"Talleres de Remedios de Escalada","CA All Boys","over",3.7],[11430,"Elche","CF Cordoba","over",2.35],[11500,"Gimnasia LP","Argentinos Juniors","over",2.95],[11330,"Universitatea Cluj","Dinamo Bucuresti","over",2.2],[11500,"Bogota FC","Cucuta Deportivo","over",2.25],"81,873,648"],
+	[[11430,"Elche","CF Cordoba","mitad",1.5],[11500,"Gimnasia LP","Argentinos Juniors","mitad",1.666],[11300,"CA San Telmo","Arsenal de Sarandi","mitad",1.666],[11300,"CA San Miguel","Patronato Parana","mitad",1.615],[11300,"CA Defensores Unidos","Club Almagro","mitad",1.769],[11300,"Amedspor","Kocaelispor","mitad",1.5],[11330,"Universitatea Cluj","Dinamo Bucuresti","mitad",1.48],[11330,"Talleres de Remedios de Escalada","CA All Boys","mitad",1.833],[11500,"Bogota FC","Cucuta Deportivo","mitad",1.48],"717,307"],
 	[[11100,"Unirea Slobozia","Gloria Buzau","over",2.5],[11200,"SD Eibar","Levante","over",2],"50,000"],
-	[[11200,"SD Eibar","Levante","mitad",1.4],[11100,"Unirea Slobozia","Gloria Buzau","mitad",1.55],"21,700"],
 ]
