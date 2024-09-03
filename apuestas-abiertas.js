@@ -1,11 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[11900,"Cumbaya FC","Imbabura SC","local",2.35],[11930,"Operario PR","Brusque FC","local",1.93],"45,355"],
+	[[11930,"Deportivo Cali","Deportivo Pasto","over",2.75],[11930,"Operario PR","Brusque FC","over",2.875],[11930,"Real Cartagena","Deportes Quindio","over",2.1],[11930,"Deportivo La Guaira","UCV FC","over",2.6],"431,681"],
 	[[11900,"Cumbaya FC","Imbabura SC","over",2.4],[11910,"Club Atletico Atlanta","Brown de Adrogue","over",2.95],[11930,"Deportivo Cali","Deportivo Pasto","over",2.75],[11930,"Operario PR","Brusque FC","over",2.95],[11930,"Real Cartagena","Deportes Quindio","over",2.1],[11930,"Deportivo La Guaira","UCV FC","over",2.55],"3,075,725"],
-	[[11900,"Cumbaya FC","Imbabura SC","mitad",1.533],[11930,"Deportivo Cali","Deportivo Pasto","mitad",1.615],[11930,"Operario PR","Brusque FC","mitad",1.615],[11910,"Club Atletico Atlanta","Brown de Adrogue","mitad",1.666],[11930,"Real Cartagena","Deportes Quindio","mitad",1.42],[11930,"Deportivo La Guaira","UCV FC","mitad",1.571],"148,806"],
-	[[11830,"Sportivo Trinidense","Sol de America","local",1.93],"19,300"],
-	[[11800,"Estudiantes de Buenos Aires","Agropecuario Argentino","over",3.3],[11830,"Sportivo Trinidense","Sol de America","over",2.05],"67,650"],
-	[[11830,"Sportivo Trinidense","Sol de America","mitad",1.45],"25,375"],
-	[[11700,"Godoy Cruz","Central Cordoba","over",2.7],"27,000"],
-	[[11700,"Godoy Cruz","Central Cordoba","over",2.7],[11900,"Cumbaya FC","Imbabura SC","over",2.4],[11930,"Deportivo Cali","Deportivo Pasto","over",2.8],[11930,"Operario PR","Brusque FC","over",2.95],[11930,"Deportivo La Guaira","UCV FC","over",2.45],[11800,"Estudiantes de Buenos Aires","Agropecuario Argentino","over",3.3],[11830,"Sportivo Trinidense","Sol de America","over",2.1],[11910,"Club Atletico Atlanta","Brown de Adrogue","over",3],[11930,"Real Cartagena","Deportes Quindio","over",2.1],"151,719,288"],
-	[[11900,"Cumbaya FC","Imbabura SC","mitad",1.533],[11930,"Deportivo Cali","Deportivo Pasto","mitad",1.65],[11930,"Operario PR","Brusque FC","mitad",1.615],[11830,"Sportivo Trinidense","Sol de America","mitad",1.45],[11910,"Club Atletico Atlanta","Brown de Adrogue","mitad",1.666],[11930,"Real Cartagena","Deportes Quindio","mitad",1.42],[11930,"Deportivo La Guaira","UCV FC","mitad",1.55],"864,330"],
 ]
