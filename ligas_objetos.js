@@ -10,11 +10,19 @@
 let LIGAS_OBJETOS = [
     {
         nombreFlashcore: 'Mundial Femenino Sub-20',
+        "nombreWplay": 'FEMENINO INTERNACIONAL - COPA MUNDIAL SUB-20',
+        "abreviado": 'ZM-M20',
+        "codigoWplay": 47028,
+        mitad: false,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'Mundial Femenino Sub-20',
         "nombreWplay": 'FEMENINO INTERNACIONAL - COPA MUNDIAL U20',
         "abreviado": 'ZM-M20',
         "codigoWplay": 47028,
         mitad: false,
-        favorito: false
+        favorito: true
     },
     {
         nombreFlashcore: 'ALEMANIA - DFL-Supercup',
@@ -420,6 +428,14 @@ let LIGAS_OBJETOS = [
     },
     {
         nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Liga A - Playoffs',
+        nombreWplay: 'NATIONS LEAGUE PARTIDOS',
+        abreviado: 'CNAT',
+        codigoWplay: 601779,
+        mitad: true,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Liga C',
         nombreWplay: 'NATIONS LEAGUE PARTIDOS',
         abreviado: 'CNAT',
         codigoWplay: 601779,
