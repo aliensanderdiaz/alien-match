@@ -1,8 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11700,"Mexico (F) U20","Australia (F) U20","local",1.85],[11700,"Mirassol SP","America Mineiro MG","local",2.1],[11700,"Francia (F) Sub-20","Brasil (F) Sub 20","visitante",1.8],"69,930"],
-	[[11645,"Deportivo Tachira","FC Angostura","over",2.05],[11700,"Mirassol SP","America Mineiro MG","over",2.3],"47,150"],
-	[[11700,"Mirassol SP","America Mineiro MG","mitad",1.5],[11645,"Deportivo Tachira","FC Angostura","mitad",1.42],"21,300"],
-	[[11700,"Mexico (F) U20","Australia (F) U20","local",1.85],[11700,"Mirassol SP","America Mineiro MG","local",2.1],[12000,"Colombia (F) U20","Camerún (F) Sub-20","local",1.769],[11700,"Francia (F) Sub-20","Brasil (F) Sub 20","visitante",1.8],[11800,"Deportivo Pereira","Once Caldas","visitante",2.875],[11930,"Guarani SP","Coritiba PR","visitante",2.7],"960,394"],
-	[[11645,"Deportivo Tachira","FC Angostura","over",2.05],[11700,"Mirassol SP","America Mineiro MG","over",2.3],[11800,"Deportivo Pereira","Once Caldas","over",2.95],[11930,"Guarani SP","Coritiba PR","over",3],[11900,"Club Leones Del Norte","Independiente Juniors","over",2.95],[11930,"Zamora FC","Carabobo FC","over",2.45],[12000,"Colombia (F) U20","Camerún (F) Sub-20","over",2],"6,031,746"],
-	[[11700,"Mirassol SP","America Mineiro MG","mitad",1.5],[11800,"Deportivo Pereira","Once Caldas","mitad",1.666],[11930,"Guarani SP","Coritiba PR","mitad",1.7],[11645,"Deportivo Tachira","FC Angostura","mitad",1.42],[11900,"Club Leones Del Norte","Independiente Juniors","mitad",1.615],[11930,"Zamora FC","Carabobo FC","mitad",1.55],[12000,"Colombia (F) U20","Camerún (F) Sub-20","mitad",1.42],"214,572"],
+	[[11900,"Club Leones Del Norte","Independiente Juniors","over",2.9],[11930,"Guarani SP","Coritiba PR","over",3],[11930,"Zamora FC","Carabobo FC","over",2.5],[12000,"Colombia (F) U20","Camerún (F) Sub-20","over",1.9],"413,250"],
+	[[12000,"Colombia (F) U20","Camerún (F) Sub-20","local",1.727],[11930,"Guarani SP","Coritiba PR","visitante",2.6],"44,909"],
+	[[11930,"Guarani SP","Coritiba PR","mitad",1.666],[11930,"Zamora FC","Carabobo FC","mitad",1.55],"41,731"],
+	[[11800,"Deportivo Pereira","Once Caldas","over",3],"30,000"],
 ]
