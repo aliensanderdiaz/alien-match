@@ -9,6 +9,22 @@
 
 let LIGAS_OBJETOS = [
     {
+        nombreFlashcore: 'SUDAMÉRICA - Mundial - Clasificación',
+        "nombreWplay": 'Copa Mundial 2026 - Eliminatorias Sudamérica',
+        "abreviado": 'M-SUDA',
+        "codigoWplay": 86772,
+        mitad: true,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'ASIA - Copa Asiática - Clasificación - Playoffs',
+        "nombreWplay": 'AFC Asian Cup',
+        "abreviado": 'ASIAC',
+        "codigoWplay": 55112,
+        mitad: false,
+        favorito: false
+    },
+    {
         nombreFlashcore: 'Mundial Femenino Sub-20',
         "nombreWplay": 'FEMENINO INTERNACIONAL - COPA MUNDIAL SUB-20',
         "abreviado": 'ZM-M20',
@@ -354,6 +370,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'ASIA - Mundial - Clasificación - Tercera fase',
+        nombreWplay: 'WORLD CUP 2026 - ASIA QUALIFIERS',
+        abreviado: 'W-ASIA',
+        codigoWplay: 120773,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'ASIA - Mundial - Clasificación - Segunda fase',
         nombreWplay: 'MUNDIAL 2026 - ELIMINATORIAS ASIA',
         abreviado: 'W-ASIA',
@@ -402,6 +426,30 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'EUROPA - UEFA Nations League - Liga A',
+        nombreWplay: 'NATIONS LEAGUE PARTIDOS',
+        abreviado: 'UNAT',
+        codigoWplay: 556801,
+        mitad: true,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'EUROPA - UEFA Nations League - Liga C',
+        nombreWplay: 'NATIONS LEAGUE PARTIDOS',
+        abreviado: 'UNAT',
+        codigoWplay: 556801,
+        mitad: true,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'EUROPA - UEFA Nations League - Liga D',
+        nombreWplay: 'NATIONS LEAGUE PARTIDOS',
+        abreviado: 'UNAT',
+        codigoWplay: 556801,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'EUROPA - Europeo Sub-21 - Clasificación',
         nombreWplay: 'UEFA - EURO U21 CLASIFICACIÓN',
         abreviado: 'U-E21',
@@ -435,6 +483,22 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Liga A',
+        nombreWplay: 'NATIONS LEAGUE PARTIDOS',
+        abreviado: 'CNAT',
+        codigoWplay: 601779,
+        mitad: true,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Liga B',
+        nombreWplay: 'NATIONS LEAGUE PARTIDOS',
+        abreviado: 'CNAT',
+        codigoWplay: 601779,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Liga C',
         nombreWplay: 'NATIONS LEAGUE PARTIDOS',
         abreviado: 'CNAT',
@@ -444,6 +508,14 @@ let LIGAS_OBJETOS = [
     },
     {
         nombreFlashcore: 'ÁFRICA - Copa de África de Naciones - Clasificación - Preliminar',
+        nombreWplay: 'ELIMINATORIAS COPA DE NACIONES AFRICA',
+        abreviado: 'AFRI',
+        codigoWplay: 557800,
+        mitad: false,
+        favorito: false
+    },
+    {
+        nombreFlashcore: 'ÁFRICA - Copa de África de Naciones - Clasificación',
         nombreWplay: 'ELIMINATORIAS COPA DE NACIONES AFRICA',
         abreviado: 'AFRI',
         codigoWplay: 557800,
@@ -1101,7 +1173,7 @@ let LIGAS_OBJETOS = [
         "abreviado": "U-EURO",
         // "codigoWplay": 61810,
         "codigoWplay": 19162,
-        
+
         mitad: false,
         favorito: true
     },
