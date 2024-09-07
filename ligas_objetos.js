@@ -434,6 +434,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'EUROPA - UEFA Nations League - Liga B',
+        nombreWplay: 'NATIONS LEAGUE PARTIDOS',
+        abreviado: 'UNAT',
+        codigoWplay: 556801,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'EUROPA - UEFA Nations League - Liga C',
         nombreWplay: 'NATIONS LEAGUE PARTIDOS',
         abreviado: 'UNAT',
