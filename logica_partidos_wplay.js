@@ -70,6 +70,10 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 
     let codeLiguesPreferidos = []
 
+    let claseDistinta = false
+    let claseDistintaOver = false
+    let claseDistintaFavorito = false
+
     // "mitad": true,
     // "codigoWplay": 19157
 
@@ -105,6 +109,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 
         if (acumulado > MAXIMO_A_GANAR) {
             borrarAcumulado = true
+            claseDistinta = !claseDistinta
         }
         let acumuladoEntero = Math.floor(acumulado)
 
@@ -123,6 +128,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 
         if (acumuladoFavorito > MAXIMO_A_GANAR) {
             borrarAcumuladoFavorito = true
+            claseDistintaFavorito = !claseDistintaFavorito
         }
         let acumuladoEnteroFavorito = Math.floor(acumuladoFavorito)
 
@@ -138,6 +144,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 
         if (acumuladoOver > MAXIMO_A_GANAR) {
             borrarAcumuladoOver = true
+            claseDistintaOver = !claseDistintaOver
         }
         let acumuladoEnteroOver = Math.floor(acumuladoOver)
 
@@ -218,15 +225,15 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span>${partido.cuotaFavorito && partido.cuotaFavorito > 1 ? partido.cuotaFavorito?.toFixed(2) : ''}</span>
                     </div>
 
-                    <div class="col border-end dato">
+                    <div class="col border-end dato ${ claseDistinta ? '':'claseDistinta' }">
                         <span>${acumuladoEntero}</span>
                     </div>
 
-                    <div class="col border-end dato">
+                    <div class="col border-end dato ${ claseDistintaOver ? '':'claseDistinta' }">
                         <span>${acumuladoEnteroOver}</span>
                     </div>
 
-                    <div class="col border-end dato">
+                    <div class="col border-end dato ${ claseDistintaFavorito ? '':'claseDistinta' }">
                         <span>${acumuladoEnteroFavorito}</span>
                     </div>
 

@@ -1,6 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11920,"Deportivo Pasto","Independiente Medellin","visitante",2.75],"27,500"],
-	[[11830,"Cooper","Plaza Colonia","over",2.55],[11920,"Deportivo Pasto","Independiente Medellin","over",2.7],[11900,"Club Sport Emelec","Tecnico Universitario","over",2.25],[11910,"Patronato Parana","Quilmes AC","over",2.75],"426,009"],
-	[[11920,"Deportivo Pasto","Independiente Medellin","mitad",1.6],[11830,"Cooper","Plaza Colonia","mitad",1.5],[11900,"Club Sport Emelec","Tecnico Universitario","mitad",1.48],[11910,"Patronato Parana","Quilmes AC","mitad",1.615],"57,378"],
-	[[11630,"America Mineiro MG","Guarani SP","over",2.9],[11710,"Alianza FC","Fortaleza FC","over",2.6],[11710,"Deportivo Moron","Estudiantes Rio Cuarto","over",3.7],"864,838"],
+	[[11100,"Chipre","Kosovo","visitante",1.95],"19,500"],
+	[[11000,"Niger","Ghana","over",2.35],[11000,"Guinea Ecuatorial","Togo","over",2.75],[11100,"Chipre","Kosovo","over",2.25],[11100,"Uganda","República del Congo","over",2.8],[11100,"Madagascar","Comores","over",2.55],"1,038,201"],
+	[[11100,"Chipre","Kosovo","mitad",1.48],[11000,"Niger","Ghana","mitad",1.5],[11000,"Guinea Ecuatorial","Togo","mitad",1.615],[11100,"Uganda","República del Congo","mitad",1.6],[11100,"Madagascar","Comores","mitad",1.6],"91,806"],
 ]
