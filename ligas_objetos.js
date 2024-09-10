@@ -1427,6 +1427,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "TURQUÍA - Copa - Clasificación",
+        "nombreWplay": 'TURQUIA - COPA',
+        "abreviado": "YE-TURC",
+        "codigoWplay": 19447,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "TURQUÍA - Süper Lig",
         "nombreWplay": 'TURQUÍA - SUPER LEAGUE',
         "abreviado": "YE-TUR1",

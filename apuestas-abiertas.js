@@ -1,2 +1,5 @@
 let APUESTAS_ABIERTAS = [
+	[[11100,"Letonia","Islas Feroe","mitad",1.571],[11100,"EAU","Irán","mitad",1.45],[11100,"Guinea Sub-23","Tanzania","mitad",1.615],[11100,"Namibia","Kenia","mitad",1.7],[11100,"Zimbabue","Camerun","mitad",1.571],[11100,"Liberia","Argelia","mitad",1.48],[11100,"Botsuana","Egipto","mitad",1.5],[11100,"Bulgaria Sub 21","Polonia Sub 21","mitad",1.42],"309,973"],
+	[[11100,"Letonia","Islas Feroe","local",2.1],"21,000"],
+	[[11100,"Letonia","Islas Feroe","over",2.6],[11100,"Gabón","Central African Rep.","over",2],[11100,"EAU","Irán","over",2.1],[11100,"Guinea Sub-23","Tanzania","over",2.8],[11100,"Namibia","Kenia","over",2.95],[11100,"Zimbabue","Camerun","over",2.6],[11100,"Liberia","Argelia","over",2.3],[11100,"Botsuana","Egipto","over",2.35],[11100,"Bulgaria Sub 21","Polonia Sub 21","over",2],"25,351,387"],
 ]
