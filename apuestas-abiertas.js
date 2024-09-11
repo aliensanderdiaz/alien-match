@@ -1,2 +1,5 @@
 let APUESTAS_ABIERTAS = [
+	[[11730,"Internacional RS","Fortaleza CE","local",2.05],[11800,"América de Cali","Tolima","local",2.15],[11630,"Sol de America","Libertad Asuncion","visitante",1.85],[11630,"España (F) U20","Canadá (F) U20","visitante",3.2],[11800,"Independiente Medellin","CD Junior","visitante",2.55],"665,356"],
+	[[11500,"Deportes Quindio","Barranquilla","over",2.15],[11600,"Cucuta Deportivo","Llaneros FC","over",2.55],[11600,"Union Magdalena","Real Soacha Cundinamarca","over",2.35],[11630,"Sol de America","Libertad Asuncion","over",2.1],[11730,"Internacional RS","Fortaleza CE","over",2.4],[11800,"América de Cali","Tolima","over",2.25],[11800,"Independiente Medellin","CD Junior","over",2.4],"3,506,475"],
+	[[11730,"Internacional RS","Fortaleza CE","mitad",1.5],[11800,"América de Cali","Tolima","mitad",1.5],[11800,"Independiente Medellin","CD Junior","mitad",1.55],[11500,"Deportes Quindio","Barranquilla","mitad",1.45],[11600,"Cucuta Deportivo","Llaneros FC","mitad",1.571],[11630,"Sol de America","Libertad Asuncion","mitad",1.45],"115,225"],
 ]
