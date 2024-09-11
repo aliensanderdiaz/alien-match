@@ -1,7 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"Antigua y Barbuda","Bermuda","local",2.1],[11500,"Cuba","Nicaragua","local",2.55],[11530,"Colombia","Argentina","local",2.65],[11600,"Ecuador","Perú","visitante",4.5],"638,584"],
-	[[11500,"Cuba","Nicaragua","over",2.15],[11530,"Colombia","Argentina","over",2.95],[11600,"Ecuador","Perú","over",2.5],"158,563"],
-	[[11530,"Colombia","Argentina","mitad",1.666],[11600,"Ecuador","Perú","mitad",1.533],[11500,"Cuba","Nicaragua","mitad",1.48],"37,822"],
-	[[11345,"Irlanda","Grecia","over",2.55],[11345,"Albania","Georgia","over",2.2],[11345,"Andorra","Malta","over",3.75],[11345,"Hungria","Bosnia & Herzegovina","over",2],[11345,"Macedonia del Norte","Armenia","over",2.2],[11345,"Halifax Town","Oldham","over",2.2],[11400,"Benin","Libya","over",3],[11400,"Burkina Faso","Malawi","over",2.35],[11400,"Zambia","Sierra Leona","over",2.25],[11400,"Cabo Verde","Mauritania","over",2.75],"182,107,435"],
-	[[11300,"Kuwait","Irak","over",2.4],[11345,"Irlanda","Grecia","over",2.55],[11345,"Albania","Georgia","over",2.25],[11345,"Andorra","Malta","over",3.75],[11345,"Macedonia del Norte","Armenia","over",2.15],[11345,"Halifax Town","Oldham","over",2.15],[11400,"Benin","Libya","over",2.9],[11400,"Burkina Faso","Malawi","over",2.3],[11400,"Zambia","Sierra Leona","over",2.35],[11400,"Cabo Verde","Mauritania","over",2.7],"202,036,383"],
+	[[12000,"Canadá","Mexico","local",2.45],[11930,"Paraguay","Brasil","visitante",1.727],"69,943"],
+	[[11930,"Paraguay","Brasil","over",2.25],[12000,"Canadá","Mexico","over",2.2],"49,500"],
+	[[11930,"Paraguay","Brasil","mitad",1.45],[12000,"Canadá","Mexico","mitad",1.48],"21,460"],
+	[[11700,"Venezuela","Uruguay","over",2.65],"26,500"],
 ]
