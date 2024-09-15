@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11610,"Once Caldas","Deportivo Cali","over",2.6],[11630,"Athletico PR","Fortaleza CE","over",2],[11645,"Inter de Barinas","Rayo Zuliano","over",2.15],[11645,"UCV FC","Estudiantes de Merida","over",2.1],[11700,"Estudiantes de Buenos Aires","Tristan Suarez","over",3.1],"727,818"],
-	[[11610,"Once Caldas","Deportivo Cali","mitad",1.571],[11630,"Athletico PR","Fortaleza CE","mitad",1.42],[11645,"Inter de Barinas","Rayo Zuliano","mitad",1.45],[11645,"UCV FC","Estudiantes de Merida","mitad",1.45],[11700,"Estudiantes de Buenos Aires","Tristan Suarez","mitad",1.666],"78,193"],
-	[[11500,"Brusque FC","Vila Nova FC","over",2.75],[11500,"Paysandu PA","Guarani SP","over",2.55],[11500,"Sport Boys Association","Atlético Grau","over",2.25],[11500,"Plaza Colonia","Rentistas","over",2.65],[11500,"CD Real Santander","Atletico Huila","over",2.1],[11530,"Racing Club","Boca Juniors","over",2.35],[11530,"OHiggins","Coquimbo","over",2.15],"4,436,361"],
+	[[10830,"Augsburg","FC St. Pauli","over",2.05],[10830,"Panseraikos","Levadiakos","over",2.5],[10830,"Egaleo Athen","Iraklis 1908","over",2],[10830,"AO Neas Ionias","Anagennisi Artas","over",2.25],"461,250"],
+	[[10830,"Egaleo Athen","Iraklis 1908","over",2],[10830,"AO Neas Ionias","Anagennisi Artas","over",2.2],"73,901"],
+	[[10800,"Torino","Lecce","over",2.3],[10800,"Salernitana","SC Pisa","over",2],[10800,"Panachaiki","Kalamata","over",2.4],"655,776"],
 ]
