@@ -33,6 +33,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'Mundial Femenino Sub-20 - Playoffs',
+        "nombreWplay": 'FEMENINO INTERNACIONAL - COPA MUNDIAL SUB-20',
+        "abreviado": 'ZM-M20',
+        "codigoWplay": 47028,
+        mitad: false,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'Mundial Femenino Sub-20',
         "nombreWplay": 'FEMENINO INTERNACIONAL - COPA MUNDIAL U20',
         "abreviado": 'ZM-M20',
@@ -574,11 +582,11 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "INGLATERRA - FA Cup - Clasificación",
-        "nombreWplay": 'INGLATERRA - FA CUP',
-        "abreviado": "R-INGF",
-        "codigoWplay": 19207,
-        mitad: true,
-        favorito: true
+        "nombreWplay": 'Inglaterra - FA Cup Eliminatorias',
+        "abreviado": "R-INGFCL",
+        "codigoWplay": 30668,
+        mitad: false,
+        favorito: false
     },
     {
         "nombreFlashcore": "INGLATERRA - FA Cup",
@@ -1135,6 +1143,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "EUROPA - Champions League - Playoffs",
+        "nombreWplay": 'UEFA - CHAMPIONS LEAGUE',
+        "abreviado": "U-CHAM",
+        "codigoWplay": 19161,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "EUROPA - Champions League - Fase de liga",
         "nombreWplay": 'UEFA - CHAMPIONS LEAGUE',
         "abreviado": "U-CHAM",
         "codigoWplay": 19161,

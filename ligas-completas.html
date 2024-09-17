@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Ligas</title>
+</head>
+
+<body>
+    <input type="text" id="liga">
+    <button id="buscar">Buscar</button>
+    <div id="container-ligas-elegidas"></div>
+    <div id="container-ligas-encontradas"></div>
+
+    <script src="ligas_objetos-nomodule.js"></script>
+    <!-- LIGAS_OBJETOS -->
+    <script>
+
+        let ligasDibujar = []
+        let ligasElegidas = document.querySelector('#container-ligas-elegidas')
+        let ligasEncontradas = document.querySelector('#container-ligas-encontradas')
+
+        const buscarButton = document.querySelector('#buscar')
+        const buscarInput = document.querySelector('#liga')
+
+        const anadirLiga = (liga) => {
+            console.log({ msg: 'anadirLiga'})
+            ligasDibujar.push(liga)
+            dibujarLigasElegidas()
+        }
+
+        const dibujarLigasEncontradas = (ligas) => {
+            let html = ``
+            ligas.forEach(liga => {
+                html += `<span class="anadirLiga">${liga.abreviado}</span> - `
+            });
+            ligasEncontradas.innerHTML = html
+
+            const ligasEle = document.querySelector('.anadirLigas')
+            ligasEle.forEach(l => {
+                l.addEventListener('click', (liga)=> {})
+            })
+        }
+
+        const dibujarLigasElegidas = (ligas) => {
+            let html = ``
+            ligas.forEach(liga => {
+                html += `<span>${liga.abreviado}</span>`
+            });
+            ligasElegidas.innerHTML = html
+
+        }
+
+        buscarButton.addEventListener('click', () => {
+            let ligaValue = buscarInput.value
+            ligaValue = ligaValue.toUpperCase()
+            let ligasFiltradas =[ LIGAS_OBJETOS.find(liga => liga.abreviado.includes(ligaValue)) ]
+
+            console.log({ ligaValue, ligasFiltradas })
+
+            dibujarLigasEncontradas(ligasFiltradas)
+        })
+
+        let ligasCopiadas = []
+    </script>
+</body>
+
+</html>
