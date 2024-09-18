@@ -1,8 +1,8 @@
 let HORA = 10000
 
 
-const FECHA_PARTIDO_MANANA = 1091800000
-HORA += 0
+const FECHA_PARTIDO_MANANA = 1091900000
+HORA += 814
 
 let FECHA_PARTIDO_HOY      = FECHA_PARTIDO_MANANA - 100000
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -676,6 +676,7 @@ async function main() {
             if (indiceSi) {
                 partido[2] = line * 1
                 PartidosLocalPrimeraMitad.push(partido)
+                // console.log({ partido })
                 partido = ['local', 'visitante', 'cuota']
                 indiceSi = false
                 continue
@@ -921,6 +922,8 @@ async function main() {
         }
 
         for (const partidoTemp of partidosTemp) {
+
+            // console.log({ partidoTemp })
             
             let partidoMitad = [
                 // convertirFechaANumero(arrayLine[0]),
@@ -937,7 +940,7 @@ async function main() {
             }
 
             if (partidoMitad[3] === 1) {
-                console.log(partidoMitad)
+                console.log({partidoMitad})
                 // throw new Error('La cuota del favorito es 1')
                 continue
             }
@@ -1248,7 +1251,9 @@ async function main() {
             cuotaCualquiera,
             ambosAnotan: PartidosAmbosMarcan.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosAmbosMarcan.find(p => partido.local === p[0] && partido.visitante === p[1])[2] : 1,
             over: PartidosOver.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosOver.find(p => partido.local === p[0] && partido.visitante === p[1])[2] : 1,
-            localMitad: PartidosLocalPrimeraMitad.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosLocalPrimeraMitad.find(p => partido.local === p[0] && partido.visitante === p[1])[2] : 1,
+            localMitad: PartidosLocalPrimeraMitad.find(
+                p => partido.local === p[0] && partido.visitante === p[1]
+            ) ? PartidosLocalPrimeraMitad.find(p => partido.local === p[0] && partido.visitante === p[1])[2] : 1,
             visitanteMitad: PartidosVisitantePrimeraMitad.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosVisitantePrimeraMitad.find(p => partido.local === p[0] && partido.visitante === p[1])[2] : 1,
             favorito: PartidosFavorito.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosFavorito.find(p => partido.local === p[0] && partido.visitante === p[1])[2] : '',
             cuotaFavorito: PartidosFavorito.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosFavorito.find(p => partido.local === p[0] && partido.visitante === p[1])[3] : 1,
