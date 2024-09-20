@@ -1,7 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11530,"Club Nueve de Octubre","Independiente Juniors","over",2.5],"25,000"],
-	[[11530,"Club Nueve de Octubre","Independiente Juniors","mitad",1.53],"15,333"],
-	[[11700,"Flamengo RJ","Penarol Montevideo","local",1.85],[11700,"Talleres de Remedios de Escalada","Huracan","visitante",2],[11730,"CRB Maceio AL","Ponte Preta SP","visitante",3],"111,000"],
-	[[11700,"Flamengo RJ","Penarol Montevideo","over",2.55],[11700,"Talleres de Remedios de Escalada","Huracan","over",2.9],[11730,"CRB Maceio AL","Ponte Preta SP","over",2.6],[11530,"Club Nueve de Octubre","Independiente Juniors","over",2.5],[11830,"Encarnacion","Club Tacuary","over",2.25],[11900,"Vargas Torres","Guayaquil City FC","over",3.1],"3,352,708"],
-	[[11700,"Flamengo RJ","Penarol Montevideo","mitad",1.533],[11700,"Talleres de Remedios de Escalada","Huracan","mitad",1.615],[11730,"CRB Maceio AL","Ponte Preta SP","mitad",1.571],[11530,"Club Nueve de Octubre","Independiente Juniors","mitad",1.533],[11830,"Encarnacion","Club Tacuary","mitad",1.5],[11900,"Vargas Torres","Guayaquil City FC","mitad",1.65],"147,713"],
+	[[11000,"FC Botosani","Gloria Buzau","local",1.95],[11200,"Hatayspor","Bodrum Belediyesi Bodrumspor","local",2.25],[11100,"Radomiak Radom","Korona Kielce","visitante",2.25],[11130,"Paderborn","Hannover 96","visitante",1.909],[11130,"Cagliari","Empoli","visitante",2.55],[11200,"SpVgg Unterhaching","FC Erzgebirge Aue","visitante",1.9],"913,104"],
+	[[11000,"FC Botosani","Gloria Buzau","over",2.2],[11130,"Cagliari","Empoli","over",2.2],[11200,"Hatayspor","Bodrum Belediyesi Bodrumspor","over",2.25],[11200,"Erzurum BB","Esenler Erokspor","over",2.05],"223,245"],
+	[[11130,"Cagliari","Empoli","mitad",1.48],[11200,"Hatayspor","Bodrum Belediyesi Bodrumspor","mitad",1.5],[11000,"FC Botosani","Gloria Buzau","mitad",1.48],[11200,"Erzurum BB","Esenler Erokspor","mitad",1.42],"46,656"],
 ]
