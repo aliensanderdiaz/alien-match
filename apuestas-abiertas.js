@@ -1,6 +1,8 @@
 let APUESTAS_ABIERTAS = [
-	[[12000,"Deportivo Pereira","Patriotas Boyaca","local",1.85],[12000,"Atlas de Guadalajara","Queretaro FC","local",1.75],"32,375"],
-	[[11900,"Atletico Rafaela","Deportivo Madryn","over",3.7],[11930,"Academia Puerto Cabello","FC Angostura","over",2.15],[12000,"Atlas de Guadalajara","Queretaro FC","over",2.05],[12000,"Deportivo Pereira","Patriotas Boyaca","over",2.15],"350,617"],
-	[[12000,"Atlas de Guadalajara","Queretaro FC","mitad",1.42],[12000,"Deportivo Pereira","Patriotas Boyaca","mitad",1.45],[11900,"Atletico Rafaela","Deportivo Madryn","mitad",1.833],[11930,"Academia Puerto Cabello","FC Angostura","mitad",1.42],"53,603"],
-	[[11730,"Deportivo Maldonado","Montevideo Wanderers","over",2.45],[11800,"Union Santa Fe","Godoy Cruz","over",2.7],"66,150"],
+	[[10600,"Fortuna Dusseldorf","Cologne","local",1.9],[10630,"QPR","Millwall","local",2.15],[10630,"Exeter City","Stevenage","local",2.15],[10635,"Shandong Taishan","Wuhan Three Towns","local",1.8],[10630,"Norwich City","Watford","visitante",2.25],[10630,"Sunderland","Middlesbrough","visitante",2.1],[10630,"Lincoln City","Wigan","visitante",2.5],[10630,"Accrington","Port Vale","visitante",1.769],[10630,"FC Hradec Kralove","FC Slovacko","visitante",2.45],[10635,"Henan Songshan Longmen","Chengdu Rongcheng","visitante",1.769],"14,321,216"],
+	[[10630,"QPR","Millwall","over",2.2],[10630,"Exeter City","Stevenage","over",2.2],[10630,"Lincoln City","Wigan","over",2.15],[10600,"Akron Tolyatti","Krasnodar","over",2],[10630,"FC Hradec Kralove","FC Slovacko","over",2.3],"478,676"],
+	[[10630,"QPR","Millwall","mitad",1.48],[10630,"Exeter City","Stevenage","mitad",1.48],[10630,"Lincoln City","Wigan","mitad",1.45],[10630,"FC Hradec Kralove","FC Slovacko","mitad",1.5],"47,641"],
+	[[10230,"Suwon City FC","Gimcheon Sangmu","local",1.93],[10400,"Kashima Antlers","Kashiwa Reysol","local",1.8],[10500,"Daegu FC","FC Seoul","visitante",1.95],[10500,"Urawa Red Diamonds","FC Tokyo","visitante",2.4],[10500,"Jubilo Iwata","Avispa Fukuoka","visitante",2.2],[10515,"Puszcza Niepolomice","Cracovia Krakow","visitante",2],"715,366"],
+	[[10500,"Urawa Red Diamonds","FC Tokyo","over",2.05],[10500,"Jubilo Iwata","Avispa Fukuoka","over",2.45],[10500,"Chernomorets Odessa","Karpaty LVIV","over",2.3],"115,518"],
+	[[10500,"Urawa Red Diamonds","FC Tokyo","mitad",1.42],[10500,"Jubilo Iwata","Avispa Fukuoka","mitad",1.55],[10500,"Chernomorets Odessa","Karpaty LVIV","mitad",1.5],"33,015"],
 ]
