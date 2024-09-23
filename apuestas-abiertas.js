@@ -1,6 +1,8 @@
 let APUESTAS_ABIERTAS = [
-	[[11130,"Slovan Liberec","Bohemians 1905","visitante",2.375],[11100,"Roma","Udinese","visitante",2.65],[11130,"Elche","Mirandes","visitante",2.9],[11130,"Villarreal","Barcelona","local",2],[11130,"CA Boston River","Atletico River Plate (Uru)","local",2],"511,053"],
-	[[11130,"Elche","Mirandes","over",2.6],[11100,"Corum Belediyespor","Kocaelispor","over",2.1],[11130,"CA Boston River","Atletico River Plate (Uru)","over",2.1],"80,262"],
-	[[11130,"Elche","Mirandes","mitad",1.6],[11100,"Corum Belediyespor","Kocaelispor","mitad",1.45],[11130,"CA Boston River","Atletico River Plate (Uru)","mitad",1.45],"26,855"],
-	[[10930,"Gil Vicente","Casa Pia Atletico","over",2.4],[11000,"Brest","Toulouse","over",2],[11000,"Angers SCO","Nantes","over",2.25],[11000,"Polissya Zhytomyr","LNZ Cherkasy","over",2.2],"118,800"],
+	[[11000,"FC Uta Arad","CS Municipal Studentesc Iasi","visitante",2.65],[11200,"Gaziantep BB","Trabzonspor","visitante",1.95],[11200,"Goztepe","Kayserispor","visitante",2.4],"124,020"],
+	[[10730,"Kolos Kovalyovka","Zorya Lugansk","over",2.5],[11000,"FC Uta Arad","CS Municipal Studentesc Iasi","over",2.2],"55,000"],
+	[[10730,"Kolos Kovalyovka","Zorya Lugansk","mitad",1.571],[11000,"FC Uta Arad","CS Municipal Studentesc Iasi","mitad",1.48],"23,257"],
+	[[12030,"CD Junior","Rionegro Aguilas","local",2.15],"21,500"],
+	[[12030,"CD Junior","Rionegro Aguilas","mitad",1.6],[12000,"Universidad Cesar Vallejo","Asociacion Deportiva Tarma","mitad",1.42],"22,720"],
+	[[12000,"Universidad Cesar Vallejo","Asociacion Deportiva Tarma","over",2],[12030,"CD Junior","Rionegro Aguilas","over",2.7],"54,000"],
 ]
