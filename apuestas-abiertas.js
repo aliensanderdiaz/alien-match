@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11645,"Sarmiento","Central Cordoba","over",3.1],[11730,"Boca Juniors de Cali","CD Real Santander","over",2.15],"66,650"],
-	[[11645,"Sarmiento","Central Cordoba","visitante",2.87],"28,750"],
-	[[11645,"Sarmiento","Central Cordoba","mitad",1.727],[11730,"Boca Juniors de Cali","CD Real Santander","mitad",1.42],"24,527"],
+	[[10635,"Shandong Taishan","Chengdu Rongcheng","local",2.05],[11000,"LKS Lodz II","Kotwica Kolobrzeg","local",2.75],[11130,"Cagliari","Cremonese","local",1.75],[11200,"Sevilla","Real Valladolid","local",1.769],[11200,"FC Erzgebirge Aue","SV Wehen Wiesbaden","local",1.909],[11200,"SV Sandhausen","FC Ingolstadt 04","local",1.909],[10900,"Lecce","Sassuolo","visitante",2.4],[11200,"VfL Osnabruck","Energie Cottbus","visitante",2.25],[11200,"Hansa Rostock","SpVgg Unterhaching","visitante",2.5],[11200,"Valencia","Osasuna","visitante",2.8],[11222,"Termalica Bruk-Bet Nieciecza","GKS Katowice","visitante",2.05],"53,865,278"],
+	[[10900,"Amkar","Chernomorets Novorosiisk","mitad",1.42],[10900,"FC Chelyabinsk","FK Tyumen","mitad",1.48],[11130,"Volga Ulyanovsk","Rotor Volgograd","mitad",1.48],[11200,"Valencia","Osasuna","mitad",1.55],"48,211"],
+	[[10900,"Amkar","Chernomorets Novorosiisk","over",2.15],[10900,"FC Chelyabinsk","FK Tyumen","over",2.35],[11130,"Cagliari","Cremonese","over",2],[11130,"Volga Ulyanovsk","Rotor Volgograd","over",2.3],[11200,"Sevilla","Real Valladolid","over",2],[11200,"Valencia","Osasuna","over",2.55],"1,185,317"],
 ]
