@@ -1,6 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11300,"Palestino","Deportes Iquique","local",1.9],[11330,"Ajaccio","Grenoble","local",2.45],[11330,"Caen","SC Amiens","local",1.9],[11345,"Wigan","Stevenage","local",2.2],[11330,"Dunkerque","SC Bastia","visitante",2.15],[11330,"FC St. Gallen","FC Zurich","visitante",1.95],[11330,"Paris FC","EA Guingamp","visitante",2.2],[11330,"Rodez Aveyron","Laval","visitante",2.2],[11345,"Leyton Orient","Peterborough United","visitante",1.909],"7,537,737"],
-	[[11345,"Oldham","Forest Green Rovers","over",2],[11400,"Torino","Empoli","over",2],[11400,"Royal Pari","Universitario de Vinto","over",2.1],"84,000"],
-	[[11330,"Ajaccio","Grenoble","over",2.9],[11330,"Caen","SC Amiens","over",2.1],[11330,"Dunkerque","SC Bastia","over",2.45],[11330,"Paris FC","EA Guingamp","over",2.15],[11330,"Rodez Aveyron","Laval","over",2.1],[11345,"Wigan","Stevenage","over",2.5],[11345,"Braintree Town","Halifax Town","over",2.2],"3,705,133"],
-	[[11330,"Ajaccio","Grenoble","mitad",1.65],[11330,"Caen","SC Amiens","mitad",1.45],[11330,"Dunkerque","SC Bastia","mitad",1.533],[11330,"Paris FC","EA Guingamp","mitad",1.48],[11330,"Rodez Aveyron","Laval","mitad",1.45],[11345,"Wigan","Stevenage","mitad",1.55],[11345,"Braintree Town","Halifax Town","mitad",1.48],[11345,"Oldham","Forest Green Rovers","mitad",1.444],[11400,"Torino","Empoli","mitad",1.42],[11400,"Royal Pari","Universitario de Vinto","mitad",1.45],"537,117"],
+	[[11700,"Operario PR","Guarani SP","local",2.2],"22,000"],
+	[[11630,"Chacaritas SC","Gualaceo SC","over",2.15],[11630,"Guayaquil City FC","Independiente Del Valle","over",2],[11700,"Operario PR","Guarani SP","over",3.1],"133,300"],
+	[[11700,"Operario PR","Guarani SP","mitad",1.7],[11630,"Chacaritas SC","Gualaceo SC","mitad",1.444],[11630,"Guayaquil City FC","Independiente Del Valle","mitad",1.42],"34,869"],
 ]
