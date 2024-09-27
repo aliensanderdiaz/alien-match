@@ -8,6 +8,15 @@
 // },
 
 let LIGAS_OBJETOS = [
+
+    {
+    nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Campeones Cup',
+    "nombreWplay": 'Campeones Cup',
+    "abreviado": 'C-CCC',
+    "codigoWplay": 460787,
+    mitad: true,
+    favorito: true,
+},
     {
         nombreFlashcore: 'SUDAMÉRICA - Mundial - Clasificación',
         "nombreWplay": 'Copa Mundial 2026 - Eliminatorias Sudamérica',
@@ -238,7 +247,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'PORTUGAL - TAÇA DE PORTUGAL',
         "abreviado": 'YE-PORT',
         "codigoWplay": 19382,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -1182,6 +1191,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "EUROPA - Europa League - Fase de liga",
+        "nombreWplay": 'UEFA - LIGA EUROPA',
+        "abreviado": "U-EURO",
+        "codigoWplay": 19162,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "EUROPA - Europa League - Playoffs",
         "nombreWplay": 'UEFA - LIGA EUROPA',
         "abreviado": "U-EURO",
@@ -1262,7 +1279,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'HOLANDA - COPA KNVB',
         "abreviado": "YE-HOLC",
         "codigoWplay": 19446,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -1287,7 +1304,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'POLONIA - COPA',
         "abreviado": "YE-POLC",
         "codigoWplay": 45252,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -1507,6 +1524,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "ARGENTINA - Torneo Betano",
+        "nombreWplay": 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
+        "abreviado": "ZA-ARG1",
+        "codigoWplay": 19296,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ARGENTINA - Copa de la Liga Profesional - Playoffs",
         "nombreWplay": 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
         "abreviado": "ZA-ARG1",
@@ -1577,6 +1602,14 @@ let LIGAS_OBJETOS = [
         "abreviado": "ZA-BRAC",
         "codigoWplay": 19465,
         mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "BRASIL - Serie A Betano",
+        "nombreWplay": 'BRASIL - SERIE A',
+        "abreviado": "ZA-BRA1",
+        "codigoWplay": 19297,
+        mitad: true,
         favorito: true
     },
     {
