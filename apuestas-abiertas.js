@@ -1,4 +1,11 @@
 let APUESTAS_ABIERTAS = [
-	[[10800,"Samsunspor","Goztepe","mitad",1.48],[10800,"Bari","Cosenza","mitad",1.444],[10800,"Carrarese Calcio","Reggiana","mitad",1.48],[10800,"Sassuolo","Spezia","mitad",1.42],[10800,"Pacos Ferreira","Benfica B","mitad",1.42],[10800,"FC Smorgon","FC Vitebsk","mitad",1.5],"95,696"],
-	[[10700,"Getafe","CD Alaves","mitad",1.727],[10700,"Red Star Paris","Paris FC","mitad",1.42],"24,527"],
+	[[10800,"Toulouse","Lyon","visitante",2],[10800,"Alverca","Leixoes SC","visitante",2.1],[10800,"Como","Verona","visitante",2.55],[10800,"Juve Stabia","SC Pisa","visitante",2.05],[10800,"Modena FC","Sampdoria","visitante",2.35],"515,954"],
+	[[10800,"Atletico River Plate (Uru)","Atletico Fenix Montevideo","local",2.25],[10630,"Cologne","Karlsruher SC","visitante",2.05],[10700,"Celta de Vigo","Girona","visitante",2.05],[10745,"Korona Kielce","Lech Poznan","visitante",1.909],[10800,"Gloria Buzau","Farul Constanta","visitante",1.85],"333,955"],
+	[[10630,"FC Ingolstadt 04","Hansa Rostock","local",1.8],[10700,"Levante","Almeria","local",1.85],[10700,"Wuhan Three Towns","Henan Songshan Longmen","local",1.9],[10730,"Groningen","GO Ahead Eagles","local",1.9],[10800,"Eyupspor","Gaziantep BB","local",1.769],[10800,"Trabzonspor","Konyaspor","local",1.85],"393,466"],
+	[[10800,"Gloria Buzau","Farul Constanta","over",2],[10800,"Alverca","Leixoes SC","over",2.05],[10800,"Atletico River Plate (Uru)","Atletico Fenix Montevideo","over",2.25],[10800,"La Luz FC","Tacuarembo","over",2.625],"242,156"],
+	[[10745,"Korona Kielce","Lech Poznan","over",2],[10800,"Como","Verona","over",2.1],[10800,"Trabzonspor","Konyaspor","over",2.1],[10800,"Juve Stabia","SC Pisa","over",2.25],[10800,"Modena FC","Sampdoria","over",2.35],"466,358"],
+	[[10745,"Korona Kielce","Lech Poznan","mitad",1.42],[10800,"Como","Verona","mitad",1.45],[10800,"Trabzonspor","Konyaspor","mitad",1.444],[10800,"Juve Stabia","SC Pisa","mitad",1.5],[10800,"Modena FC","Sampdoria","mitad",1.533],[10800,"Alverca","Leixoes SC","mitad",1.45],[10800,"Gloria Buzau","Farul Constanta","mitad",1.42],[10800,"Atletico River Plate (Uru)","Atletico Fenix Montevideo","mitad",1.5],[10800,"La Luz FC","Tacuarembo","mitad",1.571],"331,992"],
+	[[10500,"FC Porto B","FC Felgueiras 1932","local",2.1],[10515,"Zwolle","Almere City FC","local",1.8],[10500,"Oliveirense","Feirense","visitante",2.05],[10515,"Zaglebie Lubin","Radomiak Radom","visitante",2.2],[10530,"Torino","Lazio","visitante",2.15],"366,528"],
+	[[10500,"Zmina Obolon Kyiv","FC Ingulets","over",2.55],[10530,"Torino","Lazio","over",2.2],"56,100"],
+	[[10530,"Torino","Lazio","mitad",1.48],[10500,"Zmina Obolon Kyiv","FC Ingulets","mitad",1.6],"23,680"],
 ]
