@@ -1,5 +1,7 @@
 let APUESTAS_ABIERTAS = [
-	[[11200,"FC Vizela","CD Mafra","local",1.85],[11200,"Lamia","Panseraikos","local",2.2],[11200,"Cracovia Krakow","Stal Mielec","local",1.75],[11230,"FC Sudtirol","Palermo","visitante",2.15],"153,134"],
-	[[10900,"Colon FC de Uruguay","Club Oriental de La Paz","over",2.45],[11000,"Zorya Lugansk","Vorskla Poltava","over",2.15],[11230,"FC Sudtirol","Palermo","over",2.35],[11230,"Institucion Atletica Sud America","Plaza Colonia","over",2.5],[11200,"Lamia","Panseraikos","over",2.25],"696,298"],
-	[[11230,"FC Sudtirol","Palermo","mitad",1.5],[10900,"Colon FC de Uruguay","Club Oriental de La Paz","mitad",1.5],[11000,"Zorya Lugansk","Vorskla Poltava","mitad",1.48],[11200,"Lamia","Panseraikos","mitad",1.5],[11230,"Institucion Atletica Sud America","Plaza Colonia","mitad",1.533],"76,590"],
+	[[11345,"EA Guingamp","Caen","local",1.9],[11345,"Parma","Cagliari","local",1.769],[11330,"Brescia","Cremonese","local",2.25],[11415,"Avs Futebol Sad","Sporting Farense","local",1.909],"144,393"],
+	[[11330,"Brescia","Cremonese","mitad",1.48],[11345,"EA Guingamp","Caen","mitad",1.45],[11415,"Avs Futebol Sad","Sporting Farense","mitad",1.42],"30,473"],
+	[[11230,"FC Sudtirol","Palermo","visitante",2.25],"22,500"],
+	[[11230,"FC Sudtirol","Palermo","mitad",1.5],[11230,"Institucion Atletica Sud America","Plaza Colonia","mitad",1.571],"23,571"],
+	[[11230,"FC Sudtirol","Palermo","mitad",1.5],[11230,"Institucion Atletica Sud America","Plaza Colonia","mitad",1.533],"76,590"],
 ]
