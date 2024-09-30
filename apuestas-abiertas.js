@@ -1,11 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11100,"Bodrum Belediyesi Bodrumspor","Adana Demirspor","local",1.769],[11130,"KAA Gent","OH Leuven","local",1.75],[11100,"Empoli","Fiorentina","visitante",2],[11130,"Real Oviedo","SD Eibar","visitante",2.625],"113,784"],
-	[[11100,"Empoli","Fiorentina","over",2.1],[11130,"CF Cordoba","Ferrol","over",2.1],[11130,"Real Oviedo","SD Eibar","over",2.5],"77,175"],
-	[[11100,"Empoli","Fiorentina","mitad",1.45],[11130,"CF Cordoba","Ferrol","mitad",1.444],[11130,"Real Oviedo","SD Eibar","mitad",1.55],"22,725"],
-	[[11100,"Empoli","Fiorentina","mitad",1.44],"11,269"],
-	[[11030,"GKS Piast Gliwice","Jagiellonia Bialystok","visitante",2.55],[11030,"Nublense","Union La Calera","visitante",2.75],"70,125"],
-	[[11030,"Uruguay Montevideo FC","Cooper","over",2.35],"23,500"],
-	[[11030,"Uruguay Montevideo FC","Cooper","mitad",1.48],"14,800"],
-	[[10930,"FC Famalicao","Nacional Madeira","over",2.05],[10930,"Uniao Leiria","Maritimo","over",2.05],"42,025"],
-	[[10915,"Athletic Bilbao","Sevilla","over",2.04],"20,500"],
+	[[11200,"FC Vizela","CD Mafra","local",1.85],[11200,"Lamia","Panseraikos","local",2.2],[11200,"Cracovia Krakow","Stal Mielec","local",1.75],[11230,"FC Sudtirol","Palermo","visitante",2.15],"153,134"],
+	[[10900,"Colon FC de Uruguay","Club Oriental de La Paz","over",2.45],[11000,"Zorya Lugansk","Vorskla Poltava","over",2.15],[11230,"FC Sudtirol","Palermo","over",2.35],[11230,"Institucion Atletica Sud America","Plaza Colonia","over",2.5],[11200,"Lamia","Panseraikos","over",2.25],"696,298"],
+	[[11230,"FC Sudtirol","Palermo","mitad",1.5],[10900,"Colon FC de Uruguay","Club Oriental de La Paz","mitad",1.5],[11000,"Zorya Lugansk","Vorskla Poltava","mitad",1.48],[11200,"Lamia","Panseraikos","mitad",1.5],[11230,"Institucion Atletica Sud America","Plaza Colonia","mitad",1.533],"76,590"],
 ]
