@@ -1183,6 +1183,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "EUROPA - Conference League - Fase de liga",
+        "nombreWplay": 'UEFA - EUROPA CONFERENCE LEAGUE',
+        "abreviado": "U-CONF",
+        "codigoWplay": 413776,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "EUROPA - Conference League - Clasificación",
         "nombreWplay": 'UEFA - EUROPA CONFERENCE LEAGUE QUALIFYING',
         "abreviado": "U-CONFC",
@@ -1605,6 +1613,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "BRASIL - Copa Betano do Brasil",
+        "nombreWplay": 'BRASIL - COPA DO BRASIL',
+        "abreviado": "ZA-BRAC",
+        "codigoWplay": 19465,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "BRASIL - Serie A Betano",
         "nombreWplay": 'BRASIL - SERIE A',
         "abreviado": "ZA-BRA1",
@@ -1915,6 +1931,14 @@ let LIGAS_OBJETOS = [
         "nombreFlashcore": "URUGUAY - Primera División - Apertura",
         "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
         "abreviado": "ZA-URU1",
+        "codigoWplay": 19398,
+        mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "URUGUAY - Copa AUF Uruguay",
+        "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-URUC",
         "codigoWplay": 19398,
         mitad: false,
         favorito: true
