@@ -1,7 +1,7 @@
 let APUESTAS_ABIERTAS = [
-	[[11945,"Flamengo RJ","Corinthians SP","local",1.95],[12000,"CD Junior","Independiente Medellin","local",1.95],[11930,"Nashville SC","DC United","local",1.85],[11930,"Deportivo Pasto","Tolima","visitante",2.65],[12000,"Atletico Morelia","Club Celaya","visitante",1.909],"355,888"],
-	[[11930,"Deportivo Pasto","Tolima","mitad",1.7],[12000,"CD Junior","Independiente Medellin","mitad",1.48],[12000,"Atletico Morelia","Club Celaya","mitad",1.42],[11945,"Flamengo RJ","Corinthians SP","mitad",1.55],"55,377"],
-	[[11830,"Rionegro Aguilas","Boyaca Chico FC","local",1.769],[11830,"Atlanta United","CF Montreal","visitante",2.25],[11830,"Charlotte FC","Chicago Fire","visitante",2.45],[11830,"Toronto FC","New York Red Bulls","visitante",2],[11830,"New York City","FC Cincinnati","visitante",2.1],"409,621"],
-	[[11830,"Encarnacion","Libertad Asuncion","mitad",1.42],"14,200"],
-	[[11830,"Rionegro Aguilas","Boyaca Chico FC","mitad",1.42],"14,200"],
+	[[11145,"Legia Warsaw","Real Betis","visitante",1.85],[11145,"Maccabi Tel Aviv","Midtjylland","visitante",1.8],[11145,"Qarabag FK","Malmo FF","visitante",2.25],[11145,"Slavia Prague","Ajax Amsterdam","visitante",2.4],[11145,"Olympiacos","Sporting Braga","visitante",2.15],[11145,"Lazio","Nice","visitante",2.55],"985,863"],
+	[[11145,"Cercle Brugge","FC St. Gallen","local",1.8],[11145,"Dinamo Minsk","Hearts","local",2.25],[11145,"Hoffenheim","Dynamo Kiev","local",1.769],[11145,"FC Astana","TSC Backa Topola","visitante",2.55],[11145,"FC Noah","FK Mlada Boleslav","visitante",2.2],"401,978"],
+	[[11145,"Cercle Brugge","FC St. Gallen","local",1.8],[11145,"Dinamo Minsk","Hearts","local",2.25],[11145,"Hoffenheim","Dynamo Kiev","local",1.769],[11145,"FC Astana","TSC Backa Topola","visitante",2.55],[11145,"FC Noah","FK Mlada Boleslav","visitante",2.2],[11145,"Legia Warsaw","Real Betis","visitante",1.85],[11145,"Maccabi Tel Aviv","Midtjylland","visitante",1.8],[11145,"Qarabag FK","Malmo FF","visitante",2.25],[11145,"Slavia Prague","Ajax Amsterdam","visitante",2.4],[11145,"Olympiacos","Sporting Braga","visitante",2.15],[11145,"Lazio","Nice","visitante",2.55],"39,629,537"],
+	[[11145,"Dinamo Minsk","Hearts","over",2.15],[11145,"FC Noah","FK Mlada Boleslav","over",2.05],[11145,"Legia Warsaw","Real Betis","over",2],[11145,"Lazio","Nice","over",2.05],"180,708"],
+	[[11145,"Dinamo Minsk","Hearts","mitad",1.45],[11145,"FC Noah","FK Mlada Boleslav","mitad",1.444],[11145,"Lazio","Nice","mitad",1.42],"29,741"],
 ]
