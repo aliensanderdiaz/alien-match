@@ -1,8 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"Atletico de Cali","Boca Juniors de Cali","over",2.35],[11530,"Guayaquil City FC","Independiente Juniors","over",2.5],[11530,"Manta FC","Club Nueve de Octubre","over",2.35],[11600,"24 de Setiembre VP","Guairena FC","over",2.15],"296,834"],
-	[[11500,"Atletico de Cali","Boca Juniors de Cali","mitad",1.5],[11530,"Manta FC","Club Nueve de Octubre","mitad",1.48],[11530,"Guayaquil City FC","Independiente Juniors","mitad",1.5],[11600,"24 de Setiembre VP","Guairena FC","mitad",1.45],"48,285"],
-	[[11400,"Borac Banja Luka","Panathinaikos","visitante",1.8],[11400,"Shamrock Rovers","Apoel Nicosia","visitante",1.95],[11400,"LASK Linz","Djurgardens IF","visitante",2.6],[11400,"Glasgow Rangers","Lyon","visitante",1.9],[11400,"IF Elfsborg","Roma","visitante",1.8],[11400,"Twente","Fenerbahce","visitante",1.95],"608,613"],
-	[[11400,"FC Petrocub","Pafos FC","local",3],[11400,"St. Gilloise","Bodo Glimt","local",1.75],[11400,"Viktoria Plzen","Ludogorets","local",1.8],[11400,"FC Porto","Manchester United","local",1.85],[11400,"Besiktas","Eintracht Frankfurt","local",2],"349,650"],
-	[[11400,"FC Petrocub","Pafos FC","local",3],[11400,"St. Gilloise","Bodo Glimt","local",1.75],[11400,"Viktoria Plzen","Ludogorets","local",1.8],[11400,"FC Porto","Manchester United","local",1.9],[11400,"Besiktas","Eintracht Frankfurt","local",2],[11400,"Borac Banja Luka","Panathinaikos","visitante",1.8],[11400,"Shamrock Rovers","Apoel Nicosia","visitante",1.95],[11400,"LASK Linz","Djurgardens IF","visitante",2.6],[11400,"Glasgow Rangers","Lyon","visitante",1.9],[11400,"IF Elfsborg","Roma","visitante",1.8],[11400,"Twente","Fenerbahce","visitante",1.95],"21,855,291"],
-	[[11400,"Shamrock Rovers","Apoel Nicosia","mitad",1.48],"14,800"],
+	[[11930,"Operario PR","Chapecoense SC","visitante",3.1],[12010,"Independiente Santa Fe","Deportivo Pereira","visitante",3.75],[11930,"Fluminense RJ","Cruzeiro MG","local",2.3],"267,375"],
+	[[11930,"Fluminense RJ","Cruzeiro MG","mitad",1.6],[12010,"Independiente Santa Fe","Deportivo Pereira","mitad",1.615],[11930,"Operario PR","Chapecoense SC","mitad",1.615],"41,751"],
 ]

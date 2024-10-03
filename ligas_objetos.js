@@ -8,7 +8,14 @@
 // },
 
 let LIGAS_OBJETOS = [
-
+{
+    nombreFlashcore: 'SUDAMÉRICA - Copa Libertadores Femenina',
+    "nombreWplay": 'Copa Libertadores Femenina',
+    "abreviado": 'ZM-LIBE',
+    "codigoWplay": 47240,
+    mitad: false,
+    favorito: false
+},
     {
     nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Campeones Cup',
     "nombreWplay": 'Campeones Cup',
