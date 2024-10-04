@@ -1,4 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11930,"Operario PR","Chapecoense SC","visitante",3.1],[12010,"Independiente Santa Fe","Deportivo Pereira","visitante",3.75],[11930,"Fluminense RJ","Cruzeiro MG","local",2.3],"267,375"],
-	[[11930,"Fluminense RJ","Cruzeiro MG","mitad",1.6],[12010,"Independiente Santa Fe","Deportivo Pereira","mitad",1.615],[11930,"Operario PR","Chapecoense SC","mitad",1.615],"41,751"],
+	[[10500,"Avispa Fukuoka","Nagoya Grampus","visitante",2.45],[11100,"Puszcza Niepolomice","GKS Katowice","visitante",2.1],[11000,"FC Uta Arad","Petrolul Ploiesti","visitante",2.375],[11200,"Torreense","CD Tondela","visitante",2.25],[11200,"Caykur Rizespor","Antalyaspor","visitante",2.5],"687,340"],
+	[[10500,"Avispa Fukuoka","Nagoya Grampus","over",2.85],[11200,"Caykur Rizespor","Antalyaspor","over",2],[10730,"Chernomorets Odessa","Zmina Obolon Kyiv","over",2.4],[11000,"FC Uta Arad","Petrolul Ploiesti","over",2.1],[11000,"Karpaty LVIV","FC Ingulets","over",2.15],[11200,"Erzurum BB","Boluspor","over",2.3],[11200,"FC Vitebsk","FC Minsk","over",2.35],[11200,"Torreense","CD Tondela","over",2],"6,676,818"],
+	[[10500,"Avispa Fukuoka","Nagoya Grampus","mitad",1.65],[11200,"Caykur Rizespor","Antalyaspor","mitad",1.42],[10730,"Chernomorets Odessa","Zmina Obolon Kyiv","mitad",1.533],[11000,"FC Uta Arad","Petrolul Ploiesti","mitad",1.45],[11000,"Karpaty LVIV","FC Ingulets","mitad",1.45],[11200,"Erzurum BB","Boluspor","mitad",1.5],[11200,"FC Vitebsk","FC Minsk","mitad",1.533],[11200,"Torreense","CD Tondela","mitad",1.42],"246,695"],
 ]
