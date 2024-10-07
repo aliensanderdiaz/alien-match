@@ -1,8 +1,8 @@
 let HORA = 10000
 
 
-const FECHA_PARTIDO_MANANA = 1100500000
-HORA += 1329
+const FECHA_PARTIDO_MANANA = 1100800000
+HORA += 1906
 
 let FECHA_PARTIDO_HOY      = FECHA_PARTIDO_MANANA - 100000
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -348,7 +348,12 @@ async function main() {
                     if (ligaDelPartido === 'I-OLIHE') {
                         // console.log({ partido })
                     }
-                    PartidosWplay.push(partido)
+
+                    let partidoTemp = PartidosWplay.find(p => p.local === partido.local && p.visitante === partido.visitante)
+                    if (!partidoTemp) {
+
+                        PartidosWplay.push(partido)
+                    }
                     // console.log({ partido })
                 }
 

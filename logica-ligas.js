@@ -1,5 +1,8 @@
 const faltantes = document.querySelector('#faltantes')
+console.log({ LIGAS_OBJETOS })
+console.log({ LIGAS_FALTANTES })
 const ligasFaltantes = LIGAS_FALTANTES.map(l => LIGAS_OBJETOS.find(lig => lig.abreviado === l))
+console.log({ ligasFaltantes })
 
 faltantes.addEventListener('click', () => {
 	console.log('Click')
@@ -32,6 +35,7 @@ let main = (codigos = []) => {
 		console.log({  LIGAS })
 	}
 
+	console.log({ LIGAS });
 	let todoArrayGroupCodes = pedazos(
 		LIGAS.map(liga => liga.codigoWplay)
 	)
