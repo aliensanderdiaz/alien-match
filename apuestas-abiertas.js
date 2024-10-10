@@ -1,8 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"Cuba","Trinidad & Tobago","local",2.4],[11600,"Venezuela","Argentina","local",3.45],[11600,"Ecuador","Paraguay","local",1.909],[11500,"Bonaire","Montserrat","local",2.3],[11500,"Bolivia","Colombia","visitante",2.25],"818,026"],
-	[[11500,"Bolivia","Colombia","over",2.45],[11500,"Cuba","Trinidad & Tobago","over",2.25],[11530,"Independiente Del Valle (F)","CA Penarol (F)","over",2.2],[11600,"Venezuela","Argentina","over",2.25],[11600,"Ecuador","Paraguay","over",2.8],"764,033"],
-	[[11500,"Bolivia","Colombia","mitad",1.55],[11600,"Venezuela","Argentina","mitad",1.48],[11600,"Ecuador","Paraguay","mitad",1.6],[11500,"Cuba","Trinidad & Tobago","mitad",1.5],[11530,"Independiente Del Valle (F)","CA Penarol (F)","mitad",1.42],"78,180"],
-	[[11345,"Gibraltar","San Marino","local",2],[11345,"Noruega","Eslovenia","local",1.75],[11345,"Italia","Bélgica","local",1.85],[11345,"Islas Feroe","Armenia","visitante",2.15],[11345,"Finlandia","Irlanda","visitante",2.4],"334,110"],
-	[[11345,"Islas Feroe","Armenia","over",2.55],[11345,"Italia","Bélgica","over",2.1],[11345,"Noruega","Eslovenia","over",2.05],[11345,"Finlandia","Irlanda","over",2.7],[11345,"Gibraltar","San Marino","over",3],[11400,"Burkina Faso","Burundi","over",2.05],"1,822,855"],
-	[[11345,"Islas Feroe","Armenia","mitad",1.571],[11345,"Italia","Bélgica","mitad",1.42],[11345,"Noruega","Eslovenia","mitad",1.42],[11345,"Finlandia","Irlanda","mitad",1.6],[11345,"Gibraltar","San Marino","mitad",1.615],[11400,"Burkina Faso","Burundi","mitad",1.42],"116,294"],
+	[[11830,"Independiente Medellin","Alianza FC","local",1.75],[12030,"Independiente Santa Fe","Boyaca Chico FC","local",1.75],[11900,"Chile","Brasil","visitante",1.85],[12000,"Correcaminos","Atletico Morelia","visitante",2],[12100,"Nicaragua","Jamaica","visitante",1.95],[11800,"Deportivo Colonia","Juventud de Las Piedras","visitante",1.95],"430,871"],
+	[[11830,"Independiente Medellin","Alianza FC","over",2.2],[11900,"Chile","Brasil","over",2.4],[12000,"Correcaminos","Atletico Morelia","over",2],[12030,"Independiente Santa Fe","Boyaca Chico FC","over",2.25],"237,600"],
+	[[11830,"Independiente Medellin","Alianza FC","mitad",1.45],[11900,"Chile","Brasil","mitad",1.5],[12000,"Correcaminos","Atletico Morelia","mitad",1.42],[12030,"Independiente Santa Fe","Boyaca Chico FC","mitad",1.48],"45,710"],
 ]
