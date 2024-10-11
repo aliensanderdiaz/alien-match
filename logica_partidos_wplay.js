@@ -306,7 +306,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 
     html+= `
     <span>
-        Gol en la primera Mitad - SI (GSH1)
+        Gol en la primera Mitad - SI (GSH1) - CNAT-601779
     </span>
     <br>
     `

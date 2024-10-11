@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11830,"Independiente Medellin","Alianza FC","local",1.75],[12030,"Independiente Santa Fe","Boyaca Chico FC","local",1.75],[11900,"Chile","Brasil","visitante",1.85],[12000,"Correcaminos","Atletico Morelia","visitante",2],[12100,"Nicaragua","Jamaica","visitante",1.95],[11800,"Deportivo Colonia","Juventud de Las Piedras","visitante",1.95],"430,871"],
-	[[11830,"Independiente Medellin","Alianza FC","over",2.2],[11900,"Chile","Brasil","over",2.4],[12000,"Correcaminos","Atletico Morelia","over",2],[12030,"Independiente Santa Fe","Boyaca Chico FC","over",2.25],"237,600"],
-	[[11830,"Independiente Medellin","Alianza FC","mitad",1.45],[11900,"Chile","Brasil","mitad",1.5],[12000,"Correcaminos","Atletico Morelia","mitad",1.42],[12030,"Independiente Santa Fe","Boyaca Chico FC","mitad",1.48],"45,710"],
+	[[10430,"Syria","Tayikistan","local",1.95],[10800,"Mozambique","Eswatini","local",1.769],[10800,"Guinea Ecuatorial","Liberia","visitante",3.65],[10900,"Madagascar","Gambia","visitante",2.4],"302,220"],
+	[[10430,"Syria","Tayikistan","over",2.15],[10800,"Guinea Ecuatorial","Liberia","over",2.45],[10800,"Mozambique","Eswatini","over",2.45],[10800,"Zambia","Chad","over",2.25],[10900,"Madagascar","Gambia","over",2.55],"740,446"],
+	[[10430,"Syria","Tayikistan","mitad",1.444],[10800,"Guinea Ecuatorial","Liberia","mitad",1.533],[10800,"Mozambique","Eswatini","mitad",1.533],[10800,"Zambia","Chad","mitad",1.48],[10900,"Madagascar","Gambia","mitad",1.6],"80,418"],
 ]

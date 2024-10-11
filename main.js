@@ -1,8 +1,8 @@
 let HORA = 10000
 
-
-const FECHA_PARTIDO_MANANA = 1100800000
-HORA += 1906
+// 1MMDD00000
+const FECHA_PARTIDO_MANANA = 1101200000
+HORA += 759
 
 let FECHA_PARTIDO_HOY      = FECHA_PARTIDO_MANANA - 100000
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -167,7 +167,7 @@ async function main() {
                 // console.log({ liga })
                 let ligaEncontrada = LIGAS_OBJETOS.find(ligaObjeto => ligaObjeto.nombreFlashcore === liga)
                 if (!ligaEncontrada) {
-                    // console.log({ testigo: 'opciones.includes(line)', line, lineas, liga, ligaEncontrada })
+                    console.log({ testigo: 'opciones.includes(line)', line, lineas, liga, ligaEncontrada })
                     // console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
                     let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar ${liga}`
                     throw new Error(mensajeDeError)

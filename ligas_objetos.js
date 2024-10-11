@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
 {
+    nombreFlashcore: 'Kings Cup - Tailandia',
+    "nombreWplay": 'Kings Cup',
+    "abreviado": 'I-KINGS',
+    "codigoWplay": 31722,
+    mitad: false,
+    favorito: true
+},
+{
     nombreFlashcore: 'SUDAMÉRICA - Copa Libertadores Femenina',
     "nombreWplay": 'Copa Libertadores Femenina',
     "abreviado": 'ZM-LIBE',
@@ -544,7 +552,7 @@ let LIGAS_OBJETOS = [
         abreviado: 'AFRI',
         codigoWplay: 557800,
         mitad: false,
-        favorito: false
+        favorito: true
     },
     {
         nombreFlashcore: 'ÁFRICA - Copa de África de Naciones - Clasificación',
@@ -552,7 +560,7 @@ let LIGAS_OBJETOS = [
         abreviado: 'AFRI',
         codigoWplay: 557800,
         mitad: false,
-        favorito: false
+        favorito: true
     },
 
 
@@ -1946,7 +1954,15 @@ let LIGAS_OBJETOS = [
         "nombreFlashcore": "URUGUAY - Copa AUF Uruguay",
         "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
         "abreviado": "ZA-URUC",
-        "codigoWplay": 19398,
+        "codigoWplay": 616779,
+        mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "URUGUAY - Copa AUF Uruguay",
+        "nombreWplay": 'Uruguay - Cup',
+        "abreviado": "ZA-URUC",
+        "codigoWplay": 616779,
         mitad: false,
         favorito: true
     },
