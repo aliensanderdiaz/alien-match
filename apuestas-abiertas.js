@@ -1,5 +1,7 @@
 let APUESTAS_ABIERTAS = [
-	[[10800,"Guinea Ecuatorial","Liberia","over",2.45],[10800,"Mozambique","Eswatini","over",2.55],[10800,"Zambia","Chad","over",2.1],[10900,"Madagascar","Gambia","over",2.55],"334,554"],
-	[[10800,"Mozambique","Eswatini","local",1.769],[10800,"Guinea Ecuatorial","Liberia","visitante",3.65],[10900,"Madagascar","Gambia","visitante",2.4],"302,220"],
-	[[10800,"Guinea Ecuatorial","Liberia","mitad",1.533],[10800,"Mozambique","Eswatini","mitad",1.533],[10800,"Zambia","Chad","mitad",1.48],[10900,"Madagascar","Gambia","mitad",1.6],"80,418"],
+	[[11345,"Islandia","Gales","local",2.4],[11345,"Eslovaquia","Suecia","local",2.2],[11400,"Angola","Niger","local",1.769],[11400,"Liverpool Montevideo","Atletico Fenix Montevideo","local",1.93],[11330,"CD Tenerife","Real Zaragoza","visitante",2.6],[11345,"Ucrania","Georgia","visitante",2.45],"1,148,458"],
+	[[11330,"CD Tenerife","Real Zaragoza","over",2.75],[11345,"Republica Checa","Albania","over",2.1],[11345,"Ucrania","Georgia","over",2.05],[11345,"Islandia","Gales","over",2.25],[11345,"Eslovaquia","Suecia","over",2.05],[11400,"Túnez","Comores","over",2.15],[11400,"Angola","Niger","over",2.6],[11400,"Mali","Guinea Bissau","over",2.35],[11400,"La Luz FC","Rentistas","over",2.625],"18,830,038"],
+	[[11330,"CD Tenerife","Real Zaragoza","mitad",1.615],[11345,"Republica Checa","Albania","mitad",1.45],[11345,"Ucrania","Georgia","mitad",1.42],[11345,"Islandia","Gales","mitad",1.5],[11345,"Eslovaquia","Suecia","mitad",1.444],[11400,"Angola","Niger","mitad",1.55],[11400,"Mali","Guinea Bissau","mitad",1.48],[11400,"La Luz FC","Rentistas","mitad",1.55],"256,242"],
+	[[11200,"Sudafrica","República del Congo","over",2],[11200,"Uniao Leiria","FC Felgueiras 1932","over",2.25],"45,000"],
+	[[11100,"Benin","Ruanda","over",2.75],[11100,"Uganda","Sudán del Sur","over",2.25],[11200,"Sudafrica","República del Congo","over",2],[11200,"Uniao Leiria","FC Felgueiras 1932","over",2.25],[11200,"Kosovo Su 21","Polonia Sub 21","over",2.05],"3,426,208"],
 ]
