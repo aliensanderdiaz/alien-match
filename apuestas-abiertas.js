@@ -1,8 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[10500,"CD Tondela","Leixoes SC","local",2.15],[10630,"Chesterfield","Notts County","visitante",2.05],[10800,"Lituania","Kosovo","visitante",1.95],[10800,"Alverca","FC Penafiel","visitante",2.15],"184,784"],
-	[[10500,"CD Tondela","Leixoes SC","over",2.15],[10800,"Lituania","Kosovo","over",2.55],[10800,"Alverca","FC Penafiel","over",2.1],"115,133"],
-	[[10800,"Lituania","Kosovo","mitad",1.55],[10500,"CD Tondela","Leixoes SC","mitad",1.45],[10800,"Alverca","FC Penafiel","mitad",1.45],"32,589"],
-	[[10500,"CD Tondela","Leixoes SC","local",2.15],[10900,"Cheltenham Town","Swindon Town","local",1.95],[10900,"Peterborough United","Rotherham","local",1.8],[10915,"Cartagena","Ferrol","local",2.15],[10630,"Chesterfield","Notts County","visitante",2.05],[10800,"Lituania","Kosovo","visitante",1.95],[10800,"Alverca","FC Penafiel","visitante",2.15],[10900,"Harrogate Town","Newport","visitante",2.2],[10900,"MK Dons","Port Vale","visitante",2.2],[10900,"Partick Thistle","Falkirk","visitante",1.85],[10900,"Tranmere","Bradford City","visitante",2],[10900,"Salford City","Grimsby Town","visitante",2.1],[10900,"Crawley Town","Shrewsbury","visitante",2.15],"112,749,807"],
-	[[10500,"CD Tondela","Leixoes SC","over",2.15],[10800,"Lituania","Kosovo","over",2.55],[10800,"Alverca","FC Penafiel","over",2.1],[10900,"MK Dons","Port Vale","over",2.05],[10900,"Tranmere","Bradford City","over",2],[10915,"Cartagena","Ferrol","over",2.45],[10900,"Oldham","Halifax Town","over",2],"2,313,012"],
-	[[10800,"Lituania","Kosovo","mitad",1.55],[10900,"Tranmere","Bradford City","mitad",1.42],[10915,"Cartagena","Ferrol","mitad",1.571],[10500,"CD Tondela","Leixoes SC","mitad",1.45],[10800,"Alverca","FC Penafiel","mitad",1.45],"72,719"],
+	[[10630,"Chesterfield","Notts County","visitante",1.95],"19,500"],
+	[[10800,"Lituania","Kosovo","mitad",1.55],[10800,"Alverca","FC Penafiel","mitad",1.45],"32,589"],
+	[[10800,"Lituania","Kosovo","mitad",1.55],[10900,"Tranmere","Bradford City","mitad",1.42],[10915,"Cartagena","Ferrol","mitad",1.571],[10800,"Alverca","FC Penafiel","mitad",1.45],"72,719"],
 ]
