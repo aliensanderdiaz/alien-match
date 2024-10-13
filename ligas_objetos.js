@@ -17,6 +17,14 @@ let LIGAS_OBJETOS = [
     favorito: true
 },
 {
+    nombreFlashcore: 'SUDAMÉRICA - Copa Libertadores Femenina - Playoffs',
+    "nombreWplay": 'Copa Libertadores Femenina',
+    "abreviado": 'ZM-LIBE',
+    "codigoWplay": 47240,
+    mitad: false,
+    favorito: false
+},
+{
     nombreFlashcore: 'SUDAMÉRICA - Copa Libertadores Femenina',
     "nombreWplay": 'Copa Libertadores Femenina',
     "abreviado": 'ZM-LIBE',
@@ -504,6 +512,15 @@ let LIGAS_OBJETOS = [
         codigoWplay: 19353,
         mitad: false,
         favorito: false
+    },
+
+    {
+        nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Ascenso - Playoffs',
+        nombreWplay: 'CNATIONS LEAGUE PARTIDOS',
+        abreviado: 'CNAT',
+        codigoWplay: 601779,
+        mitad: true,
+        favorito: true
     },
 
     {
