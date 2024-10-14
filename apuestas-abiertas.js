@@ -1,8 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[10900,"Gambia","Madagascar","local",2.25],[10800,"Kenia","Camerun","visitante",2.05],"46,125"],
-	[[10800,"Kenia","Camerun","over",2.6],[10800,"Montevideo City Torque","Club Oriental de La Paz","over",2.05],[10900,"Gambia","Madagascar","over",2.5],"133,250"],
-	[[10800,"Kenia","Camerun","mitad",1.571],[10900,"Gambia","Madagascar","mitad",1.571],"24,694"],
-	[[10900,"Gambia","Madagascar","local",2.25],[11100,"Zimbabue","Namibia","local",2.65],[11100,"Georgia","Albania","local",1.95],[10800,"Kenia","Camerun","visitante",2.05],[11100,"Liberia","Guinea Ecuatorial","visitante",2.3],[11100,"Togo","Argelia","visitante",1.85],[11100,"Azerbaiyán","Eslovaquia","visitante",1.833],"1,859,336"],
-	[[10800,"Kenia","Camerun","over",2.6],[10800,"Montevideo City Torque","Club Oriental de La Paz","over",2.05],[10900,"Gambia","Madagascar","over",2.5],[11100,"Azerbaiyán","Eslovaquia","over",2.1],[11100,"Georgia","Albania","over",2.2],[11100,"Zimbabue","Namibia","over",3.2],[11100,"Liberia","Guinea Ecuatorial","over",2.65],[11100,"Togo","Argelia","over",2.15],"11,223,893"],
-	[[11100,"Azerbaiyán","Eslovaquia","mitad",1.444],[11100,"Georgia","Albania","mitad",1.48],[10800,"Kenia","Camerun","mitad",1.571],[10900,"Gambia","Madagascar","mitad",1.571],[11100,"Zimbabue","Namibia","mitad",1.727],[11100,"Liberia","Guinea Ecuatorial","mitad",1.615],[11100,"Togo","Argelia","mitad",1.48],"217,997"],
+	[[11100,"Zimbabue","Namibia","local",2.625],[11100,"Georgia","Albania","local",1.85],[11100,"Liberia","Guinea Ecuatorial","visitante",2.55],[11100,"Togo","Argelia","visitante",1.75],"216,710"],
+	[[11100,"Georgia","Albania","over",2.15],[11100,"Zimbabue","Namibia","over",3],[11100,"Liberia","Guinea Ecuatorial","over",3],[11100,"Togo","Argelia","over",2.15],"416,025"],
+	[[11100,"Georgia","Albania","mitad",1.45],[11100,"Zimbabue","Namibia","mitad",1.7],[11100,"Liberia","Guinea Ecuatorial","mitad",1.7],[11100,"Togo","Argelia","mitad",1.45],"60,762"],
 ]
