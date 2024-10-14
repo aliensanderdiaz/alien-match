@@ -8,14 +8,22 @@
 // },
 
 let LIGAS_OBJETOS = [
-{
-    nombreFlashcore: 'Kings Cup - Tailandia',
-    "nombreWplay": 'Kings Cup',
-    "abreviado": 'I-KINGS',
-    "codigoWplay": 31722,
-    mitad: false,
-    favorito: true
-},
+    {
+        nombreFlashcore: 'MUNDIALb - Kings Cup - Tailandia',
+        "nombreWplay": 'Kings Cup',
+        "abreviado": 'I-KINGS',
+        "codigoWplay": 31722,
+        mitad: false,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'Kings Cup - Tailandia',
+        "nombreWplay": 'Kings Cup',
+        "abreviado": 'I-KINGS',
+        "codigoWplay": 31722,
+        mitad: false,
+        favorito: true
+    },
 {
     nombreFlashcore: 'SUDAMÉRICA - Copa Libertadores Femenina - Playoffs',
     "nombreWplay": 'Copa Libertadores Femenina',

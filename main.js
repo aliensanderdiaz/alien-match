@@ -1,8 +1,8 @@
 let HORA = 10000
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1101400000
-HORA += 0
+const FECHA_PARTIDO_MANANA = 1101500000
+HORA += 759
 
 let FECHA_PARTIDO_HOY      = FECHA_PARTIDO_MANANA - 100000
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -164,7 +164,7 @@ async function main() {
 
             if (opciones.includes(line) && !esMundial) {
                 let liga = `${lineas[indice - 2]} - ${lineas[indice - 1]}`
-                // console.log({ liga })
+                console.log({ liga })
                 let ligaEncontrada = LIGAS_OBJETOS.find(ligaObjeto => ligaObjeto.nombreFlashcore === liga)
                 if (!ligaEncontrada) {
                     console.log({ testigo: 'opciones.includes(line)', line, lineas, liga, ligaEncontrada })
