@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11100,"Zimbabue","Namibia","local",2.625],[11100,"Georgia","Albania","local",1.85],[11100,"Liberia","Guinea Ecuatorial","visitante",2.55],[11100,"Togo","Argelia","visitante",1.75],"216,710"],
-	[[11100,"Georgia","Albania","over",2.15],[11100,"Zimbabue","Namibia","over",3],[11100,"Liberia","Guinea Ecuatorial","over",3],[11100,"Togo","Argelia","over",2.15],"416,025"],
-	[[11100,"Georgia","Albania","mitad",1.45],[11100,"Zimbabue","Namibia","mitad",1.7],[11100,"Liberia","Guinea Ecuatorial","mitad",1.7],[11100,"Togo","Argelia","mitad",1.45],"60,762"],
+	[[11330,"Sporting Gijon","CD Castellon","local",1.769],[11345,"Bélgica","Francia","visitante",2.05],[11345,"Ucrania","Republica Checa","visitante",2.15],[11345,"Bosnia & Herzegovina","Hungria","visitante",2.05],[11345,"Islandia","Turquia","visitante",1.8],[11400,"Patriotas Boyaca","Independiente Santa Fe","visitante",2.4],[11400,"Eswatini","Mozambique","visitante",2.15],"1,484,748"],
+	[[11330,"Almirante Brown","Atletico Rafaela","over",2.95],[11345,"Bélgica","Francia","over",2],[11345,"Ucrania","Republica Checa","over",2.05],[11345,"Gales","Montenegro","over",2],[11345,"Bosnia & Herzegovina","Hungria","over",2.15],[11400,"Patriotas Boyaca","Independiente Santa Fe","over",2.9],[11400,"Eswatini","Mozambique","over",2.8],"4,223,090"],
+	[[11345,"Bélgica","Francia","mitad",1.42],[11345,"Ucrania","Republica Checa","mitad",1.42],[11345,"Bosnia & Herzegovina","Hungria","mitad",1.45],[11400,"Patriotas Boyaca","Independiente Santa Fe","mitad",1.65],[11330,"Almirante Brown","Atletico Rafaela","mitad",1.65],[11400,"Eswatini","Mozambique","mitad",1.615],"128,584"],
 ]
