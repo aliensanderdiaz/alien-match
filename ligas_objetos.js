@@ -527,7 +527,7 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'CNATIONS LEAGUE PARTIDOS',
         abreviado: 'CNAT',
         codigoWplay: 601779,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
 
@@ -536,7 +536,7 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'NATIONS LEAGUE PARTIDOS',
         abreviado: 'CNAT',
         codigoWplay: 601779,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -544,7 +544,7 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'NATIONS LEAGUE PARTIDOS',
         abreviado: 'CNAT',
         codigoWplay: 601779,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -552,7 +552,7 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'NATIONS LEAGUE PARTIDOS',
         abreviado: 'CNAT',
         codigoWplay: 601779,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -560,7 +560,7 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'NATIONS LEAGUE PARTIDOS',
         abreviado: 'CNAT',
         codigoWplay: 601779,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -568,7 +568,7 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'NATIONS LEAGUE PARTIDOS',
         abreviado: 'CNAT',
         codigoWplay: 601779,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {

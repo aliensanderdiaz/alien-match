@@ -1,3 +1,3 @@
 let LIGAS_FALTANTES = [
-   'I-KINGS'
+   'R-INGFCL'
 ]
