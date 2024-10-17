@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11530,"CA Boston River","Progreso","local",1.85],[11300,"Danubio","Penarol Montevideo","visitante",2.1],"23,310"],
-	[[11300,"Danubio","Penarol Montevideo","over",2.75],[11500,"24 de Setiembre VP","Guairena FC","over",2.1],[11530,"CA Boston River","Progreso","over",2.35],[11530,"Cuniburo FC","Club Nueve de Octubre","over",2],[11530,"Gualaceo SC","Independiente Juniors","over",2.5],[11530,"CD Real Santander","Llaneros FC","over",2.1],[11530,"Tigres FC","Union Magdalena","over",2.5],"2,137,472"],
-	[[11300,"Danubio","Penarol Montevideo","mitad",1.6],[11500,"24 de Setiembre VP","Guairena FC","mitad",1.444],[11530,"CA Boston River","Progreso","mitad",1.5],[11530,"Gualaceo SC","Independiente Juniors","mitad",1.5],[11530,"CD Real Santander","Llaneros FC","mitad",1.42],[11530,"Tigres FC","Union Magdalena","mitad",1.55],"72,574"],
+	[[11400,"Atletico Fenix Montevideo","CA Cerro","local",2.15],[11400,"Shrewsbury","Exeter City","visitante",1.95],"41,925"],
+	[[11400,"Atletico Fenix Montevideo","CA Cerro","over",2.4],[11530,"San Antonio","Manta FC","over",2.55],[11530,"Vargas Torres","Chacaritas SC","over",2.45],[11400,"Shrewsbury","Exeter City","over",1.95],"292,383"],
+	[[11400,"Shrewsbury","Exeter City","mitad",1.4],[11400,"Atletico Fenix Montevideo","CA Cerro","mitad",1.55],[11530,"Vargas Torres","Chacaritas SC","mitad",1.48],[11530,"San Antonio","Manta FC","mitad",1.533],"49,245"],
 ]
