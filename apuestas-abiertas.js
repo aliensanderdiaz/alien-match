@@ -1,2 +1,5 @@
 let APUESTAS_ABIERTAS = [
+	[[11645,"Central Cordoba","Independiente Rivadavia","local",2.1],[11700,"Atletico GO","Cuiaba MT","local",2.2],[11730,"Sportivo Ameliano","Sportivo Trinidense","local",2.4],[11700,"Brusque FC","CRB Maceio AL","visitante",2.85],[11715,"Atletico Lanus","CA Independiente","visitante",2.95],"932,224"],
+	[[11645,"Central Cordoba","Independiente Rivadavia","over",2.9],[11700,"Atletico GO","Cuiaba MT","over",2.6],[11700,"Brusque FC","CRB Maceio AL","over",3.2],[11715,"Atletico Lanus","CA Independiente","over",3.1],[11730,"Sportivo Ameliano","Sportivo Trinidense","over",2.45],[11730,"Universidad Cesar Vallejo","Club Sportivo Cienciano","over",2.35],"4,306,426"],
+	[[11645,"Central Cordoba","Independiente Rivadavia","mitad",1.65],[11700,"Atletico GO","Cuiaba MT","mitad",1.571],[11700,"Brusque FC","CRB Maceio AL","mitad",1.727],[11715,"Atletico Lanus","CA Independiente","mitad",1.7],[11730,"Sportivo Ameliano","Sportivo Trinidense","mitad",1.55],[11730,"Universidad Cesar Vallejo","Club Sportivo Cienciano","mitad",1.5],"177,016"],
 ]
