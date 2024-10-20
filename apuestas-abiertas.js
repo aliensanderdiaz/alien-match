@@ -1,3 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[10800,"Lecce","Fiorentina","mitad",1.45],[10800,"Juve Stabia","Cremonese","mitad",1.45],[10800,"Reggiana","Frosinone","mitad",1.5],[10800,"Cooper","Colon FC de Uruguay","mitad",1.533],"46,525"],
+	[[11600,"Patronato Parana","San Martin de San Juan","over",2.7],[11630,"Ponte Preta SP","Guarani SP","over",2.85],[11700,"Barcelona SC","Club Sport Emelec","over",2.55],[11730,"San Lorenzo","CA Barracas Central","over",2.55],[11730,"Godoy Cruz","Newells Old Boys","over",2.8],[11730,"Sport Recife PE","Botafogo SP","over",2.25],[11730,"Temperley","Nueva Chicago","over",2.8],"8,826,480"],
+	[[11630,"Ponte Preta SP","Guarani SP","mitad",1.65],[11700,"Barcelona SC","Club Sport Emelec","mitad",1.55],[11730,"San Lorenzo","CA Barracas Central","mitad",1.55],[11730,"Godoy Cruz","Newells Old Boys","mitad",1.615],[11730,"Sport Recife PE","Botafogo SP","mitad",1.48],[11600,"Patronato Parana","San Martin de San Juan","mitad",1.6],[11730,"Temperley","Nueva Chicago","mitad",1.615],"244,952"],
 ]
