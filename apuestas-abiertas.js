@@ -1,5 +1,8 @@
 let APUESTAS_ABIERTAS = [
-	[[11645,"Central Cordoba","Independiente Rivadavia","local",2.1],[11700,"Atletico GO","Cuiaba MT","local",2.2],[11730,"Sportivo Ameliano","Sportivo Trinidense","local",2.4],[11700,"Brusque FC","CRB Maceio AL","visitante",2.85],[11715,"Atletico Lanus","CA Independiente","visitante",2.95],"932,224"],
-	[[11645,"Central Cordoba","Independiente Rivadavia","over",2.9],[11700,"Atletico GO","Cuiaba MT","over",2.6],[11700,"Brusque FC","CRB Maceio AL","over",3.2],[11715,"Atletico Lanus","CA Independiente","over",3.1],[11730,"Sportivo Ameliano","Sportivo Trinidense","over",2.45],[11730,"Universidad Cesar Vallejo","Club Sportivo Cienciano","over",2.35],"4,306,426"],
-	[[11645,"Central Cordoba","Independiente Rivadavia","mitad",1.65],[11700,"Atletico GO","Cuiaba MT","mitad",1.571],[11700,"Brusque FC","CRB Maceio AL","mitad",1.727],[11715,"Atletico Lanus","CA Independiente","mitad",1.7],[11730,"Sportivo Ameliano","Sportivo Trinidense","mitad",1.55],[11730,"Universidad Cesar Vallejo","Club Sportivo Cienciano","mitad",1.5],"177,016"],
+	[[11910,"Tolima","Alianza FC","local",1.727],[11915,"Union Santa Fe","Huracan","visitante",3.25],"56,136"],
+	[[11910,"Tolima","Alianza FC","over",2.2],[11915,"Union Santa Fe","Huracan","over",3.9],"85,800"],
+	[[11910,"Tolima","Alianza FC","mitad",1.45],[11915,"Union Santa Fe","Huracan","mitad",1.85],"26,825"],
+	[[11910,"Tolima","Alianza FC","local",1.727],[11915,"Union Santa Fe","Huracan","visitante",3.25],[12000,"Houston Dynamo","L.A. Galaxy","visitante",1.85],[12000,"Austin FC","Colorado Rapids","visitante",1.93],[12006,"FC Juarez","Leon","visitante",2.05],"410,892"],
+	[[11910,"Tolima","Alianza FC","over",2.2],[11915,"Union Santa Fe","Huracan","over",3.85],[12000,"El Paso Locomotive FC","Sacramento Republic FC","over",2],"169,400"],
+	[[11910,"Tolima","Alianza FC","mitad",1.45],[11915,"Union Santa Fe","Huracan","mitad",1.833],[12000,"El Paso Locomotive FC","Sacramento Republic FC","mitad",1.42],"37,748"],
 ]
