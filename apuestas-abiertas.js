@@ -1,2 +1,7 @@
 let APUESTAS_ABIERTAS = [
+	[[11400,"NK Olimpija Ljubljana","LASK Linz","visitante",2.45],[11400,"Pafos FC","1. FC Heidenheim","visitante",2.1],[11400,"FC Porto","Hoffenheim","visitante",2.55],[11400,"Twente","Lazio","visitante",2.15],[11400,"Malmo FF","Olympiacos","visitante",2],"564,149"],
+	[[11400,"Sporting Gijon","SD Huesca","visitante",3],[11400,"CD Tenerife","Malaga","visitante",2.85],[11400,"FK Mlada Boleslav","FC Lugano","visitante",1.833],[11400,"HJK Helsinki","Dinamo Minsk","visitante",2.2],"344,850"],
+	[[11400,"Burgos CF","Ferrol","local",2.05],[11400,"The New Saints FC","FC Astana","local",1.95],[11400,"Athletic Bilbao","Slavia Prague","local",1.85],[11400,"Fenerbahce","Manchester United","local",2.05],[11400,"Defensor Sporting","Racing Club Montevideo","local",1.95],"295,630"],
+	[[11400,"Athletic Bilbao","Slavia Prague","over",2.1],[11400,"HJK Helsinki","Dinamo Minsk","over",2],[11400,"NK Olimpija Ljubljana","LASK Linz","over",2.3],[11400,"Burgos CF","Ferrol","over",2.55],[11400,"Sporting Gijon","SD Huesca","over",2.4],[11400,"CD Tenerife","Malaga","over",2.7],[11400,"Defensor Sporting","Racing Club Montevideo","over",2.2],"3,511,680"],
+	[[11400,"Athletic Bilbao","Slavia Prague","mitad",1.42],[11400,"HJK Helsinki","Dinamo Minsk","mitad",1.42],[11400,"NK Olimpija Ljubljana","LASK Linz","mitad",1.533],[11400,"Burgos CF","Ferrol","mitad",1.571],[11400,"Sporting Gijon","SD Huesca","mitad",1.5],[11400,"CD Tenerife","Malaga","mitad",1.615],[11400,"Defensor Sporting","Racing Club Montevideo","mitad",1.45],"170,704"],
 ]
