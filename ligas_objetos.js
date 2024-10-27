@@ -878,6 +878,22 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "COREA DEL SUR - K League 1 - Grupo Descenso",
+        "nombreWplay": 'COREA DEL SUR - K-LEAGUE 1',
+        "abreviado": "S-COR1",
+        "codigoWplay": 19306,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "COREA DEL SUR - K League 1 - Grupo de Campeonato",
+        "nombreWplay": 'COREA DEL SUR - K-LEAGUE 1',
+        "abreviado": "S-COR1",
+        "codigoWplay": 19306,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ECUADOR - Liga Pro - Primera fase",
         "nombreWplay": 'ECUADOR - PRIMERA A',
         "abreviado": "ZA-ECU1",
@@ -1813,6 +1829,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "ESTADOS UNIDOS - MLS - Playoffs",
+        "nombreWplay": 'EE.UU - MLS',
+        "abreviado": "ZA-EST1",
+        "codigoWplay": 19302,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ESTADOS UNIDOS - MLS - All-Star",
         "nombreWplay": 'MLS ALL STAR GAME',
         "abreviado": "ZA-ESTA",
@@ -2014,6 +2038,15 @@ let LIGAS_OBJETOS = [
         "codigoWplay": 19398,
         mitad: false,
         favorito: true
+    },
+    
+    {
+        "nombreFlashcore": "VENEZUELA - Liga FUTVE - Clausura - Cuadrangular",
+        "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-VEN1",
+        "codigoWplay": 20080,
+        mitad: false,
+        favorito: false
     },
     {
         "nombreFlashcore": "VENEZUELA - Liga FUTVE - Apertura",
