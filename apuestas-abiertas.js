@@ -1,9 +1,7 @@
 let APUESTAS_ABIERTAS = [
-	[[11300,"CD Mafra","Uniao Leiria","over",2.5],"25,000"],
-	[[11300,"CD Mafra","Uniao Leiria","mitad",1.55],"15,500"],
-	[[11300,"CD Mafra","Uniao Leiria","local",2.54],"25,500"],
-	[[11300,"CD Mafra","Uniao Leiria","local",2.5],[11400,"Farul Constanta","CS U Craiova","visitante",1.95],[11430,"Ferrol","CD Tenerife","visitante",2.8],[11500,"Imbabura SC","Tecnico Universitario","visitante",2.25],[11500,"RCD Mallorca","Athletic Bilbao","visitante",2.55],[11500,"Blackpool","Wigan","visitante",2.375],"1,860,026"],
-	[[11430,"Ferrol","CD Tenerife","over",3],[11500,"RCD Mallorca","Athletic Bilbao","over",2.6],[11500,"Imbabura SC","Tecnico Universitario","over",2.2],[11300,"CD Mafra","Uniao Leiria","over",2.4],"411,840"],
-	[[11430,"Ferrol","CD Tenerife","mitad",1.7],[11500,"RCD Mallorca","Athletic Bilbao","mitad",1.6],[11500,"Imbabura SC","Tecnico Universitario","mitad",1.48],[11300,"CD Mafra","Uniao Leiria","mitad",1.533],"61,726"],
-	[[11100,"FC Botosani","Universitatea Cluj","over",2.5],"25,000"],
+	[[10600,"Avia Swidnik","Ruch Chorzow","local",2.875],[11100,"Kotwica Kolobrzeg","Puszcza Niepolomice","local",2.65],[11200,"GKS Olimpia Grudziadz","Resovia","local",1.8],[10800,"Albion FC","CA Boston River","visitante",1.85],"253,704"],
+	[[10800,"Albion FC","CA Boston River","over",2.35],[10800,"Kifisias","Panachaiki","over",2.05],[10930,"FK Tyumen","Amkar","over",2.2],[11030,"Panseraikos","Panionios","over",2.1],[11200,"Baltika","FC Ural","over",2.15],"478,522"],
+	[[10800,"Albion FC","CA Boston River","mitad",1.48],[10800,"Kifisias","Panachaiki","mitad",1.42],[10930,"FK Tyumen","Amkar","mitad",1.48],[11030,"Panseraikos","Panionios","mitad",1.45],[11200,"Baltika","FC Ural","mitad",1.45],"65,395"],
+	[[10530,"Bornova 1877","Fethiyespor","over",2.15],[10530,"Etimesgut Belediyespor","Mardin Buyuksehir Belediyespor","over",2.2],"47,300"],
+	[[10530,"Bornova 1877","Fethiyespor","mitad",1.45],[10530,"Etimesgut Belediyespor","Mardin Buyuksehir Belediyespor","mitad",1.48],"21,460"],
 ]
