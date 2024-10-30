@@ -1,3 +1,12 @@
+// {
+//     nombreFlashcore: 
+//     "nombreWplay": 
+//     "abreviado": 
+//     "codigoWplay": 
+//     mitad: 
+//     favorito: 
+// },
+
 let LIGAS_OBJETOS = [
     {
         nombreFlashcore: 'MUNDIALb - Kings Cup - Tailandia',
@@ -273,6 +282,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'PORTUGAL - Taça da Liga',
+        "nombreWplay": 'PORTUGAL - TAÇA DE PORTUGAL',
+        "abreviado": 'YE-PORC',
+        "codigoWplay": 19337,
+        mitad: false,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'ITALIA - Copa Italia',
         "nombreWplay": 'COPPA ITALIA',
         "abreviado": 'ITAC',
@@ -282,11 +299,19 @@ let LIGAS_OBJETOS = [
     },
     {
         nombreFlashcore: 'BÉLGICA - Copa - Clasificación',
-        "nombreWplay": 'BÉLGICA - 1RA DIVISIÓN A copa',
+        "nombreWplay": 'Copa del Bélgica',
         "abreviado": "YE-BELC",
-        "codigoWplay": 19372 + 1,
-        mitad: true,
-        favorito: true
+        "codigoWplay": 19448,
+        mitad: false,
+        favorito: false
+    },
+    {
+        nombreFlashcore: 'BÉLGICA - Copa',
+        "nombreWplay": 'Copa del Bélgica',
+        "abreviado": "YE-BELC",
+        "codigoWplay": 19448,
+        mitad: false,
+        favorito: false
     },
     {
         nombreFlashcore: 'BÉLGICA - Jupiler Pro League - Conference League Group',
@@ -862,6 +887,22 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "COREA DEL SUR - K League 1",
+        "nombreWplay": 'COREA DEL SUR - K-LEAGUE 1',
+        "abreviado": "S-COR1",
+        "codigoWplay": 19306,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "COREA DEL SUR - K League 1 - Grupo Descenso",
+        "nombreWplay": 'COREA DEL SUR - K-LEAGUE 1',
+        "abreviado": "S-COR1",
+        "codigoWplay": 19306,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "COREA DEL SUR - K League 1 - Grupo de Campeonato",
         "nombreWplay": 'COREA DEL SUR - K-LEAGUE 1',
         "abreviado": "S-COR1",
         "codigoWplay": 19306,
@@ -1748,6 +1789,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "COLOMBIA - Primera B - Clausura - Cuadrangular",
+        "nombreWplay": 'COLOMBIA - PRIMERA B',
+        "abreviado": "ZA-COL2",
+        "codigoWplay": 29812,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "COLOMBIA - Primera B - Clausura",
         "nombreWplay": 'COLOMBIA - PRIMERA B',
         "abreviado": "ZA-COL2",
@@ -1797,6 +1846,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "ESTADOS UNIDOS - MLS",
+        "nombreWplay": 'EE.UU - MLS',
+        "abreviado": "ZA-EST1",
+        "codigoWplay": 19302,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ESTADOS UNIDOS - MLS - Playoffs",
         "nombreWplay": 'EE.UU - MLS',
         "abreviado": "ZA-EST1",
         "codigoWplay": 19302,
@@ -2005,6 +2062,15 @@ let LIGAS_OBJETOS = [
         "codigoWplay": 19398,
         mitad: false,
         favorito: true
+    },
+    
+    {
+        "nombreFlashcore": "VENEZUELA - Liga FUTVE - Clausura - Cuadrangular",
+        "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-VEN1",
+        "codigoWplay": 20080,
+        mitad: false,
+        favorito: false
     },
     {
         "nombreFlashcore": "VENEZUELA - Liga FUTVE - Apertura",

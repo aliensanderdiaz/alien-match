@@ -282,6 +282,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'PORTUGAL - Taça da Liga',
+        "nombreWplay": 'Portugal - Copa de la Liga',
+        "abreviado": 'YE-PORC',
+        "codigoWplay": 19337,
+        mitad: false,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'ITALIA - Copa Italia',
         "nombreWplay": 'COPPA ITALIA',
         "abreviado": 'ITAC',
@@ -291,11 +299,19 @@ let LIGAS_OBJETOS = [
     },
     {
         nombreFlashcore: 'BÉLGICA - Copa - Clasificación',
-        "nombreWplay": 'BÉLGICA - 1RA DIVISIÓN A copa',
+        "nombreWplay": 'Copa del Bélgica',
         "abreviado": "YE-BELC",
-        "codigoWplay": 19372 + 1,
-        mitad: true,
-        favorito: true
+        "codigoWplay": 19448,
+        mitad: false,
+        favorito: false
+    },
+    {
+        nombreFlashcore: 'BÉLGICA - Copa',
+        "nombreWplay": 'Copa del Bélgica',
+        "abreviado": "YE-BELC",
+        "codigoWplay": 19448,
+        mitad: false,
+        favorito: false
     },
     {
         nombreFlashcore: 'BÉLGICA - Jupiler Pro League - Conference League Group',
@@ -978,7 +994,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'COPA DEL REY',
         "abreviado": "ESPC",
         "codigoWplay": 19213,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -1766,6 +1782,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "COLOMBIA - Primera B - Apertura",
+        "nombreWplay": 'COLOMBIA - PRIMERA B',
+        "abreviado": "ZA-COL2",
+        "codigoWplay": 29812,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "COLOMBIA - Primera B - Clausura - Cuadrangular",
         "nombreWplay": 'COLOMBIA - PRIMERA B',
         "abreviado": "ZA-COL2",
         "codigoWplay": 29812,
