@@ -1,6 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11915,"Godoy Cruz","Atletico Tucuman","local",2.15],[11915,"Rosario Central","CA Barracas Central","local",1.85],[11930,"Racing Club","Corinthians SP","visitante",2.7],[12000,"Atlético Nacional","Independiente Medellin","visitante",2.625],"281,905"],
-	[[11900,"Guabira","Oriente Petrolero","over",2],[11915,"Godoy Cruz","Atletico Tucuman","over",2.45],[11915,"Rosario Central","CA Barracas Central","over",2.55],[11930,"Racing Club","Corinthians SP","over",2.25],[12000,"Atlético Nacional","Independiente Medellin","over",2.25],"632,559"],
-	[[11915,"Godoy Cruz","Atletico Tucuman","mitad",1.533],[11915,"Rosario Central","CA Barracas Central","mitad",1.55],[11930,"Racing Club","Corinthians SP","mitad",1.5],[12000,"Atlético Nacional","Independiente Medellin","mitad",1.48],[11900,"Guabira","Oriente Petrolero","mitad",1.42],"74,922"],
-	[[11700,"Estudiantes de La Plata","Independiente Rivadavia","over",2.6],[11700,"Sarmiento","CA Independiente","over",3.25],"84,500"],
+	[[11200,"Gaziantep BB","Goztepe","visitante",2.15],[11230,"SC Preussen Münster","Fortuna Dusseldorf","visitante",1.769],[11230,"SSV Ulm 1846","Schalke 04","visitante",2.1],"79,881"],
+	[[11200,"Boluspor","Ümraniyespor","over",2.15],"21,500"],
+	[[11200,"Boluspor","Ümraniyespor","mitad",1.48],"14,800"],
 ]
