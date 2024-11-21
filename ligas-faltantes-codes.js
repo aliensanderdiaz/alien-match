@@ -1,3 +1,20 @@
 let LIGAS_FALTANTES = [
-   'ZA-PER1'
-]
+  "ZA-ARG2",
+  "YE-BIE1",
+  "ZA-BRA2",
+  "ZA-CHI1",
+  "R-ESC1",
+  "R-ESCL",
+  "ESP2",
+  "YE-GRE1",
+  "R-ING1",
+  "ITA1",
+  "YE-HOL1",
+  "ZA-PAR1",
+  "YE-POLE",
+  "YE-REP1",
+  "YE-SUI1",
+  "YE-UCR1",
+  "ZA-URU2",
+  "ZA-VEN1",
+];

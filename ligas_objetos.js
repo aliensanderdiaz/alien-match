@@ -836,6 +836,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "ESTADOS UNIDOS - USL Championship - Playoffs",
+        "nombreWplay": 'USA - USL CHAMPIONSHIP',
+        "abreviado": "ZA-EST2",
+        "codigoWplay": 20075,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ESTADOS UNIDOS - USL Championship",
         "nombreWplay": 'USA - USL CHAMPIONSHIP',
         "abreviado": "ZA-EST2",
@@ -1645,6 +1653,22 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "ARGENTINA - Primera Nacional - Partido adicional",
+        "nombreWplay": 'ARGENTINA - PRIMERA NACIONAL',
+        "abreviado": "ZA-ARG2",
+        "codigoWplay": 19342,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "ARGENTINA - Primera Nacional - Ascenso - Playoffs",
+        "nombreWplay": 'ARGENTINA - PRIMERA NACIONAL',
+        "abreviado": "ZA-ARG2",
+        "codigoWplay": 19342,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "ARGENTINA - Copa Argentina",
         "nombreWplay": 'ARGENTINA - COPA ARGENTINA',
         "abreviado": "ZA-ARGC",
@@ -1758,6 +1782,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "COLOMBIA - Primera A - Clausura",
+        "nombreWplay": 'COLOMBIA - PRIMERA A',
+        "abreviado": "ZA-COL1",
+        "codigoWplay": 19311,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "COLOMBIA - Primera A - Clausura - Cuadrangular",
         "nombreWplay": 'COLOMBIA - PRIMERA A',
         "abreviado": "ZA-COL1",
         "codigoWplay": 19311,
@@ -1895,6 +1927,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "MÉXICO - Liga MX - Apertura",
+        "nombreWplay": 'MÉXICO - LIGA MX',
+        "abreviado": "ZA-MEX1",
+        "codigoWplay": 19329,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "MÉXICO - Liga MX - Apertura - Play In",
         "nombreWplay": 'MÉXICO - LIGA MX',
         "abreviado": "ZA-MEX1",
         "codigoWplay": 19329,
