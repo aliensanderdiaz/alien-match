@@ -1,8 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[10930,"Wolfsburg","Union Berlin","local",2.04],"20.500"],
-	[[10930,"Wolfsburg","Union Berlin","mitad",1.45],"14.500"],
-	[[10900,"Catanzaro","AC Mantova","local",1.85],[10900,"Carrarese Calcio","SC Pisa","visitante",2.25],[10900,"Juve Stabia","Brescia","visitante",2.4],"99,900"],
-	[[10900,"Carrarese Calcio","SC Pisa","over",2.5],[10900,"Juve Stabia","Brescia","over",2],[10900,"Catanzaro","AC Mantova","over",2],[10900,"Alverca","Rio Ave","over",2.15],"215,000"],
-	[[10900,"Carrarese Calcio","SC Pisa","mitad",1.55],[10900,"Juve Stabia","Brescia","mitad",1.42],[10900,"Catanzaro","AC Mantova","mitad",1.42],[10900,"Alverca","Rio Ave","mitad",1.48],"49,957"],
-	[[10800,"Valencia","Real Betis","over",2.45],[10800,"Hansa Rostock","Arminia Bielefeld","over",2],[10814,"Boluspor","Sanliurfaspor","over",2.1],"102,900"],
+	[[11430,"Hamburger SV","Schalke 04","visitante",2.2],[11500,"Stade Reims","Lyon","visitante",1.769],[11500,"Fortuna Sittard","Twente","visitante",1.769],[11415,"Legia Warsaw","Cracovia Krakow","visitante",2.65],"182,489"],
+	[[11500,"Celta de Vigo","Barcelona","local",2.15],[11500,"Malaga","Racing Santander","local",2.15],[11430,"CFR Cluj","Rapid Bucharest","local",2.15],[11430,"Lausanne Sports","FC Sion","local",1.8],[11500,"Racing Club","Cruzeiro MG","local",2.35],"420,393"],
+	[[11500,"Racing Club","Cruzeiro MG","over",2.6],[11500,"Malaga","Racing Santander","over",2],[11415,"Casa Pia Atletico","Desportivo Chaves","over",2.25],[11430,"CFR Cluj","Rapid Bucharest","over",2.45],"286,650"],
+	[[11500,"Racing Club","Cruzeiro MG","mitad",1.6],[11500,"Malaga","Racing Santander","mitad",1.42],[11415,"Casa Pia Atletico","Desportivo Chaves","mitad",1.5],[11430,"CFR Cluj","Rapid Bucharest","mitad",1.55],"52,824"],
 ]
