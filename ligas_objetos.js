@@ -1942,6 +1942,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "MÉXICO - Liga MX - Apertura - Playoffs",
+        "nombreWplay": 'MÉXICO - LIGA MX',
+        "abreviado": "ZA-MEX1",
+        "codigoWplay": 19329,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "MÉXICO - Campeón de Campeones",
         "nombreWplay": 'MEXICO - SUPERCOPA LIGA MX',
         "abreviado": "ZA-MEXS",
@@ -1977,6 +1985,15 @@ let LIGAS_OBJETOS = [
 
     {
         "nombreFlashcore": "MÉXICO - Liga de Expansión MX - Clausura - Playoffs",
+        "nombreWplay": 'MEXICO - LIGA DE EXPANSION MX',
+        "abreviado": "ZA-MEX2",
+        "codigoWplay": 61826,
+        mitad: true,
+        favorito: true
+    },
+
+    {
+        "nombreFlashcore": "MÉXICO - Liga de Expansión MX - Apertura - Playoffs",
         "nombreWplay": 'MEXICO - LIGA DE EXPANSION MX',
         "abreviado": "ZA-MEX2",
         "codigoWplay": 61826,
