@@ -1,6 +1,9 @@
 let APUESTAS_ABIERTAS = [
-	[[10000,"Gangwon FC","Pohang Steelers","local",1.93],[10000,"Ulsan Hyundai Horang-I","Suwon City FC","local",1.8],[10000,"Gimcheon Sangmu","FC Seoul","local",1.95],[10000,"Gamba Osaka","Vissel Kobe","local",2.875],[10530,"Eyupspor","Caykur Rizespor","local",1.85],[10600,"Portimonense SC","Benfica B","visitante",2.15],"774,662"],
-	[[10000,"Gangwon FC","Pohang Steelers","over",2.1],[10000,"Gimcheon Sangmu","FC Seoul","over",2.05],[10000,"Gamba Osaka","Vissel Kobe","over",2.5],[10530,"Keciorengucu","Manisa FK","over",2],[10600,"Vorskla Poltava","LNZ Cherkasy","over",2.15],"462,788"],
-	[[10000,"Gangwon FC","Pohang Steelers","mitad",1.42],[10000,"Gimcheon Sangmu","FC Seoul","mitad",1.42],[10000,"Gamba Osaka","Vissel Kobe","mitad",1.571],[10530,"Keciorengucu","Manisa FK","mitad",1.42],[10600,"Vorskla Poltava","LNZ Cherkasy","mitad",1.48],"66,592"],
-	[[11930,"Ituano SP","Amazonas FC","over",2],"51,000"],
+	[[10730,"Stevenage","Leyton Orient","visitante",2.6],[10730,"Grimsby Town","Colchester","visitante",2.15],[10730,"FK Baumit Jablonec","Banik Ostrava","visitante",2],"111,800"],
+	[[10700,"Hannover 96","SV Darmstadt 98","local",1.75],[10700,"Fortuna Dusseldorf","SV Elversberg","local",1.8],[10730,"Sheffield Wednesday","Cardiff City","local",1.909],[10700,"Greuther Furth","Karlsruher SC","visitante",1.769],[10730,"Bristol City","Burnley","visitante",2.2],[10730,"Coventry","Sheffield United","visitante",2.2],"514,952"],
+	[[10730,"Bristol City","Burnley","over",2.15],[10730,"Sheffield Wednesday","Cardiff City","over",2],[10730,"Coventry","Sheffield United","over",2],[10730,"Stevenage","Leyton Orient","over",2.8],[10700,"SC Lusitania Angra","Sao Joao Ver","over",2.2],[10730,"Rochdale","Oldham","over",2],"1,059,520"],
+	[[10730,"Bristol City","Burnley","mitad",1.45],[10730,"Sheffield Wednesday","Cardiff City","mitad",1.42],[10730,"Coventry","Sheffield United","mitad",1.42],[10730,"Stevenage","Leyton Orient","mitad",1.615],[10700,"SC Lusitania Angra","Sao Joao Ver","mitad",1.48],[10730,"Rochdale","Oldham","mitad",1.42],"99,259"],
+	[[10600,"Portimonense SC","Benfica B","visitante",2.15],"21.500"],
+	[[10600,"Vorskla Poltava","LNZ Cherkasy","over",2.35],"23.500"],
+	[[10600,"Vorskla Poltava","LNZ Cherkasy","mitad",1.53],"15.333"],
 ]
