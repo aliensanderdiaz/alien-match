@@ -2129,6 +2129,15 @@ let LIGAS_OBJETOS = [
         mitad: false,
         favorito: false
     },
+    
+    {
+        "nombreFlashcore": "VENEZUELA - Liga FUTVE - Final Torneo - Clausura",
+        "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-VEN1",
+        "codigoWplay": 20080,
+        mitad: false,
+        favorito: false
+    },
     {
         "nombreFlashcore": "VENEZUELA - Liga FUTVE - Apertura",
         "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
