@@ -1,8 +1,8 @@
 let APUESTAS_ABIERTAS = [
-	[[11920,"Tolima","CD Junior","local",1.93],[11930,"Atletico Lanus","Defensa Y Justicia","local",2.1],"40,530"],
-	[[11920,"Tolima","CD Junior","over",2.3],[11930,"Atletico Lanus","Defensa Y Justicia","over",2.25],"51,750"],
-	[[11920,"Tolima","CD Junior","mitad",1.5],[11930,"Atletico Lanus","Defensa Y Justicia","mitad",1.48],"22,200"],
-	[[11800,"Deportivo Tachira","Carabobo FC","over",2.4],"24.000"],
-	[[11800,"Deportivo Tachira","Carabobo FC","mitad",1.55],"15.500"],
-	[[11710,"América de Cali","Once Caldas","over",2.4],[11715,"Godoy Cruz","Velez Sarsfield","over",2.375],"57,000"],
+	[[11915,"CA Belgrano","Independiente Rivadavia","local",2.04],"20.500"],
+	[[11910,"Gimnasia Y Esgrima Mendoza","San Martin de Tucuman","over",2.95],[11915,"CA Belgrano","Independiente Rivadavia","over",2.55],[11915,"Argentinos Juniors","CA Barracas Central","over",2.1],"157,973"],
+	[[11915,"CA Belgrano","Independiente Rivadavia","mitad",1.571],[11915,"Argentinos Juniors","CA Barracas Central","mitad",1.444],[11910,"Gimnasia Y Esgrima Mendoza","San Martin de Tucuman","mitad",1.7],"38,587"],
+	[[11700,"Central Cordoba","Rosario Central","visitante",3],[11700,"Sportivo Ameliano","Club General Caballero JLM","local",2.3],[11700,"Libertad Asuncion","Sol de America","local",2.15],[11700,"CS 2 de Mayo","Sportivo Luqueno","local",1.95],"289,283"],
+	[[11700,"Central Cordoba","Rosario Central","over",3],[11700,"Sportivo Ameliano","Club General Caballero JLM","over",2.4],[11700,"Libertad Asuncion","Sol de America","over",2.1],[11700,"CS 2 de Mayo","Sportivo Luqueno","over",2.3],"347,760"],
+	[[11700,"Central Cordoba","Rosario Central","mitad",1.7],[11700,"Sportivo Ameliano","Club General Caballero JLM","mitad",1.55],[11700,"Libertad Asuncion","Sol de America","mitad",1.45],[11700,"CS 2 de Mayo","Sportivo Luqueno","mitad",1.5],"57,311"],
 ]
