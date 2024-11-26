@@ -1,8 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[10745,"Atletico River Plate (Uru)","CA Cerro","local",2.09],"20.021"],
-	[[10745,"Atletico River Plate (Uru)","CA Cerro","over",2.15],"21.500"],
-	[[10745,"Atletico River Plate (Uru)","CA Cerro","mitad",1.48],"14.800"],
-	[[11915,"CA Belgrano","Independiente Rivadavia","local",2.04],"20.500"],
-	[[11910,"Gimnasia Y Esgrima Mendoza","San Martin de Tucuman","over",2.95],[11915,"CA Belgrano","Independiente Rivadavia","over",2.55],[11915,"Argentinos Juniors","CA Barracas Central","over",2.1],"157,973"],
-	[[11915,"CA Belgrano","Independiente Rivadavia","mitad",1.571],[11915,"Argentinos Juniors","CA Barracas Central","mitad",1.444],[11910,"Gimnasia Y Esgrima Mendoza","San Martin de Tucuman","mitad",1.7],"38,587"],
+	[[11930,"Atletico MG","Juventude RS","local",2.35],[11930,"Palmeiras SP","Botafogo RJ","local",1.95],[11800,"Fortaleza CE","Flamengo RJ","visitante",2.1],[11915,"Union Santa Fe","Talleres de Cordoba","visitante",2.65],[11915,"Sarmiento","Platense","visitante",2.5],[12000,"Independiente Santa Fe","Millonarios","visitante",2.35],"1,498,220"],
+	[[11800,"Fortaleza CE","Flamengo RJ","over",2.1],[11900,"Progreso","Penarol Montevideo","over",2.1],[11915,"Union Santa Fe","Talleres de Cordoba","over",2.95],[11915,"Sarmiento","Platense","over",3.35],[11930,"Atletico MG","Juventude RS","over",2.45],[11930,"Palmeiras SP","Botafogo RJ","over",2.1],[12000,"Independiente Santa Fe","Millonarios","over",2.7],"6,054,169"],
+	[[11800,"Fortaleza CE","Flamengo RJ","mitad",1.45],[11915,"Union Santa Fe","Talleres de Cordoba","mitad",1.666],[11915,"Sarmiento","Platense","mitad",1.727],[11930,"Atletico MG","Juventude RS","mitad",1.55],[11930,"Palmeiras SP","Botafogo RJ","mitad",1.45],[12000,"Independiente Santa Fe","Millonarios","mitad",1.6],[11900,"Progreso","Penarol Montevideo","mitad",1.42],"213,150"],
 ]
