@@ -670,6 +670,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "URUGUAY - Segunda División - Partido adicional",
+        "nombreWplay": 'URUGUAY - SEGUNDA DIVISION',
+        "abreviado": "ZA-URU2",
+        "codigoWplay": 26834,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "URUGUAY - Segunda División - Torneo Competencia",
         "nombreWplay": 'URUGUAY - SEGUNDA DIVISION',
         "abreviado": "ZA-URU2",
