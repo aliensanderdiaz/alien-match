@@ -1,6 +1,7 @@
 let APUESTAS_ABIERTAS = [
-	[[11300,"Levante","Malaga","local",1.769],[11245,"Sturm Graz","Girona","visitante",1.85],"32,731"],
-	[[11100,"Sigma Olomouc","FC Slovacko","local",2.2],"22.000"],
-	[[11015,"FC Sochi - 04","FC Dynamo Makhachkala","over",2.5],[11100,"Sigma Olomouc","FC Slovacko","over",2.35],"58,750"],
-	[[11015,"FC Sochi - 04","FC Dynamo Makhachkala","mitad",1.533],[11100,"Sigma Olomouc","FC Slovacko","mitad",1.533],"23,511"],
+	[[11500,"AS Monaco","Benfica","visitante",2],[11500,"Bologna","Lille","visitante",2.45],[11500,"Aston Villa","Juventus","visitante",2.4],[11500,"Liverpool","Real Madrid","visitante",2.15],"252,840"],
+	[[11430,"CA Boston River","Racing Club Montevideo","local",2.25],[11445,"Cardiff City","QPR","local",1.909],[11500,"Celtic","Club Brugge","local",1.75],[11500,"Derby County","Swansea","local",2.3],[11445,"Portsmouth","Millwall","visitante",2.25],"389,007"],
+	[[11430,"CA Boston River","Racing Club Montevideo","local",2.25],[11445,"Cardiff City","QPR","local",1.909],[11500,"Celtic","Club Brugge","local",1.75],[11500,"Derby County","Swansea","local",2.3],[11445,"Portsmouth","Millwall","visitante",2.25],[11500,"AS Monaco","Benfica","visitante",2],[11500,"Bologna","Lille","visitante",2.45],[11500,"Aston Villa","Juventus","visitante",2.4],[11500,"Liverpool","Real Madrid","visitante",2.15],"9,835,656"],
+	[[11430,"CA Boston River","Racing Club Montevideo","over",2.35],[11445,"Cardiff City","QPR","over",2.05],[11445,"Portsmouth","Millwall","over",2.55],[11445,"Forest Green Rovers","Halifax Town","over",2.05],[11500,"Aston Villa","Juventus","over",2.25],[11500,"Bologna","Lille","over",2.25],[11500,"Derby County","Swansea","over",2.35],"2,996,047"],
+	[[11445,"Cardiff City","QPR","mitad",1.42],[11445,"Portsmouth","Millwall","mitad",1.55],[11500,"Aston Villa","Juventus","mitad",1.48],[11500,"Bologna","Lille","mitad",1.5],[11500,"Derby County","Swansea","mitad",1.533],[11430,"CA Boston River","Racing Club Montevideo","mitad",1.533],[11445,"Forest Green Rovers","Halifax Town","mitad",1.42],"163,130"],
 ]
