@@ -1,5 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11930,"Atletico MG","Juventude RS","local",2.35],[11930,"Palmeiras SP","Botafogo RJ","local",1.95],[11800,"Fortaleza CE","Flamengo RJ","visitante",2.1],[11915,"Union Santa Fe","Talleres de Cordoba","visitante",2.65],[11915,"Sarmiento","Platense","visitante",2.5],[12000,"Independiente Santa Fe","Millonarios","visitante",2.35],"1,498,220"],
-	[[11800,"Fortaleza CE","Flamengo RJ","over",2.1],[11900,"Progreso","Penarol Montevideo","over",2.1],[11915,"Union Santa Fe","Talleres de Cordoba","over",2.95],[11915,"Sarmiento","Platense","over",3.35],[11930,"Atletico MG","Juventude RS","over",2.45],[11930,"Palmeiras SP","Botafogo RJ","over",2.1],[12000,"Independiente Santa Fe","Millonarios","over",2.7],"6,054,169"],
-	[[11800,"Fortaleza CE","Flamengo RJ","mitad",1.45],[11915,"Union Santa Fe","Talleres de Cordoba","mitad",1.666],[11915,"Sarmiento","Platense","mitad",1.727],[11930,"Atletico MG","Juventude RS","mitad",1.55],[11930,"Palmeiras SP","Botafogo RJ","mitad",1.45],[12000,"Independiente Santa Fe","Millonarios","mitad",1.6],[11900,"Progreso","Penarol Montevideo","mitad",1.42],"213,150"],
+	[[11300,"Levante","Malaga","local",1.769],[11245,"Sturm Graz","Girona","visitante",1.85],"32,731"],
+	[[11100,"Sigma Olomouc","FC Slovacko","local",2.2],"22.000"],
+	[[11015,"FC Sochi - 04","FC Dynamo Makhachkala","over",2.5],[11100,"Sigma Olomouc","FC Slovacko","over",2.35],"58,750"],
+	[[11015,"FC Sochi - 04","FC Dynamo Makhachkala","mitad",1.533],[11100,"Sigma Olomouc","FC Slovacko","mitad",1.533],"23,511"],
 ]
