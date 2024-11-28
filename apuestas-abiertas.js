@@ -1,6 +1,8 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"Rapid Vienna","Shamrock Rovers","visitante",4],[11500,"FCSB","Olympiacos","visitante",2],[11500,"Slavia Prague","Fenerbahce","visitante",2.55],[11500,"Twente","St. Gilloise","visitante",2.45],"449,120"],
-	[[11500,"FC Lugano","KAA Gent","local",1.9],[11500,"Real Sociedad","Ajax Amsterdam","local",1.8],[11500,"Nice","Glasgow Rangers","local",1.769],[11500,"AC Omonia Nicosia","Legia Warsaw","visitante",2.05],"124,041"],
-	[[11500,"FC Lugano","KAA Gent","local",1.9],[11500,"Real Sociedad","Ajax Amsterdam","local",1.8],[11500,"Nice","Glasgow Rangers","local",1.769],[11500,"AC Omonia Nicosia","Legia Warsaw","visitante",2.05],[11500,"Rapid Vienna","Shamrock Rovers","visitante",4],[11500,"FCSB","Olympiacos","visitante",2],[11500,"Slavia Prague","Fenerbahce","visitante",2.55],[11500,"Twente","St. Gilloise","visitante",2.45],"6,199,558"],
-	[[11500,"FCSB","Olympiacos","mitad",1.42],[11500,"Slavia Prague","Fenerbahce","mitad",1.45],[11500,"Twente","St. Gilloise","mitad",1.48],[11400,"Real Santa Cruz","Club Independiente Petrolero","mitad",1.48],"45,100"],
+	[[11600,"Sportivo Luqueno","Olimpia Asuncion","visitante",1.83],"11.458"],
+	[[11600,"Sportivo Luqueno","Olimpia Asuncion","over",2.2],"22.000"],
+	[[11600,"Sportivo Luqueno","Olimpia Asuncion","mitad",1.42],"14.200"],
+	[[11830,"Cerro Porteño","Libertad Asuncion","local",1.909],[11600,"Sportivo Luqueno","Olimpia Asuncion","visitante",1.85],"35,318"],
+	[[11600,"Sportivo Luqueno","Olimpia Asuncion","over",2.1],[11830,"Cerro Porteño","Libertad Asuncion","over",2.15],[11900,"Union Magdalena","Llaneros FC","over",2.4],"108,360"],
+	[[11600,"Sportivo Luqueno","Olimpia Asuncion","mitad",1.45],[11830,"Cerro Porteño","Libertad Asuncion","mitad",1.45],[11900,"Union Magdalena","Llaneros FC","mitad",1.55],"32,589"],
 ]
