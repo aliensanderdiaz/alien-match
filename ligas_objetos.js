@@ -910,6 +910,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "COREA DEL SUR - K League 1 - Descenso",
+        "nombreWplay": 'COREA DEL SUR - K-LEAGUE 1',
+        "abreviado": "S-COR1",
+        "codigoWplay": 19306,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "COREA DEL SUR - K League 1 - Grupo Descenso",
         "nombreWplay": 'COREA DEL SUR - K-LEAGUE 1',
         "abreviado": "S-COR1",
@@ -1838,6 +1846,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "COLOMBIA - Primera B - Clausura",
+        "nombreWplay": 'COLOMBIA - PRIMERA B',
+        "abreviado": "ZA-COL2",
+        "codigoWplay": 29812,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "COLOMBIA - Primera B - Clausura - Playoffs",
         "nombreWplay": 'COLOMBIA - PRIMERA B',
         "abreviado": "ZA-COL2",
         "codigoWplay": 29812,

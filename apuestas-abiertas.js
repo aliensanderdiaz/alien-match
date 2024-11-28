@@ -1,7 +1,7 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"AS Monaco","Benfica","visitante",2],[11500,"Bologna","Lille","visitante",2.45],[11500,"Aston Villa","Juventus","visitante",2.4],[11500,"Liverpool","Real Madrid","visitante",2.15],"252,840"],
-	[[11430,"CA Boston River","Racing Club Montevideo","local",2.25],[11445,"Cardiff City","QPR","local",1.909],[11500,"Celtic","Club Brugge","local",1.75],[11500,"Derby County","Swansea","local",2.3],[11445,"Portsmouth","Millwall","visitante",2.25],"389,007"],
-	[[11430,"CA Boston River","Racing Club Montevideo","local",2.25],[11445,"Cardiff City","QPR","local",1.909],[11500,"Celtic","Club Brugge","local",1.75],[11500,"Derby County","Swansea","local",2.3],[11445,"Portsmouth","Millwall","visitante",2.25],[11500,"AS Monaco","Benfica","visitante",2],[11500,"Bologna","Lille","visitante",2.45],[11500,"Aston Villa","Juventus","visitante",2.4],[11500,"Liverpool","Real Madrid","visitante",2.15],"9,835,656"],
-	[[11430,"CA Boston River","Racing Club Montevideo","over",2.35],[11445,"Cardiff City","QPR","over",2.05],[11445,"Portsmouth","Millwall","over",2.55],[11445,"Forest Green Rovers","Halifax Town","over",2.05],[11500,"Aston Villa","Juventus","over",2.25],[11500,"Bologna","Lille","over",2.25],[11500,"Derby County","Swansea","over",2.35],"2,996,047"],
-	[[11445,"Cardiff City","QPR","mitad",1.42],[11445,"Portsmouth","Millwall","mitad",1.55],[11500,"Aston Villa","Juventus","mitad",1.48],[11500,"Bologna","Lille","mitad",1.5],[11500,"Derby County","Swansea","mitad",1.533],[11430,"CA Boston River","Racing Club Montevideo","mitad",1.533],[11445,"Forest Green Rovers","Halifax Town","mitad",1.42],"163,130"],
+	[[10500,"Chungnam Asan FC","Daegu FC","local",2.4],"24.000"],
+	[[10500,"Chungnam Asan FC","Daegu FC","over",2.1],"21.000"],
+	[[10500,"Chungnam Asan FC","Daegu FC","mitad",1.44],"14.444"],
+	[[12210,"Tijuana","Cruz Azul","visitante",1.95],"19.500"],
+	[[12030,"Once Caldas","CD Junior","over",2.5],"25.000"],
 ]
