@@ -1,7 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[10500,"Chungnam Asan FC","Daegu FC","local",2.4],"24.000"],
-	[[10500,"Chungnam Asan FC","Daegu FC","over",2.1],"21.000"],
-	[[10500,"Chungnam Asan FC","Daegu FC","mitad",1.44],"14.444"],
-	[[12210,"Tijuana","Cruz Azul","visitante",1.95],"19.500"],
-	[[12030,"Once Caldas","CD Junior","over",2.5],"25.000"],
+	[[11500,"Rapid Vienna","Shamrock Rovers","visitante",4],[11500,"FCSB","Olympiacos","visitante",2],[11500,"Slavia Prague","Fenerbahce","visitante",2.55],[11500,"Twente","St. Gilloise","visitante",2.45],"449,120"],
+	[[11500,"FC Lugano","KAA Gent","local",1.9],[11500,"Real Sociedad","Ajax Amsterdam","local",1.8],[11500,"Nice","Glasgow Rangers","local",1.769],[11500,"AC Omonia Nicosia","Legia Warsaw","visitante",2.05],"124,041"],
+	[[11500,"FC Lugano","KAA Gent","local",1.9],[11500,"Real Sociedad","Ajax Amsterdam","local",1.8],[11500,"Nice","Glasgow Rangers","local",1.769],[11500,"AC Omonia Nicosia","Legia Warsaw","visitante",2.05],[11500,"Rapid Vienna","Shamrock Rovers","visitante",4],[11500,"FCSB","Olympiacos","visitante",2],[11500,"Slavia Prague","Fenerbahce","visitante",2.55],[11500,"Twente","St. Gilloise","visitante",2.45],"6,199,558"],
+	[[11500,"FCSB","Olympiacos","mitad",1.42],[11500,"Slavia Prague","Fenerbahce","mitad",1.45],[11500,"Twente","St. Gilloise","mitad",1.48],[11400,"Real Santa Cruz","Club Independiente Petrolero","mitad",1.48],"45,100"],
 ]
