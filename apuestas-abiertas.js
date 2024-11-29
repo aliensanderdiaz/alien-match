@@ -1,8 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11600,"Sportivo Luqueno","Olimpia Asuncion","visitante",1.83],"11.458"],
-	[[11600,"Sportivo Luqueno","Olimpia Asuncion","over",2.2],"22.000"],
-	[[11600,"Sportivo Luqueno","Olimpia Asuncion","mitad",1.42],"14.200"],
-	[[11830,"Cerro Porteño","Libertad Asuncion","local",1.909],[11600,"Sportivo Luqueno","Olimpia Asuncion","visitante",1.85],"35,318"],
-	[[11600,"Sportivo Luqueno","Olimpia Asuncion","over",2.1],[11830,"Cerro Porteño","Libertad Asuncion","over",2.15],[11900,"Union Magdalena","Llaneros FC","over",2.4],"108,360"],
-	[[11600,"Sportivo Luqueno","Olimpia Asuncion","mitad",1.45],[11830,"Cerro Porteño","Libertad Asuncion","mitad",1.45],[11900,"Union Magdalena","Llaneros FC","mitad",1.55],"32,589"],
+	[[11000,"FC Botosani","Farul Constanta","local",2.2],[11200,"Cracovia Krakow","Zaglebie Lubin","local",1.769],[11230,"Schalke 04","1. FC Kaiserslautern","local",1.769],[11200,"Antalyaspor","Sivasspor","visitante",2.35],[11230,"1. FC Magdeburg","Hertha Berlin","visitante",1.909],"308,949"],
+	[[10830,"Vorskla Poltava","FC Ingulets","over",2.1],[11000,"FC Botosani","Farul Constanta","over",2.1],"44,100"],
+	[[10830,"Vorskla Poltava","FC Ingulets","mitad",1.444],[11000,"FC Botosani","Farul Constanta","mitad",1.45],"20,944"],
 ]

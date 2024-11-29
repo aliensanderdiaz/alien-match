@@ -670,6 +670,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "URUGUAY - Segunda División - Ascenso - Playoffs",
+        "nombreWplay": 'URUGUAY - SEGUNDA DIVISION',
+        "abreviado": "ZA-URU2",
+        "codigoWplay": 26834,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "URUGUAY - Segunda División - Partido adicional",
         "nombreWplay": 'URUGUAY - SEGUNDA DIVISION',
         "abreviado": "ZA-URU2",
@@ -744,7 +752,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'COUPE DE FRANCE',
         "abreviado": "FRAC",
         "codigoWplay": 26463,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -824,7 +832,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'ESCOCIA - FA CUP',
         "abreviado": "R-ESCC",
         "codigoWplay": 19307,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -1493,6 +1501,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "RUMANÍA - Liga 1",
+        "nombreWplay": 'RUMANÍA - LIGA 1',
+        "abreviado": "YE-RUM1",
+        "codigoWplay": 46019,
+        mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "RUMANÍA - Superliga",
         "nombreWplay": 'RUMANÍA - LIGA 1',
         "abreviado": "YE-RUM1",
         "codigoWplay": 46019,
