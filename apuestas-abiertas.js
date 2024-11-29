@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11000,"FC Botosani","Farul Constanta","local",2.2],[11200,"Cracovia Krakow","Zaglebie Lubin","local",1.769],[11230,"Schalke 04","1. FC Kaiserslautern","local",1.769],[11200,"Antalyaspor","Sivasspor","visitante",2.35],[11230,"1. FC Magdeburg","Hertha Berlin","visitante",1.909],"308,949"],
-	[[10830,"Vorskla Poltava","FC Ingulets","over",2.1],[11000,"FC Botosani","Farul Constanta","over",2.1],"44,100"],
-	[[10830,"Vorskla Poltava","FC Ingulets","mitad",1.444],[11000,"FC Botosani","Farul Constanta","mitad",1.45],"20,944"],
+	[[11445,"Dumbarton","Alloa Athletic","local",1.9],[11445,"Cagliari","Verona","local",1.769],[11515,"Sporting Farense","CF Estrela","local",2.2],[11445,"Kortrijk","Mechelen","visitante",1.8],[11445,"Stade Reims","RC Lens","visitante",1.95],[11500,"RCD Mallorca","Valencia","visitante",3.35],[11500,"Sheffield United","Sunderland","visitante",2.65],"2,304,404"],
+	[[11500,"RCD Mallorca","Valencia","mitad",1.727],[11500,"Sheffield United","Sunderland","mitad",1.48],[11515,"Sporting Farense","CF Estrela","mitad",1.5],[11500,"Juventud de Las Piedras","Colon FC de Uruguay","mitad",1.5],"57,518"],
+	[[11445,"Cagliari","Verona","local",1.8],[11500,"RCD Mallorca","Valencia","visitante",3.35],[11430,"Real Oviedo","SD Huesca","visitante",3.65],[11445,"Stade Reims","RC Lens","visitante",1.95],[11445,"Dumbarton","Alloa Athletic","local",1.85],"793,993"],
 ]
