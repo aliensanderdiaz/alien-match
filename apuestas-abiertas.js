@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11430,"SD Eibar","Cartagena","local",1.833],[11500,"Sevilla","Osasuna","local",2],[11445,"Roma","Atalanta","visitante",1.85],[11300,"Motor Lublin","Radomiak Radom","local",1.85],[11330,"FC Otelul Galati","FCSB","visitante",2.15],[11500,"CA Barracas Central","CA Tigre","visitante",2.35],"634,047"],
-	[[11345,"Vitoria Guimaraes","Gil Vicente","over",2.1],[11430,"SD Eibar","Cartagena","over",2.2],[11330,"FC Otelul Galati","FCSB","over",2.7],[11500,"Sevilla","Osasuna","over",2.15],[11500,"CA Barracas Central","CA Tigre","over",2.75],"737,525"],
-	[[11345,"Vitoria Guimaraes","Gil Vicente","mitad",1.45],[11430,"SD Eibar","Cartagena","mitad",1.45],[11500,"Sevilla","Osasuna","mitad",1.45],[11500,"CA Barracas Central","CA Tigre","mitad",1.615],[11330,"FC Otelul Galati","FCSB","mitad",1.615],"79,553"],
+	[[10900,"Slask Wroclaw","GKS Piast Gliwice","visitante",2.25],"22.500"],
+	[[10900,"Slask Wroclaw","GKS Piast Gliwice","over",2.25],[11000,"Panachaiki","Kifisias","over",2.45],"55,125"],
+	[[10900,"Slask Wroclaw","GKS Piast Gliwice","mitad",1.5],[11000,"Panachaiki","Kifisias","mitad",1.533],"23,000"],
 ]
