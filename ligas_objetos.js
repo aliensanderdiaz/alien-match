@@ -712,6 +712,15 @@ let LIGAS_OBJETOS = [
     },
 
     {
+        "nombreFlashcore": "BIELORRUSIA - Vysshaya Liga - Descenso",
+        "nombreWplay": 'BIELORRUSIA - PREMIER LEAGUE',
+        "abreviado": "YE-BIE1",
+        "codigoWplay": 19493,
+        mitad: false,
+        favorito: false
+    },
+
+    {
         "nombreFlashcore": "CHINA - FA Cup",
         "nombreWplay": 'CHINA - FA CUP',
         "abreviado": "S-CHIF",
