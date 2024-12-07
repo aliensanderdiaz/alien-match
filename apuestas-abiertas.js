@@ -1,4 +1,9 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"SD Huesca","SD Eibar","local",2.4],[11300,"CD Santa Clara","Rio Ave","local",1.8],[11500,"Atletico Lanus","Instituto AC Cordoba","local",2.1],[11430,"SC Preussen Münster","1. FC Magdeburg","visitante",2],[11500,"Heracles Almelo","Fortuna Sittard","visitante",2.3],[11300,"Petrolul Ploiesti","CS U Craiova","visitante",2.1],[11430,"FC Luzern","FC Lugano","visitante",1.95],"1,708,893"],
-	[[11300,"CD Santa Clara","Rio Ave","mitad",1.45],[11400,"Ajaccio","Paris FC","mitad",1.48],[11500,"Heracles Almelo","Fortuna Sittard","mitad",1.42],[11500,"Atletico Lanus","Instituto AC Cordoba","mitad",1.571],[11500,"SD Huesca","SD Eibar","mitad",1.65],[11300,"Petrolul Ploiesti","CS U Craiova","mitad",1.5],"118,519"],
+	[[11700,"Union Santa Fe","Velez Sarsfield","visitante",2.3],[11915,"Central Cordoba","Racing Club","visitante",2.2],"50,600"],
+	[[11700,"Union Santa Fe","Velez Sarsfield","over",2.8],[11915,"Central Cordoba","Racing Club","over",2.45],"68,600"],
+	[[11700,"Union Santa Fe","Velez Sarsfield","mitad",1.615],[11915,"Central Cordoba","Racing Club","mitad",1.55],"25,038"],
+	[[11530,"LDU Quito","Independiente Del Valle","over",3.75],"37.500"],
+	[[11530,"LDU Quito","Independiente Del Valle","visitante",3.75],"37.500"],
+	[[11530,"LDU Quito","Independiente Del Valle","mitad",2.25],"22.500"],
+	[[11500,"Atletico Lanus","Instituto AC Cordoba","over",2.5],[11500,"SD Huesca","SD Eibar","over",3.1],[11700,"Union Santa Fe","Velez Sarsfield","over",2.8],[11530,"LDU Quito","Independiente Del Valle","over",2.05],"444,850"],
 ]
