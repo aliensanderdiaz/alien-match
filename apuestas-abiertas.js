@@ -1,5 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[10530,"Konyaspor","Antalyaspor","local",1.909],[10600,"Feirense","FC Penafiel","visitante",2.3],"43,909"],
-	[[10530,"Konyaspor","Antalyaspor","over",2.05],[10530,"Erzurum BB","Adanaspor","over",2.1],[10600,"Feirense","FC Penafiel","over",2.15],[10600,"FC Levy Bereg Kiev","LNZ Cherkasy","over",2.55],"236,022"],
-	[[10530,"Konyaspor","Antalyaspor","mitad",1.42],[10530,"Erzurum BB","Adanaspor","mitad",1.42],[10600,"Feirense","FC Penafiel","mitad",1.45],[10600,"FC Levy Bereg Kiev","LNZ Cherkasy","mitad",1.571],"45,945"],
+	[[10700,"Greuther Furth","Hertha Berlin","visitante",1.75],[10700,"1. FC Kaiserslautern","Karlsruher SC","local",1.8],[10730,"Sheffield Wednesday","Preston","local",2.05],[10730,"Sunderland","Stoke City","local",1.75],[10730,"Crewe Alexandra","Bradford City","local",2.05],[10730,"Port Vale","Walsall","local",2.3],[10730,"Lincoln City","Charlton Athletic","local",2.1],[10730,"Wigan","Leyton Orient","local",2.25],[10730,"FC Slovacko","FK Pardubice","local",1.85],"4,657,552"],
+	[[10730,"Sheffield Wednesday","Preston","mitad",1.5],[10730,"Lincoln City","Charlton Athletic","mitad",1.48],[10730,"Wigan","Leyton Orient","mitad",1.55],[10730,"Crewe Alexandra","Bradford City","mitad",1.48],[10730,"Port Vale","Walsall","mitad",1.48],[10730,"FC Slovacko","FK Pardubice","mitad",1.45],"109,289"],
 ]
