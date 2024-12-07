@@ -959,6 +959,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "ECUADOR - Liga Pro - Playoffs",
+        "nombreWplay": 'ECUADOR - PRIMERA A',
+        "abreviado": "ZA-ECU1",
+        "codigoWplay": 19373,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ECUADOR - Liga Pro - Segunda fase",
         "nombreWplay": 'ECUADOR - PRIMERA A',
         "abreviado": "ZA-ECU1",
