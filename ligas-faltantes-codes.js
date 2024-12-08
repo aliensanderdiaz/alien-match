@@ -1,19 +1,4 @@
 let LIGAS_FALTANTES = [
-  'YE-BEL1' ,
-  'YE-BIE1' ,
-  'ZA-ECU1' ,
-  'R-ESC1' ,
-  'R-ESC2' ,
-  'ZA-EST1' ,
-  'YE-GRE1' ,
-  'R-ING1' ,
-  'R-INGO' ,
-  'R-INGT' ,
-  'ZA-MEX1' ,
-  'YE-POR2' ,
-  'YE-REP1' ,
-  'YE-RUS1' ,
-  'YE-SUI1' ,
-  'YE-TUR2' ,
-  'YE-UCR1' ,
+
+  'ZA-URU2' ,
 ];
