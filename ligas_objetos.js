@@ -1862,6 +1862,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "COLOMBIA - Primera B - Gran Final",
+        "nombreWplay": 'COLOMBIA - PRIMERA B',
+        "abreviado": "ZA-COL2",
+        "codigoWplay": 29812,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "COLOMBIA - Primera B - Apertura",
         "nombreWplay": 'COLOMBIA - PRIMERA B',
         "abreviado": "ZA-COL2",
