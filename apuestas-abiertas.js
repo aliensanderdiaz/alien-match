@@ -1,7 +1,8 @@
 let APUESTAS_ABIERTAS = [
-	[[11445,"Portsmouth","Norwich City","visitante",1.93],[11500,"Leeds United","Middlesbrough","visitante",2.65],[11500,"Club Brugge","Sporting De Lisboa","visitante",1.909],[11500,"RB Leipzig","Aston Villa","visitante",1.95],[11500,"Atalanta","Real Madrid","visitante",1.85],"352,238"],
-	[[11445,"Sunderland","Bristol City","local",1.9],[11445,"Burnley","Derby County","local",1.95],[11500,"Bayer Leverkusen","Inter","local",1.95],[11445,"Sheffield Wednesday","Blackburn Rovers","visitante",2.45],[11445,"Luton Town","Stoke City","visitante",2.35],"415,965"],
-	[[11445,"Sunderland","Bristol City","local",1.9],[11445,"Burnley","Derby County","local",1.95],[11500,"Bayer Leverkusen","Inter","local",1.95],[11445,"Sheffield Wednesday","Blackburn Rovers","visitante",2.45],[11445,"Luton Town","Stoke City","visitante",2.35],[11445,"Portsmouth","Norwich City","visitante",1.93],[11500,"Leeds United","Middlesbrough","visitante",2.65],[11500,"Club Brugge","Sporting De Lisboa","visitante",1.909],[11500,"Atalanta","Real Madrid","visitante",1.85],[11500,"RB Leipzig","Aston Villa","visitante",1.95],"14,651,865"],
-	[[11445,"Burnley","Derby County","over",2.5],[11445,"Sheffield Wednesday","Blackburn Rovers","over",2.2],[11445,"Sunderland","Bristol City","over",2.1],[11445,"Halifax Town","Sutton United","over",2.25],"259,875"],
-	[[11445,"Burnley","Derby County","mitad",1.533],[11445,"Sheffield Wednesday","Blackburn Rovers","mitad",1.48],[11445,"Sunderland","Bristol City","mitad",1.45],[11445,"Halifax Town","Sutton United","mitad",1.5],"49,358"],
+	[[11445,"Millwall","Sheffield United","visitante",2.35],[11445,"Cardiff City","Preston","visitante",2.4],[11445,"Hull City","Watford","visitante",2.2],[11445,"QPR","Oxford United","local",1.95],[11500,"West Bromwich","Coventry","local",2.1],[11500,"Juventus","Manchester City","local",2.6],[11500,"Borussia Dortmund","Barcelona","local",1.85],"2,443,998"],
+	[[11445,"Millwall","Sheffield United","over",2.5],[11445,"Cardiff City","Preston","over",2.15],[11445,"QPR","Oxford United","over",2.1],[11500,"Juventus","Manchester City","over",2],[11500,"West Bromwich","Coventry","over",2.1],"474,075"],
+	[[11445,"Millwall","Sheffield United","mitad",1.55],[11445,"Cardiff City","Preston","mitad",1.48],[11445,"QPR","Oxford United","mitad",1.444],[11500,"West Bromwich","Coventry","mitad",1.45],"48,047"],
+	[[11030,"Fenerbahce","Athletic Bilbao","over",2.04],"20.500"],
+	[[11030,"Fenerbahce","Athletic Bilbao","visitante",2.29],"23.000"],
+	[[11030,"Fenerbahce","Athletic Bilbao","mitad",1.45],"14.500"],
 ]
