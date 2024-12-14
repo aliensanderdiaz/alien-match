@@ -1,6 +1,4 @@
 let PARTIDOS_WPLAY = [
-	{"hora":1121411715,"liga":"ZA-ARG1","mitad":true,"mitadFavorito":true,"codigoWplay":19296,"local":"Boca Juniors","visitante":"CA Independiente","cuotaLocal":2.2,"empate":3.1,"cuotaVisitante":3.55,"cantidadDeApuestas":185,"cuotaCualquiera":1,"ambosAnotan":1,"over":1,"cuotaFavorito":1,"rate":1,"stake":0,"localMitad":1,"visitanteMitad":1},
 	{"hora":1121411915,"liga":"ZA-ARG1","mitad":true,"mitadFavorito":true,"codigoWplay":19296,"local":"Racing Club","visitante":"River Plate","cuotaLocal":2.8,"empate":3.25,"cuotaVisitante":2.5,"cantidadDeApuestas":187,"cuotaCualquiera":1,"ambosAnotan":1,"over":1,"cuotaFavorito":1,"rate":1,"stake":0,"localMitad":1,"visitanteMitad":1},
-	{"hora":1121411900,"liga":"ZA-BOL1","mitad":false,"mitadFavorito":false,"codigoWplay":19786,"local":"Blooming","visitante":"Guabira","cuotaLocal":1.615,"empate":3.95,"cuotaVisitante":4.333,"cantidadDeApuestas":38,"cuotaCualquiera":1,"ambosAnotan":1,"over":1,"cuotaFavorito":1,"rate":1,"stake":0,"localMitad":1,"visitanteMitad":1},
 	{"hora":1121411930,"liga":"ZA-COL2","mitad":false,"mitadFavorito":false,"codigoWplay":29812,"local":"Llaneros FC","visitante":"Union Magdalena","cuotaLocal":1.9,"empate":3.1,"cuotaVisitante":4.2,"cantidadDeApuestas":40,"cuotaCualquiera":1,"ambosAnotan":1,"over":1,"cuotaFavorito":1,"rate":1,"stake":0,"localMitad":1,"visitanteMitad":1},
 ]
