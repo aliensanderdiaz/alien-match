@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
     {
+        nombreFlashcore: 'FIFA Intercontinental Cup',
+        "nombreWplay": 'Intercontinental Cup',
+        "abreviado": 'I-CUP',
+        "codigoWplay": 51339,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'MUNDIALb - Kings Cup - Tailandia',
         "nombreWplay": 'Kings Cup',
         "abreviado": 'I-KINGS',
