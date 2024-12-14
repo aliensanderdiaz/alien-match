@@ -1,5 +1,11 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"Rosario Central","CA Belgrano","local",2.2],[11500,"Instituto AC Cordoba","Godoy Cruz","local",1.95],[11530,"Independiente Del Valle","LDU Quito","local",1.85],[11430,"SV Darmstadt 98","1. FC Kaiserslautern","visitante",2.15],[11500,"Real Oviedo","Granada","visitante",2.65],[11500,"Stade Reims","AS Monaco","visitante",1.75],[11445,"Kortrijk","FCV Dender EH","visitante",2.55],"2,017,863"],
-	[[11445,"Kortrijk","FCV Dender EH","over",2.1],[11500,"Instituto AC Cordoba","Godoy Cruz","over",2.1],[11500,"Rosario Central","CA Belgrano","over",2.5],[11500,"Real Oviedo","Granada","over",2.2],"242,550"],
-	[[11445,"Kortrijk","FCV Dender EH","mitad",1.45],[11500,"Instituto AC Cordoba","Godoy Cruz","mitad",1.45],[11500,"Rosario Central","CA Belgrano","mitad",1.55],[11500,"Real Oviedo","Granada","mitad",1.48],"48,231"],
+	[[11715,"Boca Juniors","CA Independiente","over",2.7],"27.000"],
+	[[11715,"Boca Juniors","CA Independiente","visitante",2.87],"28.750"],
+	[[11715,"Boca Juniors","CA Independiente","mitad",1.6],"16.000"],
+	[[11715,"Boca Juniors","CA Independiente","visitante",2.875],[11915,"Racing Club","River Plate","visitante",1.93],"55,488"],
+	[[11715,"Boca Juniors","CA Independiente","over",2.7],[11930,"Llaneros FC","Union Magdalena","over",2.625],"70,875"],
+	[[11715,"Boca Juniors","CA Independiente","mitad",1.6],[11930,"Llaneros FC","Union Magdalena","mitad",1.6],"25,600"],
+	[[11530,"Independiente Del Valle","LDU Quito","local",1.85],"18.500"],
+	[[11500,"Real Oviedo","Granada","over",2.2],"22.000"],
+	[[11500,"Instituto AC Cordoba","Godoy Cruz","over",2.1],[11500,"Rosario Central","CA Belgrano","over",2.5],[11500,"Real Oviedo","Granada","over",2.2],"242,550"],
 ]
