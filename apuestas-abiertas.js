@@ -1,6 +1,11 @@
 let APUESTAS_ABIERTAS = [
-	[[10600,"Uniao Leiria","Pacos Ferreira","visitante",2.54],"25.500"],
-	[[10530,"Sanliurfaspor","Pendikspor","over",2],[10530,"Istanbulspor AS","Erzurum BB","over",2],[10600,"Uniao Leiria","Pacos Ferreira","over",2.15],[10600,"FC Oleksandriya","LNZ Cherkasy","over",2.3],"197,800"],
-	[[10530,"Sanliurfaspor","Pendikspor","mitad",1.42],[10530,"Istanbulspor AS","Erzurum BB","mitad",1.444],[10600,"Uniao Leiria","Pacos Ferreira","mitad",1.45],[10600,"FC Oleksandriya","LNZ Cherkasy","mitad",1.48],"44,017"],
-	[[11915,"Banfield","Sarmiento","over",3],[11915,"San Lorenzo","CA Tigre","over",2.55],"477,934"],
+	[[10800,"SV Sandhausen","FC Erzgebirge Aue","local",1.85],[10800,"Espanyol","Osasuna","local",2.25],[10800,"Lorient","Paris FC","local",1.9],[10800,"Caykur Rizespor","Konyaspor","local",1.833],[10800,"VfB Stuttgart II","Borussia Dortmund II","visitante",1.833],[10800,"Hannover 96 II","FC Viktoria Köln","visitante",1.9],[10800,"SV Wehen Wiesbaden","FC Ingolstadt 04","visitante",1.9],[10800,"Red Star Paris","Grenoble","visitante",2.2],"2,111,157"],
+	[[10800,"Espanyol","Osasuna","over",2.25],[10800,"Caykur Rizespor","Konyaspor","over",2],[10800,"Red Star Paris","Grenoble","over",2.1],"94,500"],
+	[[10800,"Espanyol","Osasuna","mitad",1.5],[10800,"Red Star Paris","Grenoble","mitad",1.45],"21,750"],
+	[[10800,"Hannover 96 II","FC Viktoria Köln","visitante",1.9],[10800,"SV Wehen Wiesbaden","FC Ingolstadt 04","visitante",1.9],[10800,"VfB Stuttgart II","Borussia Dortmund II","visitante",1.85],[10800,"Red Star Paris","Grenoble","visitante",2.15],[10730,"Preston","Leeds United","visitante",1.75],[10730,"Bristol City","QPR","visitante",2.65],[10745,"Alverca","Desportivo Chaves","visitante",2.4],[10730,"Dukla Praha","FC Hradec Kralove","visitante",2.05],"9,173,276"],
+	[[10800,"Espanyol","Osasuna","local",2.3],[10800,"Levante","CF Cordoba","local",1.727],[10800,"SV Sandhausen","FC Erzgebirge Aue","local",1.85],[10800,"Lorient","Paris FC","local",1.85],[10730,"FC Otelul Galati","FC Uta Arad","local",2.05],[10800,"Caykur Rizespor","Konyaspor","local",1.833],"1,073,116"],
+	[[10730,"Dukla Praha","FC Hradec Kralove","over",2.4],[10730,"FC Otelul Galati","FC Uta Arad","over",2.5],[10745,"Alverca","Desportivo Chaves","over",2.35],[10800,"Caykur Rizespor","Konyaspor","over",2],[10800,"Red Star Paris","Grenoble","over",2.1],"592,200"],
+	[[10730,"Bristol City","QPR","over",2.15],[10730,"Preston","Leeds United","over",2.05],[10730,"Leyton Orient","Burton Albion","over",2],[10730,"Tranmere","Harrogate Town","over",2.05],[10800,"Espanyol","Osasuna","over",2.2],"397,557"],
+	[[10730,"Bristol City","QPR","mitad",1.45],[10800,"Espanyol","Osasuna","mitad",1.48],[10800,"Red Star Paris","Grenoble","mitad",1.45],[10730,"Dukla Praha","FC Hradec Kralove","mitad",1.533],[10730,"FC Otelul Galati","FC Uta Arad","mitad",1.55],[10745,"Alverca","Desportivo Chaves","mitad",1.533],"228,654"],
+	[[10600,"Uniao Leiria","Pacos Ferreira","over",2.15],[10600,"FC Oleksandriya","LNZ Cherkasy","over",2.3],"197,800"],
 ]
