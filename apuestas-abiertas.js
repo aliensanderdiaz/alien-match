@@ -1,7 +1,11 @@
 let APUESTAS_ABIERTAS = [
-	[[10615,"Utrecht","GO Ahead Eagles","local",1.769],[10630,"Lecce","Monza","local",2.2],[10530,"Hatayspor","Goztepe","visitante",2.05],[10600,"FC Felgueiras 1932","FC Vizela","visitante",2.3],"185,523"],
-	[[10630,"Lecce","Monza","mitad",1.533],[10530,"Bandirmaspor","Genclerbirligi","mitad",1.42],[10600,"FC Felgueiras 1932","FC Vizela","mitad",1.42],[10600,"FC Ingulets","Kolos Kovalyovka","mitad",1.6],"49,469"],
-	[[11915,"Racing Club","River Plate","visitante",1.85],"18.500"],
-	[[11930,"Llaneros FC","Union Magdalena","over",2.6],"26.000"],
-	[[11930,"Llaneros FC","Union Magdalena","mitad",1.57],"15.714"],
+	[[11100,"Brest","Nantes","local",2.25],[11100,"AC Le Havre","Strasbourg","local",2.3],[11115,"Salernitana","Juve Stabia","local",2.2],"113,850"],
+	[[11000,"Kilmarnock","Hearts","mitad",1.45],[11015,"CD Alaves","Athletic Bilbao","mitad",1.571],[11015,"Burgos CF","Malaga","mitad",1.48],[11030,"Arouca","CD Santa Clara","mitad",1.55],"78,406"],
+	[[11000,"Kilmarnock","Hearts","visitante",2.2],[11030,"Celtic","Glasgow Rangers","visitante",2.15],[11000,"Norwich City","Burnley","visitante",2.25],[11130,"Manchester City","Manchester United","visitante",2.3],[11030,"Arouca","CD Santa Clara","visitante",2.2],[11030,"Maritimo","Torreense","visitante",2.625],[11030,"FC Porto B","Feirense","visitante",2.35],"3,321,937"],
+	[[11030,"FC Lugano","Lausanne Sports","local",1.85],[11030,"FC Zurich","FC St. Gallen","local",1.85],[11015,"CD Alaves","Athletic Bilbao","visitante",2.15],[11030,"VfL Osnabruck","Rot Weiss Essen","visitante",2.1],[11015,"Burgos CF","Malaga","visitante",2.85],"440,399"],
+	[[11115,"Salernitana","Juve Stabia","over",2.35],[11030,"Maritimo","Torreense","over",2.1],[11030,"FC Porto B","Feirense","over",2],[11100,"Levadiakos","Panathinaikos","over",2.1],"207,270"],
+	[[11030,"Arouca","CD Santa Clara","over",2.45],[11100,"Brest","Nantes","over",2.375],[11100,"AC Le Havre","Strasbourg","over",2],[11100,"Rennes","Angers SCO","over",2],"232,750"],
+	[[11000,"Kilmarnock","Hearts","over",2.15],[11000,"Norwich City","Burnley","over",2.25],[11015,"CD Alaves","Athletic Bilbao","over",2.65],[11015,"Burgos CF","Malaga","over",2.25],"288,436"],
+	[[11100,"Brest","Nantes","mitad",1.533],[11100,"AC Le Havre","Strasbourg","mitad",1.42],[11115,"Salernitana","Juve Stabia","mitad",1.5],[11030,"Maritimo","Torreense","mitad",1.45],[11030,"FC Porto B","Feirense","mitad",1.42],[11100,"Levadiakos","Panathinaikos","mitad",1.42],"95,491"],
+	[[10900,"Bologna","Fiorentina","over",2.2],[10900,"Watford","West Bromwich","over",2.1],[10900,"Brescia","Carrarese Calcio","over",2.25],[10900,"Cittadella","Cremonese","over",2.1],[10900,"CD Tondela","Portimonense SC","over",2],[10900,"Unirea Slobozia","CFR Cluj","over",2.25],"982,328"],
 ]
