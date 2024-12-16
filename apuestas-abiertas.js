@@ -1,11 +1,9 @@
 let APUESTAS_ABIERTAS = [
-	[[11100,"Brest","Nantes","local",2.25],[11100,"AC Le Havre","Strasbourg","local",2.3],[11115,"Salernitana","Juve Stabia","local",2.2],"113,850"],
-	[[11000,"Kilmarnock","Hearts","mitad",1.45],[11015,"CD Alaves","Athletic Bilbao","mitad",1.571],[11015,"Burgos CF","Malaga","mitad",1.48],[11030,"Arouca","CD Santa Clara","mitad",1.55],"78,406"],
-	[[11000,"Kilmarnock","Hearts","visitante",2.2],[11030,"Celtic","Glasgow Rangers","visitante",2.15],[11000,"Norwich City","Burnley","visitante",2.25],[11130,"Manchester City","Manchester United","visitante",2.3],[11030,"Arouca","CD Santa Clara","visitante",2.2],[11030,"Maritimo","Torreense","visitante",2.625],[11030,"FC Porto B","Feirense","visitante",2.35],"3,321,937"],
-	[[11030,"FC Lugano","Lausanne Sports","local",1.85],[11030,"FC Zurich","FC St. Gallen","local",1.85],[11015,"CD Alaves","Athletic Bilbao","visitante",2.15],[11030,"VfL Osnabruck","Rot Weiss Essen","visitante",2.1],[11015,"Burgos CF","Malaga","visitante",2.85],"440,399"],
-	[[11115,"Salernitana","Juve Stabia","over",2.35],[11030,"Maritimo","Torreense","over",2.1],[11030,"FC Porto B","Feirense","over",2],[11100,"Levadiakos","Panathinaikos","over",2.1],"207,270"],
-	[[11030,"Arouca","CD Santa Clara","over",2.45],[11100,"Brest","Nantes","over",2.375],[11100,"AC Le Havre","Strasbourg","over",2],[11100,"Rennes","Angers SCO","over",2],"232,750"],
-	[[11000,"Kilmarnock","Hearts","over",2.15],[11000,"Norwich City","Burnley","over",2.25],[11015,"CD Alaves","Athletic Bilbao","over",2.65],[11015,"Burgos CF","Malaga","over",2.25],"288,436"],
-	[[11100,"Brest","Nantes","mitad",1.533],[11100,"AC Le Havre","Strasbourg","mitad",1.42],[11115,"Salernitana","Juve Stabia","mitad",1.5],[11030,"Maritimo","Torreense","mitad",1.45],[11030,"FC Porto B","Feirense","mitad",1.42],[11100,"Levadiakos","Panathinaikos","mitad",1.42],"95,491"],
-	[[10900,"Bologna","Fiorentina","over",2.2],[10900,"Watford","West Bromwich","over",2.1],[10900,"Brescia","Carrarese Calcio","over",2.25],[10900,"Cittadella","Cremonese","over",2.1],[10900,"CD Tondela","Portimonense SC","over",2],[10900,"Unirea Slobozia","CFR Cluj","over",2.25],"982,328"],
+	[[11445,"Dunkerque","Caen","local",1.95],[11500,"Fleetwood Town","Accrington","local",1.769],[11445,"Lazio","Inter","visitante",1.95],[11500,"Bournemouth","West Ham United","visitante",2.3],"117,426"],
+	[[11445,"Lazio","Inter","mitad",1.42],[11445,"Dunkerque","Caen","mitad",1.42],"20,164"],
+	[[11445,"Dunkerque","Caen","local",1.95],[11500,"Fleetwood Town","Accrington","local",1.769],[11445,"Lazio","Inter","visitante",1.95],[11500,"Bournemouth","West Ham United","visitante",2.3],[11545,"Rio Ave","Vitoria Guimaraes","visitante",1.909],"295,398"],
+	[[11445,"Lazio","Inter","over",2],[11445,"Dunkerque","Caen","over",2],[11545,"Rio Ave","Vitoria Guimaraes","over",2.1],"84,000"],
+	[[11445,"Lazio","Inter","mitad",1.42],[11445,"Dunkerque","Caen","mitad",1.42],[11545,"Rio Ave","Vitoria Guimaraes","mitad",1.45],"29,238"],
+	[[11000,"Qatar Sub 23","Arabia Saudí Sub 23","over",2.15],"21.500"],
+	[[11000,"Qatar Sub 23","Arabia Saudí Sub 23","mitad",1.42],"14.200"],
 ]
