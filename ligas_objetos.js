@@ -1830,6 +1830,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "COLOMBIA - Primera A - Clausura - Playoffs",
+        "nombreWplay": 'COLOMBIA - PRIMERA A',
+        "abreviado": "ZA-COL1",
+        "codigoWplay": 19311,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "COLOMBIA - Primera A - Apertura",
         "nombreWplay": 'Colombia - Primera A',
         "abreviado": "ZA-COL1",

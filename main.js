@@ -1,8 +1,8 @@
 let HORA = 10000
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1121800000
-HORA += 1514
+const FECHA_PARTIDO_MANANA = 1121900000
+HORA += 729
 
 let FECHA_PARTIDO_HOY      = FECHA_PARTIDO_MANANA - 100000
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -128,6 +128,12 @@ async function main() {
                         {
                             "liga": 'I-OLIH',
                             "codigoWplay": 45631,
+                            mitad: true,
+                            mitadFavorito: true,
+                        },
+                        {
+                            "liga": 'I-CUP',
+                            "codigoWplay": 51339,
                             mitad: true,
                             mitadFavorito: true,
                         }
