@@ -1,11 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"Molde","FK Mlada Boleslav","visitante",2.45],[11500,"Cercle Brugge","Istanbul Basaksehir FK","visitante",2],[11500,"Borac Banja Luka","AC Omonia Nicosia","visitante",2.45],"131,275"],
-	[[11500,"LASK Linz","Vikingur Reykjavik","visitante",2.25],[11500,"Rapid Vienna","FC Copenhagen","visitante",1.93],[11500,"Vitoria Guimaraes","Fiorentina","visitante",1.85],[11500,"Djurgardens IF","Legia Warsaw","visitante",2.15],"188,873"],
-	[[11515,"SD Huesca","CD Tenerife","local",2.15],[11500,"FC Lugano","Pafos FC","local",1.85],[11500,"TSC Backa Topola","FC Noah","local",1.769],[11500,"Jagiellonia Bialystok","NK Olimpija Ljubljana","local",1.85],[11500,"Tottenham","Manchester United","visitante",1.8],"256,246"],
-	[[11300,"Elche","Racing Santander","over",2],[11300,"CF Cadiz","Burgos CF","over",2.45],"49,000"],
-	[[11300,"Elche","Racing Santander","local",1.8],[11300,"CF Cadiz","Burgos CF","local",1.95],"35,100"],
-	[[11300,"CF Cadiz","Burgos CF","mitad",1.53],"15.333"],
-	[[11300,"Elche","Racing Santander","local",1.8],[11300,"CF Cadiz","Burgos CF","local",1.95],[11515,"SD Huesca","CD Tenerife","local",2.15],[11500,"Tottenham","Manchester United","visitante",1.769],[11500,"FC Lugano","Pafos FC","local",1.85],[11500,"TSC Backa Topola","FC Noah","local",1.769],[11500,"Jagiellonia Bialystok","NK Olimpija Ljubljana","local",1.85],[11500,"LASK Linz","Vikingur Reykjavik","visitante",2.25],[11500,"Rapid Vienna","FC Copenhagen","visitante",1.93],[11500,"Vitoria Guimaraes","Fiorentina","visitante",1.85],[11500,"Djurgardens IF","Legia Warsaw","visitante",2.15],[11500,"Molde","FK Mlada Boleslav","visitante",2.45],[11500,"Cercle Brugge","Istanbul Basaksehir FK","visitante",2],[11500,"Borac Banja Luka","AC Omonia Nicosia","visitante",2.45],"167,637,114"],
-	[[11300,"Elche","Racing Santander","over",2],[11300,"CF Cadiz","Burgos CF","over",2.45],[11500,"Borac Banja Luka","AC Omonia Nicosia","over",2.875],[11515,"SD Huesca","CD Tenerife","over",2.9],"408,538"],
-	[[11300,"CF Cadiz","Burgos CF","mitad",1.533],[11500,"Borac Banja Luka","AC Omonia Nicosia","mitad",1.615],[11515,"SD Huesca","CD Tenerife","mitad",1.65],"40,869"],
 ]
