@@ -1742,6 +1742,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "BOLIVIA - División Profesional - Superfinal",
+        "nombreWplay": 'BOLIVIA - LIGA DE FÚTBOL PROFESIONAL',
+        "abreviado": "ZA-BOL1",
+        "codigoWplay": 19786,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "BOLIVIA - División Profesional - Descenso",
         "nombreWplay": 'BOLIVIA - LIGA DE FÚTBOL PROFESIONAL',
         "abreviado": "ZA-BOL1",
