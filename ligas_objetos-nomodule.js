@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
     {
+        nombreFlashcore: 'FIFA Intercontinental Cup',
+        "nombreWplay": 'Intercontinental Cup',
+        "abreviado": 'I-CUP',
+        "codigoWplay": 51339,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'MUNDIALb - Kings Cup - Tailandia',
         "nombreWplay": 'Kings Cup',
         "abreviado": 'I-KINGS',
@@ -283,7 +291,7 @@ let LIGAS_OBJETOS = [
     },
     {
         nombreFlashcore: 'PORTUGAL - Taça da Liga',
-        "nombreWplay": 'PORTUGAL - TAÇA DE PORTUGAL',
+        "nombreWplay": 'Portugal - Copa de la Liga',
         "abreviado": 'YE-PORC',
         "codigoWplay": 19337,
         mitad: false,
@@ -670,6 +678,22 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "URUGUAY - Segunda División - Ascenso - Playoffs",
+        "nombreWplay": 'URUGUAY - SEGUNDA DIVISION',
+        "abreviado": "ZA-URU2",
+        "codigoWplay": 26834,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "URUGUAY - Segunda División - Partido adicional",
+        "nombreWplay": 'URUGUAY - SEGUNDA DIVISION',
+        "abreviado": "ZA-URU2",
+        "codigoWplay": 26834,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "URUGUAY - Segunda División - Torneo Competencia",
         "nombreWplay": 'URUGUAY - SEGUNDA DIVISION',
         "abreviado": "ZA-URU2",
@@ -688,6 +712,15 @@ let LIGAS_OBJETOS = [
 
     {
         "nombreFlashcore": "BIELORRUSIA - Vysshaya Liga",
+        "nombreWplay": 'BIELORRUSIA - PREMIER LEAGUE',
+        "abreviado": "YE-BIE1",
+        "codigoWplay": 19493,
+        mitad: false,
+        favorito: false
+    },
+
+    {
+        "nombreFlashcore": "BIELORRUSIA - Vysshaya Liga - Descenso",
         "nombreWplay": 'BIELORRUSIA - PREMIER LEAGUE',
         "abreviado": "YE-BIE1",
         "codigoWplay": 19493,
@@ -736,7 +769,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'COUPE DE FRANCE',
         "abreviado": "FRAC",
         "codigoWplay": 26463,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -816,7 +849,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'ESCOCIA - FA CUP',
         "abreviado": "R-ESCC",
         "codigoWplay": 19307,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -833,6 +866,14 @@ let LIGAS_OBJETOS = [
         "abreviado": "R-ESCL",
         "codigoWplay": 19409,
         mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ESTADOS UNIDOS - USL Championship - Playoffs",
+        "nombreWplay": 'USA - USL CHAMPIONSHIP',
+        "abreviado": "ZA-EST2",
+        "codigoWplay": 20075,
+        mitad: false,
         favorito: true
     },
     {
@@ -894,6 +935,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "COREA DEL SUR - K League 1 - Descenso",
+        "nombreWplay": 'COREA DEL SUR - K-LEAGUE 1',
+        "abreviado": "S-COR1",
+        "codigoWplay": 19306,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "COREA DEL SUR - K League 1 - Grupo Descenso",
         "nombreWplay": 'COREA DEL SUR - K-LEAGUE 1',
         "abreviado": "S-COR1",
@@ -911,6 +960,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "ECUADOR - Liga Pro - Primera fase",
+        "nombreWplay": 'ECUADOR - PRIMERA A',
+        "abreviado": "ZA-ECU1",
+        "codigoWplay": 19373,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ECUADOR - Liga Pro - Playoffs",
         "nombreWplay": 'ECUADOR - PRIMERA A',
         "abreviado": "ZA-ECU1",
         "codigoWplay": 19373,
@@ -994,7 +1051,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'COPA DEL REY',
         "abreviado": "ESPC",
         "codigoWplay": 19213,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -1476,6 +1533,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "RUMANÍA - Superliga",
+        "nombreWplay": 'RUMANÍA - LIGA 1',
+        "abreviado": "YE-RUM1",
+        "codigoWplay": 46019,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "RUMANÍA - Liga 1 - Conference League - Play Offs",
         "nombreWplay": 'RUMANÍA - LIGA 1',
         "abreviado": "YE-RUM1",
@@ -1604,6 +1669,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "ARGENTINA - Trofeo de Campeones",
+        "nombreWplay": 'Argentina - Trofeo de Campeones de la Liga Profesional',
+        "abreviado": "ZA-ARGT",
+        "codigoWplay": 503779,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ARGENTINA - Torneo Betano",
         "nombreWplay": 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
         "abreviado": "ZA-ARG1",
@@ -1645,12 +1718,36 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "ARGENTINA - Primera Nacional - Partido adicional",
+        "nombreWplay": 'ARGENTINA - PRIMERA NACIONAL',
+        "abreviado": "ZA-ARG2",
+        "codigoWplay": 19342,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "ARGENTINA - Primera Nacional - Ascenso - Playoffs",
+        "nombreWplay": 'ARGENTINA - PRIMERA NACIONAL',
+        "abreviado": "ZA-ARG2",
+        "codigoWplay": 19342,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "ARGENTINA - Copa Argentina",
         "nombreWplay": 'ARGENTINA - COPA ARGENTINA',
         "abreviado": "ZA-ARGC",
         "codigoWplay": 19572,
         mitad: true,
         favorito: true
+    },
+    {
+        "nombreFlashcore": "BOLIVIA - División Profesional - Descenso",
+        "nombreWplay": 'BOLIVIA - LIGA DE FÚTBOL PROFESIONAL',
+        "abreviado": "ZA-BOL1",
+        "codigoWplay": 19786,
+        mitad: false,
+        favorito: false
     },
     {
         "nombreFlashcore": "BOLIVIA - División Profesional - Apertura",
@@ -1749,6 +1846,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "COLOMBIA - Primera A - Clausura - Playoffs",
+        "nombreWplay": 'COLOMBIA - PRIMERA A',
+        "abreviado": "ZA-COL1",
+        "codigoWplay": 19311,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "COLOMBIA - Primera A - Apertura",
         "nombreWplay": 'Colombia - Primera A',
         "abreviado": "ZA-COL1",
@@ -1758,6 +1863,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "COLOMBIA - Primera A - Clausura",
+        "nombreWplay": 'COLOMBIA - PRIMERA A',
+        "abreviado": "ZA-COL1",
+        "codigoWplay": 19311,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "COLOMBIA - Primera A - Clausura - Cuadrangular",
         "nombreWplay": 'COLOMBIA - PRIMERA A',
         "abreviado": "ZA-COL1",
         "codigoWplay": 19311,
@@ -1781,6 +1894,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "COLOMBIA - Primera B - Gran Final",
+        "nombreWplay": 'COLOMBIA - PRIMERA B',
+        "abreviado": "ZA-COL2",
+        "codigoWplay": 29812,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "COLOMBIA - Primera B - Apertura",
         "nombreWplay": 'COLOMBIA - PRIMERA B',
         "abreviado": "ZA-COL2",
@@ -1798,6 +1919,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "COLOMBIA - Primera B - Clausura",
+        "nombreWplay": 'COLOMBIA - PRIMERA B',
+        "abreviado": "ZA-COL2",
+        "codigoWplay": 29812,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "COLOMBIA - Primera B - Clausura - Playoffs",
         "nombreWplay": 'COLOMBIA - PRIMERA B',
         "abreviado": "ZA-COL2",
         "codigoWplay": 29812,
@@ -1902,6 +2031,22 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "MÉXICO - Liga MX - Apertura - Play In",
+        "nombreWplay": 'MÉXICO - LIGA MX',
+        "abreviado": "ZA-MEX1",
+        "codigoWplay": 19329,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "MÉXICO - Liga MX - Apertura - Playoffs",
+        "nombreWplay": 'MÉXICO - LIGA MX',
+        "abreviado": "ZA-MEX1",
+        "codigoWplay": 19329,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "MÉXICO - Campeón de Campeones",
         "nombreWplay": 'MEXICO - SUPERCOPA LIGA MX',
         "abreviado": "ZA-MEXS",
@@ -1937,6 +2082,15 @@ let LIGAS_OBJETOS = [
 
     {
         "nombreFlashcore": "MÉXICO - Liga de Expansión MX - Clausura - Playoffs",
+        "nombreWplay": 'MEXICO - LIGA DE EXPANSION MX',
+        "abreviado": "ZA-MEX2",
+        "codigoWplay": 61826,
+        mitad: true,
+        favorito: true
+    },
+
+    {
+        "nombreFlashcore": "MÉXICO - Liga de Expansión MX - Apertura - Playoffs",
         "nombreWplay": 'MEXICO - LIGA DE EXPANSION MX',
         "abreviado": "ZA-MEX2",
         "codigoWplay": 61826,
@@ -2072,6 +2226,24 @@ let LIGAS_OBJETOS = [
         mitad: false,
         favorito: false
     },
+    
+    {
+        "nombreFlashcore": "VENEZUELA - Liga FUTVE - Superfinal",
+        "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-VEN1",
+        "codigoWplay": 20080,
+        mitad: false,
+        favorito: false
+    },
+    
+    {
+        "nombreFlashcore": "VENEZUELA - Liga FUTVE - Final Torneo - Clausura",
+        "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-VEN1",
+        "codigoWplay": 20080,
+        mitad: false,
+        favorito: false
+    },
     {
         "nombreFlashcore": "VENEZUELA - Liga FUTVE - Apertura",
         "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
@@ -2130,3 +2302,6 @@ let LIGAS_OBJETOS = [
         favorito: false
     }
 ]
+
+
+

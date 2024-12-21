@@ -1669,6 +1669,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "ARGENTINA - Trofeo de Campeones",
+        "nombreWplay": 'Argentina - Trofeo de Campeones de la Liga Profesional',
+        "abreviado": "ZA-ARGT",
+        "codigoWplay": 503779,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ARGENTINA - Torneo Betano",
         "nombreWplay": 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
         "abreviado": "ZA-ARG1",
@@ -1732,6 +1740,14 @@ let LIGAS_OBJETOS = [
         "codigoWplay": 19572,
         mitad: true,
         favorito: true
+    },
+    {
+        "nombreFlashcore": "BOLIVIA - División Profesional - Descenso",
+        "nombreWplay": 'BOLIVIA - LIGA DE FÚTBOL PROFESIONAL',
+        "abreviado": "ZA-BOL1",
+        "codigoWplay": 19786,
+        mitad: false,
+        favorito: false
     },
     {
         "nombreFlashcore": "BOLIVIA - División Profesional - Apertura",

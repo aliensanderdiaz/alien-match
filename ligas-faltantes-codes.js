@@ -1,7 +1,10 @@
 let LIGAS_FALTANTES = [
-  'ZA-COLC' ,
-  'R-ESCL' ,
-  'ZA-MEX1' ,
+  // 'ZA-ARG1' ,
+  'YE-GRE1' ,
+  'R-ING1' ,
+  'R-INGN' ,
+  'YE-PORT' ,
   'YE-TUR2' ,
-  'YE-UCR1' ,
+  'ZA-ARGT',
+
 ];
