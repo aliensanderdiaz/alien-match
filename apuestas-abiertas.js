@@ -1,6 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11515,"Arsenal","Ipswich Town","visitante",4],[11430,"Brighton","Brentford","visitante",2.25],[11445,"Anderlecht","FCV Dender EH","visitante",2.95],[11230,"OH Leuven","Beerschot","visitante",2.6],"690,300"],
-	[[11445,"Dunfermline","Falkirk","visitante",1.85],[11445,"St Truiden","Cercle Brugge","visitante",2],[11515,"Arouca","Gil Vicente","visitante",2.55],"94,350"],
-	[[11445,"Dunfermline","Falkirk","over",2.05],[11515,"Arouca","Gil Vicente","over",2.375],"48,688"],
-	[[11515,"Arouca","Gil Vicente","mitad",1.533],[11445,"Dunfermline","Falkirk","mitad",1.42],"21,773"],
+	[[10900,"Parma","Monza","local",1.85],[11000,"Ayr United","Greenock Morton","local",1.75],[11000,"Hamilton Academical","Airdrieonians","local",1.769],[11000,"Partick Thistle","Queens Park","local",1.769],[10900,"Empoli","Génova","visitante",2.6],[11000,"Raith Rovers","Livingston","visitante",2.25],[11030,"Avs Futebol Sad","CF Estrela","visitante",2.4],[11300,"Estoril","Moreirense","visitante",2.2],[11445,"Lazio","Atalanta","visitante",1.909],"5,975,787"],
+	[[11900,"Central Norte","Club Atletico Colegiales","over",2.375],[10900,"Empoli","Génova","over",2.6],[11000,"Ayr United","Greenock Morton","over",2],[11000,"Raith Rovers","Livingston","over",2.35],[11030,"Avs Futebol Sad","CF Estrela","over",2.35],[11300,"Estoril","Moreirense","over",2.45],[11400,"Atletico Alagoinhas","Jacuipense BA","over",2],"3,341,941"],
+	[[11900,"Central Norte","Club Atletico Colegiales","mitad",1.48],[10900,"Empoli","Génova","mitad",1.6],[11000,"Ayr United","Greenock Morton","mitad",1.42],[11000,"Raith Rovers","Livingston","mitad",1.533],[11030,"Avs Futebol Sad","CF Estrela","mitad",1.5],[11300,"Estoril","Moreirense","mitad",1.55],"119,875"],
 ]
