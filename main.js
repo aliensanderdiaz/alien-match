@@ -1,8 +1,9 @@
+
 let HORA = 10000
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1122900000
-HORA += 1259
+const FECHA_PARTIDO_MANANA = 1123000000
+HORA += 0
 
 let FECHA_PARTIDO_HOY      = FECHA_PARTIDO_MANANA - 100000
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -302,6 +303,7 @@ async function main() {
 
             if (line.startsWith(' ★ ')) {
                 let ligaWplayName = line.replace(' ★ ', '')
+                console.log({ ligaWplayName })
                 // if (ligaWplayName === 'Olympics Matches Men') {
                 //     console.log({ ligaWplayName })
                 // }
