@@ -97,14 +97,6 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
-        nombreFlashcore: 'ALEMANIA - DFL-Supercup',
-        "nombreWplay": 'SUPER COPA',
-        "abreviado": 'ALES',
-        "codigoWplay": 19830,
-        mitad: true,
-        favorito: true
-    },
-    {
         nombreFlashcore: 'EUROPA - Supercopa UEFA',
         "nombreWplay": 'UEFA - Super Copa',
         "abreviado": 'SUPE',
@@ -1742,6 +1734,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "BOLIVIA - División Profesional - Superfinal",
+        "nombreWplay": 'BOLIVIA - LIGA DE FÚTBOL PROFESIONAL',
+        "abreviado": "ZA-BOL1",
+        "codigoWplay": 19786,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "BOLIVIA - División Profesional - Descenso",
         "nombreWplay": 'BOLIVIA - LIGA DE FÚTBOL PROFESIONAL',
         "abreviado": "ZA-BOL1",
@@ -1806,12 +1806,12 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
-        "nombreFlashcore": "BRASIL - Brasileirao Serie A",
-        "nombreWplay": 'BRASIL - SERIE A',
-        "abreviado": "ZA-BRA1",
-        "codigoWplay": 19297,
-        mitad: true,
-        favorito: true
+        "nombreFlashcore": "BRASIL - Copinha",
+        "nombreWplay": 'Brazil - Copa Sao Paulo U20',
+        "abreviado": "ZA-BRAC20",
+        "codigoWplay": 1187789,
+        mitad: false,
+        favorito: false
     },
     {
         "nombreFlashcore": "BRASIL - Brasileirao Serie B",
@@ -2300,8 +2300,44 @@ let LIGAS_OBJETOS = [
         "codigoWplay": 48455,
         mitad: false,
         favorito: false
-    }
+    },
+    {
+        "nombreFlashcore": "ITALIA - Supercopa",
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": "ITAS",
+        "codigoWplay": 19948,
+        mitad: true,
+        favorito: true
+    },
+
+    {
+        nombreFlashcore: 'ALEMANIA - DFL-Supercup',
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": 'ALES',
+        "codigoWplay": 19830,
+        mitad: true,
+        favorito: true
+    },
 ]
 
 
 
+// LIGAS_OBJETOS.sort((a, b) => {
+//     const nameA = a.abreviado.toUpperCase(); // ignore upper and lowercase
+//     const nameB = b.abreviado.toUpperCase(); // ignore upper and lowercase
+//     if (nameA < nameB) {
+//         return -1;
+//     }
+//     if (nameA > nameB) {
+//         return 1;
+//     }
+
+//     // names must be equal
+//     return 0;
+// });
+
+// console.log(LIGAS_OBJETOS)
+
+// const fs = require('fs')
+
+// fs.writeFileSync('ligas_objetos.txt', JSON.stringify(LIGAS_OBJETOS))

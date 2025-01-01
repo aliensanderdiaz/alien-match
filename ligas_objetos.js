@@ -97,14 +97,6 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
-        nombreFlashcore: 'ALEMANIA - DFL-Supercup',
-        "nombreWplay": 'SUPER COPA',
-        "abreviado": 'ALES',
-        "codigoWplay": 19830,
-        mitad: true,
-        favorito: true
-    },
-    {
         nombreFlashcore: 'EUROPA - Supercopa UEFA',
         "nombreWplay": 'UEFA - Super Copa',
         "abreviado": 'SUPE',
@@ -1814,12 +1806,12 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
-        "nombreFlashcore": "BRASIL - Brasileirao Serie A",
-        "nombreWplay": 'BRASIL - SERIE A',
-        "abreviado": "ZA-BRA1",
-        "codigoWplay": 19297,
-        mitad: true,
-        favorito: true
+        "nombreFlashcore": "BRASIL - Copinha",
+        "nombreWplay": 'Brazil - Copa Sao Paulo U20',
+        "abreviado": "ZA-BRAC20",
+        "codigoWplay": 1187789,
+        mitad: false,
+        favorito: false
     },
     {
         "nombreFlashcore": "BRASIL - Brasileirao Serie B",
@@ -2308,7 +2300,24 @@ let LIGAS_OBJETOS = [
         "codigoWplay": 48455,
         mitad: false,
         favorito: false
-    }
+    },
+    {
+        "nombreFlashcore": "ITALIA - Supercopa",
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": "ITAS",
+        "codigoWplay": 19948,
+        mitad: true,
+        favorito: true
+    },
+
+    {
+        nombreFlashcore: 'ALEMANIA - DFL-Supercup',
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": 'ALES',
+        "codigoWplay": 19830,
+        mitad: true,
+        favorito: true
+    },
 ]
 
 
