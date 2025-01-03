@@ -182,6 +182,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        nombreFlashcore: 'BRASIL - Copa do Nordeste - Clasificación',
+        "nombreWplay": 'BRASIL - COPA DO NORDESTE',
+        "abreviado": 'ZA-BRACN',
+        "codigoWplay": 27208,
+        mitad: false,
+        favorito: false
+    },
+    {
         nombreFlashcore: 'ÁFRICA - Mundial - Clasificación - Primera fase',
         "nombreWplay": 'WORLD CUP 2026 - AFRICA QUALIFIERS',
         "abreviado": 'M-AFR',

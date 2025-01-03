@@ -1,8 +1,10 @@
 let APUESTAS_ABIERTAS = [
-	[[11200,"Alanyaspor","Konyaspor","local",1.95],[11200,"Caykur Rizespor","Besiktas","visitante",2],"39,000"],
-	[[11200,"Alanyaspor","Konyaspor","over",2.05],[11200,"Kocaelispor","Igdir Belediyespor","over",2.1],"43,050"],
-	[[11200,"Alanyaspor","Konyaspor","mitad",1.42],[11200,"Kocaelispor","Igdir Belediyespor","mitad",1.42],"20,164"],
-	[[11200,"Alanyaspor","Konyaspor","local",1.95],[11300,"Granada","Getafe","local",2.65],[11200,"Caykur Rizespor","Besiktas","visitante",2],[11300,"Pontevedra CF","RCD Mallorca","visitante",1.95],[11300,"Ferrol","Rayo Vallecano","visitante",1.85],"372,835"],
-	[[11200,"Alanyaspor","Konyaspor","over",2.05],[11200,"Kocaelispor","Igdir Belediyespor","over",2.1],[11300,"Granada","Getafe","over",2.7],[11300,"Pontevedra CF","RCD Mallorca","over",2.2],[11300,"Ferrol","Rayo Vallecano","over",2.35],"600,935"],
-	[[11200,"Alanyaspor","Konyaspor","mitad",1.42],[11200,"Kocaelispor","Igdir Belediyespor","mitad",1.42],[11300,"Granada","Getafe","mitad",1.6],[11300,"Pontevedra CF","RCD Mallorca","mitad",1.48],[11300,"Ferrol","Rayo Vallecano","mitad",1.48],"70,668"],
+	[[11500,"Nice","Rennes","local",2.05],[11515,"Vitoria Guimaraes","Sporting De Lisboa","visitante",1.8],"36,900"],
+	[[11500,"Nice","Rennes","over",2.04],"20.500"],
+	[[11500,"Nice","Rennes","mitad",1.44],"14.444"],
+	[[11400,"Caen","Clermont Foot","local",1.95],[11400,"Grenoble","SC Bastia","visitante",2.15],"508,445"],
+	[[11400,"Juventus","AC Milán","over",2.2],[11400,"Ajaccio","Annecy FC","over",2.65],[11400,"Grenoble","SC Bastia","over",2.45],[11400,"Caen","Clermont Foot","over",2],[11400,"SC Amiens","Troyes","over",2.25],"642,758"],
+	[[11400,"Caen","Clermont Foot","mitad",1.42],"76,308"],
+	[[11300,"Granada","Getafe","over",2.625],[11300,"Pontevedra CF","RCD Mallorca","over",2.35],"144,966"],
+	[[11300,"Granada","Getafe","over",2.7],[11300,"Pontevedra CF","RCD Mallorca","over",2.2],"600,935"],
 ]
