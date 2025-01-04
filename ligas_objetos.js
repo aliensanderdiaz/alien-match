@@ -773,6 +773,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "FRANCIA - Supercopa",
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": "FRAS",
+        "codigoWplay": 19873,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ALEMANIA - DFB-Pokal",
         "nombreWplay": 'DFB POKAL',
         "abreviado": "ALEC",

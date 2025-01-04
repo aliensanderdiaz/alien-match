@@ -182,6 +182,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        nombreFlashcore: 'BRASIL - Copa do Nordeste - Clasificación',
+        "nombreWplay": 'BRASIL - COPA DO NORDESTE',
+        "abreviado": 'ZA-BRACN',
+        "codigoWplay": 27208,
+        mitad: false,
+        favorito: false
+    },
+    {
         nombreFlashcore: 'ÁFRICA - Mundial - Clasificación - Primera fase',
         "nombreWplay": 'WORLD CUP 2026 - AFRICA QUALIFIERS',
         "abreviado": 'M-AFR',
@@ -762,6 +770,14 @@ let LIGAS_OBJETOS = [
         "abreviado": "FRAC",
         "codigoWplay": 26463,
         mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "FRANCIA - Supercopa",
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": "FRAS",
+        "codigoWplay": 19873,
+        mitad: true,
         favorito: true
     },
     {
