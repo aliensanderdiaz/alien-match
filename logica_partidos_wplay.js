@@ -170,11 +170,11 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 ${ mitad } ${ local } ${ visitante }    ${ over }    
             </div>
             <div class="col-2 border">
-                <strong class="elegir-favorito ${partido.favorito === 'local' ? 'bg-success text-white' : ''}" onclick="elegirFavorito(${indice}, 'local')">
+                <strong class="elegir-favorito ${partido.favorito === 'local' ? 'favorito-local' : ''}" onclick="elegirFavorito(${indice}, 'local')">
                     ${partido.local.substring(0, 30)}
                 </strong>
                 <br>
-                <strong class="elegir-favorito ${partido.favorito === 'visitante' ? 'bg-success text-white' : ''}" onclick="elegirFavorito(${indice}, 'visitante')">
+                <strong class="elegir-favorito ${partido.favorito === 'visitante' ? 'favorito-visitante' : ''}" onclick="elegirFavorito(${indice}, 'visitante')">
                     ${partido.visitante.substring(0, 30)}
                 </strong>
             </div>
