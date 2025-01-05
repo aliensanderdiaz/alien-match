@@ -772,14 +772,7 @@ let LIGAS_OBJETOS = [
         mitad: false,
         favorito: true
     },
-    {
-        "nombreFlashcore": "FRANCIA - Supercopa",
-        "nombreWplay": 'SUPER COPA',
-        "abreviado": "FRAS",
-        "codigoWplay": 19873,
-        mitad: true,
-        favorito: true
-    },
+
     {
         "nombreFlashcore": "ALEMANIA - DFB-Pokal",
         "nombreWplay": 'DFB POKAL',
@@ -2331,6 +2324,15 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'SUPER COPA',
         "abreviado": 'ALES',
         "codigoWplay": 19830,
+        mitad: true,
+        favorito: true
+    },
+
+    {
+        "nombreFlashcore": "FRANCIA - Supercopa",
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": "FRAS",
+        "codigoWplay": 19873,
         mitad: true,
         favorito: true
     },
