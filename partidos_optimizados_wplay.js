@@ -1,5 +1,3 @@
 let PARTIDOS_WPLAY = [
 	{"hora":1010511530,"liga":"YE-POR1","mitad":true,"mitadFavorito":true,"codigoWplay":19211,"local":"CF Estrela","visitante":"Estoril","cuotaLocal":2.35,"empate":3,"cuotaVisitante":3.3,"cantidadDeApuestas":164,"cuotaCualquiera":1,"ambosAnotan":1,"over":1,"cuotaFavorito":1,"rate":1,"stake":0,"localMitad":1,"visitanteMitad":1},
-	{"hora":1010511445,"liga":"FRA1","mitad":true,"mitadFavorito":true,"codigoWplay":19327,"local":"Marseille","visitante":"AC Le Havre","cuotaLocal":1.333,"empate":5.5,"cuotaVisitante":9.5,"cantidadDeApuestas":269,"cuotaCualquiera":1,"ambosAnotan":1,"over":1,"cuotaFavorito":1,"rate":1,"stake":0,"localMitad":1,"visitanteMitad":1},
-	{"hora":1010511445,"liga":"ITA1","mitad":true,"mitadFavorito":true,"codigoWplay":19159,"local":"Roma","visitante":"Lazio","cuotaLocal":2.55,"empate":3.2,"cuotaVisitante":3,"cantidadDeApuestas":337,"cuotaCualquiera":1,"ambosAnotan":1,"over":1,"cuotaFavorito":1,"rate":1,"stake":0,"localMitad":1,"visitanteMitad":1},
 ]

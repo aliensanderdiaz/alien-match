@@ -1,5 +1,3 @@
 let PARTIDOS_OPTIMIZADOS = [
-	{"hora":11445,"liga":"FRA1","mitad":true,"mitadFavorito":true,"codigoWplay":19327,"local":"Marseille","visitante":"AC Le Havre","cuotaLocal":1.333,"empate":5.5,"cuotaVisitante":9.5,"cantidadDeApuestas":269,"cuotaCualquiera":1.3,"ambosAnotan":2,"over":1.666,"cuotaFavorito":1.48,"rate":1,"stake":0,"localMitad":1.48,"visitanteMitad":3.3,"favorito":"local"},
-	{"hora":11445,"liga":"ITA1","mitad":true,"mitadFavorito":true,"codigoWplay":19159,"local":"Roma","visitante":"Lazio","cuotaLocal":2.55,"empate":3.2,"cuotaVisitante":3,"cantidadDeApuestas":337,"cuotaCualquiera":1.4,"ambosAnotan":1.7,"over":2,"cuotaFavorito":2.15,"rate":1,"stake":0,"localMitad":2.05,"visitanteMitad":2.15,"favorito":"visitante"},
 	{"hora":11530,"liga":"YE-POR1","mitad":true,"mitadFavorito":true,"codigoWplay":19211,"local":"CF Estrela","visitante":"Estoril","cuotaLocal":2.35,"empate":3,"cuotaVisitante":3.3,"cantidadDeApuestas":164,"cuotaCualquiera":1.5,"ambosAnotan":1.9,"over":2.25,"cuotaFavorito":2.15,"rate":1,"stake":0,"localMitad":2.15,"visitanteMitad":2.45,"favorito":"local"},
 ]
