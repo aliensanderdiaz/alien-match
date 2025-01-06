@@ -311,7 +311,7 @@ let LIGAS_OBJETOS = [
         "abreviado": "YE-BELC",
         "codigoWplay": 19448,
         mitad: false,
-        favorito: false
+        favorito: true
     },
     {
         nombreFlashcore: 'BÉLGICA - Copa',
