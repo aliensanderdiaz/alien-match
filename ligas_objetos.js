@@ -319,7 +319,7 @@ let LIGAS_OBJETOS = [
         "abreviado": "YE-BELC",
         "codigoWplay": 19448,
         mitad: false,
-        favorito: false
+        favorito: true
     },
     {
         nombreFlashcore: 'BÉLGICA - Jupiler Pro League - Conference League Group',
@@ -1037,6 +1037,14 @@ let LIGAS_OBJETOS = [
         "abreviado": "ALE3",
         "codigoWplay": 19366,
         mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ESPAÑA - Supercopa",
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": "ESPS",
+        "codigoWplay": 19511,
+        mitad: true,
         favorito: true
     },
     {
