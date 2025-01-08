@@ -7,10 +7,4 @@ let APUESTAS_ABIERTAS = [
 	[[11400,"Athletic Bilbao","Barcelona","local",2.29],"23.000"],
 	[[11400,"Juazeirense BA","Asa AL","over",2.1],[11400,"Ferroviário AC","Treze PB","over",2.25],"47,250"],
 	[[11400,"Juazeirense BA","Asa AL","mitad",1.45],[11400,"Ferroviário AC","Treze PB","mitad",1.48],"21,460"],
-	[[11100,"Asteras Tripolis","Panionios","local",1.8],"18.000"],
-	[[11100,"Asteras Tripolis","Panionios","over",2.1],"21.000"],
-	[[11100,"Asteras Tripolis","Panionios","mitad",1.45],"14.500"],
-	[[11400,"Athletic Bilbao","Barcelona","local",2.3],[11445,"Kilmarnock","Motherwell","local",1.9],[11500,"Tottenham","Liverpool","local",1.909],[11100,"Asteras Tripolis","Panionios","local",1.8],[11445,"Antwerp","St. Gilloise","visitante",1.95],[11445,"Celtic","Dundee United","visitante",3.4],"995,621"],
-	[[11445,"Kilmarnock","Motherwell","over",2],[11100,"Asteras Tripolis","Panionios","over",2.1],[11400,"Juazeirense BA","Asa AL","over",2.1],[11400,"Ferroviário AC","Treze PB","over",2.25],[11800,"Csa AL","Maracana CE","over",2.15],[11800,"Botafogo PB","Moto Clube MA","over",2.45],"1,045,335"],
-	[[11445,"Kilmarnock","Motherwell","mitad",1.42],[11100,"Asteras Tripolis","Panionios","mitad",1.45],[11400,"Juazeirense BA","Asa AL","mitad",1.45],[11400,"Ferroviário AC","Treze PB","mitad",1.48],[11800,"Csa AL","Maracana CE","mitad",1.45],[11800,"Botafogo PB","Moto Clube MA","mitad",1.533],"98,241"],
 ]
