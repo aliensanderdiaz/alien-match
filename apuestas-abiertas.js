@@ -1,10 +1,10 @@
 let APUESTAS_ABIERTAS = [
-	[[11800,"Csa AL","Maracana CE","over",2.15],[11800,"Botafogo PB","Moto Clube MA","over",2.45],"52,675"],
-	[[11800,"Csa AL","Maracana CE","mitad",1.45],[11800,"Botafogo PB","Moto Clube MA","mitad",1.533],"22,233"],
-	[[11445,"Kilmarnock","Motherwell","local",1.9],[11500,"Tottenham","Liverpool","local",1.909],[11445,"Celtic","Dundee United","visitante",3.4],[11445,"Antwerp","St. Gilloise","visitante",1.95],"240,488"],
-	[[11445,"Kilmarnock","Motherwell","over",2],"20.000"],
-	[[11445,"Kilmarnock","Motherwell","mitad",1.42],"14.200"],
-	[[11400,"Athletic Bilbao","Barcelona","local",2.29],"23.000"],
-	[[11400,"Juazeirense BA","Asa AL","over",2.1],[11400,"Ferroviário AC","Treze PB","over",2.25],"47,250"],
-	[[11400,"Juazeirense BA","Asa AL","mitad",1.45],[11400,"Ferroviário AC","Treze PB","mitad",1.48],"21,460"],
+	[[11400,"Sheffield United","Cardiff City","local",1.85],"18.500"],
+	[[11230,"PAOK Thessaloniki","AEK Athens","over",2.15],"21.500"],
+	[[11230,"PAOK Thessaloniki","AEK Athens","visitante",2.4],"24.000"],
+	[[11230,"PAOK Thessaloniki","AEK Athens","mitad",1.48],"14.800"],
+	[[11000,"Panachaiki","OFI Crete","visitante",1.75],"17.500"],
+	[[11400,"Sheffield United","Cardiff City","local",1.85],[11000,"Panachaiki","OFI Crete","visitante",1.75],[11230,"PAOK Thessaloniki","AEK Athens","visitante",2.4],"77,700"],
+	[[11230,"PAOK Thessaloniki","AEK Athens","over",2.15],"21.500"],
+	[[11230,"PAOK Thessaloniki","AEK Athens","mitad",1.48],"14.800"],
 ]
