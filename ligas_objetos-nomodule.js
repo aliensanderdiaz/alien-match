@@ -311,7 +311,7 @@ let LIGAS_OBJETOS = [
         "abreviado": "YE-BELC",
         "codigoWplay": 19448,
         mitad: false,
-        favorito: false
+        favorito: true
     },
     {
         nombreFlashcore: 'BÉLGICA - Copa',
@@ -319,7 +319,7 @@ let LIGAS_OBJETOS = [
         "abreviado": "YE-BELC",
         "codigoWplay": 19448,
         mitad: false,
-        favorito: false
+        favorito: true
     },
     {
         nombreFlashcore: 'BÉLGICA - Jupiler Pro League - Conference League Group',
@@ -1037,6 +1037,14 @@ let LIGAS_OBJETOS = [
         "abreviado": "ALE3",
         "codigoWplay": 19366,
         mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ESPAÑA - Supercopa",
+        "nombreWplay": 'SUPER COPA',
+        "abreviado": "ESPS",
+        "codigoWplay": 19511,
+        mitad: true,
         favorito: true
     },
     {
@@ -2336,6 +2344,126 @@ let LIGAS_OBJETOS = [
         mitad: true,
         favorito: true
     },
+    {
+        nombreFlashcore: '',
+      abreviado: '',
+      mitad: false,
+      favorito: false,
+        codigoWplay:'19457',
+        nombreWplay: 'Brazil - Campeonato Paulista A1',
+      },
+      {
+        nombreFlashcore: '',
+      abreviado: '',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '60442',
+        nombreWplay: 'Brazil - Supercopa do Brasil',
+      },
+      {
+        nombreFlashcore: '',
+      abreviado: '',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '1187789',
+        nombreWplay: 'Brazil - Copa Sao Paulo U20',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Alagoano',
+      abreviado: 'BALA',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '32464',
+        nombreWplay: 'Brazil - Campeonato Alagoano',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Baiano',
+      abreviado: 'BBAI',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '19791',
+        nombreWplay: 'Brasil - Campeonato Baiano',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Carioca - Taça Guanabara',
+      abreviado: 'BCAR',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '19456',
+        nombreWplay: 'Brasil - Campeonato Carioca',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Catarinense',
+      abreviado: 'BCAT',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '19788',
+        nombreWplay: 'Brasil - Campeonato Catarinense',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Maranhense',
+      abreviado: 'BMAR',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '44672',
+        nombreWplay: 'Brazil - Campeonato Maranhense',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Paranaense',
+      abreviado: 'BPAR',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '19790',
+        nombreWplay: 'Brasil - Campeonato Paranaense',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Paraibano',
+      abreviado: 'BPARAI',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '28509',
+        nombreWplay: 'Brazil - Campeonato Paraibano',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Pernambucano',
+      abreviado: 'BPER',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '19792',
+        nombreWplay: 'Brasil - Campeonato Pernambucano',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Piauiense - Primera fase',
+      abreviado: 'BPIA',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '55406',
+        nombreWplay: 'Brazil - Campeonato Piauiense',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Potiguar - Primera fase',
+      abreviado: 'BPOT',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '19793',
+        nombreWplay: 'Brasil - Campeonato Potiguar',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Sergipano',
+      abreviado: 'BSER',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '47533',
+        nombreWplay: 'Brazil - Campeonato Sergipano',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Matogrossense',
+      abreviado: 'BMAT',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '44888',
+        nombreWplay: 'Brazil - Campeonato Matogrossense',
+      }
 ]
 
 

@@ -1,4 +1,5 @@
 const faltantes = document.querySelector('#faltantes')
+const brazil = document.querySelector('#brazil')
 console.log({ LIGAS_OBJETOS })
 console.log({ LIGAS_FALTANTES })
 const ligasFaltantes = LIGAS_FALTANTES.map(l => LIGAS_OBJETOS.find(lig => lig.abreviado === l))
@@ -9,6 +10,11 @@ faltantes.addEventListener('click', () => {
 	main(LIGAS_FALTANTES)
 })
 
+brazil.addEventListener('click', () => {
+	console.log('Click')
+	main(LIGAS_FALTANTES_BRASIL, true)
+})
+
 function pedazos(array, cantidad = 5) {
 	var resultado = [];
 	for (var i = 0; i < array.length; i += cantidad) {
@@ -17,7 +23,11 @@ function pedazos(array, cantidad = 5) {
 	return resultado;
 }
 
-let main = (codigos = []) => {
+let main = (codigos = [], codigosWplay = false) => {
+
+	console.log({ codigos })
+
+
 
 	console.log('main')
 	console.log({ codigos })
@@ -39,6 +49,10 @@ let main = (codigos = []) => {
 	let todoArrayGroupCodes = pedazos(
 		LIGAS.map(liga => liga.codigoWplay)
 	)
+
+	if (codigosWplay) {
+		todoArrayGroupCodes = pedazos(codigos)
+	}
 
 	let favoritosArrayGroupCodes = pedazos(
 		LIGAS.filter(liga => liga.mitadFavorito).map(liga => liga.codigoWplay)
