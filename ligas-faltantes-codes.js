@@ -1,16 +1,8 @@
 let LIGAS_FALTANTES = [
-'BALA',
-'BBAI',
-'BCAR',
-'BCAT',
-'BMAR',
-'BMAT',
-'BPARAI',
-'BPAR',
-'BPER',
-'BPIA',
-'BPOT',
-'BSER',
+  'BMAT' ,
+  'BPARAI' ,
+  'BPIA' ,
+  'BPOT' ,
 
 ];
 

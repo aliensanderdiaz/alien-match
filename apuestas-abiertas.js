@@ -1,6 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"Sevilla","Valencia","local",2.05],[11500,"Real Oviedo","Sporting Gijon","local",2.15],[11445,"Charleroi","St. Gilloise","visitante",1.95],[11445,"Sporting De Lisboa","Benfica","visitante",2.05],[11505,"Rennes","Marseille","visitante",2],"352,380"],
-	[[11500,"Sevilla","Valencia","over",2.3],[11500,"Real Oviedo","Sporting Gijon","over",2.7],[11445,"Sporting De Lisboa","Benfica","over",2],[11505,"Rennes","Marseille","over",2],"248,400"],
-	[[11500,"Sevilla","Valencia","mitad",1.5],[11500,"Real Oviedo","Sporting Gijon","mitad",1.6],[11505,"Rennes","Marseille","mitad",1.42],[11445,"Sporting De Lisboa","Benfica","mitad",1.42],"48,394"],
-	[[11327,"Dorense FC","Falcon SE","over",2.1],"21.000"],
+	[[11630,"Rio Branco PR","Azuriz FC PR","mitad",1.44],"14.020"],
+	[[11700,"Bangu RJ","Portuguesa RJ","visitante",1.95],"19.500"],
+	[[11630,"Rio Branco PR","Azuriz FC PR","over",2.05],[11700,"Bangu RJ","Portuguesa RJ","over",2.15],[11700,"Uniao Rondonopolis MT","Mixto MT","over",2.2],[11700,"Luverdense MT","EC Primavera MT","over",2.2],"213,323"],
+	[[11630,"Rio Branco PR","Azuriz FC PR","mitad",1.444],[11700,"Bangu RJ","Portuguesa RJ","mitad",1.45],[11700,"Uniao Rondonopolis MT","Mixto MT","mitad",1.48],[11700,"Luverdense MT","EC Primavera MT","mitad",1.45],"44,947"],
 ]
