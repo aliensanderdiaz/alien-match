@@ -1,10 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[10600,"FC Felgueiras 1932","Pacos Ferreira","local",1.9],[10600,"Academica Viseu","FC Vizela","local",2.2],[10530,"Sivasspor","Alanyaspor","visitante",2],[10630,"Génova","Parma","visitante",2.4],[10630,"Salernitana","Sassuolo","visitante",1.769],"354,978"],
-	[[10530,"Keciorengucu","Kocaelispor","over",2],[10530,"Erzurum BB","Sanliurfaspor","over",2.1],[10600,"FC Felgueiras 1932","Pacos Ferreira","over",2.1],[10600,"Academica Viseu","FC Vizela","over",2.25],"198,450"],
-	[[10530,"Keciorengucu","Kocaelispor","mitad",1.42],[10530,"Erzurum BB","Sanliurfaspor","mitad",1.45],[10600,"FC Felgueiras 1932","Pacos Ferreira","mitad",1.444],[10600,"Academica Viseu","FC Vizela","mitad",1.5],"44,612"],
-	[[12105,"Dorados","Mineros de Zacatecas","local",2.05],[12205,"Cruz Azul","Atlas de Guadalajara","visitante",3.5],"71,750"],
-	[[12000,"Atlante","Club Celaya","local",1.76],"17.692"],
-	[[12000,"Atlante","Club Celaya","over",2],"20.000"],
-	[[11900,"Porto Sport Club","Jacobina BA","over",2.15],"21.500"],
-	[[11900,"Porto Sport Club","Jacobina BA","mitad",1.45],"14.500"],
+	[[11045,"NAC Breda","Heerenveen","local",1.95],[11100,"Istanbul Basaksehir FK","Galatasaray","visitante",1.533],[11115,"Montpellier","Angers SCO","visitante",2.3],[11115,"Toulouse","Strasbourg","visitante",2.4],[11115,"Cesena","Cittadella","visitante",2.8],"462,134"],
+	[[11045,"NAC Breda","Heerenveen","over",2],[11115,"Cesena","Cittadella","over",2.5],"50,000"],
+	[[11115,"Cesena","Cittadella","mitad",1.54],"14.122"],
+	[[11015,"Elche","Real Zaragoza","over",2.375],[11015,"CF Cadiz","Levante","over",2.25],[11000,"Lamia","Atromitos","over",2.8],"149,625"],
 ]
