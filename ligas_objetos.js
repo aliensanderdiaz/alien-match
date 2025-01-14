@@ -2387,7 +2387,7 @@ let LIGAS_OBJETOS = [
       {
         nombreFlashcore: 'BRASIL - Carioca - Taça Guanabara',
       abreviado: 'BCAR',
-      mitad: false,
+      mitad: true,
       favorito: false,
         codigoWplay: '19456',
         nombreWplay: 'Brasil - Campeonato Carioca',
