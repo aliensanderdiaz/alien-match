@@ -2345,13 +2345,29 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
-        nombreFlashcore: '',
-      abreviado: '',
-      mitad: false,
+        nombreFlashcore: 'BRASIL - Paulista',
+      abreviado: 'BPAU1',
+      mitad: true,
       favorito: false,
         codigoWplay:'19457',
         nombreWplay: 'Brazil - Campeonato Paulista A1',
       },
+      {
+          nombreFlashcore: 'BRASIL - Paulista A2',
+        abreviado: 'BPAU2',
+        mitad: false,
+        favorito: false,
+          codigoWplay:'890797',
+          nombreWplay: 'Brazil - Campeonato Paulista A2',
+        },
+        {
+            nombreFlashcore: 'BRASIL - Paulista A2',
+          abreviado: 'BPAU2',
+          mitad: false,
+          favorito: false,
+            codigoWplay:'890797',
+            nombreWplay: 'Brasil - Campeonato Paulista A2',
+          },
       {
         nombreFlashcore: '',
       abreviado: '',
@@ -2387,10 +2403,18 @@ let LIGAS_OBJETOS = [
       {
         nombreFlashcore: 'BRASIL - Carioca - Taça Guanabara',
       abreviado: 'BCAR',
-      mitad: false,
+      mitad: true,
       favorito: false,
         codigoWplay: '19456',
         nombreWplay: 'Brasil - Campeonato Carioca',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Goiano',
+      abreviado: 'BGOI',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '48612',
+        nombreWplay: 'Brasil - Campeonato Goiano 2',
       },
       {
         nombreFlashcore: 'BRASIL - Catarinense',

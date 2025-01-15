@@ -2,8 +2,8 @@
 let HORA = 10000
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1011500000
-HORA += 1714
+const FECHA_PARTIDO_MANANA = 1011600000
+HORA += 0
 
 let FECHA_PARTIDO_HOY      = FECHA_PARTIDO_MANANA - 100000
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -303,7 +303,7 @@ async function main() {
 
             if (line.startsWith(' ★ ')) {
                 let ligaWplayName = line.replace(' ★ ', '')
-                console.log({ ligaWplayName })
+                console.log({ line: 306,ligaWplayName })
                 // if (ligaWplayName === 'Olympics Matches Men') {
                 //     console.log({ ligaWplayName })
                 // }
@@ -312,7 +312,7 @@ async function main() {
                     console.log({ ligaWplayName, ligaDelPartido })
                 }
                 if (ligaDelPartido === '') {
-                    console.log({ ligaWplayName })
+                    console.log({ line: 315, ligaWplayName })
                     throw new Error('Una liga no fue encontrada, arregla para seguir')
                 }
                 continue
