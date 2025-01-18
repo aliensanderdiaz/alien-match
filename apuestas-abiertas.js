@@ -1,3 +1,3 @@
 let APUESTAS_ABIERTAS = [
-	[[11300,"Rennes","Brest","mitad",1.5],[11300,"Nova Venecia ES","Rio Branco AC ES","mitad",1.42],[11330,"IF Sao Joseense PR","Cianorte PR","mitad",1.55],[11400,"Inter De Limeira SP","Guarani SP","mitad",1.6],[11400,"Londrina PR","Metropolitano Maringa PR","mitad",1.5],[11400,"Juazeirense BA","Barcelona Ilheus BA","mitad",1.571],[11430,"Sampaio Correa RJ","Botafogo RJ","mitad",1.42],[11500,"Desportiva Ferroviaria ES","Vitoria ES","mitad",1.42],[11430,"Brusque FC","Avai SC","mitad",1.533],[11500,"Pouso Alegre","Athletic Club Minas Gerais","mitad",1.48],"569,760"],
+	[[11630,"Jequie BA","Colo Colo BA","mitad",1.571],[11700,"Fluminense RJ","Marica RJ","mitad",1.48],[11700,"Itabirito FC","Betim FC","mitad",1.571],[11700,"Luverdense MT","Nova Mutum","mitad",1.42],[11700,"Figueirense SC","Hercilio Luz CA","mitad",1.6],"83,035"],
 ]
