@@ -2503,7 +2503,56 @@ let LIGAS_OBJETOS = [
       favorito: false,
         codigoWplay: '44888',
         nombreWplay: 'Brazil - Campeonato Matogrossense',
-      }
+      },
+      {
+        nombreFlashcore: 'BRASIL - Brasiliense',
+      abreviado: 'BBRA',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '29814',
+        nombreWplay: 'Brazil - Campeonato Brasiliense',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Capixaba',
+      abreviado: 'BCAP',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '44910',
+        nombreWplay: 'Brazil - Campeonato Capixaba',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Cearense',
+      abreviado: 'BCEA',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '1',
+        nombreWplay: 'Brazil - Campeonato Cearense',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Mineiro',
+      abreviado: 'BMIN',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '19460',
+        nombreWplay: 'Brasil - Campeonato Mineiro',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Paraense',
+      abreviado: 'BPAR',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '47614',
+        nombreWplay: 'Brazil - Campeonato Paraense',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Sul-Matogrossense',
+      abreviado: 'BMAT',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '44888',
+        nombreWplay: 'Brazil - Campeonato Matogrossense',
+      },
+      
 ]
 
 
