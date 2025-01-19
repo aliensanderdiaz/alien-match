@@ -1,13 +1,5 @@
 let LIGAS_FALTANTES = [
-  'BCEA' ,
-  'BGOI' ,
-  'BMAR' ,
-  'BPARAI' ,
-  'BPAU2' ,
-  'BPER' ,
-  'BPIA' ,
-  'BPOT' ,
-  'BSER' ,
+   'BMAR' ,
 ];
 
 let LIGAS_FALTANTES_BRASIL = [

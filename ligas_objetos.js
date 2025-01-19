@@ -2525,8 +2525,8 @@ let LIGAS_OBJETOS = [
       abreviado: 'BCEA',
       mitad: false,
       favorito: false,
-        codigoWplay: '1',
-        nombreWplay: 'Brazil - Campeonato Cearense',
+        codigoWplay: '19454',
+        nombreWplay: 'Brasil - Campeonato Cearense',
       },
       {
         nombreFlashcore: 'BRASIL - Mineiro',
