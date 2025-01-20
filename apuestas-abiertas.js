@@ -1,5 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[11000,"Farul Constanta","FC Uta Arad","local",2],[11100,"Panseraikos","Lamia","local",2],[11300,"Oliveirense","FC Penafiel","visitante",1.8],"7,200"],
-	[[11000,"Farul Constanta","FC Uta Arad","over",2.25],[11000,"ZR Temouchent","ES Mostaganem","over",2],[11100,"Panseraikos","Lamia","over",2.35],[11200,"Genclerbirligi","Kocaelispor","over",2.2],"23,265"],
-	[[11000,"Farul Constanta","FC Uta Arad","mitad",1.48],[11100,"Panseraikos","Lamia","mitad",1.5],[11200,"Genclerbirligi","Kocaelispor","mitad",1.48],"32,856"],
+	[[11400,"Jaguare ES","Capixaba ES","mitad",1.41],"13.291"],
+	[[11430,"Mirandes","Malaga","mitad",1.615],[11445,"Como","Udinese","mitad",1.42],[11445,"Troyes","Annecy FC","mitad",1.444],[11515,"Boavista","Casa Pia Atletico","mitad",1.533],[11400,"Jaguare ES","Capixaba ES","mitad",1.42],"72,142"],
 ]
