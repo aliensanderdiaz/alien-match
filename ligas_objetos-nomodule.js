@@ -2376,6 +2376,14 @@ let LIGAS_OBJETOS = [
             codigoWplay:'890797',
             nombreWplay: 'Brasil - Campeonato Paulista A2',
           },
+          {
+              nombreFlashcore: 'BRASIL - Gaucho',
+            abreviado: 'BGAU',
+            mitad: false,
+            favorito: false,
+              codigoWplay:'19458',
+              nombreWplay: 'Brasil - Campeonato Gaucho',
+            },
       {
         nombreFlashcore: '',
       abreviado: '',
@@ -2504,14 +2512,7 @@ let LIGAS_OBJETOS = [
         codigoWplay: '47533',
         nombreWplay: 'Brazil - Campeonato Sergipano',
       },
-      {
-        nombreFlashcore: 'BRASIL - Matogrossense',
-      abreviado: 'BMAT',
-      mitad: false,
-      favorito: false,
-        codigoWplay: '44888',
-        nombreWplay: 'Brazil - Campeonato Matogrossense',
-      },
+
       {
         nombreFlashcore: 'BRASIL - Brasiliense',
       abreviado: 'BBRA',
@@ -2553,12 +2554,20 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'Brazil - Campeonato Paraense',
       },
       {
-        nombreFlashcore: 'BRASIL - Sul-Matogrossense',
+        nombreFlashcore: 'BRASIL - Matogrossense',
       abreviado: 'BMAT',
       mitad: false,
       favorito: false,
         codigoWplay: '44888',
         nombreWplay: 'Brazil - Campeonato Matogrossense',
+      },
+      {
+        nombreFlashcore: 'BRASIL - Sul-Matogrossense',
+      abreviado: 'BSMAT',
+      mitad: false,
+      favorito: false,
+        codigoWplay: '330774',
+        nombreWplay: 'Brazil - Campeonato Sul-Mato-Grossense',
       },
       
 ]
