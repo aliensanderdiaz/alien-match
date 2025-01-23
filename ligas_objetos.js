@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
     {
+    nombreFlashcore: 'SUDAMÉRICA - Campeonato Sudamericano Sub-20',
+    "nombreWplay": 'CONMEBOL U20',
+    "abreviado": 'I-S20',
+    "codigoWplay": 31604,
+    mitad: false,
+    favorito: false
+},
+    {
         nombreFlashcore: 'FIFA Intercontinental Cup',
         "nombreWplay": 'Intercontinental Cup',
         "abreviado": 'I-CUP',
@@ -1690,6 +1698,14 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'Argentina - Trofeo de Campeones de la Liga Profesional',
         "abreviado": "ZA-ARGT",
         "codigoWplay": 503779,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ARGENTINA - Torneo Betano - Apertura",
+        "nombreWplay": 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
+        "abreviado": "ZA-ARG1",
+        "codigoWplay": 19296,
         mitad: true,
         favorito: true
     },
