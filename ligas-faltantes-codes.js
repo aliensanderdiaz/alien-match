@@ -1,5 +1,5 @@
 let LIGAS_FALTANTES = [
-   'BSER'
+   'BSMAT'
 ];
 
 let LIGAS_FALTANTES_BRASIL = [

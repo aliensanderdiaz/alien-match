@@ -182,6 +182,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'BRASIL - Amazonense - Primera fase',
+        "nombreWplay": 'Brazil - Campeonato Amazonense',
+        "abreviado": 'BAMA',
+        "codigoWplay": 32578,
+        mitad: false,
+        favorito: false
+    },
+    {
         nombreFlashcore: 'BRASIL - Copa do Nordeste - Playoffs',
         "nombreWplay": 'BRASIL - COPA DO NORDESTE',
         "abreviado": 'ZA-BRACN',

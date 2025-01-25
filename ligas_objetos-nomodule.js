@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
     {
+    nombreFlashcore: 'SUDAMÉRICA - Campeonato Sudamericano Sub-20',
+    "nombreWplay": 'CONMEBOL U20',
+    "abreviado": 'I-S20',
+    "codigoWplay": 31604,
+    mitad: false,
+    favorito: false
+},
+    {
         nombreFlashcore: 'FIFA Intercontinental Cup',
         "nombreWplay": 'Intercontinental Cup',
         "abreviado": 'I-CUP',
@@ -172,6 +180,14 @@ let LIGAS_OBJETOS = [
         "codigoWplay": 20142,
         mitad: true,
         favorito: true
+    },
+    {
+        nombreFlashcore: 'BRASIL - Amazonense - Primera fase',
+        "nombreWplay": 'Brazil - Campeonato Amazonense',
+        "abreviado": 'BAMA',
+        "codigoWplay": 32578,
+        mitad: false,
+        favorito: false
     },
     {
         nombreFlashcore: 'BRASIL - Copa do Nordeste - Playoffs',
@@ -1694,6 +1710,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "ARGENTINA - Torneo Betano - Apertura",
+        "nombreWplay": 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
+        "abreviado": "ZA-ARG1",
+        "codigoWplay": 19296,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ARGENTINA - Torneo Betano",
         "nombreWplay": 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
         "abreviado": "ZA-ARG1",
@@ -2241,6 +2265,15 @@ let LIGAS_OBJETOS = [
         "codigoWplay": 19398,
         mitad: false,
         favorito: true
+    },
+    
+    {
+        "nombreFlashcore": "VENEZUELA - Liga FUTVE",
+        "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-VEN1",
+        "codigoWplay": 20080,
+        mitad: false,
+        favorito: false
     },
     
     {
