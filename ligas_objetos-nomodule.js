@@ -2499,7 +2499,7 @@ let LIGAS_OBJETOS = [
       },
       {
         nombreFlashcore: 'BRASIL - Paranaense',
-      abreviado: 'BPAR',
+      abreviado: 'BPARAN',
       mitad: false,
       favorito: false,
         codigoWplay: '19790',
@@ -2580,7 +2580,7 @@ let LIGAS_OBJETOS = [
       },
       {
         nombreFlashcore: 'BRASIL - Paraense',
-      abreviado: 'BPAR',
+      abreviado: 'BPARAE',
       mitad: false,
       favorito: false,
         codigoWplay: '47614',
