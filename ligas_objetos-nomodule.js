@@ -934,6 +934,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "COLOMBIA - Superliga",
+        "nombreWplay": 'COLOMBIA - Superliga',
+        "abreviado": "ZA-COLS",
+        "codigoWplay": 22418,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "SUDAMÉRICA - Copa Sudamericana - Clasificación",
         "nombreWplay": 'COPA SUDAMERICANA',
         "abreviado": "ZA-SUDA",

@@ -1,3 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[11930,"Independiente Rivadavia","CA Barracas Central","mitad",1.571],[11930,"Velez Sarsfield","Platense","mitad",1.65],[12000,"Fortaleza FC","Envigado FC","mitad",1.5],[12000,"Puebla","Mazatlan FC","mitad",1.45],[12200,"Leon","Chivas Guadalajara","mitad",1.42],[12205,"Necaxa","Cruz Azul","mitad",1.42],[11930,"Novorizontino SP","Velo Clube SP","mitad",1.48],[11930,"EC Sao Jose","Internacional RS","mitad",1.42],"238,982"],
 ]

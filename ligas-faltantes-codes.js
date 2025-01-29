@@ -1,10 +1,13 @@
 let LIGAS_FALTANTES = [
+   'BALA' ,
+   'BAMA' ,
+   'BBRA' ,
+   'BCAP' ,
+   'BCEA' ,
+   'BGOI' ,
    'BMAR' ,
-   'BPAU2' ,
-   'BPER' ,
-   'BPIA' ,
-   'BPOT' ,
-   'BSER' ,
+   'BMAT' ,
+   'BSMAT' ,
 ];
 
 let LIGAS_FALTANTES_BRASIL = [
