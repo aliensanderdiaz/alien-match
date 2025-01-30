@@ -2187,6 +2187,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "PARAGUAY - Copa de Primera - Apertura",
+        "nombreWplay": 'PARAGUAY - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-PAR1",
+        "codigoWplay": 19359,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "PARAGUAY - Primera División - Clausura",
         "nombreWplay": 'PARAGUAY - PRIMERA DIVISIÓN',
         "abreviado": "ZA-PAR1",
