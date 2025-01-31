@@ -2234,6 +2234,15 @@ let LIGAS_OBJETOS = [
         mitad: true,
         favorito: true
     },
+    
+    {
+        "nombreFlashcore": 'URUGUAY - Liga AUF Uruguaya - Apertura',
+        "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-URU1",
+        "codigoWplay": 19398,
+        mitad: false,
+        favorito: true
+    },
     {
         "nombreFlashcore": "URUGUAY - Primera División - Apertura",
         "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
