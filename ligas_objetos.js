@@ -806,6 +806,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "ECUADOR - Supercopa",
+        "nombreWplay": 'ECUADOR - Super copa',
+        "abreviado": "ZA-ECUS",
+        "codigoWplay": 60383,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "ECUADOR - Serie B",
         "nombreWplay": 'ECUADOR - SERIE B',
         "abreviado": "ZA-ECU2",

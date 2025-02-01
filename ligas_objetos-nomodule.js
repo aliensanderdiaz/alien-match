@@ -806,6 +806,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "ECUADOR - Supercopa",
+        "nombreWplay": 'ECUADOR - Super copa',
+        "abreviado": "ZA-ECUS",
+        "codigoWplay": 60383,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "ECUADOR - Serie B",
         "nombreWplay": 'ECUADOR - SERIE B',
         "abreviado": "ZA-ECU2",
@@ -2232,6 +2240,15 @@ let LIGAS_OBJETOS = [
         "abreviado": "ZA-RECO",
         "codigoWplay": 20141,
         mitad: true,
+        favorito: true
+    },
+    
+    {
+        "nombreFlashcore": 'URUGUAY - Liga AUF Uruguaya - Apertura',
+        "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-URU1",
+        "codigoWplay": 19398,
+        mitad: false,
         favorito: true
     },
     {
