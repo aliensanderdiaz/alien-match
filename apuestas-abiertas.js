@@ -1,6 +1,3 @@
 let APUESTAS_ABIERTAS = [
-	[[11230,"Osasuna","Real Sociedad","mitad",1.533],[11230,"Cartagena","CF Cordoba","mitad",1.48],[11230,"Real Zaragoza","CF Cadiz","mitad",1.571],[11230,"PAOK Thessaloniki","AEK Athens","mitad",1.48],[11300,"FCSB","CFR Cluj","mitad",1.48],[11300,"EC Taubate SP","Sao Bento SP","mitad",1.6],[11300,"EC Democrata MG","Pouso Alegre","mitad",1.444],[11300,"Maguary PE","Decisao PE","mitad",1.42],"256,345"],
-	[[11115,"Stade Reims","Nantes","mitad",1.45],[11115,"Bari","Frosinone","mitad",1.45],[11115,"Angers SCO","AC Le Havre","mitad",1.45],"30,486"],
-	[[11015,"Valencia","Celta de Vigo","mitad",1.48],[11015,"SD Eibar","Deportivo La Coruna","mitad",1.48],[11000,"Coquimbo","Deportes La Serena","mitad",1.42],[11030,"Alverca","Uniao Leiria","mitad",1.45],"66,748"],
-	[[11015,"Valencia","Celta de Vigo","mitad",1.48],[11015,"SD Eibar","Deportivo La Coruna","mitad",1.48],[11115,"Stade Reims","Nantes","mitad",1.45],[11115,"Angers SCO","AC Le Havre","mitad",1.45],[11115,"Bari","Frosinone","mitad",1.45],[11000,"Coquimbo","Deportes La Serena","mitad",1.42],[11030,"Alverca","Uniao Leiria","mitad",1.45],"203,491"],
+	[[11930,"CA Independiente","Gimnasia LP","mitad",1.5],[11930,"Instituto AC Cordoba","Velez Sarsfield","mitad",1.571],[12000,"Atletico San Luis","Pumas Unam","mitad",1.42],[12030,"Atletico Bucaramanga","América de Cali","mitad",1.571],[11945,"Montevideo Wanderers","Racing Club Montevideo","mitad",1.5],"78,897"],
 ]
