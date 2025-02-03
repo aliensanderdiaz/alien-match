@@ -1,3 +1,3 @@
 let APUESTAS_ABIERTAS = [
-	[[11930,"CA Independiente","Gimnasia LP","mitad",1.5],[11930,"Instituto AC Cordoba","Velez Sarsfield","mitad",1.571],[12000,"Atletico San Luis","Pumas Unam","mitad",1.42],[12030,"Atletico Bucaramanga","América de Cali","mitad",1.571],[11945,"Montevideo Wanderers","Racing Club Montevideo","mitad",1.5],"78,897"],
+	[[11300,"Slask Wroclaw","GKS Piast Gliwice","mitad",1.55],[11345,"Moreirense","Sporting Braga","mitad",1.42],[11500,"Defensa Y Justicia","Central Cordoba","mitad",1.5],[11715,"Estudiantes de La Plata","Racing Club","mitad",1.48],[11715,"CA Tigre","Union Santa Fe","mitad",1.615],[10700,"CS 2 de Mayo","Guarani Asuncion","mitad",1.55],[11100,"Asteras Tripolis","Lamia","mitad",1.5],[11300,"Farul Constanta","Petrolul Ploiesti","mitad",1.5],[11430,"Madureira RJ","Marica RJ","mitad",1.48],[11620,"Leones FC","Boca Juniors de Cali","mitad",1.48],[11730,"CA Cerro","Atletico River Plate (Uru)","mitad",1.571],"947,504"],
 ]
