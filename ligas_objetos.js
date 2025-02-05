@@ -1822,7 +1822,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ARGENTINA - COPA ARGENTINA",
     abreviado: "ZA-ARGC",
     codigoWplay: 19572,
-    mitad: true,
+    mitad: false,
     favorito: true,
   },
   {
@@ -2660,7 +2660,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BTOC",
     mitad: false,
     favorito: false,
-    codigoWplay: "0",
+    codigoWplay: "47826",
     nombreWplay: "Brazil - Campeonato Tocantinense",
   },
   {
