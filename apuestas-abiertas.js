@@ -1,4 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[11500,"CA Aldosivi","CA Barracas Central","mitad",1.65],[11700,"Sao Bernardo SP","Novorizontino SP","mitad",1.48],[11700,"EC Sao Jose","Ypiranga RS","mitad",1.571],[11700,"Desportiva Ferroviaria ES","Nova Venecia ES","mitad",1.48],[11700,"Concordia SC","CF Caravaggio SC","mitad",1.571],"89,248"],
-	[[11330,"Real Sociedad","Osasuna","mitad",1.45],[11330,"Petrolul Ploiesti","FCSB","mitad",1.615],[11400,"Madureira RJ","Sampaio Correa RJ","mitad",1.45],"33,963"],
+	[[11000,"Yaracuyanos FC","Metropolitano SC","mitad",1.45],[11200,"Genclerbirligi","Esenler Erokspor","mitad",1.42],"20,590"],
+	[[11300,"Nantes","Brest","mitad",1.45],[11400,"Grenoble","Red Star Paris","mitad",1.42],[11400,"Laval","Annecy FC","mitad",1.45],[11430,"Albacete Balompie","Real Zaragoza","mitad",1.5],[11430,"Brescia","Salernitana","mitad",1.45],[11445,"Como","Juventus","mitad",1.42],[11545,"Banfield","CA Belgrano","mitad",1.6],[11200,"Genclerbirligi","Esenler Erokspor","mitad",1.42],[11300,"Benfica B","Feirense","mitad",1.42],[11300,"FC Botosani","Dinamo Bucuresti","mitad",1.533],[11500,"Colombia Sub20","Brasil Sub20","mitad",1.45],[11500,"Arsenal de Sarandi","CA All Boys","mitad",1.727],[11000,"Yaracuyanos FC","Metropolitano SC","mitad",1.45],[11600,"Real Soacha Cundinamarca","Patriotas Boyaca","mitad",1.533],"2,540,029"],
 ]

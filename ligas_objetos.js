@@ -18,6 +18,14 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Campeonato Sudamericano Sub-20 - Grupo Final",
+    nombreWplay: "CONMEBOL Sub20",
+    abreviado: "I-S20",
+    codigoWplay: 31604,
+    mitad: false,
+    favorito: false,
+  },
+  {
+    nombreFlashcore: "SUDAMÉRICA - Campeonato Sudamericano Sub-20 - Grupo Final",
     nombreWplay: "CONMEBOL U20",
     abreviado: "I-S20",
     codigoWplay: 31604,
