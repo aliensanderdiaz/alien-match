@@ -1,3 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[10730,"Charlton Athletic","Stevenage","mitad",1.533],[10800,"Ferrol","CD Castellon","mitad",1.444],[10800,"Ajaccio","EA Guingamp","mitad",1.571],[10900,"Cosenza","Carrarese Calcio","mitad",1.48],[10900,"Frosinone","Catanzaro","mitad",1.48],[10900,"SC Pisa","Cittadella","mitad",1.45],[10745,"Liverpool Montevideo","Miramar Misiones","mitad",1.45],[10900,"FC Felgueiras 1932","CD Tondela","mitad",1.48],"237,221"],
+	[[10800,"CD Alaves","Getafe","mitad",1.727],[10800,"Elche","CD Tenerife","mitad",1.571],[10730,"AFC Hermanstadt","Petrolul Ploiesti","mitad",1.571],[10745,"Juventud de Las Piedras","Danubio","mitad",1.55],"66,112"],
+	[[10800,"CD Alaves","Getafe","mitad",1.727],[10800,"Elche","CD Tenerife","mitad",1.571],[10900,"Reggiana","Cesena","mitad",1.571],[10900,"Spezia","Palermo","mitad",1.45],[10730,"AFC Hermanstadt","Petrolul Ploiesti","mitad",1.571],[10745,"Juventud de Las Piedras","Danubio","mitad",1.55],[10900,"Academica Viseu","Alverca","mitad",1.5],"225,962"],
 ]
