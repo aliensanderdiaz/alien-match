@@ -1,3 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[11445,"Derby County","Oxford United","mitad",1.48],[11445,"Portsmouth","Cardiff City","mitad",1.45],[11445,"AFC Wimbledon","Crewe Alexandra","mitad",1.533],[11445,"Barrow FC","MK Dons","mitad",1.533],[11445,"Tranmere","Fleetwood Town","mitad",1.42],[11445,"Crawley Town","Stevenage","mitad",1.48],[11445,"Blackpool","Rotherham","mitad",1.42],[11445,"Leyton Orient","Mansfield Town","mitad",1.48],[11445,"Southend United","Halifax Town","mitad",1.42],"316,440"],
 ]
