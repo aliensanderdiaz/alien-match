@@ -1394,6 +1394,14 @@ let LIGAS_OBJETOS = [
     favorito: true,
   },
   {
+    nombreFlashcore: "EUROPA - Conference League - Playoffs",
+    nombreWplay: "UEFA - EUROPA CONFERENCE LEAGUE",
+    abreviado: "U-CONF",
+    codigoWplay: 413776,
+    mitad: true,
+    favorito: true,
+  },
+  {
     nombreFlashcore: "EUROPA - Conference League - Fase de liga",
     nombreWplay: "UEFA - EUROPA CONFERENCE LEAGUE",
     abreviado: "U-CONF",
