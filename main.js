@@ -1,7 +1,7 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1021400000;
+const FECHA_PARTIDO_MANANA = 1021500000;
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
@@ -1232,9 +1232,13 @@ async function main() {
 
         continue;
       } else {
-        if (line.endsWith("	-")) {
-          lineModificado = line.replace("	-", "");
+        // console.log({line, testigo: 'else'})
+        // if (line.endsWith("	-")) {
+        if (line.endsWith("\t")) {
+          // lineModificado = line.replace("	-", "");
+          lineModificado = line.replaceAll("\t", "");
           let totalArray = lineModificado.split("$");
+          console.log({ totalArray })
           let total = totalArray.pop();
           console.log({ total });
           partidos.push(total);
@@ -1253,6 +1257,8 @@ async function main() {
             arraySalida.push(partidos);
             partidos = [];
           }
+        } else {
+          // console.log({line, testigo: 'DEFAULT'})
         }
       }
     }

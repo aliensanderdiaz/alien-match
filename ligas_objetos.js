@@ -1938,6 +1938,14 @@ let LIGAS_OBJETOS = [
     favorito: true,
   },
   {
+    nombreFlashcore: "CHILE - Liga de Primera",
+    nombreWplay: "CHILE - PRIMERA DIVISIÓN",
+    abreviado: "ZA-CHI1",
+    codigoWplay: 19303,
+    mitad: false,
+    favorito: true,
+  },
+  {
     nombreFlashcore: "CHILE - Copa Chile",
     nombreWplay: "COPA DE CHILE",
     abreviado: "ZA-CHIC",
