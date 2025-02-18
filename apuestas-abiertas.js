@@ -1,3 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11800,"Club Sport Emelec","Universidad Catolica Quito","mitad",1.45],[11830,"Libertad Asuncion","Sportivo Ameliano","mitad",1.48],[11830,"Zamora FC","Academia Puerto Cabello","mitad",1.5],"10,000"],
+	[[11445,"Shrewsbury","Huddersfield","mitad",1.42],[11445,"Wrexham FC","Leyton Orient","mitad",1.45],[11445,"Stevenage","Burton Albion","mitad",1.42],[11445,"Fleetwood Town","AFC Wimbledon","mitad",1.533],"10,260"],
+	[[11445,"Preston","Millwall","mitad",1.6],[11445,"Yeovil Town","Tamworth FC","mitad",1.444],"38,139"],
+	[[11445,"Preston","Millwall","mitad",1.6],[11445,"Crawley Town","Wigan","mitad",1.42],[11445,"Mansfield Town","Lincoln City","mitad",1.444],[11445,"Fleetwood Town","AFC Wimbledon","mitad",1.533],[11445,"Shrewsbury","Huddersfield","mitad",1.42],[11445,"Stevenage","Burton Albion","mitad",1.42],[11445,"Wrexham FC","Leyton Orient","mitad",1.45],[11600,"Atletico Bucaramanga","Alianza FC","mitad",1.533],[11700,"Deportes Iquique","Independiente Santa Fe","mitad",1.48],[11810,"Llaneros FC","Deportivo Cali","mitad",1.55],[11930,"Alianza Lima","Boca Juniors","mitad",1.55],[12020,"Boyaca Chico FC","CD Junior","mitad",1.571],[11445,"Yeovil Town","Tamworth FC","mitad",1.444],[11700,"Jaguare ES","Vitoria ES","mitad",1.5],[11930,"Ferroviário AC","Altos","mitad",1.45],"1,000"],
 ]
