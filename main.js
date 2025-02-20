@@ -1164,9 +1164,16 @@ async function main() {
 
       if (line.startsWith("$")) {
         lineModificado = line.replace("$", "");
-        lineModificado = lineModificado.replaceAll(",", "");
-        cantidadApostada = lineModificado * 1;
-        console.log({ cantidadApostada });
+        // lineModificado = lineModificado.replaceAll(",", "");
+        cantidadApostada = lineModificado;
+        if (partidos.length > 0) {
+          console.log({ cantidadApostada });
+          partidos.push(cantidadApostada);
+          if (partidos.length > 0) {
+            arraySalida.push(partidos);
+            partidos = [];
+          }
+        }
         continue;
       }
 
@@ -1184,6 +1191,10 @@ async function main() {
         lineModificado = lineModificado.replace(
           "	Se anotará gol en la 1er mitad	Si	",
           "***mitad***"
+        );
+        lineModificado = lineModificado.replace(
+          "	Ambos Equipos Anotan	Si	",
+          "***ambos***"
         );
         lineModificado = lineModificado.replace(
           "	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	",
@@ -1238,14 +1249,14 @@ async function main() {
           // lineModificado = line.replace("	-", "");
           lineModificado = line.replaceAll("\t", "");
           let totalArray = lineModificado.split("$");
-          console.log({ totalArray })
+          // console.log({ totalArray })
           let total = totalArray.pop();
-          console.log({ total });
-          partidos.push(total);
-          if (partidos.length > 0) {
-            arraySalida.push(partidos);
-            partidos = [];
-          }
+          // console.log({ total });
+          // partidos.push(total);
+          // if (partidos.length > 0) {
+          //   arraySalida.push(partidos);
+          //   partidos = [];
+          // }
         } else if (line === "Imprimir" && partidos.length === 1) {
           let total = partidos[0][4];
           console.log({ total, cantidadApostada });
