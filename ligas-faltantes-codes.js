@@ -1,5 +1,4 @@
 let LIGAS_FALTANTES = [
-   'BMAR' ,
    'BPARAI' ,
 ]
 

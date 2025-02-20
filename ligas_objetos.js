@@ -2287,7 +2287,7 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Recopa Sudamericana",
-    nombreWplay: "",
+    nombreWplay: "Recopa Sudamericana",
     abreviado: "ZA-RECO",
     codigoWplay: 20141,
     mitad: true,
