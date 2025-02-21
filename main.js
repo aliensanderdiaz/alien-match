@@ -1,7 +1,7 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1022100000;
+const FECHA_PARTIDO_MANANA = 1022200000;
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
@@ -1142,6 +1142,7 @@ async function main() {
 
     let ligaDelPartido = "";
 
+    let gananciaEsperada = 0;
     let cantidadApostada = 0;
     let esRecuperarApuesta = false;
 
@@ -1165,19 +1166,31 @@ async function main() {
       if (line.startsWith("$")) {
         lineModificado = line.replace("$", "");
         // lineModificado = lineModificado.replaceAll(",", "");
-        cantidadApostada = lineModificado;
         if (partidos.length > 0) {
-          console.log({ cantidadApostada });
-          partidos.push(cantidadApostada);
+          gananciaEsperada = lineModificado;
+          console.log({ cantidadApostada ,gananciaEsperada });
+          partidos.push(`${ gananciaEsperada } con $ ${ cantidadApostada }`);
           if (partidos.length > 0) {
             arraySalida.push(partidos);
             partidos = [];
           }
+        } else {
+          cantidadApostada = lineModificado;
+          // console.log({ cantidadApostada })
         }
         continue;
       }
 
-      if (line.endsWith("	 -")) {
+      const conditions = [
+        "\t1ª Mitad más/Menos de ",
+        "	Total Goles Más/Menos de	Más de (2.5)	",
+        "	Se anotará gol en la 1er mitad	Si	",
+        "	Ambos Equipos Anotan	Si	",
+        "	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	",
+        " Total Goles	Más de (0.5)	",
+      ]
+
+      if (line.endsWith("	 -") || ( line.endsWith("\t") && conditions.some(el => line.includes(el)) )) {
         lineModificado = line.replace("	1ª Mitad más/Menos de ", "***");
 
         lineModificado = lineModificado.replace(
@@ -1246,6 +1259,11 @@ async function main() {
         // console.log({line, testigo: 'else'})
         // if (line.endsWith("	-")) {
         if (line.endsWith("\t")) {
+          // console.log({ line, testigo: 'if (line.endsWith("\t"))'})
+          // console.log('#########################')
+          // console.log('#########################')
+          // console.log('#########################')
+          // console.log('#########################')
           // lineModificado = line.replace("	-", "");
           lineModificado = line.replaceAll("\t", "");
           let totalArray = lineModificado.split("$");
@@ -1258,9 +1276,10 @@ async function main() {
           //   partidos = [];
           // }
         } else if (line === "Imprimir" && partidos.length === 1) {
+
           let total = partidos[0][4];
-          console.log({ total, cantidadApostada });
-          partidos[0][4] = Math.floor((total / cantidadApostada) * 100) / 100;
+          console.log({ total, gananciaEsperada });
+          partidos[0][4] = Math.floor((total / gananciaEsperada) * 100) / 100;
           total = total.toLocaleString();
           console.log({ total, "partidos[0][4]": partidos[0][4] });
           partidos.push(total);
@@ -1270,6 +1289,10 @@ async function main() {
           }
         } else {
           // console.log({line, testigo: 'DEFAULT'})
+          // console.log('#########################')
+          // console.log('#########################')
+          // console.log('#########################')
+          // console.log('#########################')
         }
       }
     }
