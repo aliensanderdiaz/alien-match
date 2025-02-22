@@ -214,6 +214,22 @@ let LIGAS_OBJETOS = [
     favorito: false,
   },
   {
+    nombreFlashcore: "BRASIL - Amazonense - Clasificación",
+    nombreWplay: "Brazil - Campeonato Amazonense",
+    abreviado: "BAMA",
+    codigoWplay: 32578,
+    mitad: false,
+    favorito: false,
+  },
+  {
+    nombreFlashcore: "BRASIL - Amazonense",
+    nombreWplay: "Brazil - Campeonato Amazonense",
+    abreviado: "BAMA",
+    codigoWplay: 32578,
+    mitad: false,
+    favorito: false,
+  },
+  {
     nombreFlashcore: "BRASIL - Copa do Nordeste - Playoffs",
     nombreWplay: "BRASIL - COPA DO NORDESTE",
     abreviado: "ZA-BRACN",
@@ -2608,6 +2624,14 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Piauiense - Primera fase",
+    abreviado: "BPIA",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "55406",
+    nombreWplay: "Brazil - Campeonato Piauiense",
+  },
+  {
+    nombreFlashcore: "BRASIL - Piauiense",
     abreviado: "BPIA",
     mitad: false,
     favorito: false,
