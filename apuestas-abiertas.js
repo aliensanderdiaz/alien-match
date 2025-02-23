@@ -1,3 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[10000,"Nagoya Grampus","Vissel Kobe","mitad",1.48],[10000,"Shimizu S-Pulse","Albirex Niigata","mitad",1.48],[10000,"Yokohama FC","Fagiano Okayama","mitad",1.48],[10100,"Gamba Osaka","Avispa Fukuoka","mitad",1.533],[10100,"FC Tokyo","Machida Zelvia","mitad",1.444],[10100,"Kashima Antlers","Tokyo Verdy","mitad",1.48],"643,436 con $ 60,551"],
+	[[11430,"Nautico Marcilio Dias SC","Figueirense SC","mitad",1.533],[11430,"Avai SC","Criciuma SC","mitad",1.5],[11430,"CF Caravaggio SC","Barra Futbol Clube SC","mitad",1.5],"117,403 con $ 34,030"],
+	[[11430,"Central SC","Retro FC","mitad",1.5],[11430,"Maguary PE","Santa Cruz PE","mitad",1.42],[11430,"Sousa PB","Botafogo PB","mitad",1.571],"167,357 con $ 50,000"],
 ]
