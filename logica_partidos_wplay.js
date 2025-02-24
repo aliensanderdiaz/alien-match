@@ -38,6 +38,7 @@ const ponerEventosEnLasAnclas = () => {
 }
 
 const elegirFavorito = function (indice, valor) {
+    console.log({ funcion: 'elegirFavorito', indice, valor})
     indiceFavorito = indice - 1
     PARTIDOS_OPTIMIZADOS[indiceFavorito]['favorito'] = valor
     const myModal = new bootstrap.Modal(document.getElementById('stakeModal'))
