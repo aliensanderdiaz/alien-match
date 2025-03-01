@@ -2567,6 +2567,14 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Brasil - Campeonato Carioca",
   },
   {
+    nombreFlashcore: "BRASIL - Carioca",
+    abreviado: "BCAR",
+    mitad: false,
+    favorito: true,
+    codigoWplay: "19456",
+    nombreWplay: "Brasil - Campeonato Carioca",
+  },
+  {
     nombreFlashcore: "BRASIL - Goiano",
     abreviado: "BGOI",
     mitad: false,
