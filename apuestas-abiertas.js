@@ -1,6 +1,3 @@
 let APUESTAS_ABIERTAS = [
-	[[11000,"Huachipato","Colo Colo","mitad",0],"142,000 con $ 100,000"],
-	[[11030,"Moreirense","CF Estrela","mitad",1.5],[11045,"Sparta Rotterdam","Willem II Tilburg","mitad",1.42],"223,820 con $ 105,080"],
-	[[11015,"Real Oviedo","Deportivo La Coruna","mitad",1.48],[11030,"Boavista","CD Santa Clara","mitad",1.533],"238,462 con $ 105,080"],
-	[[10900,"FC Porto B","Maritimo","mitad",0],"122,997 con $ 85,152"],
+	[[11900,"Atlas de Guadalajara","Atletico San Luis","mitad",1.4],[11930,"Banfield","CA Independiente","mitad",1.615],[11930,"Platense","Defensa Y Justicia","mitad",1.65],[11915,"Deportivo Moron","Gimnasia Jujuy","mitad",1.8],[11930,"Colon de Santa Fe","Chaco For Ever","mitad",1.65],[11940,"Tigres FC","Leones FC","mitad",1.45],"1,350,351 con $ 84,030"],
 ]
