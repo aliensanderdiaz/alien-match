@@ -324,7 +324,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "COPA SUDAMERICANA",
     abreviado: "ZA-SUDA",
     codigoWplay: 19348,
-    mitad: true,
+    mitad: false,
     favorito: true,
   },
 
@@ -333,7 +333,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "COPA SUDAMERICANA",
     abreviado: "ZA-SUDA",
     codigoWplay: 19348,
-    mitad: true,
+    mitad: false,
     favorito: true,
   },
 
@@ -1004,7 +1004,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "COPA SUDAMERICANA",
     abreviado: "ZA-SUDA",
     codigoWplay: 19348,
-    mitad: true,
+    mitad: false,
     favorito: true,
   },
 
@@ -1387,6 +1387,14 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "EUROPA - Champions League - Playoffs",
+    nombreWplay: "UEFA - CHAMPIONS LEAGUE",
+    abreviado: "U-CHAM",
+    codigoWplay: 19161,
+    mitad: true,
+    favorito: true,
+  },
+  {
+    nombreFlashcore: "EUROPA - Champions League",
     nombreWplay: "UEFA - CHAMPIONS LEAGUE",
     abreviado: "U-CHAM",
     codigoWplay: 19161,
