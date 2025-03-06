@@ -1,3 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[11315,"America SE","Guarany SE","mitad",1.42],[11400,"Ferrol","Burgos CF","mitad",1.7],[11445,"Livingston","Raith Rovers","mitad",1.48],[11500,"Deportivo Riestra","CA San Telmo","mitad",1.533],"547,817 con $ 100,000"],
+	[[11245,"Panathinaikos","Fiorentina","mitad",1.48],[11230,"Ümraniyespor","Kocaelispor","mitad",1.42],"210,160 con $ 100,000"],
+	[[11245,"FCSB","Lyon","mitad",1.45],[11245,"Real Sociedad","Manchester United","mitad",1.48],"214,600 con $ 100,000"],
 ]
