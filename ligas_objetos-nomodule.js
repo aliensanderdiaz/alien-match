@@ -2535,6 +2535,14 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Brazil - Campeonato Paulista A2",
   },
   {
+    nombreFlashcore: "BRASIL - Paulista A3",
+    abreviado: "BPAU3",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "1209785",
+    nombreWplay: "Brazil - Campeonato Paulista A3",
+  },
+  {
     nombreFlashcore: "BRASIL - Paulista A2",
     abreviado: "BPAU2",
     mitad: false,
