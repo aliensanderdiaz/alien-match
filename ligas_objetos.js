@@ -1962,6 +1962,14 @@ let LIGAS_OBJETOS = [
     favorito: true,
   },
   {
+    nombreFlashcore: "BRASIL - Brasileirao Sub-20",
+    nombreWplay: "BRASIL - SERIE A",
+    abreviado: "ZA-BRAS",
+    codigoWplay: 19297,
+    mitad: true,
+    favorito: true,
+  },
+  {
     nombreFlashcore: "BRASIL - Copinha",
     nombreWplay: "Brazil - Copa Sao Paulo U20",
     abreviado: "ZA-BRAC20",
