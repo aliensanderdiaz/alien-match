@@ -163,6 +163,8 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         <div class="row">
             <div class="col-1 border text-end">
                 <small>${indice}/${total} - ${partido.hora - 10000}</small>
+                <br>
+                <small class="${partido.apostar && partido.apostar === 'SI' ? 'bg-success':''}">${ partido.random ? partido.random : ''} - ${partido.random ? partido.apostar: ''}</small>
             </div>
             <div class="col-1 border">
                 <strong>

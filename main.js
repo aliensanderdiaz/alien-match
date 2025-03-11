@@ -1,13 +1,13 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1031100000;
+const FECHA_PARTIDO_MANANA = 1031200000;
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
-HORA += 801; // CAMBIAR ESTA
+HORA += 0; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -1382,6 +1382,21 @@ async function main() {
   });
 
   partidos_optimizados.sort((a, b) => a.hora - b.hora);
+  partidos_optimizados = partidos_optimizados.map((partido) => {
+
+    if (partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
+      let random = Math.random()
+    
+      return {
+        ...partido,
+        apostar: random >= 0.8 ? 'SI':'NO',
+        random: Math.trunc( random * 10)
+      }
+    }
+
+    return partido
+
+  });
 
   await convertirArrayEnTextoPlanoConFormato(
     partidos_optimizados,
