@@ -887,6 +887,14 @@ let LIGAS_OBJETOS = [
     favorito: false,
   },
   {
+    nombreFlashcore: "RUSIA - Copa de Rusia",
+    nombreWplay: "COPA DE RUSIA",
+    abreviado: "YE-RUSC",
+    codigoWplay: 19467,
+    mitad: false,
+    favorito: false,
+  },
+  {
     nombreFlashcore: "RUSIA - Copa de Rusia - Fase Grupos",
     nombreWplay: "COPA DE RUSIA",
     abreviado: "YE-RUSC",
@@ -1962,6 +1970,22 @@ let LIGAS_OBJETOS = [
     favorito: true,
   },
   {
+    nombreFlashcore: "BRASIL - Brasileirao Sub-20",
+    nombreWplay: "Brasil - U20",
+    abreviado: "ZA-BRAS",
+    codigoWplay: 26866,
+    mitad: false,
+    favorito: false,
+  },
+  {
+    nombreFlashcore: "BRASIL - Copa Verde",
+    nombreWplay: "Brazil - Copa Verde",
+    abreviado: "ZA-BRAV",
+    codigoWplay: 32283,
+    mitad: false,
+    favorito: false,
+  },
+  {
     nombreFlashcore: "BRASIL - Copinha",
     nombreWplay: "Brazil - Copa Sao Paulo U20",
     abreviado: "ZA-BRAC20",
@@ -2539,8 +2563,16 @@ let LIGAS_OBJETOS = [
     abreviado: "BPAU3",
     mitad: false,
     favorito: false,
+    codigoWplay: "1209784",
+    nombreWplay: "Brasil - Campeonato Paulista A3",
+  },
+  {
+    nombreFlashcore: "BRASIL - Paulista A4",
+    abreviado: "BPAU4",
+    mitad: false,
+    favorito: false,
     codigoWplay: "1209785",
-    nombreWplay: "Brazil - Campeonato Paulista A3",
+    nombreWplay: "Brazil - Campeonato Paulista A4",
   },
   {
     nombreFlashcore: "BRASIL - Paulista A2",
@@ -2812,4 +2844,3 @@ let LIGAS_OBJETOS = [
 // const fs = require('fs')
 
 // fs.writeFileSync('ligas_objetos.txt', JSON.stringify(LIGAS_OBJETOS))
-

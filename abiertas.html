@@ -37,7 +37,11 @@
                         <br>
                         <small>${partido[2].slice(0, 15)}</small>
                     </div>
-                    <div class="col-2"><small>${partido[3].substring(0, 3).toUpperCase()}</small></div>
+                    <div class="col-2">
+                        <small><a href="${ partido[5] }" target="_blank">${partido[3].substring(0, 3).toUpperCase()}</a></small>
+                        <br>
+                        <small>${partido[6]}</small>
+                    </div>
                     <div class="col-2">${partido[4].toFixed(2) || 1}</div>
                     <div class="col-2 text-end">${Math.trunc(cuotaAcumulada).toFixed(0) || 1}</div>
                 </div>

@@ -1,7 +1,7 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1031200000;
+const FECHA_PARTIDO_MANANA = 1031300000;
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
@@ -60,7 +60,7 @@ let PartidosMasPrimeraMitad = [];
 let PartidosMasMenosPrimeraMitad = [];
 let PartidosConFavorito = [];
 
-let partidos = [];
+let partidosGlobal = [];
 
 async function main() {
   async function sacarLigasPartidosSinCuota() {
@@ -226,7 +226,7 @@ async function main() {
 
         // console.log({ hora: partido.hora })
 
-        partidos.push(partido);
+        partidosGlobal.push(partido);
         esHora = false;
         indiceEsHora = 0;
         lineas = [];
@@ -242,7 +242,7 @@ async function main() {
       indice++;
     }
 
-    if (partidos.length === 0)
+    if (partidosGlobal.length === 0)
       throw new Error(`${inputPartidosFlashscore} Vacio`);
 
     const LIGAS_RESPONSE = await convertirArrayEnTextoPlanoConFormato(
@@ -251,7 +251,7 @@ async function main() {
       archivoSalida2
     );
     const PARTIDOS_RESPONSE = await convertirArrayEnTextoPlanoConFormato(
-      partidos,
+      partidosGlobal,
       "PARTIDOS_OPTIMIZADOS",
       archivoSalida3
     );
@@ -1124,6 +1124,175 @@ async function main() {
 
   await sacarPartidosMasMenosPrimeraMitad();
 
+
+
+  let partidos_optimizados = PartidosWplay.map((partido) => {
+    let cuotaCualquiera = PartidosSeMarcaraEnLaPrimeraMitad.find(
+      (p) => partido.local === p[0] && partido.visitante === p[1]
+    )
+      ? PartidosSeMarcaraEnLaPrimeraMitad.find(
+          (p) => partido.local === p[0] && partido.visitante === p[1]
+        )[2]
+      : 1;
+    if (cuotaCualquiera === 1) {
+      cuotaCualquiera = PartidosMasPrimeraMitad.find(
+        (p) => partido.local === p[0] && partido.visitante === p[1]
+      )
+        ? PartidosMasPrimeraMitad.find(
+            (p) => partido.local === p[0] && partido.visitante === p[1]
+          )[2]
+        : 1;
+    }
+    if (cuotaCualquiera === 1) {
+      cuotaCualquiera = PartidosMasMenosPrimeraMitad.find(
+        (p) => partido.local === p[0] && partido.visitante === p[1]
+      )
+        ? PartidosMasMenosPrimeraMitad.find(
+            (p) => partido.local === p[0] && partido.visitante === p[1]
+          )[2]
+        : 1;
+    }
+    return {
+      ...partido,
+      hora: ("" + partido.hora).substring(5) * 1,
+      cuotaCualquiera,
+      ambosAnotan: PartidosAmbosMarcan.find(
+        (p) => partido.local === p[0] && partido.visitante === p[1]
+      )
+        ? PartidosAmbosMarcan.find(
+            (p) => partido.local === p[0] && partido.visitante === p[1]
+          )[2]
+        : 1,
+      over: PartidosOver.find(
+        (p) => partido.local === p[0] && partido.visitante === p[1]
+      )
+        ? PartidosOver.find(
+            (p) => partido.local === p[0] && partido.visitante === p[1]
+          )[2]
+        : 1,
+      localMitad: PartidosLocalPrimeraMitad.find(
+        (p) => partido.local === p[0] && partido.visitante === p[1]
+      )
+        ? PartidosLocalPrimeraMitad.find(
+            (p) => partido.local === p[0] && partido.visitante === p[1]
+          )[2]
+        : 1,
+      visitanteMitad: PartidosVisitantePrimeraMitad.find(
+        (p) => partido.local === p[0] && partido.visitante === p[1]
+      )
+        ? PartidosVisitantePrimeraMitad.find(
+            (p) => partido.local === p[0] && partido.visitante === p[1]
+          )[2]
+        : 1,
+      favorito: PartidosFavorito.find(
+        (p) => partido.local === p[0] && partido.visitante === p[1]
+      )
+        ? PartidosFavorito.find(
+            (p) => partido.local === p[0] && partido.visitante === p[1]
+          )[2]
+        : "",
+      cuotaFavorito: PartidosFavorito.find(
+        (p) => partido.local === p[0] && partido.visitante === p[1]
+      )
+        ? PartidosFavorito.find(
+            (p) => partido.local === p[0] && partido.visitante === p[1]
+          )[3]
+        : 1,
+    };
+  });
+
+  partidos_optimizados.sort((a, b) => a.hora - b.hora);
+  partidos_optimizados = partidos_optimizados.map((partido) => {
+
+    if (partido.apostar && partido.random) {
+      return partido
+    }
+
+    if (partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
+      let random = Math.random()
+    
+      return {
+        ...partido,
+        apostar: random >= 0.8 ? 'SI':'NO',
+        random: Math.trunc( random * 10)
+      }
+    }
+
+    return partido
+
+  });
+
+  await convertirArrayEnTextoPlanoConFormato(
+    partidos_optimizados,
+    "PARTIDOS_OPTIMIZADOS",
+    archivoSalida
+  );
+
+  async function sacarCantidadDePartidos() {
+    let totalPartidosFlashScore = partidosGlobal.length;
+    let totalPartidosWplay = partidos_optimizados.length;
+    let diferencia_de_partidos_total =
+      totalPartidosFlashScore - totalPartidosWplay;
+
+    let ligas_flashscore = partidosGlobal.map((p) => p.liga);
+
+    let ligas_flashscore_no_repeat = [...new Set(ligas_flashscore)];
+    let total_ligas_flashscore = ligas_flashscore_no_repeat.length;
+
+    let ligas_wplay = partidos_optimizados.map((p) => p.liga);
+    let ligas_wplay_no_repeat = [...new Set(ligas_wplay)];
+    let total_ligas_wplay = ligas_wplay_no_repeat.length;
+
+    let diferencia_ligas_total = total_ligas_flashscore - total_ligas_wplay;
+
+    console.log({
+      totalPartidosFlashScore,
+      totalPartidosWplay,
+      diferencia_de_partidos_total,
+      total_ligas_flashscore,
+      total_ligas_wplay,
+      diferencia_ligas_total,
+    });
+
+    // if (diferencia_ligas_total > 0) {
+    console.log("Ligas Flashcore");
+    ligas_flashscore_no_repeat.forEach((liga) => {
+      if (!ligas_wplay_no_repeat.includes(liga)) {
+        console.log({ liga });
+      }
+    });
+    // } else if (diferencia_ligas_total < 0) {
+    console.log("Ligas Wplay");
+    ligas_wplay_no_repeat.forEach((liga) => {
+      if (!ligas_flashscore_no_repeat.includes(liga)) {
+        console.log({ liga });
+      }
+    });
+    // }
+
+    // // if (diferencia_de_partidos_total > 0 && diferencia_ligas_total === 0) {
+    //     ligas_flashscore_no_repeat.forEach(liga => {
+    //         let tempPartidosEnLigasFlashcoreTotal = ligas_flashscore.filter(l => liga === l).length
+    //         let tempPartidosLigasWplayTotal = ligas_wplay.filter(l => liga === l).length
+
+    //         if (tempPartidosEnLigasFlashcoreTotal !== tempPartidosLigasWplayTotal) {
+    //             console.log({ analizando: 'Partidos Flashcore', tempPartidosEnLigasFlashcoreTotal, tempPartidosLigasWplayTotal, liga })
+    //         }
+    //     })
+    // // } else if (diferencia_de_partidos_total < 0 && diferencia_ligas_total === 0) {
+    //     ligas_wplay_no_repeat.forEach(liga => {
+    //         let tempPartidosEnLigasFlashcoreTotal = ligas_flashscore.filter(l => liga === l).length
+    //         let tempPartidosLigasWplayTotal = ligas_wplay.filter(l => liga === l).length
+
+    //         if (tempPartidosEnLigasFlashcoreTotal !== tempPartidosLigasWplayTotal) {
+    //             console.log({ analizando: 'Partidos Wplay', tempPartidosEnLigasFlashcoreTotal, tempPartidosLigasWplayTotal, liga })
+    //         }
+    //     })
+    // // }
+  }
+
+  await sacarCantidadDePartidos();
+
   async function sacarApuestasAbiertas() {
     const fileStream = fs.createReadStream(inputApuestasAbiertas);
 
@@ -1297,6 +1466,48 @@ async function main() {
       }
     }
 
+    arraySalida.forEach(apuesta => {
+      apuesta.forEach(partido => {
+        if (Array.isArray(partido)) {
+
+          const linkMitad = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${ code }`
+          const linkAmbos = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${ code }`
+          const linkOver = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${ code }`
+          // console.log({ partido })
+          let partidoEncontrado = partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])
+          console.log({ partidoEncontrado })
+          let code = partidoEncontrado?.codigoWplay || ''
+          let link = ''
+
+          if (code) {
+            if (partido[3] === 'mitad') {
+              link = linkMitad(code)
+            }
+            if (partido[3] === 'ambos') {
+              link = linkAmbos(code)
+            }
+            if (partido[3] === 'over') {
+              link = linkOver(code)
+            }
+
+            partido.push(link);
+            partido.push(code);
+          }
+
+          // let temp = {
+          //   hora: partido[0],
+          //   local: partido[1],
+          //   visitante: partido[2],
+          //   apuesta: partido[3],
+          //   cuota: partido[4],
+          //   code: partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])?.codigoWplay || 1
+          // }
+          
+          console.log({ partido })
+        }
+      })
+    })
+
     await convertirArrayEnTextoPlanoConFormato(
       arraySalida,
       "APUESTAS_ABIERTAS",
@@ -1305,169 +1516,6 @@ async function main() {
   }
 
   await sacarApuestasAbiertas();
-
-  let partidos_optimizados = PartidosWplay.map((partido) => {
-    let cuotaCualquiera = PartidosSeMarcaraEnLaPrimeraMitad.find(
-      (p) => partido.local === p[0] && partido.visitante === p[1]
-    )
-      ? PartidosSeMarcaraEnLaPrimeraMitad.find(
-          (p) => partido.local === p[0] && partido.visitante === p[1]
-        )[2]
-      : 1;
-    if (cuotaCualquiera === 1) {
-      cuotaCualquiera = PartidosMasPrimeraMitad.find(
-        (p) => partido.local === p[0] && partido.visitante === p[1]
-      )
-        ? PartidosMasPrimeraMitad.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
-        : 1;
-    }
-    if (cuotaCualquiera === 1) {
-      cuotaCualquiera = PartidosMasMenosPrimeraMitad.find(
-        (p) => partido.local === p[0] && partido.visitante === p[1]
-      )
-        ? PartidosMasMenosPrimeraMitad.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
-        : 1;
-    }
-    return {
-      ...partido,
-      hora: ("" + partido.hora).substring(5) * 1,
-      cuotaCualquiera,
-      ambosAnotan: PartidosAmbosMarcan.find(
-        (p) => partido.local === p[0] && partido.visitante === p[1]
-      )
-        ? PartidosAmbosMarcan.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
-        : 1,
-      over: PartidosOver.find(
-        (p) => partido.local === p[0] && partido.visitante === p[1]
-      )
-        ? PartidosOver.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
-        : 1,
-      localMitad: PartidosLocalPrimeraMitad.find(
-        (p) => partido.local === p[0] && partido.visitante === p[1]
-      )
-        ? PartidosLocalPrimeraMitad.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
-        : 1,
-      visitanteMitad: PartidosVisitantePrimeraMitad.find(
-        (p) => partido.local === p[0] && partido.visitante === p[1]
-      )
-        ? PartidosVisitantePrimeraMitad.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
-        : 1,
-      favorito: PartidosFavorito.find(
-        (p) => partido.local === p[0] && partido.visitante === p[1]
-      )
-        ? PartidosFavorito.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
-        : "",
-      cuotaFavorito: PartidosFavorito.find(
-        (p) => partido.local === p[0] && partido.visitante === p[1]
-      )
-        ? PartidosFavorito.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[3]
-        : 1,
-    };
-  });
-
-  partidos_optimizados.sort((a, b) => a.hora - b.hora);
-  partidos_optimizados = partidos_optimizados.map((partido) => {
-
-    if (partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
-      let random = Math.random()
-    
-      return {
-        ...partido,
-        apostar: random >= 0.8 ? 'SI':'NO',
-        random: Math.trunc( random * 10)
-      }
-    }
-
-    return partido
-
-  });
-
-  await convertirArrayEnTextoPlanoConFormato(
-    partidos_optimizados,
-    "PARTIDOS_OPTIMIZADOS",
-    archivoSalida
-  );
-
-  async function sacarCantidadDePartidos() {
-    let totalPartidosFlashScore = partidos.length;
-    let totalPartidosWplay = partidos_optimizados.length;
-    let diferencia_de_partidos_total =
-      totalPartidosFlashScore - totalPartidosWplay;
-
-    let ligas_flashscore = partidos.map((p) => p.liga);
-
-    let ligas_flashscore_no_repeat = [...new Set(ligas_flashscore)];
-    let total_ligas_flashscore = ligas_flashscore_no_repeat.length;
-
-    let ligas_wplay = partidos_optimizados.map((p) => p.liga);
-    let ligas_wplay_no_repeat = [...new Set(ligas_wplay)];
-    let total_ligas_wplay = ligas_wplay_no_repeat.length;
-
-    let diferencia_ligas_total = total_ligas_flashscore - total_ligas_wplay;
-
-    console.log({
-      totalPartidosFlashScore,
-      totalPartidosWplay,
-      diferencia_de_partidos_total,
-      total_ligas_flashscore,
-      total_ligas_wplay,
-      diferencia_ligas_total,
-    });
-
-    // if (diferencia_ligas_total > 0) {
-    console.log("Ligas Flashcore");
-    ligas_flashscore_no_repeat.forEach((liga) => {
-      if (!ligas_wplay_no_repeat.includes(liga)) {
-        console.log({ liga });
-      }
-    });
-    // } else if (diferencia_ligas_total < 0) {
-    console.log("Ligas Wplay");
-    ligas_wplay_no_repeat.forEach((liga) => {
-      if (!ligas_flashscore_no_repeat.includes(liga)) {
-        console.log({ liga });
-      }
-    });
-    // }
-
-    // // if (diferencia_de_partidos_total > 0 && diferencia_ligas_total === 0) {
-    //     ligas_flashscore_no_repeat.forEach(liga => {
-    //         let tempPartidosEnLigasFlashcoreTotal = ligas_flashscore.filter(l => liga === l).length
-    //         let tempPartidosLigasWplayTotal = ligas_wplay.filter(l => liga === l).length
-
-    //         if (tempPartidosEnLigasFlashcoreTotal !== tempPartidosLigasWplayTotal) {
-    //             console.log({ analizando: 'Partidos Flashcore', tempPartidosEnLigasFlashcoreTotal, tempPartidosLigasWplayTotal, liga })
-    //         }
-    //     })
-    // // } else if (diferencia_de_partidos_total < 0 && diferencia_ligas_total === 0) {
-    //     ligas_wplay_no_repeat.forEach(liga => {
-    //         let tempPartidosEnLigasFlashcoreTotal = ligas_flashscore.filter(l => liga === l).length
-    //         let tempPartidosLigasWplayTotal = ligas_wplay.filter(l => liga === l).length
-
-    //         if (tempPartidosEnLigasFlashcoreTotal !== tempPartidosLigasWplayTotal) {
-    //             console.log({ analizando: 'Partidos Wplay', tempPartidosEnLigasFlashcoreTotal, tempPartidosLigasWplayTotal, liga })
-    //         }
-    //     })
-    // // }
-  }
-
-  await sacarCantidadDePartidos();
 }
 
 main();
