@@ -1,13 +1,13 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1031500000;
+const FECHA_PARTIDO_MANANA = 1031600000;
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
-HORA += 0; // CAMBIAR ESTA
+HORA += 1037; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -15,6 +15,7 @@ FECHA_PARTIDO_HOY += HORA;
 
 const fs = require("node:fs");
 const readline = require("node:readline");
+
 
 const { LIGAS_OBJETOS } = require("./ligas_objetos");
 const {
@@ -1475,7 +1476,7 @@ async function main() {
           const linkOver = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${ code }`
           // console.log({ partido })
           let partidoEncontrado = partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])
-          console.log({ partidoEncontrado })
+          // console.log({ partidoEncontrado })
           let code = partidoEncontrado?.codigoWplay || ''
           let link = ''
 
@@ -1503,7 +1504,7 @@ async function main() {
           //   code: partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])?.codigoWplay || 1
           // }
           
-          console.log({ partido })
+          // console.log({ partido })
         }
       })
     })
