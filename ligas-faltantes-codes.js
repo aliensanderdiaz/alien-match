@@ -1,5 +1,6 @@
 let LIGAS_FALTANTES = [
-      'BRON'
+      'BAMA' ,
+'BTOC' ,
 ]
 
 LIGAS_FALTANTES = [...new Set(LIGAS_FALTANTES)];
