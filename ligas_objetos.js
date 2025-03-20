@@ -589,6 +589,14 @@ let LIGAS_OBJETOS = [
     favorito: true,
   },
   {
+    nombreFlashcore: "EUROPA - UEFA Nations League",
+    nombreWplay: "NATIONS LEAGUE PARTIDOS",
+    abreviado: "UNAT",
+    codigoWplay: 556801,
+    mitad: true,
+    favorito: true,
+  },
+  {
     nombreFlashcore: "EUROPA - UEFA Nations League - Liga D",
     nombreWplay: "NATIONS LEAGUE PARTIDOS",
     abreviado: "UNAT",
@@ -617,6 +625,16 @@ let LIGAS_OBJETOS = [
     nombreFlashcore:
       "NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Ascenso - Playoffs",
     nombreWplay: "CNATIONS LEAGUE PARTIDOS",
+    abreviado: "CNAT",
+    codigoWplay: 601779,
+    mitad: false,
+    favorito: true,
+  },
+
+  {
+    nombreFlashcore:
+      "NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Ascenso - Playoffs",
+    nombreWplay: "Liga de Naciones Partidos",
     abreviado: "CNAT",
     codigoWplay: 601779,
     mitad: false,
