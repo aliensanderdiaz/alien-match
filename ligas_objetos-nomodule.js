@@ -9,6 +9,22 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro - Clasificación',
+    "nombreWplay": 'CONCACAF Gold Cup Qualifiers',
+    "abreviado": 'A-ORO',
+    "codigoWplay": 425777,
+    mitad: true,
+    favorito: false,
+},
+{
+  nombreFlashcore: 'EUROPA - Mundial - Clasificación',
+  "nombreWplay": 'World Cup 2026 - Europe Qualification',
+  "abreviado": 'M-EURO',
+  "codigoWplay": 583780,
+  mitad: true,
+  favorito: true,
+},
+  {
     nombreFlashcore: "EUROPA - Atlantic Cup",
     nombreWplay: "EUROPA - Atlantic Cup",
     abreviado: "EATL",
@@ -625,6 +641,16 @@ let LIGAS_OBJETOS = [
     nombreFlashcore:
       "NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Ascenso - Playoffs",
     nombreWplay: "CNATIONS LEAGUE PARTIDOS",
+    abreviado: "CNAT",
+    codigoWplay: 601779,
+    mitad: false,
+    favorito: true,
+  },
+
+  {
+    nombreFlashcore:
+      "NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Nations League - Ascenso - Playoffs",
+    nombreWplay: "Liga de Naciones Partidos",
     abreviado: "CNAT",
     codigoWplay: 601779,
     mitad: false,
@@ -1980,7 +2006,7 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: "BRASIL - Brasileirao Sub-20",
     nombreWplay: "Brasil - U20",
-    abreviado: "ZA-BRAS",
+    abreviado: "ZA-BRA20",
     codigoWplay: 26866,
     mitad: false,
     favorito: false,
