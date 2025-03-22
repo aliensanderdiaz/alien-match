@@ -222,6 +222,14 @@ let LIGAS_OBJETOS = [
     favorito: true,
   },
   {
+    nombreFlashcore: "BRASIL - Roraimense",
+    nombreWplay: "Brazil - Campeonato Roraimense",
+    abreviado: "BROR",
+    codigoWplay: 47888,
+    mitad: false,
+    favorito: false,
+  },
+  {
     nombreFlashcore: "BRASIL - Amazonense - Primera fase",
     nombreWplay: "Brazil - Campeonato Amazonense",
     abreviado: "BAMA",
@@ -2806,8 +2814,16 @@ let LIGAS_OBJETOS = [
     abreviado: "BRON",
     mitad: false,
     favorito: false,
-    codigoWplay: "19454",
+    codigoWplay: "44931",
     nombreWplay: "Brasil - Campeonato Rondoniense",
+  },
+  {
+    nombreFlashcore: "BRASIL - Rondoniense",
+    abreviado: "BRON",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "44931",
+    nombreWplay: "Brazil - Campeonato Rondoniense",
   },
   {
     nombreFlashcore: "BRASIL - Copa Alagoas",

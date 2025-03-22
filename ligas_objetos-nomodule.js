@@ -13,8 +13,8 @@ let LIGAS_OBJETOS = [
     "nombreWplay": 'CONCACAF Gold Cup Qualifiers',
     "abreviado": 'A-ORO',
     "codigoWplay": 425777,
-    mitad: true,
-    favorito: false,
+    mitad: false,
+    favorito: true,
 },
 {
   nombreFlashcore: 'EUROPA - Mundial - Clasificación',
@@ -220,6 +220,14 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20142,
     mitad: true,
     favorito: true,
+  },
+  {
+    nombreFlashcore: "BRASIL - Roraimense",
+    nombreWplay: "Brazil - Campeonato Roraimense",
+    abreviado: "BROR",
+    codigoWplay: 47888,
+    mitad: false,
+    favorito: false,
   },
   {
     nombreFlashcore: "BRASIL - Amazonense - Primera fase",
@@ -2806,8 +2814,16 @@ let LIGAS_OBJETOS = [
     abreviado: "BRON",
     mitad: false,
     favorito: false,
-    codigoWplay: "19454",
+    codigoWplay: "44931",
     nombreWplay: "Brasil - Campeonato Rondoniense",
+  },
+  {
+    nombreFlashcore: "BRASIL - Rondoniense",
+    abreviado: "BRON",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "44931",
+    nombreWplay: "Brazil - Campeonato Rondoniense",
   },
   {
     nombreFlashcore: "BRASIL - Copa Alagoas",
