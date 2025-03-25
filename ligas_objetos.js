@@ -13,7 +13,7 @@ let LIGAS_OBJETOS = [
     "nombreWplay": 'CONCACAF Gold Cup Qualifiers',
     "abreviado": 'A-ORO',
     "codigoWplay": 425777,
-    mitad: false,
+    mitad: true,
     favorito: true,
 },
 {
@@ -117,7 +117,23 @@ let LIGAS_OBJETOS = [
     nombreWplay: "AFC Asian Cup",
     abreviado: "ASIAC",
     codigoWplay: 55112,
-    mitad: false,
+    mitad: true,
+    favorito: false,
+  },
+  {
+    nombreFlashcore: "ASIA - Copa Asiática - Clasificación",
+    nombreWplay: "AFC Asian Cup",
+    abreviado: "ASIAC",
+    codigoWplay: 55112,
+    mitad: true,
+    favorito: false,
+  },
+  {
+    nombreFlashcore: "ASIA - Copa Asiática",
+    nombreWplay: "AFC Asian Cup",
+    abreviado: "ASIAC",
+    codigoWplay: 55112,
+    mitad: true,
     favorito: false,
   },
   {
@@ -282,7 +298,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "WORLD CUP 2026 - AFRICA QUALIFIERS",
     abreviado: "M-AFR",
     codigoWplay: 452779,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
   {
@@ -290,7 +306,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "WORLD CUP 2026 - AFRICA QUALIFIERS",
     abreviado: "M-AFR",
     codigoWplay: 452779,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
   {
@@ -1296,7 +1312,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - CHAMPIONSHIP",
     abreviado: "R-ESC2",
     codigoWplay: 19879,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
   {
@@ -1328,7 +1344,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - CHAMPIONSHIP",
     abreviado: "R-ESC2",
     codigoWplay: 19879,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
   {
@@ -1336,7 +1352,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - CHAMPIONSHIP",
     abreviado: "R-ESC2",
     codigoWplay: 19879,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
   {
@@ -2413,7 +2429,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
   {
@@ -2421,7 +2437,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
   {
@@ -2445,7 +2461,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
   {
@@ -2454,7 +2470,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
   {
@@ -2462,7 +2478,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: false,
+    mitad: true,
     favorito: true,
   },
 
