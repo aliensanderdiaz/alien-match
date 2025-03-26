@@ -407,7 +407,7 @@ async function main() {
 
     await convertirArrayEnTextoPlanoConFormato(
       PartidosWplay,
-      "PARTIDOS_WPLAY",
+      "PARTIDOS_OPTIMIZADOS",
       outputPartidosWplay
     );
 
