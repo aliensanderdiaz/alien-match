@@ -13,7 +13,7 @@ let LIGAS_OBJETOS = [
     "nombreWplay": 'CONCACAF Gold Cup Qualifiers',
     "abreviado": 'A-ORO',
     "codigoWplay": 425777,
-    mitad: true,
+    mitad: false,
     favorito: true,
 },
 {
@@ -2429,7 +2429,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: true,
+    mitad: false,
     favorito: true,
   },
   {
@@ -2437,7 +2437,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: true,
+    mitad: false,
     favorito: true,
   },
   {
@@ -2461,7 +2461,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: true,
+    mitad: false,
     favorito: true,
   },
   {
@@ -2470,7 +2470,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: true,
+    mitad: false,
     favorito: true,
   },
   {
@@ -2478,7 +2478,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
-    mitad: true,
+    mitad: false,
     favorito: true,
   },
 
