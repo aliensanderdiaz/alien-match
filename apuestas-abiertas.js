@@ -1,3 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[11200,"Racing Club Montevideo","Atletico River Plate (Uru)","mitad",1.48,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19398",19398],[11300,"Desportivo Brasil SP","Rio Branco SP","mitad",1.55,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=1209784","1209784"],[11300,"Monte Azul SP","SE Itapirense SP","mitad",1.55,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=1209784","1209784"],"355,570 con $ 100,000"],
 ]
