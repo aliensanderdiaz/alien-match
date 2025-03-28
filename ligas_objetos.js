@@ -1964,6 +1964,14 @@ let LIGAS_OBJETOS = [
     favorito: false,
   },
   {
+    nombreFlashcore: "BOLIVIA - División Profesional",
+    nombreWplay: "BOLIVIA - LIGA DE FÚTBOL PROFESIONAL",
+    abreviado: "ZA-BOL1",
+    codigoWplay: 19786,
+    mitad: false,
+    favorito: false,
+  },
+  {
     nombreFlashcore: "BOLIVIA - División Profesional - Descenso",
     nombreWplay: "BOLIVIA - LIGA DE FÚTBOL PROFESIONAL",
     abreviado: "ZA-BOL1",
