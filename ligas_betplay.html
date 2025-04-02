@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligas Betplay</title>
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 4px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul class="container">
+
+    </ul>
+    <script src="./ligas_betplay.js"></script>
+    <script>
+        const container = document.querySelector('.container')
+        let html = ''
+        const URL = 'https://betplay.com.co/apuestas#sports-hub/football'
+        ligas_betplay.forEach(element => {
+            html += `
+                <li>
+                    <a href="${URL}/${ element }" target="_blank" rel="noopener noreferrer">${ element }</a>
+                </li>
+            `
+        });
+        container.innerHTML = html
+    </script>
+</body>
+</html>
