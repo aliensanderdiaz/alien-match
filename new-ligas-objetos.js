@@ -3269,3 +3269,18 @@ const newLigas = codigosWplayNoRepeat.map(codigo => {
 })
 
 console.log(newLigas)
+
+// const fs = require('fs')
+
+const {
+  convertirArrayEnTextoPlanoConFormato,
+} = require("./helper-escribir-archivo-plano-como-array");
+
+
+const PARTIDOS_RESPONSE = convertirArrayEnTextoPlanoConFormato(
+  newLigas,
+  "LIGAS",
+  'newLigas.js'
+).then(() => {
+  console.log({ ok: true })
+})

@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ligas Betplay</title>
     <style>
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 4px;
-        }
-        a {
-            text-decoration: none;
-            color: black;
-        }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        margin: 16px;
+      }
+      a {
+        text-decoration: none;
+        color: black
+      }
 
-        a:hover {
-            color: white;
-            background-color: black;
-        }
+      a:hover {
+        color: white;
+        background-color: black;
+      }
     </style>
-</head>
-<body>
-    <ul class="container">
-
-    </ul>
+  </head>
+  <body>
+    <ul class="container"></ul>
     <script src="./ligas_betplay.js"></script>
     <script>
-        const container = document.querySelector('.container')
-        let html = ''
-        const URL = 'https://betplay.com.co/apuestas#sports-hub/football'
-        ligas_betplay.forEach(element => {
-            html += `
+      const container = document.querySelector(".container");
+      let html = "";
+      // const URL = 'https://betplay.com.co/apuestas#sports-hub/football'
+      ligas.forEach((element) => {
+        element.ligas.forEach((element2) => {
+          html += `
                 <li>
-                    <a href="${URL}/${ element }" target="_blank" rel="noopener noreferrer">${ element }</a>
+                    <a href="${element2.link}" target="_blank" rel="noopener noreferrer">${element.coleccion} - ${element2.nombre}</a>
                 </li>
-            `
+            `;
         });
-        container.innerHTML = html
+      });
+      container.innerHTML = html;
     </script>
-</body>
+  </body>
 </html>
