@@ -1,13 +1,13 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1040300000;
+const FECHA_PARTIDO_MANANA = 1040400000;
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
  // CAMBIAR ESTA
-HORA += 1701; // CAMBIAR ESTA
+HORA += 0; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -207,12 +207,12 @@ async function main() {
         esMundial = true;
       }
 
-      if (esHora && indiceEsHora + 2 === indice) {
+      if (esHora && indiceEsHora + 4 === indice) {
         let partido = {
-          hora: 10000 + lineas[indice - 2].replace(":", "") * 1,
+          hora: 10000 + lineas[0].replace(":", "") * 1,
           ...ligas[ligas.length - 1],
-          local: lineas[indice - 1],
-          visitante: lineas[indice],
+          local: lineas[1],
+          visitante: lineas[3],
           cuotaLocal: 1,
           empate: 1,
           cuotaVisitante: 1,
@@ -225,7 +225,11 @@ async function main() {
           stake: 0,
         };
 
+        // console.log({ 'lineas[indice - 1]': lineas[indice - 1], 'lineas[indice]': lineas[indice], lineas, indice, indiceEsHora, esHora, line })
+
         // console.log({ hora: partido.hora })
+
+        console.log({ partido })
 
         partidosGlobal.push(partido);
         esHora = false;
@@ -251,6 +255,7 @@ async function main() {
       "LIGAS",
       archivoSalida2
     );
+    partidosGlobal.sort((a,b) => a.hora - b.hora)
     const PARTIDOS_RESPONSE = await convertirArrayEnTextoPlanoConFormato(
       partidosGlobal,
       "PARTIDOS_OPTIMIZADOS",
