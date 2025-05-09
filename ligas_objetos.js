@@ -1470,7 +1470,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - CHAMPIONSHIP",
     abreviado: "R-ESC2",
     codigoWplay: 19879,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1506,7 +1506,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - CHAMPIONSHIP",
     abreviado: "R-ESC2",
     codigoWplay: 19879,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1515,7 +1515,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - CHAMPIONSHIP",
     abreviado: "R-ESC2",
     codigoWplay: 19879,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
