@@ -1,12 +1,12 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1051300000;
- // CAMBIAR ESTA
- // CAMBIAR ESTA
- // CAMBIAR ESTA
- // CAMBIAR ESTA
- // CAMBIAR ESTA
+const FECHA_PARTIDO_MANANA = 1051800000;
+// CAMBIAR ESTA
+// CAMBIAR ESTA
+// CAMBIAR ESTA
+// CAMBIAR ESTA
+// CAMBIAR ESTA
 HORA += 0; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
@@ -172,12 +172,22 @@ async function main() {
       if (opciones.includes(line) && !esMundial) {
         let liga = `${lineas[indice - 2]} - ${lineas[indice - 1]}`;
         console.log({ liga });
+
         let ligaEncontrada = LIGAS_OBJETOS.find(
           (ligaObjeto) => ligaObjeto.nombreFlashcore === liga
         );
+
+        console.log({
+          testigo: "opciones.includes(line)",
+          indice,
+          line,
+          lineas,
+          liga,
+        });
         if (!ligaEncontrada) {
           console.log({
             testigo: "opciones.includes(line)",
+            indice,
             line,
             lineas,
             liga,
@@ -229,7 +239,7 @@ async function main() {
 
         // console.log({ hora: partido.hora })
 
-        console.log({ partido })
+        // console.log({ partido })
 
         partidosGlobal.push(partido);
         esHora = false;
@@ -255,7 +265,7 @@ async function main() {
       "LIGAS",
       archivoSalida2
     );
-    partidosGlobal.sort((a,b) => a.hora - b.hora)
+    partidosGlobal.sort((a, b) => a.hora - b.hora)
     const PARTIDOS_RESPONSE = await convertirArrayEnTextoPlanoConFormato(
       partidosGlobal,
       "PARTIDOS_OPTIMIZADOS",
@@ -287,9 +297,8 @@ async function main() {
   const convertirFechaANumero = (fechaEnString) => {
     fechaEnString = fechaEnString.replace(":", "");
     let fechaArray = fechaEnString.split(" ");
-    let fechaEnStringModificado = `1${meses[fechaArray[2]]}${fechaArray[1]}1${
-      fechaArray[0]
-    }`;
+    let fechaEnStringModificado = `1${meses[fechaArray[2]]}${fechaArray[1]}1${fechaArray[0]
+      }`;
     // console.log({fechaEnString, fechaArray, fechaEnStringModificado})
     return fechaEnStringModificado * 1;
   };
@@ -964,8 +973,8 @@ async function main() {
         partidoTemp.favorito === "local"
           ? partidoTemp.localMitad
           : partidoTemp.favorito === "visitante"
-          ? partidoTemp.visitanteMitad
-          : 1,
+            ? partidoTemp.visitanteMitad
+            : 1,
       ];
 
       if (partidoMitad[2] === "") {
@@ -1137,16 +1146,16 @@ async function main() {
       (p) => partido.local === p[0] && partido.visitante === p[1]
     )
       ? PartidosSeMarcaraEnLaPrimeraMitad.find(
-          (p) => partido.local === p[0] && partido.visitante === p[1]
-        )[2]
+        (p) => partido.local === p[0] && partido.visitante === p[1]
+      )[2]
       : 1;
     if (cuotaCualquiera === 1) {
       cuotaCualquiera = PartidosMasPrimeraMitad.find(
         (p) => partido.local === p[0] && partido.visitante === p[1]
       )
         ? PartidosMasPrimeraMitad.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
+          (p) => partido.local === p[0] && partido.visitante === p[1]
+        )[2]
         : 1;
     }
     if (cuotaCualquiera === 1) {
@@ -1154,8 +1163,8 @@ async function main() {
         (p) => partido.local === p[0] && partido.visitante === p[1]
       )
         ? PartidosMasMenosPrimeraMitad.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
+          (p) => partido.local === p[0] && partido.visitante === p[1]
+        )[2]
         : 1;
     }
     return {
@@ -1166,43 +1175,43 @@ async function main() {
         (p) => partido.local === p[0] && partido.visitante === p[1]
       )
         ? PartidosAmbosMarcan.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
+          (p) => partido.local === p[0] && partido.visitante === p[1]
+        )[2]
         : 1,
       over: PartidosOver.find(
         (p) => partido.local === p[0] && partido.visitante === p[1]
       )
         ? PartidosOver.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
+          (p) => partido.local === p[0] && partido.visitante === p[1]
+        )[2]
         : 1,
       localMitad: PartidosLocalPrimeraMitad.find(
         (p) => partido.local === p[0] && partido.visitante === p[1]
       )
         ? PartidosLocalPrimeraMitad.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
+          (p) => partido.local === p[0] && partido.visitante === p[1]
+        )[2]
         : 1,
       visitanteMitad: PartidosVisitantePrimeraMitad.find(
         (p) => partido.local === p[0] && partido.visitante === p[1]
       )
         ? PartidosVisitantePrimeraMitad.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
+          (p) => partido.local === p[0] && partido.visitante === p[1]
+        )[2]
         : 1,
       favorito: PartidosFavorito.find(
         (p) => partido.local === p[0] && partido.visitante === p[1]
       )
         ? PartidosFavorito.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[2]
+          (p) => partido.local === p[0] && partido.visitante === p[1]
+        )[2]
         : "",
       cuotaFavorito: PartidosFavorito.find(
         (p) => partido.local === p[0] && partido.visitante === p[1]
       )
         ? PartidosFavorito.find(
-            (p) => partido.local === p[0] && partido.visitante === p[1]
-          )[3]
+          (p) => partido.local === p[0] && partido.visitante === p[1]
+        )[3]
         : 1,
     };
   });
@@ -1216,11 +1225,11 @@ async function main() {
 
     if (partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
       let random = Math.random()
-    
+
       return {
         ...partido,
-        apostar: random >= 0.8 ? 'SI':'NO',
-        random: Math.trunc( random * 10)
+        apostar: random >= 0.8 ? 'SI' : 'NO',
+        random: Math.trunc(random * 10)
       }
     }
 
@@ -1343,8 +1352,8 @@ async function main() {
         // lineModificado = lineModificado.replaceAll(",", "");
         if (partidos.length > 0) {
           gananciaEsperada = lineModificado;
-          console.log({ cantidadApostada ,gananciaEsperada });
-          partidos.push(`${ gananciaEsperada } con $ ${ cantidadApostada }`);
+          console.log({ cantidadApostada, gananciaEsperada });
+          partidos.push(`${gananciaEsperada} con $ ${cantidadApostada}`);
           if (partidos.length > 0) {
             arraySalida.push(partidos);
             partidos = [];
@@ -1365,7 +1374,7 @@ async function main() {
         " Total Goles	Más de (0.5)	",
       ]
 
-      if (line.endsWith("	 -") || ( line.endsWith("\t") && conditions.some(el => line.includes(el)) )) {
+      if (line.endsWith("	 -") || (line.endsWith("\t") && conditions.some(el => line.includes(el)))) {
         lineModificado = line.replace("	1ª Mitad más/Menos de ", "***");
 
         lineModificado = lineModificado.replace(
@@ -1408,8 +1417,8 @@ async function main() {
           arrayLine[3] === arrayLine[1]
             ? "local"
             : arrayLine[3] === arrayLine[2]
-            ? "visitante"
-            : arrayLine[3],
+              ? "visitante"
+              : arrayLine[3],
           arrayLine[4] * 1,
         ];
 
@@ -1476,9 +1485,9 @@ async function main() {
       apuesta.forEach(partido => {
         if (Array.isArray(partido)) {
 
-          const linkMitad = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${ code }`
-          const linkAmbos = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${ code }`
-          const linkOver = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${ code }`
+          const linkMitad = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${code}`
+          const linkAmbos = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${code}`
+          const linkOver = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${code}`
           // console.log({ partido })
           let partidoEncontrado = partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])
           // console.log({ partidoEncontrado })
@@ -1508,7 +1517,7 @@ async function main() {
           //   cuota: partido[4],
           //   code: partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])?.codigoWplay || 1
           // }
-          
+
           // console.log({ partido })
         }
       })
