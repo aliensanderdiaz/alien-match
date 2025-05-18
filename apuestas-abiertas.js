@@ -1,6 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[10700,"Ferrol","CF Cadiz","mitad",0],"150,000 con $ 100,000"],
-	[[10700,"Ferrol","CF Cadiz","mitad",1.5],[10730,"LNZ Cherkasy","Vorskla Poltava","mitad",1.571],[10730,"FC Levy Bereg Kiev","Rukh Vynnyky","mitad",1.7],[10800,"CS Municipal Studentesc Iasi","Petrolul Ploiesti","mitad",1.5],[10800,"Unirea Slobozia","Sepsi OSK","mitad",1.42],"853,521 con $ 100,000"],
-	[[11515,"Plaza Colonia","Danubio","mitad",1.55],"220,100 con $ 100,000"],
-	[[11515,"Plaza Colonia","Danubio","mitad",1.55],"110,105 con $ 10,000"],
+	[[11200,"Osasuna","Espanyol","mitad",1.45],[11200,"RCD Mallorca","Getafe","mitad",1.65],[11200,"Valencia","Athletic Bilbao","mitad",1.48],"354,090 con $ 100,000"],
+	[[11200,"Osasuna","Espanyol","mitad",1.45],[11200,"RCD Mallorca","Getafe","mitad",1.65],[11200,"Valencia","Athletic Bilbao","mitad",1.48],[11255,"Maxline Rogachev","Bate Borisov","mitad",1.42,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19493",19493],[11300,"Liverpool Montevideo","Cerro Largo FC","mitad",1.42,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19398",19398],[11300,"CA Guemes","Quilmes AC","mitad",1.666,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19342",19342],[11300,"Tristan Suarez","Club Atletico Atlanta","mitad",1.727],"2,055,417 con $ 100,000"],
 ]
