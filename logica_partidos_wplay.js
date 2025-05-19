@@ -174,11 +174,11 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             </div>
             <div class="col-2 border">
                 <strong class="elegir-favorito ${partido.favorito === 'local' ? 'favorito-local' : ''}" onclick="elegirFavorito(${indice}, 'local')">
-                    ${partido.local.substring(0, 30)}
+                    ${partido.local.substring(0, 20)}
                 </strong>
                 <br>
                 <strong class="elegir-favorito ${partido.favorito === 'visitante' ? 'favorito-visitante' : ''}" onclick="elegirFavorito(${indice}, 'visitante')">
-                    ${partido.visitante.substring(0, 30)}
+                    ${partido.visitante.substring(0, 20)}
                 </strong>
             </div>
             <div class="col border">
@@ -195,7 +195,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         </span>
                         <!-- <br> -->
                         <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)}">
-                            ${partido.favorito === 'local' && partido.localMitad > 1 ? partido.localMitad.toFixed(2) : ''}
+                            ${partido.localMitad > 1 ? partido.localMitad.toFixed(2) : ''}
                         </span>
 
                     </div>
@@ -211,7 +211,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         </span>
                         <!-- <br> -->
                         <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)}">
-                            ${partido.favorito === 'visitante' && partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2) : ''}
+                            ${partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2) : ''}
                         </span>
 
                     </div>
