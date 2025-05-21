@@ -1,3 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[11345,"Boulogne","Clermont Foot","mitad",1.533,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19405",19405],[11200,"Slavia Mozyr","Torpedo Zhodino","mitad",1.533,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19493",19493],[11530,"Vargas Torres","San Antonio","mitad",1.55,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=30530",30530],"364,422 con $ 100,000"],
 ]
