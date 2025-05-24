@@ -163,6 +163,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         <div class="row">
             <div class="col-1 border text-end">
                 <small>${indice}/${total} - ${partido.hora - 10000}</small>
+                <span role="button" class="pointer badge text-bg-danger" onClick="eliminarPartido(${ indice - 1})">X</span>
                 <br>
                 <small class="${partido.apostar && partido.apostar === 'SI' ? 'bg-success' : ''}">${partido.random ? partido.random : ''} - ${partido.random ? partido.apostar : ''}</small>
             </div>
@@ -194,7 +195,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                             ${partido.cuotaLocal.toFixed(2)}
                         </span>
                         <!-- <br> -->
-                        <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)}">
+                        <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)} ${ partido.localMitad && partido.localMitad > 1.74 && partido.localMitad < partido.visitanteMitad ? 'bg-primary-subtle':'' }">
                             ${partido.localMitad > 1 ? partido.localMitad.toFixed(2) : ''}
                         </span>
 
@@ -210,7 +211,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                             ${partido.cuotaVisitante.toFixed(2)}
                         </span>
                         <!-- <br> -->
-                        <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)}">
+                        <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)} ${ partido.visitanteMitad && partido.visitanteMitad > 1.74 && partido.visitanteMitad < partido.localMitad ? 'bg-primary-subtle':'' }">
                             ${partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2) : ''}
                         </span>
 
@@ -540,5 +541,11 @@ const ordenar = function (value) {
     }
     dibujar()
     dibujarSM()
+}
+
+const eliminarPartido = function(index) {
+    console.log({ index })
+    PARTIDOS_OPTIMIZADOS.splice(index, 1)
+    dibujar()
 }
 
