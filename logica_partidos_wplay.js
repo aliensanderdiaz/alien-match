@@ -195,7 +195,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                             ${partido.cuotaLocal.toFixed(2)}
                         </span>
                         <!-- <br> -->
-                        <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)} ${ partido.localMitad && partido.localMitad > 1.74 && partido.localMitad < partido.visitanteMitad ? 'bg-primary-subtle':'' }">
+                        <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)} ${ partido.localMitad && partido.localMitad > 1.74 && partido.localMitad <= partido.visitanteMitad ? 'bg-primary-subtle':'' }">
                             ${partido.localMitad > 1 ? partido.localMitad.toFixed(2) : ''}
                         </span>
 

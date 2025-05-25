@@ -1,13 +1,13 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1052500000;
+const FECHA_PARTIDO_MANANA = 1052600000;
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 1359; // CAMBIAR ESTA
+HORA += 0; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -171,31 +171,33 @@ async function main() {
 
       if (opciones.includes(line) && !esMundial) {
         let liga = `${lineas[indice - 2]} - ${lineas[indice - 1]}`;
-        console.log({ liga });
+        // console.log({ liga });
 
         let ligaEncontrada = LIGAS_OBJETOS.find(
           (ligaObjeto) => ligaObjeto.nombreFlashcore === liga
         );
 
-        console.log({
-          testigo: "opciones.includes(line)",
-          indice,
-          line,
-          lineas,
-          liga,
-        });
+        // console.log({
+        //   testigo: "opciones.includes(line)",
+        //   indice,
+        //   line,
+        //   lineas,
+        //   liga,
+        // });
         if (!ligaEncontrada) {
-          console.log({
-            testigo: "opciones.includes(line)",
-            indice,
-            line,
-            lineas,
-            liga,
-            ligaEncontrada,
-          });
+          // console.log({
+          //   testigo: "opciones.includes(line)",
+          //   indice,
+          //   line,
+          //   lineas,
+          //   liga,
+          //   ligaEncontrada,
+          // });
           // console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
           let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar ${liga}`;
-          throw new Error(mensajeDeError);
+          console.error({ mensajeDeError })
+          // throw new Error(mensajeDeError);
+          continue
         }
         let ligaObjeto = {
           liga: ligaEncontrada.abreviado,
@@ -332,7 +334,7 @@ async function main() {
 
       if (line.startsWith(" ★ ")) {
         let ligaWplayName = line.replace(" ★ ", "");
-        console.log({ line: 306, ligaWplayName });
+        // console.log({ line: 306, ligaWplayName });
         // if (ligaWplayName === 'Olympics Matches Men') {
         //     console.log({ ligaWplayName })
         // }
