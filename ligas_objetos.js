@@ -9,6 +9,22 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: "ESCOCIA - Premiership - Descenso",
+    "nombreWplay": "Escocia - Championship",
+    "abreviado": "R-ESC2",
+    "codigoWplay": 19879,
+    mitad: false,
+    favorito: false,
+},
+  {
+    nombreFlashcore: "ALEMANIA - Bundesliga - descenso",
+    "nombreWplay": "Bundesliga Relegation/Promotion Play-Offs",
+    "abreviado": "ALE1D",
+    "codigoWplay": 45452,
+    mitad: true,
+    favorito: true
+},
+  {
     nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro - Clasificación',
     "nombreWplay": 'CONCACAF Gold Cup Qualifiers',
     "abreviado": 'A-ORO',

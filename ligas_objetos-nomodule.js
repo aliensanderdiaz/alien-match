@@ -9,21 +9,39 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: "ESCOCIA - Premiership - Descenso",
+    "nombreWplay": "Escocia - Championship",
+    "abreviado": "R-ESC2",
+    "codigoWplay": 19879,
+    mitad: false,
+    favorito: false,
+},
+  {
+    nombreFlashcore: "ALEMANIA - Bundesliga - descenso",
+    "nombreWplay": "Bundesliga Relegation/Promotion Play-Offs",
+    "abreviado": "ALE1D",
+    "codigoWplay": 45452,
+    mitad: true,
+    favorito: true
+},
+  {
     nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro - Clasificación',
     "nombreWplay": 'CONCACAF Gold Cup Qualifiers',
     "abreviado": 'A-ORO',
     "codigoWplay": 425777,
     mitad: false,
     favorito: true,
-},
-{
-  nombreFlashcore: 'EUROPA - Mundial - Clasificación',
-  "nombreWplay": 'World Cup 2026 - Europe Qualification',
-  "abreviado": 'M-EURO',
-  "codigoWplay": 583780,
-  mitad: true,
-  favorito: true,
-},
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: 'EUROPA - Mundial - Clasificación',
+    "nombreWplay": 'World Cup 2026 - Europe Qualification',
+    "abreviado": 'M-EURO',
+    "codigoWplay": 583780,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "EUROPA - Atlantic Cup",
     nombreWplay: "EUROPA - Atlantic Cup",
@@ -31,6 +49,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 0,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Campeonato Sudamericano Sub-20 - Grupo Final",
@@ -39,6 +58,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 31604,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Campeonato Sudamericano Sub-20 - Grupo Final",
@@ -47,6 +67,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 31604,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Campeonato Sudamericano Sub-20",
@@ -55,6 +76,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 31604,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "FIFA Intercontinental Cup",
@@ -63,6 +85,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 51339,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MUNDIALb - Kings Cup - Tailandia",
@@ -71,6 +94,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 31722,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Kings Cup - Tailandia",
@@ -79,6 +103,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 31722,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Copa Libertadores Femenina - Playoffs",
@@ -87,6 +112,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 47240,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Copa Libertadores Femenina",
@@ -95,6 +121,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 47240,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "NORTE, CENTROAMÉRICA Y CARIBE - Campeones Cup",
@@ -103,6 +130,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 460787,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Mundial - Clasificación",
@@ -111,14 +139,34 @@ let LIGAS_OBJETOS = [
     codigoWplay: 86772,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ASIA - Copa Asiática - Clasificación - Playoffs",
     nombreWplay: "AFC Asian Cup",
     abreviado: "ASIAC",
     codigoWplay: 55112,
-    mitad: false,
+    mitad: true,
     favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Copa Asiática - Clasificación",
+    nombreWplay: "AFC Asian Cup",
+    abreviado: "ASIAC",
+    codigoWplay: 55112,
+    mitad: true,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Copa Asiática",
+    nombreWplay: "AFC Asian Cup",
+    abreviado: "ASIAC",
+    codigoWplay: 55112,
+    mitad: true,
+    favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Mundial Femenino Sub-20",
@@ -127,6 +175,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 47028,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Mundial Femenino Sub-20 - Playoffs",
@@ -135,6 +184,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 47028,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Mundial Femenino Sub-20",
@@ -143,6 +193,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 47028,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Supercopa UEFA",
@@ -151,6 +202,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20106,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Juegos Olímpicos Femenino",
@@ -159,6 +211,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 1424780,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Juegos Olímpicos Femenino - Playoffs",
@@ -167,6 +220,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 1424780,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -176,6 +230,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 45631,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -185,6 +240,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 45631,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -194,6 +250,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 45631,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Juegos Olímpicos",
@@ -202,6 +259,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 45631,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -211,6 +269,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20142,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -220,6 +279,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20142,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Roraimense",
@@ -228,6 +288,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 47888,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Amazonense - Primera fase",
@@ -236,6 +297,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 32578,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Amazonense - Clasificación",
@@ -244,6 +306,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 32578,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Amazonense",
@@ -252,6 +315,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 32578,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Copa do Nordeste - Playoffs",
@@ -260,6 +324,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 27208,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Copa do Nordeste - Clasificación",
@@ -268,6 +333,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 27208,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Copa do Nordeste",
@@ -276,22 +342,25 @@ let LIGAS_OBJETOS = [
     codigoWplay: 27208,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ÁFRICA - Mundial - Clasificación - Primera fase",
     nombreWplay: "WORLD CUP 2026 - AFRICA QUALIFIERS",
     abreviado: "M-AFR",
     codigoWplay: 452779,
-    mitad: false,
+    mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ÁFRICA - Mundial - Clasificación",
     nombreWplay: "WORLD CUP 2026 - AFRICA QUALIFIERS",
     abreviado: "M-AFR",
     codigoWplay: 452779,
-    mitad: false,
+    mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
@@ -300,6 +369,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 33025,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Maurice Revello Tournament",
@@ -308,6 +378,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20192,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Maurice Revello Tournament - Definición Puestos",
@@ -316,6 +387,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20192,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Maurice Revello Tournament - Playoffs",
@@ -324,6 +396,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20192,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ASIA - AFC Asian Cup U23 - Playoffs",
@@ -332,6 +405,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 32287,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -341,6 +415,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 32287,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -350,6 +425,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19348,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -359,6 +435,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19348,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -368,6 +445,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19462,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PORTUGAL - Taça de Portugal",
@@ -376,6 +454,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19382,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PORTUGAL - Taça da Liga",
@@ -384,6 +463,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19337,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ITALIA - Copa Italia",
@@ -392,6 +472,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19417,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BÉLGICA - Copa - Clasificación",
@@ -400,6 +481,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19448,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BÉLGICA - Copa",
@@ -408,6 +490,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19448,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BÉLGICA - Jupiler Pro League - Conference League Group",
@@ -416,6 +499,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19372,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -425,6 +509,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19372,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BÉLGICA - Jupiler Pro League - Grupo de Campeonato",
@@ -433,6 +518,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19372,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BÉLGICA - Jupiler Pro League - Grupo Descenso",
@@ -441,6 +527,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19372,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BÉLGICA - Jupiler Pro League - Descenso",
@@ -449,6 +536,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19372,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -458,6 +546,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 310774,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -467,6 +556,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 310774,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Emirates Cup",
@@ -475,6 +565,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 33024,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Amistosos de Clubs",
@@ -483,6 +574,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 617783,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Amistosos de Clubs",
@@ -491,6 +583,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20183,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Amistosos Internacionales",
@@ -499,6 +592,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19287,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Baltic Cup",
@@ -507,6 +601,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19287,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Amistosos Internacionales",
@@ -515,6 +610,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19345,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "Amistosos Internacionales",
@@ -523,6 +619,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20182,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ASIA - Mundial - Clasificación - Segunda fase",
@@ -531,6 +628,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 120773,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ASIA - Mundial - Clasificación - Tercera fase",
@@ -539,6 +637,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 120773,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ASIA - Mundial - Clasificación - Segunda fase",
@@ -547,6 +646,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 120773,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Eurocopa",
@@ -555,6 +655,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 60002,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Eurocopa - Playoffs",
@@ -563,6 +664,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 60002,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Eurocopa - Clasificación - Ascenso",
@@ -571,6 +673,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 55650,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Eurocopa - Clasificación - Ascenso",
@@ -579,6 +682,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 55650,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - UEFA Nations League - League C - Play Out",
@@ -587,6 +691,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 556801,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - UEFA Nations League - Liga A",
@@ -595,6 +700,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 556801,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - UEFA Nations League - Liga B",
@@ -603,6 +709,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 556801,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - UEFA Nations League - Liga C",
@@ -611,6 +718,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 556801,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - UEFA Nations League",
@@ -619,6 +727,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 556801,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - UEFA Nations League - Liga D",
@@ -627,6 +736,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 556801,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Europeo Sub-21 - Clasificación",
@@ -635,6 +745,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 23644,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Elite League Sub-20",
@@ -643,6 +754,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19353,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -653,6 +765,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 601779,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -663,6 +776,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 601779,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -673,6 +787,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 601779,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -682,6 +797,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 601779,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -691,6 +807,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 601779,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -700,6 +817,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 601779,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -709,6 +827,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 601779,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -718,6 +837,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 557800,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ÁFRICA - Copa de África de Naciones - Clasificación",
@@ -726,6 +846,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 557800,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -735,6 +856,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 465796,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ÁFRICA - African Games - Playoffs",
@@ -743,6 +865,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 33383,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESTADOS UNIDOS - US Open Cup",
@@ -751,6 +874,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19497,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "GRECIA - Superliga - Grupo Descenso",
@@ -759,6 +883,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19209,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - FA Community Shield",
@@ -767,6 +892,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19897,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - FA Cup - Clasificación",
@@ -775,6 +901,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 30668,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - FA Cup",
@@ -783,6 +910,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19207,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "URUGUAY - Segunda División",
@@ -791,6 +919,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 26834,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "URUGUAY - Segunda División - Ascenso - Playoffs",
@@ -799,6 +928,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 26834,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "URUGUAY - Segunda División - Partido adicional",
@@ -807,6 +937,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 26834,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "URUGUAY - Segunda División - Torneo Competencia",
@@ -815,6 +946,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 26834,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -824,6 +956,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 26834,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -833,6 +966,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19493,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -842,6 +976,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19493,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -851,6 +986,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 23200,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -860,6 +996,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 46019,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -869,6 +1006,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 46019,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -878,6 +1016,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 27407,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "FRANCIA - Copa de Francia",
@@ -886,6 +1025,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 26463,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -895,6 +1035,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19433,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ECUADOR - Supercopa",
@@ -903,6 +1044,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 60383,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ECUADOR - Serie B",
@@ -911,6 +1053,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 30530,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ECUADOR - Copa Ecuador",
@@ -919,6 +1062,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 54272,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUSIA - Copa de Rusia - Playoffs",
@@ -927,6 +1071,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19467,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUSIA - Copa de Rusia",
@@ -935,6 +1080,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19467,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUSIA - Copa de Rusia - Fase Grupos",
@@ -943,6 +1089,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19467,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUSIA - Copa de Rusia - Regions Path",
@@ -951,6 +1098,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19467,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUSIA - Copa de Rusia - Superfinal",
@@ -959,6 +1107,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19467,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUSIA - Copa de Rusia - Regions Path - Play Offs",
@@ -967,6 +1116,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19467,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COREA DEL SUR - Copa",
@@ -975,6 +1125,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19959,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESCOCIA - Scottish Cup",
@@ -983,6 +1134,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19307,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESCOCIA - League Cup",
@@ -991,6 +1143,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19409,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESCOCIA - League Cup - Playoffs",
@@ -999,6 +1152,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19409,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESTADOS UNIDOS - USL Championship - Playoffs",
@@ -1007,6 +1161,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20075,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESTADOS UNIDOS - USL Championship",
@@ -1015,6 +1170,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20075,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "GRECIA - Superliga - Grupo de Campeonato",
@@ -1023,6 +1179,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19209,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -1032,6 +1189,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 1001780,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Copa Colombia",
@@ -1040,6 +1198,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29698,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Superliga",
@@ -1048,6 +1207,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 22418,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Copa Sudamericana - Clasificación",
@@ -1056,6 +1216,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19348,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -1065,6 +1226,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19485,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COREA DEL SUR - K League 1",
@@ -1073,6 +1235,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19306,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COREA DEL SUR - K League 1 - Descenso",
@@ -1081,6 +1244,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19306,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COREA DEL SUR - K League 1 - Grupo Descenso",
@@ -1089,6 +1253,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19306,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COREA DEL SUR - K League 1 - Grupo de Campeonato",
@@ -1097,6 +1262,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19306,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ECUADOR - Liga Pro - Primera fase",
@@ -1105,6 +1271,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19373,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ECUADOR - Liga Pro",
@@ -1113,6 +1280,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19373,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ECUADOR - Liga Pro - Playoffs",
@@ -1121,6 +1289,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19373,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ECUADOR - Liga Pro - Segunda fase",
@@ -1129,6 +1298,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19373,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUSIA - Premier League",
@@ -1137,6 +1307,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19388,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUSIA - Premier League - Descenso",
@@ -1145,6 +1316,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19388,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ALEMANIA - Bundesliga",
@@ -1153,6 +1325,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19158,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ALEMANIA - Bundesliga - Descenso",
@@ -1161,6 +1334,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 45452,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ALEMANIA - 2. Bundesliga",
@@ -1169,6 +1343,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19344,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ALEMANIA - 2. Bundesliga - Descenso",
@@ -1177,6 +1352,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19833,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ALEMANIA - 3. Liga",
@@ -1185,6 +1361,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19366,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESPAÑA - Supercopa",
@@ -1193,6 +1370,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19511,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESPAÑA - LaLiga EA Sports",
@@ -1201,6 +1379,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19160,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESPAÑA - Copa del Rey",
@@ -1209,6 +1388,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19213,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESPAÑA - LaLiga Hypermotion",
@@ -1217,6 +1397,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 48352,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESPAÑA - LaLiga Hypermotion - Ascenso - Playoffs",
@@ -1225,6 +1406,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 48352,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "FRANCIA - Ligue 1",
@@ -1233,6 +1415,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19327,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "FRANCIA - Ligue 1 - Descenso - Playoffs",
@@ -1241,6 +1424,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19327,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "FRANCIA - Ligue 2",
@@ -1249,6 +1433,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19405,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ITALIA - Serie A",
@@ -1257,6 +1442,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19159,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ITALIA - Serie B",
@@ -1265,6 +1451,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19328,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ITALIA - Serie B - Playoffs permanencia",
@@ -1273,6 +1460,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19328,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ITALIA - Serie B - Playoffs",
@@ -1281,6 +1469,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19328,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESCOCIA - Premiership",
@@ -1289,6 +1478,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19208,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -1298,6 +1488,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19879,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESCOCIA - Premiership - Descenso",
@@ -1306,6 +1497,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19208,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESCOCIA - Premiership - Grupo Descenso",
@@ -1314,6 +1506,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19208,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESCOCIA - Premiership - Grupo de Campeonato",
@@ -1322,6 +1515,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19208,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESCOCIA - Championship",
@@ -1330,6 +1524,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19879,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESCOCIA - Championship - Descenso",
@@ -1338,6 +1533,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19879,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - Premier League",
@@ -1346,6 +1542,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19157,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - Championship",
@@ -1354,6 +1551,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19156,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - Championship - Playoffs",
@@ -1362,6 +1560,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19156,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - EFL Cup",
@@ -1370,6 +1569,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19163,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - National League",
@@ -1378,6 +1578,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19374,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - National League - Playoffs",
@@ -1386,6 +1587,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19374,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - League One",
@@ -1394,6 +1596,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19326,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - League One - Playoffs",
@@ -1402,6 +1605,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19326,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - League Two",
@@ -1410,6 +1614,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19300,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "INGLATERRA - League Two - Playoffs",
@@ -1418,6 +1623,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19300,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "JAPÓN - J1 League",
@@ -1426,6 +1632,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19378,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "JAPÓN - Emperors Cup",
@@ -1434,6 +1641,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19954,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Champions League - Playoffs",
@@ -1442,6 +1650,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19161,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Champions League",
@@ -1450,6 +1659,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19161,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Champions League - Fase de liga",
@@ -1458,6 +1668,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19161,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Champions League - Clasificación",
@@ -1466,6 +1677,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 61789,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Europa Conference League - Playoffs",
@@ -1474,6 +1686,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 413776,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Conference League",
@@ -1482,6 +1695,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 413776,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Conference League - Playoffs",
@@ -1490,6 +1704,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 413776,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Conference League - Fase de liga",
@@ -1498,6 +1713,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 413776,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Conference League - Clasificación",
@@ -1506,6 +1722,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 1431783,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Europa League - Fase de liga",
@@ -1514,6 +1731,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19162,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Europa League",
@@ -1522,6 +1740,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19162,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Europa League - Playoffs",
@@ -1530,6 +1749,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19162,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "EUROPA - Europa League - Clasificación",
@@ -1542,6 +1762,7 @@ let LIGAS_OBJETOS = [
 
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BÉLGICA - Jupiler Pro League",
@@ -1550,6 +1771,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19372,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "GRECIA - Superliga",
@@ -1558,6 +1780,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19209,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "GRECIA - Copa",
@@ -1566,6 +1789,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19412,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PAÍSES BAJOS - Eredivisie",
@@ -1574,6 +1798,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19358,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PAÍSES BAJOS - Johan Cruyff Shield",
@@ -1582,6 +1807,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19988,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -1591,6 +1817,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19358,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PAÍSES BAJOS - Eredivisie - Descenso - Playoffs",
@@ -1599,6 +1826,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 861779,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PAÍSES BAJOS - KNVB Beker",
@@ -1607,6 +1835,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19446,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PAÍSES BAJOS - Keuken Kampioen Divisie",
@@ -1615,6 +1844,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19375,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -1624,6 +1854,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19336,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "POLONIA - Copa",
@@ -1632,6 +1863,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 45252,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PORTUGAL - Liga Portugal",
@@ -1640,6 +1872,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19211,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PORTUGAL - Liga Portugal - Descenso",
@@ -1648,6 +1881,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 374773,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PORTUGAL - Liga Portugal 2",
@@ -1656,6 +1890,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19338,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PORTUGAL - Liga Portugal 2 - Descenso",
@@ -1664,6 +1899,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19338,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "REPÚBLICA CHECA - FORTUNA:LIGA",
@@ -1672,6 +1908,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19403,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "REPÚBLICA CHECA - Chance Liga",
@@ -1680,6 +1917,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19403,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "REPÚBLICA CHECA - FORTUNA:LIGA - Descenso",
@@ -1688,6 +1926,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19403,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -1697,6 +1936,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19403,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "REPÚBLICA CHECA - FORTUNA:LIGA - Grupo Descenso",
@@ -1705,6 +1945,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19403,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "REPÚBLICA CHECA - FORTUNA:LIGA - Grupo de Campeonato",
@@ -1713,6 +1954,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19403,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUMANÍA - Liga 1",
@@ -1721,6 +1963,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 46019,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUMANÍA - Superliga",
@@ -1729,6 +1972,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 46019,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUMANÍA - Liga 1 - Conference League - Play Offs",
@@ -1737,6 +1981,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 46019,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "RUMANÍA - Liga 1 - Descenso",
@@ -1745,6 +1990,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 46019,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUIZA - Super League",
@@ -1753,6 +1999,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19305,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUIZA - Super League - Descenso",
@@ -1761,6 +2008,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19305,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUIZA - Super League - Grupo Descenso",
@@ -1769,6 +2017,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19305,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUIZA - Super League - Grupo de Campeonato",
@@ -1777,6 +2026,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19305,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUIZA - Challenge League",
@@ -1785,6 +2035,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19304,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "TURQUÍA - Copa",
@@ -1793,6 +2044,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19447,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "TURQUÍA - Copa - Clasificación",
@@ -1801,6 +2053,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19447,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "TURQUÍA - Süper Lig",
@@ -1809,6 +2062,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19363,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "TURQUÍA - Supercopa",
@@ -1817,6 +2071,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20069,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "TURQUÍA - 1. Lig",
@@ -1825,6 +2080,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19370,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "TURQUÍA - 1. Lig - Playoffs",
@@ -1833,6 +2089,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19370,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "UCRANIA - Premier League",
@@ -1841,6 +2098,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19383,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "UCRANIA - Premier League - Clasificación Adicional",
@@ -1849,6 +2107,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19383,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "UCRANIA - Premier League - Descenso",
@@ -1857,6 +2116,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19383,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Trofeo de Campeones",
@@ -1865,6 +2125,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 503779,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura",
@@ -1873,6 +2134,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19296,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Torneo Betano",
@@ -1881,6 +2143,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19296,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Copa de la Liga Profesional - Playoffs",
@@ -1889,6 +2152,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19296,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Copa de la Liga Profesional",
@@ -1897,6 +2161,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19296,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Liga Profesional",
@@ -1906,6 +2171,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19296,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Primera Nacional",
@@ -1914,6 +2180,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19342,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Primera Nacional - Partido adicional",
@@ -1922,6 +2189,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19342,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Primera Nacional - Ascenso - Playoffs",
@@ -1930,6 +2198,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19342,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ARGENTINA - Copa Argentina",
@@ -1938,6 +2207,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19572,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BOLIVIA - División Profesional - Superfinal",
@@ -1946,6 +2216,16 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19786,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BOLIVIA - División Profesional",
+    nombreWplay: "BOLIVIA - LIGA DE FÚTBOL PROFESIONAL",
+    abreviado: "ZA-BOL1",
+    codigoWplay: 19786,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BOLIVIA - División Profesional - Descenso",
@@ -1954,6 +2234,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19786,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BOLIVIA - División Profesional - Apertura",
@@ -1962,6 +2243,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19786,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BOLIVIA - División Profesional - Clausura",
@@ -1970,6 +2252,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19786,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BOLIVIA - División Profesional - Apertura - Playoffs",
@@ -1978,6 +2261,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19786,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Copa do Brasil",
@@ -1986,6 +2270,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19465,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Copa Betano do Brasil",
@@ -1994,6 +2279,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19465,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Serie A Betano",
@@ -2002,6 +2288,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19297,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Brasileirao Serie A",
@@ -2010,6 +2297,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19297,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Brasileirao Sub-20",
@@ -2018,6 +2306,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 26866,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Copa Verde",
@@ -2026,6 +2315,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 32283,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Copinha",
@@ -2034,6 +2324,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 1187789,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Brasileirao Serie B",
@@ -2042,6 +2333,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19393,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "CHILE - Primera División",
@@ -2050,6 +2342,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19303,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "CHILE - Liga de Primera",
@@ -2058,6 +2351,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19303,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "CHILE - Copa Chile",
@@ -2066,6 +2360,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19799,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera A - Apertura",
@@ -2074,6 +2369,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19311,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera A - Clausura - Playoffs",
@@ -2082,6 +2378,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19311,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera A - Apertura",
@@ -2090,6 +2387,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19311,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera A - Clausura",
@@ -2098,6 +2396,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19311,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera A - Clausura - Cuadrangular",
@@ -2106,6 +2405,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19311,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera A - Apertura - Cuadrangular",
@@ -2114,6 +2414,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19311,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera A - Apertura - Playoffs",
@@ -2122,6 +2423,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19311,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera B - Gran Final",
@@ -2130,6 +2432,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29812,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera B - Apertura",
@@ -2138,6 +2441,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29812,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera B - Clausura - Cuadrangular",
@@ -2146,6 +2450,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29812,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera B - Clausura",
@@ -2154,6 +2459,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29812,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera B - Clausura - Playoffs",
@@ -2162,6 +2468,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29812,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera B - Apertura - Cuadrangular",
@@ -2170,6 +2477,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29812,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Primera B - Apertura - Playoffs",
@@ -2178,6 +2486,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29812,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Champions Cup",
@@ -2186,6 +2495,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20140,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "NORTE, CENTROAMÉRICA Y CARIBE - Leagues Cup",
@@ -2194,6 +2504,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29935,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "NORTE, CENTROAMÉRICA Y CARIBE - Leagues Cup - Playoffs",
@@ -2202,6 +2513,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29935,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESTADOS UNIDOS - MLS",
@@ -2210,6 +2522,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19302,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESTADOS UNIDOS - MLS - Playoffs",
@@ -2218,6 +2531,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19302,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ESTADOS UNIDOS - MLS - All-Star",
@@ -2226,6 +2540,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 451833,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -2235,6 +2550,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19462,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Copa Libertadores - Clasificación",
@@ -2243,6 +2559,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19462,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga MX - Clausura",
@@ -2251,6 +2568,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19329,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga MX - Apertura",
@@ -2259,6 +2577,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19329,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga MX - Apertura - Play In",
@@ -2267,6 +2586,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19329,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga MX - Apertura - Playoffs",
@@ -2275,6 +2595,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19329,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Campeón de Campeones",
@@ -2283,6 +2604,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 29715,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga MX - Clausura - Play In",
@@ -2291,6 +2613,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19329,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga MX - Clausura - Playoffs",
@@ -2299,6 +2622,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19329,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -2308,6 +2632,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 61826,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -2317,6 +2642,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 61826,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -2326,6 +2652,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 61826,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Clausura",
@@ -2334,6 +2661,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 61826,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Apertura",
@@ -2342,6 +2670,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 61826,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
@@ -2350,6 +2679,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 61826,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PARAGUAY - Primera División - Apertura",
@@ -2358,6 +2688,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19359,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PARAGUAY - Copa de Primera - Apertura",
@@ -2366,6 +2697,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19359,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PARAGUAY - Primera División - Clausura",
@@ -2374,6 +2706,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19359,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PARAGUAY - Copa Paraguay",
@@ -2382,6 +2715,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 52190,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PERÚ - Liga 1 - Apertura",
@@ -2390,6 +2724,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19340,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "PERÚ - Liga 1 - Clausura",
@@ -2398,6 +2733,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19340,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "SUDAMÉRICA - Recopa Sudamericana",
@@ -2406,6 +2742,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20141,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -2415,6 +2752,17 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19398,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "URUGUAY - Liga AUF Uruguaya - Torneo Intermedio",
+    nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
+    abreviado: "ZA-URU1",
+    codigoWplay: 19398,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "URUGUAY - Primera División - Apertura",
@@ -2423,6 +2771,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19398,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "URUGUAY - Copa AUF Uruguay",
@@ -2431,6 +2780,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 616779,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "URUGUAY - Copa AUF Uruguay",
@@ -2439,6 +2789,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 616779,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "URUGUAY - Primera División - Clausura",
@@ -2447,6 +2798,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19398,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore:
@@ -2456,6 +2808,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19398,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "URUGUAY - Primera División - Torneo Intermedio",
@@ -2464,6 +2817,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19398,
     mitad: false,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -2473,6 +2827,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20080,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -2482,6 +2837,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20080,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -2491,6 +2847,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20080,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -2500,6 +2857,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20080,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "VENEZUELA - Liga FUTVE - Apertura",
@@ -2508,6 +2866,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20080,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "VENEZUELA - Liga FUTVE - Clausura",
@@ -2516,6 +2875,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20080,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "VENEZUELA - Liga FUTVE - Apertura - Cuadrangular",
@@ -2524,6 +2884,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20080,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "VENEZUELA - Liga FUTVE - Apertura - Final",
@@ -2532,6 +2893,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20080,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
 
   {
@@ -2541,6 +2903,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 48455,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Liga Femenina",
@@ -2549,6 +2912,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 48455,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "COLOMBIA - Liga Femenina - Grupo Ascenso",
@@ -2557,6 +2921,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 48455,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "ITALIA - Supercopa",
@@ -2565,6 +2930,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19948,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -2574,6 +2940,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19830,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
 
   {
@@ -2583,6 +2950,7 @@ let LIGAS_OBJETOS = [
     codigoWplay: 19873,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Paulista",
@@ -2591,6 +2959,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoWplay: "19457",
     nombreWplay: "Brazil - Campeonato Paulista A1",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Paulista A2",
@@ -2599,6 +2968,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "890797",
     nombreWplay: "Brazil - Campeonato Paulista A2",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Paulista A3",
@@ -2607,6 +2977,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "1209784",
     nombreWplay: "Brasil - Campeonato Paulista A3",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Paulista A4",
@@ -2615,6 +2986,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "1209785",
     nombreWplay: "Brazil - Campeonato Paulista A4",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Paulista A2",
@@ -2623,6 +2995,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "890797",
     nombreWplay: "Brasil - Campeonato Paulista A2",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Gaucho",
@@ -2631,6 +3004,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "19458",
     nombreWplay: "Brasil - Campeonato Gaucho",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "",
@@ -2639,6 +3013,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "60442",
     nombreWplay: "Brazil - Supercopa do Brasil",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "",
@@ -2647,6 +3022,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "1187789",
     nombreWplay: "Brazil - Copa Sao Paulo U20",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Alagoano",
@@ -2655,6 +3031,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "32464",
     nombreWplay: "Brazil - Campeonato Alagoano",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Baiano",
@@ -2663,6 +3040,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "19791",
     nombreWplay: "Brasil - Campeonato Baiano",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Carioca - Taça Guanabara",
@@ -2671,6 +3049,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoWplay: "19456",
     nombreWplay: "Brasil - Campeonato Carioca",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Carioca",
@@ -2679,6 +3058,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoWplay: "19456",
     nombreWplay: "Brasil - Campeonato Carioca",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Goiano",
@@ -2687,6 +3067,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "19789",
     nombreWplay: "Brasil - Campeonato Goiano",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Goiano",
@@ -2695,6 +3076,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "48612",
     nombreWplay: "Brasil - Campeonato Goiano 2",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Goiano",
@@ -2703,6 +3085,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "48612",
     nombreWplay: "Brazil - Campeonato Goiano 2",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Catarinense",
@@ -2711,6 +3094,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "19788",
     nombreWplay: "Brasil - Campeonato Catarinense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Maranhense",
@@ -2719,6 +3103,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "44672",
     nombreWplay: "Brazil - Campeonato Maranhense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Paranaense",
@@ -2727,6 +3112,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "19790",
     nombreWplay: "Brasil - Campeonato Paranaense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Paraibano",
@@ -2735,6 +3121,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "28509",
     nombreWplay: "Brazil - Campeonato Paraibano",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Pernambucano",
@@ -2743,6 +3130,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "19792",
     nombreWplay: "Brasil - Campeonato Pernambucano",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Piauiense - Primera fase",
@@ -2751,6 +3139,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "55406",
     nombreWplay: "Brazil - Campeonato Piauiense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Piauiense",
@@ -2759,6 +3148,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "55406",
     nombreWplay: "Brazil - Campeonato Piauiense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Potiguar - Primera fase",
@@ -2767,6 +3157,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "19793",
     nombreWplay: "Brasil - Campeonato Potiguar",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Sergipano",
@@ -2775,6 +3166,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "47533",
     nombreWplay: "Brazil - Campeonato Sergipano",
+    codigoBetplay: ''
   },
 
   {
@@ -2784,6 +3176,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "29814",
     nombreWplay: "Brazil - Campeonato Brasiliense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Capixaba",
@@ -2792,6 +3185,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "44910",
     nombreWplay: "Brazil - Campeonato Capixaba",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Cearense",
@@ -2800,6 +3194,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "19454",
     nombreWplay: "Brasil - Campeonato Cearense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Cearense 2",
@@ -2808,6 +3203,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "44929",
     nombreWplay: "Brazil - Campeonato Cearense Serie B",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Rondoniense",
@@ -2816,6 +3212,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "44931",
     nombreWplay: "Brasil - Campeonato Rondoniense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Rondoniense",
@@ -2824,6 +3221,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "44931",
     nombreWplay: "Brazil - Campeonato Rondoniense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Copa Alagoas",
@@ -2832,6 +3230,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "60289",
     nombreWplay: "Brazil - Alagoano Cup",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Mineiro",
@@ -2840,6 +3239,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "19460",
     nombreWplay: "Brasil - Campeonato Mineiro",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Paraense",
@@ -2848,6 +3248,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "47614",
     nombreWplay: "Brazil - Campeonato Paraense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Matogrossense",
@@ -2856,6 +3257,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "44888",
     nombreWplay: "Brazil - Campeonato Matogrossense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Tocantinense",
@@ -2864,6 +3266,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "47826",
     nombreWplay: "Brazil - Campeonato Tocantinense",
+    codigoBetplay: ''
   },
   {
     nombreFlashcore: "BRASIL - Sul-Matogrossense",
@@ -2872,6 +3275,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "330774",
     nombreWplay: "Brazil - Campeonato Sul-Mato-Grossense",
+    codigoBetplay: ''
   },
 ];
 
@@ -2894,3 +3298,4 @@ let LIGAS_OBJETOS = [
 // const fs = require('fs')
 
 // fs.writeFileSync('ligas_objetos.txt', JSON.stringify(LIGAS_OBJETOS))
+
