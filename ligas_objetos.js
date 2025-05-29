@@ -1201,6 +1201,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "COLOMBIA - Copa Colombia - Primera fase",
+    nombreWplay: "COLOMBIA - COPA COLOMBIA",
+    abreviado: "ZA-COLC",
+    codigoWplay: 29698,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "COLOMBIA - Superliga",
     nombreWplay: "COLOMBIA - Superliga",
     abreviado: "ZA-COLS",
@@ -1822,7 +1831,7 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: "PAÍSES BAJOS - Eredivisie - Descenso - Playoffs",
     nombreWplay: "NETHERLANDS - KEUKEN KAMPIOEN PLAY-OFFS",
-    abreviado: "YE-HOL1",
+    abreviado: "YE-HOL1D",
     codigoWplay: 861779,
     mitad: true,
     favorito: true,
