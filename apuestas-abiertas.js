@@ -1,2 +1,4 @@
 let APUESTAS_ABIERTAS = [
+	[[11100,"Serbia Sub 21","Bulgaria Sub 21","mitad",1.42],[11100,"Jamaica","Nigeria","mitad",1.42],"201,640 con $ 100,000"],
+	[[11130,"Malaga","Burgos CF","mitad",1.48,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=48352",48352],[11030,"Cerrito CS","Rentistas","mitad",1.55],[11030,"Albion FC","Atletico Fenix Montevideo","mitad",1.55],[11100,"Serbia Sub 21","Bulgaria Sub 21","mitad",1.42],[11100,"Jamaica","Nigeria","mitad",1.42],[11130,"Deportes La Serena","Coquimbo","mitad",1.5,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19303",19303],[11130,"Tristan Suarez","Quilmes AC","mitad",1.7,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19342",19342],"19,892 con $ 1,088"],
 ]

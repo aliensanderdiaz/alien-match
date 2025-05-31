@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: "Mundial de Clubes FIFA - Play-in",
+    "nombreWplay": "Copa Mundial de Clubes",
+    "abreviado": "COPAC",
+    "codigoWplay": 31374,
+    mitad: true,
+    favorito: true
+},
+  {
     nombreFlashcore: "ESCOCIA - Premiership - Descenso",
     "nombreWplay": "Escocia - Championship",
     "abreviado": "R-ESC2",

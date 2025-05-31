@@ -1,13 +1,13 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1053000000;
+const FECHA_PARTIDO_MANANA = 1053200000;
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 0; // CAMBIAR ESTA
+HORA += 1101; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -184,6 +184,7 @@ async function main() {
         //   lineas,
         //   liga,
         // });
+        // console.log({ ligaEncontrada })
         if (!ligaEncontrada) {
           // console.log({
           //   testigo: "opciones.includes(line)",
@@ -195,7 +196,15 @@ async function main() {
           // });
           // console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
           let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar ${liga}`;
-          console.error({ mensajeDeError })
+          console.error({ mensajeDeError,
+
+            testigo: "opciones.includes(line)",
+            indice,
+            line,
+            lineas,
+            liga,
+            ligaEncontrada,
+           })
           // throw new Error(mensajeDeError);
           continue
         }
