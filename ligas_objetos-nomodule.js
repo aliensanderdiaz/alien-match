@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: "Mundial de Clubes FIFA - Play-in",
+    "nombreWplay": "Copa Mundial de Clubes",
+    "abreviado": "COPAC",
+    "codigoWplay": 31374,
+    mitad: true,
+    favorito: true
+},
+  {
     nombreFlashcore: "ESCOCIA - Premiership - Descenso",
     "nombreWplay": "Escocia - Championship",
     "abreviado": "R-ESC2",
@@ -1000,6 +1008,26 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "RUMANÍA - Superliga - Descenso",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "RUMANÍA - Liga 1 - Superliga - Descenso",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
     nombreFlashcore: "RUMANÍA - Liga 1 - Grupo de Campeonato",
     nombreWplay: "RUMANÍA - LIGA 1",
     abreviado: "YE-RUM1",
@@ -1193,6 +1221,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "COLOMBIA - Copa Colombia",
+    nombreWplay: "COLOMBIA - COPA COLOMBIA",
+    abreviado: "ZA-COLC",
+    codigoWplay: 29698,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "COLOMBIA - Copa Colombia - Primera fase",
     nombreWplay: "COLOMBIA - COPA COLOMBIA",
     abreviado: "ZA-COLC",
     codigoWplay: 29698,
@@ -1822,7 +1859,7 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: "PAÍSES BAJOS - Eredivisie - Descenso - Playoffs",
     nombreWplay: "NETHERLANDS - KEUKEN KAMPIOEN PLAY-OFFS",
-    abreviado: "YE-HOL1",
+    abreviado: "YE-HOL1D",
     codigoWplay: 861779,
     mitad: true,
     favorito: true,
@@ -2129,6 +2166,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura",
+    nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura - Playoffs",
     nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
     abreviado: "ZA-ARG1",
     codigoWplay: 19296,
@@ -3298,4 +3344,3 @@ let LIGAS_OBJETOS = [
 // const fs = require('fs')
 
 // fs.writeFileSync('ligas_objetos.txt', JSON.stringify(LIGAS_OBJETOS))
-

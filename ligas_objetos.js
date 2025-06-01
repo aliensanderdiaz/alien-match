@@ -1008,6 +1008,26 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "RUMANÍA - Superliga - Descenso",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "RUMANÍA - Liga 1 - Superliga - Descenso",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
     nombreFlashcore: "RUMANÍA - Liga 1 - Grupo de Campeonato",
     nombreWplay: "RUMANÍA - LIGA 1",
     abreviado: "YE-RUM1",
@@ -2146,6 +2166,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura",
+    nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura - Playoffs",
     nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
     abreviado: "ZA-ARG1",
     codigoWplay: 19296,
