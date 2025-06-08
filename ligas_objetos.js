@@ -8,6 +8,15 @@
 // },
 
 let LIGAS_OBJETOS = [
+    {
+    nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
+    nombreWplay: "Liga de Naciones Partidos",
+    abreviado: "UNAT",
+    codigoWplay: 556801,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "Mundial de Clubes FIFA - Play-in",
     "nombreWplay": "Copa Mundial de Clubes",
@@ -703,6 +712,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "EUROPA - UEFA Nations League - League C - Play Out",
+    nombreWplay: "NATIONS LEAGUE PARTIDOS",
+    abreviado: "UNAT",
+    codigoWplay: 556801,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
     nombreWplay: "NATIONS LEAGUE PARTIDOS",
     abreviado: "UNAT",
     codigoWplay: 556801,

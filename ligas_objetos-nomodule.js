@@ -8,6 +8,15 @@
 // },
 
 let LIGAS_OBJETOS = [
+    {
+    nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
+    nombreWplay: "Liga de Naciones Partidos",
+    abreviado: "UNAT",
+    codigoWplay: 556801,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "Mundial de Clubes FIFA - Play-in",
     "nombreWplay": "Copa Mundial de Clubes",
@@ -44,6 +53,15 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: 'EUROPA - Mundial - Clasificación',
     "nombreWplay": 'World Cup 2026 - Europe Qualification',
+    "abreviado": 'M-EURO',
+    "codigoWplay": 583780,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: 'EUROPA - Mundial - Clasificación',
+    "nombreWplay": 'Copa Mundual 2026 - Eliminatorias Europa',
     "abreviado": 'M-EURO',
     "codigoWplay": 583780,
     mitad: true,
@@ -372,9 +390,9 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
-    nombreWplay: "MEXICO - CAMPEON DE CAMPEONES",
-    abreviado: "ZA-MEXCC",
-    codigoWplay: 33025,
+    nombreWplay: "Mexico - Liga de Expansion MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 61826,
     mitad: true,
     favorito: true,
     codigoBetplay: ''
@@ -694,6 +712,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "EUROPA - UEFA Nations League - League C - Play Out",
+    nombreWplay: "NATIONS LEAGUE PARTIDOS",
+    abreviado: "UNAT",
+    codigoWplay: 556801,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
     nombreWplay: "NATIONS LEAGUE PARTIDOS",
     abreviado: "UNAT",
     codigoWplay: 556801,
@@ -2401,6 +2428,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "CHILE - Copa Chile",
+    nombreWplay: "COPA DE CHILE",
+    abreviado: "ZA-CHIC",
+    codigoWplay: 19799,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "CHILE - Copa Chile - Playoffs",
     nombreWplay: "COPA DE CHILE",
     abreviado: "ZA-CHIC",
     codigoWplay: 19799,
