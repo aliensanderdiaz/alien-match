@@ -1,13 +1,13 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1060900000;
+const FECHA_PARTIDO_MANANA = 1061000000;
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 947; // CAMBIAR ESTA
+HORA += 0; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -1247,6 +1247,14 @@ async function main() {
     return partido
 
   });
+
+  partidos_optimizados = partidos_optimizados.map((partido) => {
+    return {
+      ...partido,
+      favorito: partido.localMitad <= partido.visitanteMitad ? 'local' : 'visitante',
+      cuotaFavorito: partido.localMitad <= partido.visitanteMitad ? partido.localMitad : partido.visitanteMitad
+    }
+  })
 
   await convertirArrayEnTextoPlanoConFormato(
     partidos_optimizados,
