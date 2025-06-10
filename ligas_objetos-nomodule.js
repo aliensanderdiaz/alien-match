@@ -173,7 +173,16 @@ let LIGAS_OBJETOS = [
     abreviado: "ASIAC",
     codigoWplay: 55112,
     mitad: true,
-    favorito: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Copa Asiática - Clasificación - Tercera ronda",
+    nombreWplay: "AFC Asian Cup",
+    abreviado: "ASIAC",
+    codigoWplay: 55112,
+    mitad: true,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -182,7 +191,7 @@ let LIGAS_OBJETOS = [
     abreviado: "ASIAC",
     codigoWplay: 55112,
     mitad: true,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -191,7 +200,7 @@ let LIGAS_OBJETOS = [
     abreviado: "ASIAC",
     codigoWplay: 55112,
     mitad: true,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -571,7 +580,7 @@ let LIGAS_OBJETOS = [
     abreviado: "M-CONC",
     codigoWplay: 310774,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -581,7 +590,7 @@ let LIGAS_OBJETOS = [
     abreviado: "M-CONC",
     codigoWplay: 310774,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
