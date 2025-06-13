@@ -412,7 +412,7 @@ let LIGAS_OBJETOS = [
     abreviado: "I-TOU",
     codigoWplay: 20192,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -421,7 +421,7 @@ let LIGAS_OBJETOS = [
     abreviado: "I-TOU",
     codigoWplay: 20192,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -430,7 +430,7 @@ let LIGAS_OBJETOS = [
     abreviado: "I-TOU",
     codigoWplay: 20192,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
