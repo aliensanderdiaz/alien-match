@@ -9,6 +9,15 @@
 
 let LIGAS_OBJETOS = [
     {
+    nombreFlashcore: "Mundial de Clubes FIFA",
+    nombreWplay: "Copa Mundial de Clubes",
+    abreviado: "MUNC",
+    codigoWplay: 31374,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+    {
     nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
     nombreWplay: "Liga de Naciones Partidos",
     abreviado: "UNAT",

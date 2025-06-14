@@ -1,13 +1,13 @@
-// {
-//     nombreFlashcore:
-//     "nombreWplay":
-//     "abreviado":
-//     "codigoWplay":
-//     mitad:
-//     favorito:
-// },
-
 let LIGAS_OBJETOS = [
+    {
+    nombreFlashcore: "Mundial de Clubes FIFA",
+    nombreWplay: "Copa Mundial de Clubes",
+    abreviado: "MUNC",
+    codigoWplay: 31374,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
     nombreWplay: "Liga de Naciones Partidos",
@@ -3378,23 +3378,3 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
 ];
-
-// LIGAS_OBJETOS.sort((a, b) => {
-//     const nameA = a.abreviado.toUpperCase(); // ignore upper and lowercase
-//     const nameB = b.abreviado.toUpperCase(); // ignore upper and lowercase
-//     if (nameA < nameB) {
-//         return -1;
-//     }
-//     if (nameA > nameB) {
-//         return 1;
-//     }
-
-//     // names must be equal
-//     return 0;
-// });
-
-// console.log(LIGAS_OBJETOS)
-
-// const fs = require('fs')
-
-// fs.writeFileSync('ligas_objetos.txt', JSON.stringify(LIGAS_OBJETOS))
