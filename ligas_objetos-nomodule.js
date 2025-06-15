@@ -1,3 +1,12 @@
+// {
+//     nombreFlashcore:
+//     "nombreWplay":
+//     "abreviado":
+//     "codigoWplay":
+//     mitad:
+//     favorito:
+// },
+
 let LIGAS_OBJETOS = [
     {
     nombreFlashcore: "Mundial de Clubes FIFA",
@@ -41,11 +50,21 @@ let LIGAS_OBJETOS = [
     mitad: true,
     favorito: true
 },
+
   {
     nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro - Clasificación',
     "nombreWplay": 'CONCACAF Gold Cup Qualifiers',
-    "abreviado": 'A-ORO',
+    "abreviado": 'A-OROQ',
     "codigoWplay": 425777,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro',
+    "nombreWplay": 'CONCACAF Gold Cup',
+    "abreviado": 'A-ORO',
+    "codigoWplay": 20145,
     mitad: false,
     favorito: true,
     codigoBetplay: ''
@@ -3378,3 +3397,23 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
 ];
+
+// LIGAS_OBJETOS.sort((a, b) => {
+//     const nameA = a.abreviado.toUpperCase(); // ignore upper and lowercase
+//     const nameB = b.abreviado.toUpperCase(); // ignore upper and lowercase
+//     if (nameA < nameB) {
+//         return -1;
+//     }
+//     if (nameA > nameB) {
+//         return 1;
+//     }
+
+//     // names must be equal
+//     return 0;
+// });
+
+// console.log(LIGAS_OBJETOS)
+
+// const fs = require('fs')
+
+// fs.writeFileSync('ligas_objetos.txt', JSON.stringify(LIGAS_OBJETOS))

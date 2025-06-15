@@ -50,11 +50,21 @@ let LIGAS_OBJETOS = [
     mitad: true,
     favorito: true
 },
+
   {
     nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro - Clasificación',
     "nombreWplay": 'CONCACAF Gold Cup Qualifiers',
-    "abreviado": 'A-ORO',
+    "abreviado": 'A-OROQ',
     "codigoWplay": 425777,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro',
+    "nombreWplay": 'CONCACAF Gold Cup',
+    "abreviado": 'A-ORO',
+    "codigoWplay": 20145,
     mitad: false,
     favorito: true,
     codigoBetplay: ''

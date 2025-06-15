@@ -1,13 +1,13 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1061500000;
+const FECHA_PARTIDO_MANANA = 1061600000;
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 0; // CAMBIAR ESTA
+HORA += 943; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -82,7 +82,10 @@ async function main() {
     let esHora = false;
     let indiceEsHora = 0;
 
+    let indiceLine = 0
+
     for await (const line of rl) {
+      indiceLine++
       // Each line in input.txt will be successively available here as `line`.
       if (!line || line === "-" || line === ": ") {
         continue;
@@ -201,6 +204,7 @@ async function main() {
             testigo: "opciones.includes(line)",
             indice,
             line,
+            indiceLine,
             lineas,
             liga,
             ligaEncontrada,
