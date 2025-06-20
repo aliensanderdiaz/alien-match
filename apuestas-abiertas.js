@@ -1,2 +1,4 @@
 let APUESTAS_ABIERTAS = [
+	[[11900,"Libertad (Ecu)","Tecnico Universitario","mitad",1.444,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19373",19373],[11800,"Alianza Universidad","UTC Cajamarca","mitad",1.35],[11800,"Lexington SC","Colorado Springs","mitad",1.333],[11830,"Hartford Athletic FC","Loudoun United FC","mitad",1.35,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=20075",20075],[11830,"North Carolina","Louisville City","mitad",1.363,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=20075",20075],[11845,"Jamaica","Guadalupe","mitad",1.3,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=20145",20145],"622,227 con $ 100,000"],
+	[[11700,"Los Angeles FC","Esperance Sportive de Tunis","mitad",1.363],[11700,"Botafogo SP","Chapecoense SC","mitad",1.6],"401,455 con $ 100,000"],
 ]
