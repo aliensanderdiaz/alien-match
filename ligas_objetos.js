@@ -820,6 +820,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "EUROPA - Europeo Sub-21 - Playoffs",
+    nombreWplay: "UEFA - European Championship U21",
+    abreviado: "U-E21",
+    codigoWplay: 20126,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "EUROPA - Elite League Sub-20",
     nombreWplay: "AMISTOSOS SUB20",
     abreviado: "I-A20",
