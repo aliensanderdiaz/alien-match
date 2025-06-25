@@ -8,11 +8,63 @@
 // },
 
 let LIGAS_OBJETOS = [
+    {
+    nombreFlashcore: "Mundial de Clubes FIFA",
+    nombreWplay: "Copa Mundial de Clubes",
+    abreviado: "MUNC",
+    codigoWplay: 31374,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+    {
+    nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
+    nombreWplay: "Liga de Naciones Partidos",
+    abreviado: "UNAT",
+    codigoWplay: 556801,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "Mundial de Clubes FIFA - Play-in",
+    "nombreWplay": "Copa Mundial de Clubes",
+    "abreviado": "COPAC",
+    "codigoWplay": 31374,
+    mitad: true,
+    favorito: true
+},
+  {
+    nombreFlashcore: "ESCOCIA - Premiership - Descenso",
+    "nombreWplay": "Escocia - Championship",
+    "abreviado": "R-ESC2",
+    "codigoWplay": 19879,
+    mitad: false,
+    favorito: false,
+},
+  {
+    nombreFlashcore: "ALEMANIA - Bundesliga - descenso",
+    "nombreWplay": "Bundesliga Relegation/Promotion Play-Offs",
+    "abreviado": "ALE1D",
+    "codigoWplay": 45452,
+    mitad: true,
+    favorito: true
+},
+
   {
     nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro - Clasificación',
     "nombreWplay": 'CONCACAF Gold Cup Qualifiers',
-    "abreviado": 'A-ORO',
+    "abreviado": 'A-OROQ',
     "codigoWplay": 425777,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro',
+    "nombreWplay": 'CONCACAF Gold Cup',
+    "abreviado": 'A-ORO',
+    "codigoWplay": 20145,
     mitad: false,
     favorito: true,
     codigoBetplay: ''
@@ -20,6 +72,15 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: 'EUROPA - Mundial - Clasificación',
     "nombreWplay": 'World Cup 2026 - Europe Qualification',
+    "abreviado": 'M-EURO',
+    "codigoWplay": 583780,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: 'EUROPA - Mundial - Clasificación',
+    "nombreWplay": 'Copa Mundual 2026 - Eliminatorias Europa',
     "abreviado": 'M-EURO',
     "codigoWplay": 583780,
     mitad: true,
@@ -131,7 +192,16 @@ let LIGAS_OBJETOS = [
     abreviado: "ASIAC",
     codigoWplay: 55112,
     mitad: true,
-    favorito: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Copa Asiática - Clasificación - Tercera ronda",
+    nombreWplay: "AFC Asian Cup",
+    abreviado: "ASIAC",
+    codigoWplay: 55112,
+    mitad: true,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -140,7 +210,7 @@ let LIGAS_OBJETOS = [
     abreviado: "ASIAC",
     codigoWplay: 55112,
     mitad: true,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -149,7 +219,7 @@ let LIGAS_OBJETOS = [
     abreviado: "ASIAC",
     codigoWplay: 55112,
     mitad: true,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -348,9 +418,9 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
-    nombreWplay: "MEXICO - CAMPEON DE CAMPEONES",
-    abreviado: "ZA-MEXCC",
-    codigoWplay: 33025,
+    nombreWplay: "Mexico - Liga de Expansion MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 61826,
     mitad: true,
     favorito: true,
     codigoBetplay: ''
@@ -361,7 +431,7 @@ let LIGAS_OBJETOS = [
     abreviado: "I-TOU",
     codigoWplay: 20192,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -370,7 +440,7 @@ let LIGAS_OBJETOS = [
     abreviado: "I-TOU",
     codigoWplay: 20192,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -379,7 +449,7 @@ let LIGAS_OBJETOS = [
     abreviado: "I-TOU",
     codigoWplay: 20192,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -529,7 +599,7 @@ let LIGAS_OBJETOS = [
     abreviado: "M-CONC",
     codigoWplay: 310774,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -539,7 +609,7 @@ let LIGAS_OBJETOS = [
     abreviado: "M-CONC",
     codigoWplay: 310774,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -678,6 +748,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
+    nombreWplay: "NATIONS LEAGUE PARTIDOS",
+    abreviado: "UNAT",
+    codigoWplay: 556801,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "EUROPA - UEFA Nations League - Liga A",
     nombreWplay: "NATIONS LEAGUE PARTIDOS",
     abreviado: "UNAT",
@@ -725,10 +804,28 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: "EUROPA - Europeo Sub-21 - Clasificación",
     nombreWplay: "UEFA - EURO U21 CLASIFICACIÓN",
-    abreviado: "U-E21",
+    abreviado: "U-E21C",
     codigoWplay: 23644,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - Europeo Sub-21",
+    nombreWplay: "UEFA - European Championship U21",
+    abreviado: "U-E21",
+    codigoWplay: 20126,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - Europeo Sub-21 - Playoffs",
+    nombreWplay: "UEFA - European Championship U21",
+    abreviado: "U-E21",
+    codigoWplay: 20126,
+    mitad: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -984,6 +1081,26 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "RUMANÍA - Superliga - Descenso",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "RUMANÍA - Liga 1 - Superliga - Descenso",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
     nombreFlashcore: "RUMANÍA - Liga 1 - Grupo de Campeonato",
     nombreWplay: "RUMANÍA - LIGA 1",
     abreviado: "YE-RUM1",
@@ -1177,6 +1294,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "COLOMBIA - Copa Colombia",
+    nombreWplay: "COLOMBIA - COPA COLOMBIA",
+    abreviado: "ZA-COLC",
+    codigoWplay: 29698,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "COLOMBIA - Copa Colombia - Primera fase",
     nombreWplay: "COLOMBIA - COPA COLOMBIA",
     abreviado: "ZA-COLC",
     codigoWplay: 29698,
@@ -1470,7 +1596,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - CHAMPIONSHIP",
     abreviado: "R-ESC2",
     codigoWplay: 19879,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1506,7 +1632,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - CHAMPIONSHIP",
     abreviado: "R-ESC2",
     codigoWplay: 19879,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1515,7 +1641,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - CHAMPIONSHIP",
     abreviado: "R-ESC2",
     codigoWplay: 19879,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1806,7 +1932,7 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: "PAÍSES BAJOS - Eredivisie - Descenso - Playoffs",
     nombreWplay: "NETHERLANDS - KEUKEN KAMPIOEN PLAY-OFFS",
-    abreviado: "YE-HOL1",
+    abreviado: "YE-HOL1D",
     codigoWplay: 861779,
     mitad: true,
     favorito: true,
@@ -2121,6 +2247,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura - Playoffs",
+    nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "ARGENTINA - Torneo Betano",
     nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
     abreviado: "ZA-ARG1",
@@ -2339,6 +2474,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "CHILE - Copa Chile",
+    nombreWplay: "COPA DE CHILE",
+    abreviado: "ZA-CHIC",
+    codigoWplay: 19799,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "CHILE - Copa Chile - Playoffs",
     nombreWplay: "COPA DE CHILE",
     abreviado: "ZA-CHIC",
     codigoWplay: 19799,
@@ -2731,6 +2875,16 @@ let LIGAS_OBJETOS = [
 
   {
     nombreFlashcore: "URUGUAY - Liga AUF Uruguaya - Apertura",
+    nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
+    abreviado: "ZA-URU1",
+    codigoWplay: 19398,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "URUGUAY - Liga AUF Uruguaya - Torneo Intermedio",
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
