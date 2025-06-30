@@ -8,6 +8,16 @@
 // },
 
 let LIGAS_OBJETOS = [
+  
+    {
+    nombreFlashcore: "Mundial de Clubes FIFA - Playoffs",
+    nombreWplay: "Copa Mundial de Clubes",
+    abreviado: "MUNC",
+    codigoWplay: 31374,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: "Mundial de Clubes FIFA",
     nombreWplay: "Copa Mundial de Clubes",
@@ -799,6 +809,15 @@ let LIGAS_OBJETOS = [
     codigoWplay: 556801,
     mitad: true,
     favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - Europeo Sub-21 - Clasificación",
+    nombreWplay: "UEFA - Eurocopa Sub21",
+    abreviado: "U-E21",
+    codigoWplay: 20126,
+    mitad: false,
+    favorito: false,
     codigoBetplay: ''
   },
   {

@@ -8,6 +8,16 @@
 // },
 
 let LIGAS_OBJETOS = [
+  
+    {
+    nombreFlashcore: "Mundial de Clubes FIFA - Playoffs",
+    nombreWplay: "Copa Mundial de Clubes",
+    abreviado: "MUNC",
+    codigoWplay: 31374,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: "Mundial de Clubes FIFA",
     nombreWplay: "Copa Mundial de Clubes",
@@ -803,6 +813,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "EUROPA - Europeo Sub-21 - Clasificación",
+    nombreWplay: "UEFA - Eurocopa Sub21",
+    abreviado: "U-E21C",
+    codigoWplay: 23644,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - Europeo Sub-21 - Clasificación",
     nombreWplay: "UEFA - EURO U21 CLASIFICACIÓN",
     abreviado: "U-E21C",
     codigoWplay: 23644,
@@ -812,6 +831,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "EUROPA - Europeo Sub-21",
+    nombreWplay: "UEFA - European Championship U21",
+    abreviado: "U-E21",
+    codigoWplay: 20126,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - Europeo Sub-21 - Playoffs",
     nombreWplay: "UEFA - European Championship U21",
     abreviado: "U-E21",
     codigoWplay: 20126,
