@@ -2838,6 +2838,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "PARAGUAY - Copa de Primera - Clausura",
+    nombreWplay: "PARAGUAY - PRIMERA DIVISIÓN",
+    abreviado: "ZA-PAR1",
+    codigoWplay: 19359,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "PARAGUAY - Copa de Primera - Apertura",
     nombreWplay: "PARAGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-PAR1",
