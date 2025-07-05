@@ -6,6 +6,8 @@ let favorito = 'local'
 
 // let baseUrl = 'https://local.wplay.co/es/t/'
 let baseUrl = 'https://local.wplay.co/es/t/'
+let baseUrl2 = 'https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort='
+// GSH1&sb_type_ids=
 let baseUrlSm = 'https://m.wplay.co/es/t/'
 
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
@@ -153,10 +155,19 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         let partido_string = `${partido.local} - ${partido.visitante}`
         // console.log({ partido_string, acumuladoEnteroFavorito })
 
-        let mitad = partido.mitad ? ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=GSH1'}" target="_blank" rel="noopener noreferrer">M</a>` : ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=OUH1'}" target="_blank" rel="noopener noreferrer">M</a>`
-        let local = partido.mitadFavorito ? ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=OU1H'}" target="_blank" rel="noopener noreferrer">L</a>` : ''
-        let visitante = partido.mitadFavorito ? ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=OU1A'}" target="_blank" rel="noopener noreferrer">V</a>` : ''
-        let over = ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=HCTG'}" target="_blank" rel="noopener noreferrer">O</a>`
+        // let mitad = partido.mitad ? ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=GSH1'}" target="_blank" rel="noopener noreferrer">M</a>` : ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=OUH1'}" target="_blank" rel="noopener noreferrer">M</a>`
+        // let local = partido.mitadFavorito ? ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=OU1H'}" target="_blank" rel="noopener noreferrer">L</a>` : ''
+        // let visitante = partido.mitadFavorito ? ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=OU1A'}" target="_blank" rel="noopener noreferrer">V</a>` : ''
+        // let over = ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=HCTG'}" target="_blank" rel="noopener noreferrer">O</a>`
+        // let ambos = ` <a href="${baseUrl + partido.codigoWplay + '?mkt_sort=BTSC'}" target="_blank" rel="noopener noreferrer">A</a>`
+
+        // &sb_type_ids=
+
+        let mitad = partido.mitad ? ` <a href="${baseUrl2  + 'GSH1&sb_type_ids=' + partido.codigoWplay}" target="_blank" rel="noopener noreferrer">M</a>` : ` <a href="${baseUrl2  + 'OUH1&sb_type_ids=' + partido.codigoWplay}" target="_blank" rel="noopener noreferrer">M</a>`
+        let local = partido.mitadFavorito ? ` <a href="${baseUrl2  + 'OU1H&sb_type_ids=' + partido.codigoWplay}" target="_blank" rel="noopener noreferrer">L</a>` : ''
+        let visitante = partido.mitadFavorito ? ` <a href="${baseUrl2  + 'OU1A&sb_type_ids=' + partido.codigoWplay}" target="_blank" rel="noopener noreferrer">V</a>` : ''
+        let over = ` <a href="${baseUrl2  + 'HCTG&sb_type_ids=' + partido.codigoWplay}" target="_blank" rel="noopener noreferrer">O</a>`
+        let ambos = ` <a href="${baseUrl2  + 'BTSC&sb_type_ids=' + partido.codigoWplay}" target="_blank" rel="noopener noreferrer">A</a>`
 
         // let cantidad_de_letras = partido_string.length
         html += `
@@ -171,7 +182,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <strong>
                     <a href="${baseUrl + partido.codigoWplay}" target="_blank" rel="noopener noreferrer">${partido.liga}</a>
                 </strong>
-                ${mitad} ${local} ${visitante}    ${over}    
+                ${mitad} ${local} ${visitante}    ${over}    ${ambos}
             </div>
             <div class="col-2 border">
                 <strong class="elegir-favorito ${partido.favorito === 'local' ? 'favorito-local' : ''}" onclick="elegirFavorito(${indice}, 'local')">
