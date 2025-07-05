@@ -814,8 +814,8 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: "EUROPA - Europeo Sub-21 - Clasificación",
     nombreWplay: "UEFA - Eurocopa Sub21",
-    abreviado: "U-E21C",
-    codigoWplay: 23644,
+    abreviado: "U-E21",
+    codigoWplay: 20126,
     mitad: false,
     favorito: false,
     codigoBetplay: ''
@@ -2830,6 +2830,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "PARAGUAY - Primera División - Apertura",
+    nombreWplay: "PARAGUAY - PRIMERA DIVISIÓN",
+    abreviado: "ZA-PAR1",
+    codigoWplay: 19359,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "PARAGUAY - Copa de Primera - Clausura",
     nombreWplay: "PARAGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-PAR1",
     codigoWplay: 19359,
