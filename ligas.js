@@ -1,6 +1,5 @@
 let LIGAS = [
 	{"liga":"ZA-ARG2","mitad":false,"mitadFavorito":false,"codigoWplay":19342},
-	{"liga":"ZA-ARGC","mitad":false,"mitadFavorito":true,"codigoWplay":19572},
 	{"liga":"YE-BIE1","mitad":false,"mitadFavorito":false,"codigoWplay":19493},
 	{"liga":"ZA-BOL1","mitad":false,"mitadFavorito":false,"codigoWplay":19786},
 	{"liga":"ZA-BRA2","mitad":true,"mitadFavorito":true,"codigoWplay":19393},
@@ -8,8 +7,6 @@ let LIGAS = [
 	{"liga":"ZA-ECU1","mitad":true,"mitadFavorito":true,"codigoWplay":19373},
 	{"liga":"ZA-EST1","mitad":true,"mitadFavorito":true,"codigoWplay":19302},
 	{"liga":"ZA-EST2","mitad":false,"mitadFavorito":true,"codigoWplay":20075},
-	{"liga":"S-JAP1","mitad":true,"mitadFavorito":true,"codigoWplay":19378},
-	{"liga":"MUNC","mitad":true,"mitadFavorito":true,"codigoWplay":31374},
 	{"liga":"AMIE","codigoWplay":617783,"mitad":false,"mitadFavorito":true},
 	{"liga":"AMIC","codigoWplay":20183,"mitad":false,"mitadFavorito":true},
 	{"liga":"ZA-PAR1","mitad":false,"mitadFavorito":true,"codigoWplay":19359},
