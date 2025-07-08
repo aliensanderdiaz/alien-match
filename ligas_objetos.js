@@ -1130,6 +1130,16 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "ARGENTINA - Supercopa Internacional",
+    nombreWplay: "ARGENTINA - SUPERCOPA",
+    abreviado: "ZA-ARGS",
+    codigoWplay: 27407,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
     nombreFlashcore: "ARGENTINA - Supercopa",
     nombreWplay: "ARGENTINA - SUPERCOPA",
     abreviado: "ZA-ARGS",
@@ -1804,7 +1814,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "UEFA - CHAMPIONS LEAGUE CLASIFICACION",
     abreviado: "U-CHAMC",
     codigoWplay: 61789,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
