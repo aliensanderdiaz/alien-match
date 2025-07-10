@@ -1,4 +1,5 @@
 let LIGAS_FALTANTES = [
+    'U-EUROQ',
  'ZA-BRA20' ,
 ]
 

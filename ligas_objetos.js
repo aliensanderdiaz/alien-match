@@ -8,7 +8,25 @@
 // },
 
 let LIGAS_OBJETOS = [
-  
+    {
+    nombreFlashcore: "EUROPA - Europa League - Clasificación",
+    "nombreWplay": 'UEFA - Europa League Qualifying',
+    abreviado: "U-EUROQ",
+    "codigoWplay": 61810,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+    {
+    nombreFlashcore: "EUROPA - Europa League - Clasificación",
+    nombreWplay: "UEFA - Liga Europa",
+    abreviado: "U-EURO",
+    codigoWplay: 19162,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: "Mundial de Clubes FIFA - Playoffs",
     nombreWplay: "Copa Mundial de Clubes",
@@ -1890,19 +1908,8 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: "EUROPA - Europa League - Clasificación",
-    // "nombreWplay": 'UEFA - EUROPA LEAGUE QUALIFYING',
-    nombreWplay: "UEFA - Liga Europa",
-    // "abreviado": "U-EUROC",
-    abreviado: "U-EURO",
-    // "codigoWplay": 61810,
-    codigoWplay: 19162,
 
-    mitad: false,
-    favorito: true,
-    codigoBetplay: ''
-  },
+
   {
     nombreFlashcore: "BÉLGICA - Jupiler Pro League",
     nombreWplay: "BÉLGICA - 1RA DIVISIÓN A",
