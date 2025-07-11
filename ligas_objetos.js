@@ -355,6 +355,16 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "SUDAMÉRICA - Copa América Femenina",
+    nombreWplay: "Copa América Internacional Femenina",
+    abreviado: "ZA-COPAF",
+    codigoWplay: 50629,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
     nombreFlashcore: "SUDAMÉRICA - Copa América - Playoffs",
     nombreWplay: "COPA AMÉRICA",
     abreviado: "ZA-COPA",
@@ -2275,6 +2285,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura",
+    nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ARGENTINA - Torneo Betano - Clausura",
     nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
     abreviado: "ZA-ARG1",
     codigoWplay: 19296,

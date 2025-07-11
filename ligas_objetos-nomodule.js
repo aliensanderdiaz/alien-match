@@ -11,10 +11,18 @@ let LIGAS_OBJETOS = [
     {
     nombreFlashcore: "EUROPA - Europa League - Clasificación",
     "nombreWplay": 'UEFA - Europa League Qualifying',
-
     abreviado: "U-EUROQ",
     "codigoWplay": 61810,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
 
+    {
+    nombreFlashcore: "EUROPA - Europa League - Clasificación",
+    nombreWplay: "UEFA - Liga Europa",
+    abreviado: "U-EURO",
+    codigoWplay: 19162,
     mitad: false,
     favorito: true,
     codigoBetplay: ''
@@ -342,6 +350,16 @@ let LIGAS_OBJETOS = [
     abreviado: "ZA-COPA",
     codigoWplay: 20142,
     mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "SUDAMÉRICA - Copa América Femenina",
+    nombreWplay: "Copa América Internacional Femenina",
+    abreviado: "ZA-COPAF",
+    codigoWplay: 50629,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1900,19 +1918,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: "EUROPA - Europa League - Clasificación",
-    // "nombreWplay": 'UEFA - EUROPA LEAGUE QUALIFYING',
-    nombreWplay: "UEFA - Liga Europa",
-    // "abreviado": "U-EUROC",
-    abreviado: "U-EURO",
-    // "codigoWplay": 61810,
-    codigoWplay: 19162,
 
-    mitad: false,
-    favorito: true,
-    codigoBetplay: ''
-  },
 
   {
     nombreFlashcore: "BÉLGICA - Jupiler Pro League",
@@ -2279,6 +2285,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura",
+    nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ARGENTINA - Torneo Betano - Clausura",
     nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
     abreviado: "ZA-ARG1",
     codigoWplay: 19296,
