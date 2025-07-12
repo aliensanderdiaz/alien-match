@@ -1299,7 +1299,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - LEAGUE CUP",
     abreviado: "R-ESCL",
     codigoWplay: 19409,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1308,7 +1308,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "ESCOCIA - LEAGUE CUP",
     abreviado: "R-ESCL",
     codigoWplay: 19409,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
