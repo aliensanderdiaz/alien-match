@@ -1,2 +1,3 @@
 let APUESTAS_ABIERTAS = [
+	[[11030,"Wisla Plock","Korona Kielce","mitad",1.38,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19336",19336],[11000,"FK Teplice","FC Zlin","mitad",1.4,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19403",19403],[11030,"Universitatea Cluj","FC Uta Arad","mitad",1.38,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=46019",46019],"266,616 con $ 100,000"],
 ]
