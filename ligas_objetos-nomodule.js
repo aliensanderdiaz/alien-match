@@ -1892,6 +1892,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "EUROPA - Conference League - Clasificación",
+    nombreWplay: "UEFA - Europa Conference League Clasificatorios",
+    abreviado: "U-CONFC",
+    codigoWplay: 1431783,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "EUROPA - Europa League - Fase de liga",
     nombreWplay: "UEFA - LIGA EUROPA",
     abreviado: "U-EURO",
@@ -2780,6 +2789,15 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
+    {
+    nombreFlashcore: "MÉXICO - Campeón de Campeones",
+    nombreWplay: "Mexico - Campeon de Campeones",
+    abreviado: "ZA-MEXCC",
+    codigoWplay: 33025,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "MÉXICO - Campeón de Campeones",
     nombreWplay: "MEXICO - SUPERCOPA LIGA MX",
@@ -2789,6 +2807,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
+
   {
     nombreFlashcore: "MÉXICO - Liga MX - Clausura - Play In",
     nombreWplay: "MÉXICO - LIGA MX",
