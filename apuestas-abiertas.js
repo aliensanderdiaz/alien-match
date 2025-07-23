@@ -1,3 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[10530,"Urawa Red Diamonds","Shonan Bellmare","mitad",1.38,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19378",19378],[10530,"Jeju United","FC Seoul","mitad",1.42,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19306",19306],[10530,"Jeonbuk Hyundai Motors","Gangwon FC","mitad",1.38,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19306",19306],[10530,"Ulsan Hyundai Horang-I","Daejeon Citizen","mitad",1.363,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19306",19306],"368,761 con $ 100,000"],
 ]
