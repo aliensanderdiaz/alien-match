@@ -17,6 +17,15 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
+    {
+    nombreFlashcore: "EUROPA - Europa League - Clasificación",
+    "nombreWplay": 'UEFA - Europa League Clasificatorios',
+    abreviado: "U-EUROQ",
+    "codigoWplay": 61810,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
 
     {
     nombreFlashcore: "EUROPA - Europa League - Clasificación",
