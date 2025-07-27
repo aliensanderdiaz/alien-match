@@ -1,10 +1,3 @@
 let APUESTAS_ABIERTAS = [
-	[[11800,"Club Oriental de La Paz","La Luz FC","over",2.15],[11810,"Once Caldas","CD Junior","over",2.25],[11830,"DC United","Austin FC","over",2.05],[11830,"CRB Maceio AL","Novorizontino SP","over",2.95],[11830,"Club Sportivo Cienciano","Universitario de Deportes","over",2.35],"687,487 con $ 10,000"],
-	[[11800,"Club Oriental de La Paz","La Luz FC","ambos",2],[11830,"CRB Maceio AL","Novorizontino SP","ambos",2.3],"46,000 con $ 10,000"],
-	[[11810,"Once Caldas","CD Junior","local",1.95],[11830,"DC United","Austin FC","local",2.1],[11830,"CRB Maceio AL","Novorizontino SP","local",2.375],[11830,"Atlanta United","Seattle Sounders","visitante",1.85],"179,924 con $ 10,000"],
-	[[11810,"Once Caldas","CD Junior","mitad",1.48],[11830,"DC United","Austin FC","mitad",1.4],[11830,"CRB Maceio AL","Novorizontino SP","mitad",1.65],[11800,"Club Oriental de La Paz","La Luz FC","mitad",1.42],[11830,"Club Sportivo Cienciano","Universitario de Deportes","mitad",1.5],"728,204 con $ 100,000"],
-	[[11700,"Platense","Argentinos Juniors","over",3.65],[11700,"Velez Sarsfield","Instituto AC Cordoba","over",2.85],[11700,"Orsomarso","Jaguares De Córdoba","over",2.4],[11700,"Barranquilla","Patriotas Boyaca","over",2.5],[11705,"Estudiantes de Buenos Aires","CA San Telmo","over",2.55],"1,591,583 con $ 10,000"],
-	[[11700,"Platense","Argentinos Juniors","ambos",2.65],[11700,"Velez Sarsfield","Instituto AC Cordoba","ambos",2.3],[11705,"Estudiantes de Buenos Aires","CA San Telmo","ambos",2.25],"274,275 con $ 10,000"],
-	[[11630,"Botafogo RJ","Corinthians SP","ambos",2.35],[11630,"Ferroviaria SP","Operario PR","ambos",2.2],"108,570 con $ 10,000"],
-	[[11630,"Botafogo RJ","Corinthians SP","over",2.4],[11630,"Mirassol SP","EC Vitoria","over",2.25],[11630,"Sport Recife PE","Santos SP","over",2.3],[11630,"Ferroviaria SP","Operario PR","over",2.8],"2,967,480 con $ 10,000"],
+	[[10745,"Rakow Czestochowa","Wisla Plock","mitad",1.4,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19336",19336],[10800,"Atletico Fenix Montevideo","Central Espanol FC","mitad",1.48,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=26834",26834],"207,200 con $ 100,000"],
 ]
