@@ -374,6 +374,26 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "SUDAMÉRICA - Copa América Femenina - Playoffs",
+    nombreWplay: "Copa América Internacional Femenina",
+    abreviado: "ZA-COPAF",
+    codigoWplay: 50629,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "SUDAMÉRICA - Copa América Femenina - Puestos 5º-6º",
+    nombreWplay: "Copa América Internacional Femenina",
+    abreviado: "ZA-COPAF",
+    codigoWplay: 50629,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
     nombreFlashcore: "SUDAMÉRICA - Copa América - Playoffs",
     nombreWplay: "COPA AMÉRICA",
     abreviado: "ZA-COPA",
