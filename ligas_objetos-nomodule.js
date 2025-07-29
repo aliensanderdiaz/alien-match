@@ -374,6 +374,26 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "SUDAMÉRICA - Copa América Femenina - Playoffs",
+    nombreWplay: "Copa América Internacional Femenina",
+    abreviado: "ZA-COPAF",
+    codigoWplay: 50629,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "SUDAMÉRICA - Copa América Femenina - Puestos 5º-6º",
+    nombreWplay: "Copa América Internacional Femenina",
+    abreviado: "ZA-COPAF",
+    codigoWplay: 50629,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
     nombreFlashcore: "SUDAMÉRICA - Copa América - Playoffs",
     nombreWplay: "COPA AMÉRICA",
     abreviado: "ZA-COPA",
@@ -1377,6 +1397,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "COLOMBIA - Copa Colombia - Primera fase - Playoffs",
+    nombreWplay: "COLOMBIA - COPA COLOMBIA",
+    abreviado: "ZA-COLC",
+    codigoWplay: 29698,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "COLOMBIA - Superliga",
     nombreWplay: "COLOMBIA - Superliga",
     abreviado: "ZA-COLS",
@@ -1740,6 +1769,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "INGLATERRA - EFL Cup",
+    nombreWplay: "Inglaterra - EFL Cup",
+    abreviado: "R-INGE",
+    codigoWplay: 19163,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "INGLATERRA - EFL Cup - Preliminar",
     nombreWplay: "Inglaterra - EFL Cup",
     abreviado: "R-INGE",
     codigoWplay: 19163,

@@ -1,5 +1,5 @@
 let LIGAS_FALTANTES = [
-'ZA-COPAF'
+'YE-RUSC' ,
 ]
 
 LIGAS_FALTANTES = [...new Set(LIGAS_FALTANTES)];

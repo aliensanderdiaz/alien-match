@@ -1397,6 +1397,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "COLOMBIA - Copa Colombia - Primera fase - Playoffs",
+    nombreWplay: "COLOMBIA - COPA COLOMBIA",
+    abreviado: "ZA-COLC",
+    codigoWplay: 29698,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "COLOMBIA - Superliga",
     nombreWplay: "COLOMBIA - Superliga",
     abreviado: "ZA-COLS",
@@ -1760,6 +1769,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "INGLATERRA - EFL Cup",
+    nombreWplay: "Inglaterra - EFL Cup",
+    abreviado: "R-INGE",
+    codigoWplay: 19163,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "INGLATERRA - EFL Cup - Preliminar",
     nombreWplay: "Inglaterra - EFL Cup",
     abreviado: "R-INGE",
     codigoWplay: 19163,
