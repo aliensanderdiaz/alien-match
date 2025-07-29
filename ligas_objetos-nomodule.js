@@ -1772,7 +1772,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Inglaterra - EFL Cup",
     abreviado: "R-INGE",
     codigoWplay: 19163,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1781,7 +1781,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Inglaterra - EFL Cup",
     abreviado: "R-INGE",
     codigoWplay: 19163,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },

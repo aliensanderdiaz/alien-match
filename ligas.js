@@ -8,7 +8,7 @@ let LIGAS = [
 	{"liga":"ZA-EST2","mitad":false,"mitadFavorito":true,"codigoWplay":20075},
 	{"liga":"U-CHAMC","mitad":false,"mitadFavorito":true,"codigoWplay":61789},
 	{"liga":"U-CONFC","mitad":false,"mitadFavorito":true,"codigoWplay":1431783},
-	{"liga":"R-INGE","mitad":true,"mitadFavorito":true,"codigoWplay":19163},
+	{"liga":"R-INGE","mitad":false,"mitadFavorito":true,"codigoWplay":19163},
 	{"liga":"I-AMI","mitad":false,"mitadFavorito":true,"codigoWplay":19287},
 	{"liga":"I-AMI23","mitad":false,"mitadFavorito":false,"codigoWplay":20182},
 	{"liga":"I-AMI21","mitad":false,"mitadFavorito":false,"codigoWplay":19345},
