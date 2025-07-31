@@ -2539,6 +2539,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Brasileirao Sub-20 - Playoffs",
+    nombreWplay: "Brasil - U20",
+    abreviado: "ZA-BRA20",
+    codigoWplay: 26866,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Copa Verde",
     nombreWplay: "Brazil - Copa Verde",
     abreviado: "ZA-BRAV",
