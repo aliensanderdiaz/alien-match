@@ -1,7 +1,12 @@
 let LIGAS_FALTANTES = [
-'YE-RUSC' ,
-'ZA-ECU2' ,
-'ZA-BRA20' ,
+'YE-REP1' ,
+'YE-RUS1' ,
+'YE-SUI1' ,
+'R-ESC1' ,
+'ZA-ARG2' ,
+'ZA-BOL1' ,
+'ZA-BRA1' ,
+'ZA-PAR1' ,
 ]
 
 LIGAS_FALTANTES = [...new Set(LIGAS_FALTANTES)];
