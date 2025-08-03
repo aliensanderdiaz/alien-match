@@ -1,4 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[11630,"Mirassol SP","Vasco Da Gama RJ","mitad",1.42],[11630,"Botafogo SP","America Mineiro MG","mitad",1.5],[11630,"Barcelona SC","Orense SC","mitad",1.48],[11630,"Nacional Asuncion","CS 2 de Mayo","mitad",1.55],[11630,"Deportes Iquique","Universidad Catolica","mitad",1.42],"693,843 con $ 100,000"],
-	[[11600,"Colombia (F)","Brasil (F)","mitad",1.45],[11600,"Cucuta Deportivo","Atletico Huila","mitad",1.5],[11600,"Atletico Artigas","Rampla Juniors","mitad",1.48],[11600,"Caracas FC","Deportivo Tachira","mitad",1.5],"482,850 con $ 100,000"],
+	[[12000,"America","Minnesota United FC","mitad",1.3],[12000,"Pumas Unam","Atlanta United","mitad",1.333],[12000,"Jaiba Brava","Leones Negros","mitad",1.45],[12000,"El Paso Locomotive FC","Las Vegas Lights","mitad",1.333],[12000,"San Antonio","Sacramento Republic FC","mitad",1.45],[12030,"Independiente Santa Fe","América de Cali","mitad",1.55],"753,162 con $ 100,000"],
+	[[11900,"Fluminense RJ","Gremio RS","mitad",1.5],[11900,"Independiente Del Valle","El Nacional","mitad",1.38],[11910,"San Martin de Tucuman","River Plate","mitad",1.48],"706,021 con $ 100,000"],
 ]
