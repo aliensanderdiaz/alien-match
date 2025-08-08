@@ -77,7 +77,7 @@ let LIGAS_OBJETOS = [
     "abreviado": "R-ESC2",
     "codigoWplay": 19879,
     mitad: false,
-    favorito: false,
+    favorito: true,
 },
   {
     nombreFlashcore: "ALEMANIA - Bundesliga - descenso",
@@ -1692,7 +1692,7 @@ let LIGAS_OBJETOS = [
     abreviado: "R-ESC2",
     codigoWplay: 19879,
     mitad: false,
-    favorito: true,
+    favorito:true,
     codigoBetplay: ''
   },
   {
@@ -1728,7 +1728,7 @@ let LIGAS_OBJETOS = [
     abreviado: "R-ESC2",
     codigoWplay: 19879,
     mitad: false,
-    favorito: true,
+    favorito:true,
     codigoBetplay: ''
   },
   {
@@ -1737,7 +1737,7 @@ let LIGAS_OBJETOS = [
     abreviado: "R-ESC2",
     codigoWplay: 19879,
     mitad: false,
-    favorito: true,
+    favorito:true,
     codigoBetplay: ''
   },
   {
