@@ -1,13 +1,5 @@
 let LIGAS_FALTANTES = [
- 'YE-SUI2' ,
- 'YE-RUS1' ,
- 'YE-UCR1' ,
- 'YE-BIE1' ,
- 'YE-TUR2' ,
- 'R-INGFC' ,
- 'ZA-PER1' ,
- 'ZA-BOL1' ,
- 'ZA-COL2' ,
+ 'ALES' ,
  'ZA-ECU2' ,
 ]
 

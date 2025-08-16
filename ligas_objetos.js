@@ -9,6 +9,15 @@
 
 let LIGAS_OBJETOS = [
     {
+    nombreFlashcore: "ALEMANIA - Supercup",
+    nombreWplay: "SUPER COPA",
+    abreviado: "ALES",
+    codigoWplay: 19830,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+    {
     nombreFlashcore: "EUROPA - Europa League - Clasificación",
     "nombreWplay": 'UEFA - Europa League Qualifying',
     abreviado: "U-EUROQ",
@@ -3209,6 +3218,8 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
+
+
 
   {
     nombreFlashcore: "ALEMANIA - DFL-Supercup",

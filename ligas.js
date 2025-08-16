@@ -1,5 +1,6 @@
 let LIGAS = [
 	{"liga":"ALEC","mitad":false,"mitadFavorito":true,"codigoWplay":19433},
+	{"liga":"ALES","mitad":true,"mitadFavorito":true,"codigoWplay":19830},
 	{"liga":"ZA-ARG1","mitad":true,"mitadFavorito":true,"codigoWplay":19296},
 	{"liga":"ZA-ARG2","mitad":false,"mitadFavorito":false,"codigoWplay":19342},
 	{"liga":"YE-BEL1","mitad":true,"mitadFavorito":true,"codigoWplay":19372},

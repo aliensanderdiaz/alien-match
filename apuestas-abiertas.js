@@ -1,4 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11900,"Racing Club","CA Tigre","mitad",1.533],[11900,"Union La Calera","Deportes La Serena","mitad",1.48],[11910,"Ferro Carril Oeste","Club Atletico Colegiales","mitad",1.666],[11930,"Academia Anzoategui","Estudiantes de Merida","mitad",1.45],[12000,"Gimnasia y Tiro de Salta","CD Maipu","mitad",1.7],[12000,"Sport Boys Association","Deportivo Garcilaso","mitad",1.48],"1,379,927 con $ 100,007"],
-	[[11830,"North Carolina","Detroit City","mitad",1.42],"561,255 con $ 100,000"],
+	[[10900,"St Mirren","Hearts","mitad",1.444],[10900,"Forest Green Rovers","Yeovil Town","mitad",1.42],"135,896 con $ 66,255"],
+	[[10900,"Reading","AFC Wimbledon","mitad",1.5],[10900,"Stevenage","Northampton","mitad",1.48],[10900,"Bromley FC","Fleetwood Town","mitad",1.42],[10900,"Shrewsbury","Colchester","mitad",1.533],[10900,"Tranmere","Gillingham","mitad",1.533],"741,164 con $ 100,000"],
+	[[10900,"Sheffield Wednesday","Stoke City","mitad",1.42],[10900,"Swansea","Sheffield United","mitad",1.45],[10900,"Bradford City","Luton Town","mitad",1.42],[10900,"Leyton Orient","Stockport County","mitad",1.45],[10900,"Lincoln City","Plymouth Argyle","mitad",1.42],"602,006 con $ 100,000"],
+	[[10900,"Sunderland","West Ham United","mitad",1.42],[10900,"Blackburn Rovers","Birmingham City","mitad",1.5],[10900,"Bristol City","Charlton Athletic","mitad",1.42],[10900,"Millwall","Middlesbrough","mitad",1.444],[10900,"Preston","Leicester City","mitad",1.42],"620,379 con $ 100,000"],
 ]
