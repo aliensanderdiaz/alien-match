@@ -1252,6 +1252,24 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ECUADOR - Serie B - Grupo Ascenso",
+    nombreWplay: "ECUADOR - SERIE B",
+    abreviado: "ZA-ECU2",
+    codigoWplay: 30530,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ECUADOR - Serie B - Grupo Descenso",
+    nombreWplay: "ECUADOR - SERIE B",
+    abreviado: "ZA-ECU2",
+    codigoWplay: 30530,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "ECUADOR - Copa Ecuador",
     nombreWplay: "ECUADOR - COPA ECUADOR",
     abreviado: "ZA-ECUC",
@@ -1407,6 +1425,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "COLOMBIA - Copa Colombia - Primera fase - Playoffs",
+    nombreWplay: "COLOMBIA - COPA COLOMBIA",
+    abreviado: "ZA-COLC",
+    codigoWplay: 29698,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "COLOMBIA - Copa Colombia - Segunda fase",
     nombreWplay: "COLOMBIA - COPA COLOMBIA",
     abreviado: "ZA-COLC",
     codigoWplay: 29698,
