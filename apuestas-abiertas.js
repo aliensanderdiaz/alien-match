@@ -1,2 +1,3 @@
 let APUESTAS_ABIERTAS = [
+	[[10430,"Machida Zelvia","Kashima Antlers","mitad",1.42,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19954",19954],[10430,"Nagoya Grampus","Sanfrecce Hiroshima","mitad",1.45,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19954",19954],[10530,"Bucheon 1995","Gwangju FC","mitad",1.45,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19959",19959],"298,555 con $ 100,000"],
 ]
