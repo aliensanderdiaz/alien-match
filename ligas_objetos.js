@@ -8,6 +8,14 @@
 // },
 
 let LIGAS_OBJETOS = [
+  {
+    nombreFlashcore: 'ASIA - CAFA Nations Cup',
+    "nombreWplay": 'CAFA Nations Cup',
+    "abreviado": 'I-CAFA',
+    "codigoWplay": 874783,
+    mitad: false,
+    favorito: false
+},
     {
     nombreFlashcore: "ALEMANIA - Supercup",
     nombreWplay: "SUPER COPA",
