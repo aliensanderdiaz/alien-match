@@ -1,2 +1,3 @@
 let APUESTAS_ABIERTAS = [
+	[[10400,"Malasia Sub 23","Líbano Sub 23","mitad",1.42,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=32287",32287],[10700,"Alanya Kestelspor","Muglaspor","mitad",1.48,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19447",19447],[11015,"Qatar","Barein","mitad",1.48,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19287",19287],[11130,"Sportivo San Lorenzo","Club Tacuary","mitad",1.55,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=52190",52190],"482,107 con $ 100,000"],
 ]
