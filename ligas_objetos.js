@@ -706,6 +706,16 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore:
+      "NORTE, CENTROAMÉRICA Y CARIBE - Mundial - Clasificación - Tercera fase",
+    nombreWplay: "WORLD CUP 2026 - CONCACAF QUALIFIERS",
+    abreviado: "M-CONC",
+    codigoWplay: 310774,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "EUROPA - Emirates Cup",
     nombreWplay: "Emirates Cup",
     abreviado: "AMIEC",
