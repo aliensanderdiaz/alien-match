@@ -484,6 +484,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ÁFRICA - Mundial - Clasificación - Primera fase",
+    nombreWplay: "Copa Mundial 2026 - Eliminatorias África",
+    abreviado: "M-AFR",
+    codigoWplay: 452779,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ÁFRICA - Mundial - Clasificación - Primera fase",
     nombreWplay: "WORLD CUP 2026 - AFRICA QUALIFIERS",
     abreviado: "M-AFR",
     codigoWplay: 452779,
