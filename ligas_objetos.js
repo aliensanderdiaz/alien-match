@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: 'ASIA - CAFA Nations Cup - Playoffs',
+    "nombreWplay": 'CAFA Nations Cup',
+    "abreviado": 'I-CAFA',
+    "codigoWplay": 874783,
+    mitad: false,
+    favorito: false
+},
+  {
     nombreFlashcore: 'ASIA - CAFA Nations Cup',
     "nombreWplay": 'CAFA Nations Cup',
     "abreviado": 'I-CAFA',
