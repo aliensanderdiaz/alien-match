@@ -424,6 +424,23 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         `
     }
 
+    html += '<hr>'
+    html += `
+    <span>
+        TODOS - MAS de (0.5)
+    </span>
+    <br>
+    `
+    for (const link of linksAll) {
+        html += `
+    <div class="row">
+      <div class="col">
+        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
+      </div>
+    </div>
+        `
+    }
+
 
     // https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=19296-19160-48352-19159-19328
 
