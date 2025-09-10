@@ -1,3 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[10200,"Nueva Zelanda","Australia","mitad",1.533,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19287",19287],[10800,"Sierra Leona","Etiopia","mitad",1.533,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=452779",452779],[10800,"Tanzania","Niger","mitad",1.5,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=452779",452779],[10800,"Zimbabue","Ruanda","mitad",1.55,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=452779",452779],"615,564 con $ 112,610"],
 ]
