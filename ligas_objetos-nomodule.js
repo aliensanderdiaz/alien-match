@@ -9,6 +9,22 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: 'Copa Intercontinental FIFA',
+    "nombreWplay": 'FIFA - Intercontinental Cup',
+    "abreviado": 'INTER',
+    "codigoWplay": 2026787,
+    mitad: false,
+    favorito: false
+},
+  {
+    nombreFlashcore: 'ASIA - CAFA Nations Cup - Playoffs',
+    "nombreWplay": 'CAFA Nations Cup',
+    "abreviado": 'I-CAFA',
+    "codigoWplay": 874783,
+    mitad: false,
+    favorito: false
+},
+  {
     nombreFlashcore: 'ASIA - CAFA Nations Cup',
     "nombreWplay": 'CAFA Nations Cup',
     "abreviado": 'I-CAFA',
