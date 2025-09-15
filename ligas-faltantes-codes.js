@@ -1,5 +1,5 @@
 let LIGAS_FALTANTES = [
- 'YE-PORT' ,
+
 ]
 
 LIGAS_FALTANTES = [...new Set(LIGAS_FALTANTES)];
