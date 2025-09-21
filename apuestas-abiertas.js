@@ -1,2 +1,3 @@
 let APUESTAS_ABIERTAS = [
+	[[10500,"FC Seoul","Gwangju FC","mitad",1.48,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19306",19306],[10530,"Lazio","Roma","mitad",1.48,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19159",19159],[10600,"Bate Borisov","FK Arsenal Dzerzhinsk","mitad",1.42,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19493",19493],"311,037 con $ 100,000"],
 ]
