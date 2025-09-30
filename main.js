@@ -1,7 +1,7 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1092200000;
+const FECHA_PARTIDO_MANANA = 1093100000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
@@ -141,6 +141,14 @@ async function main() {
               mitad: false,
               mitadFavorito: true,
             },
+              {
+    nombreFlashcore: 'Mundial Sub-20',
+    "nombreWplay": 'Copa Mundial Sub-20',
+    "abreviado": 'CS20',
+    "codigoWplay": 32567,
+    mitad: false,
+    favorito: false
+},
           ];
           ligas = ligas.concat(...ligasAmistosos);
           // console.log({ ligas })

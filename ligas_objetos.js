@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: 'Mundial Sub-20',
+    "nombreWplay": 'Copa Mundial Sub-20',
+    "abreviado": 'CS20',
+    "codigoWplay": 32567,
+    mitad: false,
+    favorito: false
+},
+  {
     nombreFlashcore: 'Copa Intercontinental FIFA',
     "nombreWplay": 'FIFA - Intercontinental Cup',
     "abreviado": 'INTER',
