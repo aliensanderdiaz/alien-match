@@ -14,7 +14,7 @@ let LIGAS_OBJETOS = [
     "abreviado": 'CS20',
     "codigoWplay": 32567,
     mitad: false,
-    favorito: false
+    favorito: true
 },
   {
     nombreFlashcore: 'Copa Intercontinental FIFA',
