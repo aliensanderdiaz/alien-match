@@ -1,12 +1,12 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1100300000;
+const FECHA_PARTIDO_MANANA = 1100400000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 1636; // CAMBIAR ESTA
+HORA += 0; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -180,7 +180,9 @@ async function main() {
       }
 
       if (opciones.includes(line) && !esMundial) {
-        let liga = `${lineas[indice - 2]} - ${lineas[indice - 1]}`;
+        let pais = `${lineas[indice - 2]}`.slice(0,-2)
+        let nombreLiga = `${lineas[indice - 1]}`
+        let liga = `${ pais } - ${ nombreLiga }`;
         // console.log({ liga });
 
         let ligaEncontrada = LIGAS_OBJETOS.find(
