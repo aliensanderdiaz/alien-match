@@ -1566,6 +1566,24 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ECUADOR - Liga Pro - Grupo de Campeonato",
+    nombreWplay: "ECUADOR - PRIMERA A",
+    abreviado: "ZA-ECU1",
+    codigoWplay: 19373,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ECUADOR - Liga Pro - Posiciones",
+    nombreWplay: "ECUADOR - PRIMERA A",
+    abreviado: "ZA-ECU1",
+    codigoWplay: 19373,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "ECUADOR - Liga Pro - Primera fase",
     nombreWplay: "ECUADOR - PRIMERA A",
     abreviado: "ZA-ECU1",

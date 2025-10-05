@@ -1,12 +1,12 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1100500000;
+const FECHA_PARTIDO_MANANA = 1100600000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 0; // CAMBIAR ESTA
+HORA += 701; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -356,7 +356,7 @@ async function main() {
 
       if (line.startsWith(" ★ ")) {
         let ligaWplayName = line.replace(" ★ ", "");
-        console.log({ ligaWplayName })
+        // console.log({ ligaWplayName })
         // console.log({ line: 306, ligaWplayName });
         // if (ligaWplayName === 'Olympics Matches Men') {
         //     console.log({ ligaWplayName })
