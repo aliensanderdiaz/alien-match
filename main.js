@@ -1,7 +1,7 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1100700000;
+const FECHA_PARTIDO_MANANA = 1100900000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
@@ -98,7 +98,7 @@ async function main() {
           (ligaObjeto) => ligaObjeto.nombreFlashcore === liga
         );
         if (!ligaEncontrada) {
-          let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar ${liga}`;
+          let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 101 ${liga}`;
           console.log({ nombreFlashcore: liga, error: mensajeDeError });
           throw new Error(mensajeDeError);
         }
@@ -207,7 +207,7 @@ async function main() {
           //   ligaEncontrada,
           // });
           // console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
-          let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar ${liga}`;
+          let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 210: ${liga}`;
           console.error({ mensajeDeError,
 
             testigo: "opciones.includes(line)",
@@ -1458,8 +1458,8 @@ async function main() {
         // console.log({ partidoMitad })
 
         if (isNaN(partidoMitad[4])) {
+          console.log({ partidoMitad, arrayLine })
           let valorTemp = arrayLine[4].replace("$", "");
-          // console.log({ valorTemp })
           valorTemp = valorTemp.replace(",", "");
           // console.log({ valorTemp })
           partidoMitad[4] = valorTemp * 1;
