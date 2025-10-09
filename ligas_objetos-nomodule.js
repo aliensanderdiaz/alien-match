@@ -17,6 +17,14 @@ let LIGAS_OBJETOS = [
     favorito: true
 },
   {
+    nombreFlashcore: 'MUNDIAL - Mundial Sub-20 - Playoffs',
+    "nombreWplay": 'Copa Mundial Sub-20',
+    "abreviado": 'CS20',
+    "codigoWplay": 32567,
+    mitad: false,
+    favorito: true
+},
+  {
     nombreFlashcore: 'Copa Intercontinental FIFA',
     "nombreWplay": 'FIFA - Intercontinental Cup',
     "abreviado": 'INTER',
@@ -718,6 +726,17 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
+  
+  {
+    nombreFlashcore:
+      "NORTE, CENTROAMÉRICA Y CARIBE - Mundial - Clasificación - Primera fase",
+    nombreWplay: "Copa Mundial 2026 - Eliminatorias CONCACAF",
+    abreviado: "M-CONC",
+    codigoWplay: 310774,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore:
       "NORTE, CENTROAMÉRICA Y CARIBE - Mundial - Clasificación - Primera fase",
@@ -822,6 +841,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ASIA - Mundial - Clasificación - Tercera fase",
+    nombreWplay: "WORLD CUP 2026 - ASIA QUALIFIERS",
+    abreviado: "W-ASIA",
+    codigoWplay: 120773,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Mundial - Clasificación - Cuarta fase",
     nombreWplay: "WORLD CUP 2026 - ASIA QUALIFIERS",
     abreviado: "W-ASIA",
     codigoWplay: 120773,

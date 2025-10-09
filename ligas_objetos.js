@@ -726,6 +726,17 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
+  
+  {
+    nombreFlashcore:
+      "NORTE, CENTROAMÉRICA Y CARIBE - Mundial - Clasificación - Primera fase",
+    nombreWplay: "Copa Mundial 2026 - Eliminatorias CONCACAF",
+    abreviado: "M-CONC",
+    codigoWplay: 310774,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore:
       "NORTE, CENTROAMÉRICA Y CARIBE - Mundial - Clasificación - Primera fase",
