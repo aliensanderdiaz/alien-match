@@ -174,6 +174,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: 'EUROPA - Mundial - Clasificación',
+    "nombreWplay": 'Copa Mundial 2026 - Eliminatorias Europa',
+    "abreviado": 'M-EURO',
+    "codigoWplay": 583780,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "EUROPA - Atlantic Cup",
     nombreWplay: "EUROPA - Atlantic Cup",
     abreviado: "EATL",

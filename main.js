@@ -1,7 +1,7 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1101000000;
+const FECHA_PARTIDO_MANANA = 1101100000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
@@ -141,14 +141,14 @@ async function main() {
               mitad: false,
               mitadFavorito: true,
             },
-              {
-    // nombreFlashcore: 'Mundial Sub-20',
-    // "nombreWplay": 'Copa Mundial Sub-20',
-    "liga": 'CS20',
-    "codigoWplay": 32567,
-    mitad: false,
-    mitadFavorito: true
-},
+            {
+              // nombreFlashcore: 'Mundial Sub-20',
+              // "nombreWplay": 'Copa Mundial Sub-20',
+              "liga": 'CS20',
+              "codigoWplay": 32567,
+              mitad: false,
+              mitadFavorito: true
+            },
           ];
           ligas = ligas.concat(...ligasAmistosos);
           // console.log({ ligas })
@@ -180,9 +180,9 @@ async function main() {
       }
 
       if (opciones.includes(line) && !esMundial) {
-        let pais = `${lineas[indice - 2]}`.slice(0,-2)
+        let pais = `${lineas[indice - 2]}`.slice(0, -2)
         let nombreLiga = `${lineas[indice - 1]}`
-        let liga = `${ pais } - ${ nombreLiga }`;
+        let liga = `${pais} - ${nombreLiga}`;
         // console.log({ liga });
 
         let ligaEncontrada = LIGAS_OBJETOS.find(
@@ -208,7 +208,8 @@ async function main() {
           // });
           // console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
           let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 210: ${liga}`;
-          console.error({ mensajeDeError,
+          console.error({
+            mensajeDeError,
 
             testigo: "opciones.includes(line)",
             indice,
@@ -217,7 +218,7 @@ async function main() {
             lineas,
             liga,
             ligaEncontrada,
-           })
+          })
           // throw new Error(mensajeDeError);
           continue
         }
@@ -1341,6 +1342,228 @@ async function main() {
 
   await sacarCantidadDePartidos();
 
+  // async function sacarApuestasAbiertas() {
+  //   const fileStream = fs.createReadStream(inputApuestasAbiertas);
+
+  //   const rl = readline.createInterface({
+  //     input: fileStream,
+  //     crlfDelay: Infinity,
+  //   });
+  //   // Note: we use the crlfDelay option to recognize all instances of CR LF
+  //   // ('\r\n') in input.txt as a single line break.
+
+  //   let lineas = [];
+  //   let indice = 0;
+
+  //   let partidos = [];
+  //   let arraySalida = [];
+
+  //   let ligaDelPartido = "";
+
+  //   let gananciaEsperada = 0;
+  //   let cantidadApostada = 0;
+  //   let esRecuperarApuesta = false;
+
+  //   for await (const line of rl) {
+  //     // Each line in input.txt will be successively available here as `line`.
+  //     // console.log(`Line from file: ${line}`);
+  //     // continue
+
+  //     let lineModificado = "";
+
+  //     if (esRecuperarApuesta) {
+  //       esRecuperarApuesta = false;
+  //       continue;
+  //     }
+
+  //     if (line.startsWith("RECUPERAR")) {
+  //       esRecuperarApuesta = true;
+  //       continue;
+  //     }
+
+  //     if (line.startsWith("$")) {
+  //       lineModificado = line.replace("$", "");
+  //       // lineModificado = lineModificado.replaceAll(",", "");
+  //       if (partidos.length > 0) {
+  //         gananciaEsperada = lineModificado;
+  //         console.log({ cantidadApostada, gananciaEsperada });
+  //         partidos.push(`${gananciaEsperada} con $ ${cantidadApostada}`);
+  //         if (partidos.length > 0) {
+  //           arraySalida.push(partidos);
+  //           partidos = [];
+  //         }
+  //       } else {
+  //         cantidadApostada = lineModificado;
+  //         // console.log({ cantidadApostada })
+  //       }
+  //       continue;
+  //     }
+
+  //     const conditions = [
+  //       "\t1ª Mitad más/Menos de ",
+  //       "	Total Goles Más/Menos de	Más de (2.5)	",
+  //       "	Se anotará gol en la 1er mitad	Si	",
+  //       "	Ambos Equipos Anotan	Si	",
+  //       "	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	",
+  //       " Total Goles	Más de (0.5)	",
+  //     ]
+
+  //     if (line.endsWith("	 -") || (line.endsWith("\t") && conditions.some(el => line.includes(el)))) {
+  //       lineModificado = line.replace("	1ª Mitad más/Menos de ", "***");
+
+  //       lineModificado = lineModificado.replace(
+  //         "\t1ª Mitad más/Menos de ",
+  //         "***"
+  //       );
+  //       lineModificado = lineModificado.replace(
+  //         "	Total Goles Más/Menos de	Más de (2.5)	",
+  //         "***over***"
+  //       );
+  //       lineModificado = lineModificado.replace(
+  //         "	Se anotará gol en la 1er mitad	Si	",
+  //         "***mitad***"
+  //       );
+  //       lineModificado = lineModificado.replace(
+  //         "	Ambos Equipos Anotan	Si	",
+  //         "***ambos***"
+  //       );
+  //       lineModificado = lineModificado.replace(
+  //         "	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	",
+  //         "***mitad***"
+  //       );
+
+  //       lineModificado = lineModificado.replace(
+  //         " Total Goles	Más de (0.5)	",
+  //         "***"
+  //       );
+  //       lineModificado = lineModificado.replace("	 -", "");
+  //       lineModificado = lineModificado.replace(" v ", "***");
+  //       lineModificado = lineModificado.replace("	", "***");
+
+  //       let arrayLine = lineModificado.split("***");
+
+  //       let partidoMitad = [
+  //         // convertirFechaANumero(arrayLine[0]),
+  //         arrayLine[0].substring(7).replace(":", "") * 1 + 10000,
+  //         // arrayLine[0].substring(8).replace(':', '') * 1 + 10000,
+  //         arrayLine[1],
+  //         arrayLine[2],
+  //         arrayLine[3] === arrayLine[1]
+  //           ? "local"
+  //           : arrayLine[3] === arrayLine[2]
+  //             ? "visitante"
+  //             : arrayLine[3],
+  //         arrayLine[4] * 1,
+  //       ];
+
+  //       // console.log({ partidoMitad })
+
+  //       if (isNaN(partidoMitad[4])) {
+  //         console.log({ partidoMitad, arrayLine })
+  //         let valorTemp = arrayLine[4].replace("$", "");
+  //         valorTemp = valorTemp.replace(",", "");
+  //         // console.log({ valorTemp })
+  //         partidoMitad[4] = valorTemp * 1;
+  //       }
+
+  //       // console.log({ line, arrayLine, partidoMitad })
+
+  //       // console.log({ arrayLine,hora: partidoMitad[0]})
+
+  //       partidos.push(partidoMitad);
+
+  //       continue;
+  //     } else {
+  //       // console.log({line, testigo: 'else'})
+  //       // if (line.endsWith("	-")) {
+  //       if (line.endsWith("\t")) {
+  //         // console.log({ line, testigo: 'if (line.endsWith("\t"))'})
+  //         // console.log('#########################')
+  //         // console.log('#########################')
+  //         // console.log('#########################')
+  //         // console.log('#########################')
+  //         // lineModificado = line.replace("	-", "");
+  //         lineModificado = line.replaceAll("\t", "");
+  //         let totalArray = lineModificado.split("$");
+  //         // console.log({ totalArray })
+  //         let total = totalArray.pop();
+  //         // console.log({ total });
+  //         // partidos.push(total);
+  //         // if (partidos.length > 0) {
+  //         //   arraySalida.push(partidos);
+  //         //   partidos = [];
+  //         // }
+  //       } else if (line === "Imprimir" && partidos.length === 1) {
+
+  //         let total = partidos[0][4];
+  //         console.log({ total, gananciaEsperada });
+  //         partidos[0][4] = Math.floor((total / gananciaEsperada) * 100) / 100;
+  //         total = total.toLocaleString();
+  //         console.log({ total, "partidos[0][4]": partidos[0][4] });
+  //         partidos.push(total);
+  //         if (partidos.length > 0) {
+  //           arraySalida.push(partidos);
+  //           partidos = [];
+  //         }
+  //       } else {
+  //         // console.log({line, testigo: 'DEFAULT'})
+  //         // console.log('#########################')
+  //         // console.log('#########################')
+  //         // console.log('#########################')
+  //         // console.log('#########################')
+  //       }
+  //     }
+  //   }
+
+  //   arraySalida.forEach(apuesta => {
+  //     apuesta.forEach(partido => {
+  //       if (Array.isArray(partido)) {
+
+  //         const linkMitad = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${code}`
+  //         const linkAmbos = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${code}`
+  //         const linkOver = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${code}`
+  //         // console.log({ partido })
+  //         let partidoEncontrado = partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])
+  //         // console.log({ partidoEncontrado })
+  //         let code = partidoEncontrado?.codigoWplay || ''
+  //         let link = ''
+
+  //         if (code) {
+  //           if (partido[3] === 'mitad') {
+  //             link = linkMitad(code)
+  //           }
+  //           if (partido[3] === 'ambos') {
+  //             link = linkAmbos(code)
+  //           }
+  //           if (partido[3] === 'over') {
+  //             link = linkOver(code)
+  //           }
+
+  //           partido.push(link);
+  //           partido.push(code);
+  //         }
+
+  //         // let temp = {
+  //         //   hora: partido[0],
+  //         //   local: partido[1],
+  //         //   visitante: partido[2],
+  //         //   apuesta: partido[3],
+  //         //   cuota: partido[4],
+  //         //   code: partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])?.codigoWplay || 1
+  //         // }
+
+  //         // console.log({ partido })
+  //       }
+  //     })
+  //   })
+
+  //   await convertirArrayEnTextoPlanoConFormato(
+  //     arraySalida,
+  //     "APUESTAS_ABIERTAS",
+  //     outputApuestasAbiertas
+  //   );
+  // }
+
   async function sacarApuestasAbiertas() {
     const fileStream = fs.createReadStream(inputApuestasAbiertas);
 
@@ -1354,7 +1577,7 @@ async function main() {
     let lineas = [];
     let indice = 0;
 
-    let partidos = [];
+    let partidos = [0];
     let arraySalida = [];
 
     let ligaDelPartido = "";
@@ -1363,155 +1586,96 @@ async function main() {
     let cantidadApostada = 0;
     let esRecuperarApuesta = false;
 
+    let esLineaPartido = false
+    let lineaPartido = ''
+    let indexAuxiliar = 1
+    let esTipoDeApuesta = false
+
     for await (const line of rl) {
-      // Each line in input.txt will be successively available here as `line`.
-      // console.log(`Line from file: ${line}`);
-      // continue
 
-      let lineModificado = "";
-
-      if (esRecuperarApuesta) {
-        esRecuperarApuesta = false;
-        continue;
-      }
-
-      if (line.startsWith("RECUPERAR")) {
-        esRecuperarApuesta = true;
-        continue;
-      }
-
-      if (line.startsWith("$")) {
-        lineModificado = line.replace("$", "");
-        // lineModificado = lineModificado.replaceAll(",", "");
-        if (partidos.length > 0) {
-          gananciaEsperada = lineModificado;
-          console.log({ cantidadApostada, gananciaEsperada });
-          partidos.push(`${gananciaEsperada} con $ ${cantidadApostada}`);
-          if (partidos.length > 0) {
-            arraySalida.push(partidos);
-            partidos = [];
-          }
-        } else {
-          cantidadApostada = lineModificado;
-          // console.log({ cantidadApostada })
-        }
-        continue;
-      }
-
-      const conditions = [
-        "\t1ª Mitad más/Menos de ",
-        "	Total Goles Más/Menos de	Más de (2.5)	",
-        "	Se anotará gol en la 1er mitad	Si	",
-        "	Ambos Equipos Anotan	Si	",
-        "	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	",
-        " Total Goles	Más de (0.5)	",
+      let conditions = [
+        "	1ª Mitad más/Menos de ",
+        "	Total Goles Más/Menos de	",
+        "	Ambos Equipos Anotan	",
+        "	Primera Mitad Total Goles Más/Menos de	",
+        // "	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	",
+        // " Total Goles	Más de (0.5)	",
       ]
 
-      if (line.endsWith("	 -") || (line.endsWith("\t") && conditions.some(el => line.includes(el)))) {
-        lineModificado = line.replace("	1ª Mitad más/Menos de ", "***");
-
-        lineModificado = lineModificado.replace(
-          "\t1ª Mitad más/Menos de ",
-          "***"
-        );
-        lineModificado = lineModificado.replace(
-          "	Total Goles Más/Menos de	Más de (2.5)	",
-          "***over***"
-        );
-        lineModificado = lineModificado.replace(
-          "	Se anotará gol en la 1er mitad	Si	",
-          "***mitad***"
-        );
-        lineModificado = lineModificado.replace(
-          "	Ambos Equipos Anotan	Si	",
-          "***ambos***"
-        );
-        lineModificado = lineModificado.replace(
-          "	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	",
-          "***mitad***"
-        );
-
-        lineModificado = lineModificado.replace(
-          " Total Goles	Más de (0.5)	",
-          "***"
-        );
-        lineModificado = lineModificado.replace("	 -", "");
-        lineModificado = lineModificado.replace(" v ", "***");
-        lineModificado = lineModificado.replace("	", "***");
-
-        let arrayLine = lineModificado.split("***");
-
-        let partidoMitad = [
-          // convertirFechaANumero(arrayLine[0]),
-          arrayLine[0].substring(7).replace(":", "") * 1 + 10000,
-          // arrayLine[0].substring(8).replace(':', '') * 1 + 10000,
-          arrayLine[1],
-          arrayLine[2],
-          arrayLine[3] === arrayLine[1]
-            ? "local"
-            : arrayLine[3] === arrayLine[2]
-              ? "visitante"
-              : arrayLine[3],
-          arrayLine[4] * 1,
-        ];
-
-        // console.log({ partidoMitad })
-
-        if (isNaN(partidoMitad[4])) {
-          console.log({ partidoMitad, arrayLine })
-          let valorTemp = arrayLine[4].replace("$", "");
-          valorTemp = valorTemp.replace(",", "");
-          // console.log({ valorTemp })
-          partidoMitad[4] = valorTemp * 1;
-        }
-
-        // console.log({ line, arrayLine, partidoMitad })
-
-        // console.log({ arrayLine,hora: partidoMitad[0]})
-
-        partidos.push(partidoMitad);
-
-        continue;
-      } else {
-        // console.log({line, testigo: 'else'})
-        // if (line.endsWith("	-")) {
-        if (line.endsWith("\t")) {
-          // console.log({ line, testigo: 'if (line.endsWith("\t"))'})
-          // console.log('#########################')
-          // console.log('#########################')
-          // console.log('#########################')
-          // console.log('#########################')
-          // lineModificado = line.replace("	-", "");
-          lineModificado = line.replaceAll("\t", "");
-          let totalArray = lineModificado.split("$");
-          // console.log({ totalArray })
-          let total = totalArray.pop();
-          // console.log({ total });
-          // partidos.push(total);
-          // if (partidos.length > 0) {
-          //   arraySalida.push(partidos);
-          //   partidos = [];
-          // }
-        } else if (line === "Imprimir" && partidos.length === 1) {
-
-          let total = partidos[0][4];
-          console.log({ total, gananciaEsperada });
-          partidos[0][4] = Math.floor((total / gananciaEsperada) * 100) / 100;
-          total = total.toLocaleString();
-          console.log({ total, "partidos[0][4]": partidos[0][4] });
-          partidos.push(total);
-          if (partidos.length > 0) {
-            arraySalida.push(partidos);
-            partidos = [];
-          }
-        } else {
-          // console.log({line, testigo: 'DEFAULT'})
-          // console.log('#########################')
-          // console.log('#########################')
-          // console.log('#########################')
-          // console.log('#########################')
-        }
+      if (line.endsWith('	') && conditions.some(el => line.includes(el))) {
+        lineaPartido = line
+        esLineaPartido = true
+        indexAuxiliar = 1
+        continue
       }
+
+      if (esLineaPartido && indexAuxiliar === 1) {
+        indexAuxiliar++
+        lineaPartido = lineaPartido + line
+        continue
+      }
+
+      if (esLineaPartido && indexAuxiliar === 2 && line.endsWith('	 -')) {
+        indexAuxiliar++
+        esLineaPartido = false
+        lineaPartido = lineaPartido + '***' + line.replace('	 -', '')
+        lineaPartido = lineaPartido.replaceAll('	', '***')
+        let [fechaHora, partido, condicion1, condicion2, cuotaString] = lineaPartido.split('***')
+        let [local, visitante] = partido.split(' v ')
+        let hora = fechaHora.substring(7).replace(":", "") * 1 + 10000
+        let condicion = ''
+
+        if (condicion1 === 'Total Goles Más/Menos de' && condicion2 === 'Más de (2.5)') {
+          condicion = 'over'
+        }
+
+        if (condicion1 === 'Primera Mitad Total Goles Más/Menos de' && condicion2 === 'Más de (0.5)') {
+          condicion = 'mitad'
+        }
+
+        if (condicion1 === 'Ambos Equipos Anotan' && condicion2 === 'Si') {
+          condicion = 'ambos'
+        }
+
+        if (condicion1.includes('1ª Mitad más/Menos de ') && condicion2 === 'Más de (0.5)') {
+          condicion1.replace('1ª Mitad más/Menos de ', '1ª Mitad más/Menos de ')
+          condicion1.replace(' Total Goles', '1ª Mitad más/Menos de ')
+          if (condicion1 === local) {
+            condicion = 'local'
+          }
+          if (condicion1 === visitante) {
+            condicion = 'visitante'
+          }
+        }
+
+        let cuota = cuotaString * 1
+        console.log({ hora, local, visitante, condicion, cuota })
+        // continue
+
+        let partidoMitad = [hora, local, visitante, condicion, cuota]
+
+        partidos.push(partidoMitad)
+
+
+      }
+
+      if (line.startsWith('Tipo de apuesta')) {
+        esTipoDeApuesta = true
+      }
+
+      if (esTipoDeApuesta && line.startsWith('$')) {
+        partidos[0] = line.replace('$', '')
+        esTipoDeApuesta = false
+      }
+
+      if (line === 'Imprimir' && partidos.length > 1) {
+          arraySalida.push(partidos);
+          partidos = [0];
+
+        lineaPartido = ''
+
+      }
+
     }
 
     arraySalida.forEach(apuesta => {
