@@ -2573,6 +2573,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ARGENTINA - Primera Nacional - Superfinal",
+    nombreWplay: "ARGENTINA - PRIMERA NACIONAL",
+    abreviado: "ZA-ARG2",
+    codigoWplay: 19342,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "ARGENTINA - Primera Nacional - Partido adicional",
     nombreWplay: "ARGENTINA - PRIMERA NACIONAL",
     abreviado: "ZA-ARG2",
