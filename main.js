@@ -1598,6 +1598,7 @@ async function main() {
         "	Total Goles Más/Menos de	",
         "	Ambos Equipos Anotan	",
         "	Primera Mitad Total Goles Más/Menos de	",
+        "	Se anotará gol en la 1er mitad	"
         // "	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	",
         // " Total Goles	Más de (0.5)	",
       ]
@@ -1624,17 +1625,26 @@ async function main() {
         let [local, visitante] = partido.split(' v ')
         let hora = fechaHora.substring(7).replace(":", "") * 1 + 10000
         let condicion = ''
+        let condicionCumplida = false
 
         if (condicion1 === 'Total Goles Más/Menos de' && condicion2 === 'Más de (2.5)') {
           condicion = 'over'
+          condicionCumplida = true
+        }
+
+        if (condicion1 === 'Se anotará gol en la 1er mitad' && condicion2 === 'Si') {
+          condicion = 'mitad'
+          condicionCumplida = true
         }
 
         if (condicion1 === 'Primera Mitad Total Goles Más/Menos de' && condicion2 === 'Más de (0.5)') {
           condicion = 'mitad'
+          condicionCumplida = true
         }
 
         if (condicion1 === 'Ambos Equipos Anotan' && condicion2 === 'Si') {
           condicion = 'ambos'
+          condicionCumplida = true
         }
 
         if (condicion1.includes('1ª Mitad más/Menos de ') && condicion2 === 'Más de (0.5)') {
@@ -1642,14 +1652,18 @@ async function main() {
           condicion1.replace(' Total Goles', '1ª Mitad más/Menos de ')
           if (condicion1 === local) {
             condicion = 'local'
+            condicionCumplida = true
           }
           if (condicion1 === visitante) {
             condicion = 'visitante'
+            condicionCumplida = true
           }
         }
 
+        if (!condicionCumplida) throw new Error(`Cometiste un error haciendo una apuesta ${JSON.stringify(lineaPartido)}`)
+
         let cuota = cuotaString * 1
-        console.log({ hora, local, visitante, condicion, cuota })
+        // console.log({ hora, local, visitante, condicion, cuota })
         // continue
 
         let partidoMitad = [hora, local, visitante, condicion, cuota]
