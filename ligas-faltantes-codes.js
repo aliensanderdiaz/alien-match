@@ -1,6 +1,5 @@
 let LIGAS_FALTANTES = [
- 'R-ESC2' ,
- 'ZM-LIBE' ,
+
 ]
 
 LIGAS_FALTANTES = [...new Set(LIGAS_FALTANTES)];
