@@ -174,6 +174,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: 'EUROPA - Mundial - Clasificación',
+    "nombreWplay": 'Copa Mundial 2026 - Eliminatorias Europa',
+    "abreviado": 'M-EURO',
+    "codigoWplay": 583780,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "EUROPA - Atlantic Cup",
     nombreWplay: "EUROPA - Atlantic Cup",
     abreviado: "EATL",
@@ -828,6 +837,15 @@ let LIGAS_OBJETOS = [
     codigoWplay: 20182,
     mitad: false,
     favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Mundial - Clasificación - Segunda fase",
+    nombreWplay: "Copa Mundial 2026 - Eliminatorias Asia",
+    abreviado: "W-ASIA",
+    codigoWplay: 120773,
+    mitad: true,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -2556,6 +2574,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ARGENTINA - Primera Nacional",
+    nombreWplay: "ARGENTINA - PRIMERA NACIONAL",
+    abreviado: "ZA-ARG2",
+    codigoWplay: 19342,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ARGENTINA - Primera Nacional - Superfinal",
     nombreWplay: "ARGENTINA - PRIMERA NACIONAL",
     abreviado: "ZA-ARG2",
     codigoWplay: 19342,

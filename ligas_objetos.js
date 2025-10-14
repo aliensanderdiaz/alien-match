@@ -841,6 +841,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ASIA - Mundial - Clasificación - Segunda fase",
+    nombreWplay: "Copa Mundial 2026 - Eliminatorias Asia",
+    abreviado: "W-ASIA",
+    codigoWplay: 120773,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Mundial - Clasificación - Segunda fase",
     nombreWplay: "WORLD CUP 2026 - ASIA QUALIFIERS",
     abreviado: "W-ASIA",
     codigoWplay: 120773,
