@@ -1,12 +1,12 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1101600000;
+const FECHA_PARTIDO_MANANA = 1101900000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 0; // CAMBIAR ESTA
+HORA += 1005; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -1648,8 +1648,11 @@ async function main() {
         }
 
         if (condicion1.includes('1ª Mitad más/Menos de ') && condicion2 === 'Más de (0.5)') {
-          condicion1.replace('1ª Mitad más/Menos de ', '1ª Mitad más/Menos de ')
-          condicion1.replace(' Total Goles', '1ª Mitad más/Menos de ')
+          // condicion1.replace('1ª Mitad más/Menos de ', '1ª Mitad más/Menos de ')
+          // condicion1.replace(' Total Goles', '1ª Mitad más/Menos de ')
+          condicion1 = condicion1.replace('1ª Mitad más/Menos de ', '')
+          condicion1 = condicion1.replace(' Total Goles', '')
+          console.log({ local, visitante, condicion1, condicion2 })
           if (condicion1 === local) {
             condicion = 'local'
             condicionCumplida = true
