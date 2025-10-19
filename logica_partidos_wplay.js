@@ -1,4 +1,4 @@
-const MAXIMO_A_GANAR = 16_000_000 / 10000
+const MAXIMO_A_GANAR = 10_000_000 / 1000
 
 let PARTIDOS_BACKUP = [...PARTIDOS_OPTIMIZADOS]
 let indiceFavorito = 0
