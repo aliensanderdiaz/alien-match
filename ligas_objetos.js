@@ -8,6 +8,14 @@
 // },
 
 let LIGAS_OBJETOS = [
+   {
+     nombreFlashcore: 'BRASIL - Copa do Brasil Sub-20',
+     "nombreWplay": 'Brazil - U20 Cups',
+     "abreviado": 'ZA-B20C',
+     "codigoWplay": 57416,
+     mitad: false,
+     favorito: false
+ },
   {
     nombreFlashcore: 'Mundial Sub-20',
     "nombreWplay": 'Copa Mundial Sub-20',
