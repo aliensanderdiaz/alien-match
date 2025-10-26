@@ -1,12 +1,12 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1102300000;
+const FECHA_PARTIDO_MANANA = 1102700000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 1203; // CAMBIAR ESTA
+HORA += 837; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -1686,8 +1686,8 @@ async function main() {
       }
 
       if (line === 'Imprimir' && partidos.length > 1) {
-          arraySalida.push(partidos);
-          partidos = [0];
+        arraySalida.push(partidos);
+        partidos = [0];
 
         lineaPartido = ''
 
