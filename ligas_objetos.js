@@ -9,6 +9,14 @@
 
 let LIGAS_OBJETOS = [
    {
+     nombreFlashcore: 'BOLIVIA - Copa Paceña - Playoffs',
+     "nombreWplay": 'Bolivia - Copa Division Profesional',
+     "abreviado": 'ZA-BOLC',
+     "codigoWplay": 795780,
+     mitad: false,
+     favorito: false
+ },
+   {
      nombreFlashcore: 'BRASIL - Copa do Brasil Sub-20',
      "nombreWplay": 'Brazil - U20 Cups',
      "abreviado": 'ZA-B20C',
@@ -559,6 +567,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ÁFRICA - Mundial - Clasificación - Ascenso",
+    nombreWplay: "WORLD CUP 2026 - AFRICA QUALIFIERS",
+    abreviado: "M-AFR",
+    codigoWplay: 452779,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
     nombreWplay: "Mexico - Liga de Expansion MX",
     abreviado: "ZA-MEX2",
@@ -876,6 +893,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ASIA - Mundial - Clasificación - Cuarta fase",
+    nombreWplay: "WORLD CUP 2026 - ASIA QUALIFIERS",
+    abreviado: "W-ASIA",
+    codigoWplay: 120773,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Mundial - Clasificación - Quinta fase",
     nombreWplay: "WORLD CUP 2026 - ASIA QUALIFIERS",
     abreviado: "W-ASIA",
     codigoWplay: 120773,
