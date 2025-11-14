@@ -1,10 +1,10 @@
 let LIGAS = [
-	{"liga":"M-AFR","mitad":true,"mitadFavorito":true,"codigoWplay":452779},
-	{"liga":"W-ASIA","mitad":true,"mitadFavorito":true,"codigoWplay":120773},
-	{"liga":"ZA-BOLC","mitad":false,"mitadFavorito":false,"codigoWplay":795780},
-	{"liga":"ZA-COL1","mitad":true,"mitadFavorito":true,"codigoWplay":19311},
+	{"liga":"ZA-ARG1","mitad":true,"mitadFavorito":true,"codigoWplay":19296},
+	{"liga":"ZA-BRA2","mitad":true,"mitadFavorito":true,"codigoWplay":19393},
+	{"liga":"ESP2","mitad":true,"mitadFavorito":true,"codigoWplay":48352},
 	{"liga":"M-EURO","mitad":true,"mitadFavorito":true,"codigoWplay":583780},
 	{"liga":"U-E21C","mitad":false,"mitadFavorito":false,"codigoWplay":23644},
-	{"liga":"ZA-MEX2","mitad":true,"mitadFavorito":true,"codigoWplay":61826},
-	{"liga":"M-CONC","mitad":false,"mitadFavorito":true,"codigoWplay":310774},
+	{"liga":"I-A20","mitad":false,"mitadFavorito":false,"codigoWplay":19353},
+	{"liga":"FRAC","mitad":false,"mitadFavorito":true,"codigoWplay":26463},
+	{"liga":"ZA-PARC","mitad":false,"mitadFavorito":true,"codigoWplay":52190},
 ]
