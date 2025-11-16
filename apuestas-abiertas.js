@@ -1,2 +1,3 @@
 let APUESTAS_ABIERTAS = [
+	["640,444",[12310,"Machida Zelvia","FC Tokyo","mitad",1.42],[10600,"FC Felgueiras 1932","Sporting Farense","mitad",1.42,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19338",19338],[10800,"AD Ceuta","CD Leganes","mitad",1.48,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=48352",48352],[10900,"Hungria","Irlanda","mitad",1.45,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=583780",583780],[11015,"Sporting Gijon","SD Eibar","mitad",1.48,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=48352",48352]],
 ]

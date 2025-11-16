@@ -3244,6 +3244,16 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "URUGUAY - Liga AUF Uruguaya - Playoffs",
+    nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
+    abreviado: "ZA-URU1",
+    codigoWplay: 19398,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
     nombreFlashcore: "URUGUAY - Liga AUF Uruguaya - Clausura",
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
