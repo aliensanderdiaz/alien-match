@@ -1,12 +1,12 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1111800000;
+const FECHA_PARTIDO_MANANA = 1111900000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 1153; // CAMBIAR ESTA
+HORA += 0; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -97,10 +97,13 @@ async function main() {
         let ligaEncontrada = LIGAS_OBJETOS.find(
           (ligaObjeto) => ligaObjeto.nombreFlashcore === liga
         );
+        console.log({ liga, ligaEncontrada })
         if (!ligaEncontrada) {
           let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 101 ${liga}`;
           console.log({ nombreFlashcore: liga, error: mensajeDeError });
-          throw new Error(mensajeDeError);
+          // throw new Error(mensajeDeError);
+          esMundial = false
+          continue
         }
         let ligaObjeto = {
           liga: ligaEncontrada.abreviado,
@@ -238,7 +241,9 @@ async function main() {
         continue;
       }
 
-      if (line === "MUNDIAL") {
+      // console.log({ line })
+
+      if (line === "MUNDIAL" || line === "MUNDIAL: ") {
         esMundial = true;
       }
 

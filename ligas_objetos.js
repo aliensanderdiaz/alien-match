@@ -8,6 +8,23 @@
 // },
 
 let LIGAS_OBJETOS = [
+{
+    nombreFlashcore: '',
+    "nombreWplay": 'Amistosos Sub19',
+    "abreviado": 'AMI19',
+    "codigoWplay": 19351,
+    mitad: false,
+    favorito: false
+},
+{
+    nombreFlashcore: '',
+    "nombreWplay": 'Friendlies U22',
+    "abreviado": 'AMI22',
+    "codigoWplay": 59494,
+    mitad: false,
+    favorito: false
+},
+
    {
      nombreFlashcore: 'BOLIVIA - Copa Paceña - Playoffs',
      "nombreWplay": 'Bolivia - Copa Division Profesional',
@@ -2797,6 +2814,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "CHILE - Primera División",
+    nombreWplay: "CHILE - PRIMERA DIVISIÓN",
+    abreviado: "ZA-CHI1",
+    codigoWplay: 19303,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "CHILE - Liga de Primera - Descenso - Playoffs",
     nombreWplay: "CHILE - PRIMERA DIVISIÓN",
     abreviado: "ZA-CHI1",
     codigoWplay: 19303,
