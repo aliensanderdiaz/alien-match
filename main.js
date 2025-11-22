@@ -1,12 +1,12 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1112100000;
+const FECHA_PARTIDO_MANANA = 1112300000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 0; // CAMBIAR ESTA
+HORA += 836; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -112,7 +112,7 @@ async function main() {
           codigoWplay: ligaEncontrada.codigoWplay,
         };
         if (ligaEncontrada.abreviado === "I-AMI") {
-          // console.log({ testigo: 'esMundial y amistoso', ligaObjeto })
+          console.log({ testigo: 'esMundial y amistoso paises', ligaObjeto })
           let ligasAmistosos = [
             {
               liga: "I-AMI",
@@ -153,9 +153,12 @@ async function main() {
               mitadFavorito: true
             },
           ];
+          console.log({ cantidad: ligas.length })
           ligas = ligas.concat(...ligasAmistosos);
+          console.log({ cantidad: ligas.length })
           // console.log({ ligas })
         } else if (ligaEncontrada.abreviado === "AMIE") {
+          console.log({ testigo: 'esMundial y amistoso clubes', ligaObjeto })
           let ligasAmistosos = [
             {
               liga: "AMIE",
@@ -170,7 +173,9 @@ async function main() {
               mitadFavorito: true,
             },
           ];
+          console.log({ cantidad: ligas.length })
           ligas = ligas.concat(...ligasAmistosos);
+          console.log({ cantidad: ligas.length })
         } else {
           ligas.push(ligaObjeto);
           // console.log({ mensaje: 'LIGA NO ES AMISTOSO', ligaObjeto })
