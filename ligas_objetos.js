@@ -2587,6 +2587,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ARGENTINA - Torneo Betano - Clausura - Playoffs",
+    nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura - Playoffs",
     nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
     abreviado: "ZA-ARG1",
