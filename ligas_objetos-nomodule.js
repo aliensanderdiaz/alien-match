@@ -8,6 +8,31 @@
 // },
 
 let LIGAS_OBJETOS = [
+{
+    nombreFlashcore: '',
+    "nombreWplay": 'Amistosos Sub19',
+    "abreviado": 'AMI19',
+    "codigoWplay": 19351,
+    mitad: false,
+    favorito: false
+},
+{
+    nombreFlashcore: '',
+    "nombreWplay": 'Friendlies U22',
+    "abreviado": 'AMI22',
+    "codigoWplay": 59494,
+    mitad: false,
+    favorito: false
+},
+
+   {
+     nombreFlashcore: 'BOLIVIA - Copa Paceña - Playoffs',
+     "nombreWplay": 'Bolivia - Copa Division Profesional',
+     "abreviado": 'ZA-BOLC',
+     "codigoWplay": 795780,
+     mitad: false,
+     favorito: false
+ },
    {
      nombreFlashcore: 'BRASIL - Copa do Brasil Sub-20',
      "nombreWplay": 'Brazil - U20 Cups',
@@ -559,6 +584,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ÁFRICA - Mundial - Clasificación - Ascenso",
+    nombreWplay: "WORLD CUP 2026 - AFRICA QUALIFIERS",
+    abreviado: "M-AFR",
+    codigoWplay: 452779,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
     nombreWplay: "Mexico - Liga de Expansion MX",
     abreviado: "ZA-MEX2",
@@ -876,6 +910,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ASIA - Mundial - Clasificación - Cuarta fase",
+    nombreWplay: "WORLD CUP 2026 - ASIA QUALIFIERS",
+    abreviado: "W-ASIA",
+    codigoWplay: 120773,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Mundial - Clasificación - Quinta fase",
     nombreWplay: "WORLD CUP 2026 - ASIA QUALIFIERS",
     abreviado: "W-ASIA",
     codigoWplay: 120773,
@@ -2544,6 +2587,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ARGENTINA - Torneo Betano - Clausura - Playoffs",
+    nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura - Playoffs",
     nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
     abreviado: "ZA-ARG1",
@@ -2771,6 +2823,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "CHILE - Primera División",
+    nombreWplay: "CHILE - PRIMERA DIVISIÓN",
+    abreviado: "ZA-CHI1",
+    codigoWplay: 19303,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "CHILE - Liga de Primera - Descenso - Playoffs",
     nombreWplay: "CHILE - PRIMERA DIVISIÓN",
     abreviado: "ZA-CHI1",
     codigoWplay: 19303,
@@ -3209,6 +3270,16 @@ let LIGAS_OBJETOS = [
 
   {
     nombreFlashcore: "URUGUAY - Liga AUF Uruguaya - Apertura",
+    nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
+    abreviado: "ZA-URU1",
+    codigoWplay: 19398,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "URUGUAY - Liga AUF Uruguaya - Playoffs",
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
