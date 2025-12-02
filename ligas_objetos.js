@@ -3241,6 +3241,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "PERÚ - Liga 1 - Playoffs",
+    nombreWplay: "PERÚ - PRIMERA DIVISIÓN",
+    abreviado: "ZA-PER1",
+    codigoWplay: 19340,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "PERÚ - Liga 1 - Apertura",
     nombreWplay: "PERÚ - PRIMERA DIVISIÓN",
     abreviado: "ZA-PER1",

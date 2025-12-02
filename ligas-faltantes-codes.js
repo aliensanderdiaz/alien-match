@@ -1,8 +1,8 @@
 let LIGAS_FALTANTES = [
 
 
- 'YE-BIE1' ,
- 'YE-RUS1' ,
+ 'YE-POLC' ,
+ 'YE-GREC' ,
 
 ]
 
