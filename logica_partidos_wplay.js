@@ -203,7 +203,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                     <div class="col border-end dato  ${partido.favorito === 'local' ? 'favorito' : ''}  ">
                         
                         <span class="d-block ${partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''}">
-                            ${partido.cuotaLocal.toFixed(2)}
+                            ${partido.cuotaLocal?.toFixed(2)}
                         </span>
                         <!-- <br> -->
                         <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)} ${ partido.localMitad && partido.localMitad > 1.74 && partido.localMitad <= partido.visitanteMitad ? 'bg-primary-subtle':'' }">
@@ -213,13 +213,13 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                     </div>
 
                     <div class="col border-end dato">
-                        <span>${partido.empate.toFixed(2)}</span>
+                        <span>${partido.empate?.toFixed(2)}</span>
                     </div>
 
                     <div class="col border-end dato  ${partido.favorito === 'visitante' ? 'favorito' : ''} ">
                         
                         <span class="d-block ${partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">
-                            ${partido.cuotaVisitante.toFixed(2)}
+                            ${partido.cuotaVisitante?.toFixed(2)}
                         </span>
                         <!-- <br> -->
                         <span class="${elegirClaseDeFavorito(partido.cuotaFavorito)} ${ partido.visitanteMitad && partido.visitanteMitad > 1.74 && partido.visitanteMitad < partido.localMitad ? 'bg-primary-subtle':'' }">
@@ -510,9 +510,9 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <small class="${partido.favorito === 'visitante' ? 'bg-secondary text-white' : ''}">${partido.visitante.substring(0, 10)}</small>
             </div>
             <div class="col-2 border text-center">
-                <div class="${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaLocal.toFixed(2)}</div>
-                <div>${partido.empate.toFixed(2)}</div>
-                <div class="${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaVisitante.toFixed(2)}</div>
+                <div class="${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaLocal?.toFixed(2)}</div>
+                <div>${partido.empate?.toFixed(2)}</div>
+                <div class="${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaVisitante?.toFixed(2)}</div>
             </div>
             <div class="col-2 border">
                 <small>${partido.cuotaCualquiera?.toFixed(2) || ''}</small>
