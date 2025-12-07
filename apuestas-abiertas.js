@@ -1,3 +1,3 @@
 let APUESTAS_ABIERTAS = [
-	["673,913",[10800,"Elche","Girona","mitad",1.444],[10900,"Cagliari","Roma","mitad",1.42],[10800,"Universitatea Cluj","AFC Hermanstadt","mitad",1.5],[10830,"FC Metalist 1925","Veres Rivne","mitad",1.48],[10900,"Feirense","Academica Viseu","mitad",1.48]],
+	["231,612",[10500,"Suwon City FC","Bucheon 1995","mitad",1.4,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19306",19306],[10630,"Modena FC","Catanzaro","mitad",1.4,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19328",19328],[10630,"Bandirmaspor","Bodrum Belediyesi Bodrumspor","mitad",1.42,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19370",19370]],
 ]
