@@ -1,3 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	["231,612",[10500,"Suwon City FC","Bucheon 1995","mitad",1.4,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19306",19306],[10630,"Modena FC","Catanzaro","mitad",1.4,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19328",19328],[10630,"Bandirmaspor","Bodrum Belediyesi Bodrumspor","mitad",1.42,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19370",19370]],
 ]
