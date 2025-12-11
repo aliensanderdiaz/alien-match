@@ -1,7 +1,6 @@
 let LIGAS_FALTANTES = [
 
 
- 'R-ESCC' ,
 ]
 
 LIGAS_FALTANTES = [...new Set(LIGAS_FALTANTES)];
