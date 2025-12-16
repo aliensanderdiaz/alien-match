@@ -1,7 +1,7 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1121600000;
+const FECHA_PARTIDO_MANANA = 1121700000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
@@ -84,6 +84,10 @@ async function main() {
     let indiceLine = 0
 
     for await (const line of rl) {
+
+      if (line === "MUNDIAL" || line === "MUNDIAL: ") {
+        esMundial = true;
+      }
       indiceLine++
       // Each line in input.txt will be successively available here as `line`.
       if (!line || line === "-" || line === ": ") {
@@ -93,16 +97,18 @@ async function main() {
       lineas.push(line);
 
       if (esMundial) {
-        let liga = `${lineas[indice]}`;
+
+        let liga = `${lineas[0]}`;
         let ligaEncontrada = LIGAS_OBJETOS.find(
           (ligaObjeto) => ligaObjeto.nombreFlashcore === liga
         );
-        console.log({ liga, ligaEncontrada })
+        console.log({ liga, ligaEncontrada, mesaje: 'ESMUNDIAL', line, lineas })
         if (!ligaEncontrada) {
           let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 101 ${liga}`;
           console.log({ nombreFlashcore: liga, error: mensajeDeError });
           // throw new Error(mensajeDeError);
           esMundial = false
+          lineas = []
           continue
         }
         let ligaObjeto = {
@@ -188,8 +194,16 @@ async function main() {
       }
 
       if (opciones.includes(line) && !esMundial) {
-        let pais = `${lineas[indice - 2]}`.slice(0, -2)
-        let nombreLiga = `${lineas[indice - 1]}`
+        // let pais = `${lineas[indice - 2]}`.slice(0, -2)
+        // let nombreLiga = `${lineas[indice - 1]}`
+
+        let nombreLiga = `${lineas[indice - 2]}`
+        let pais = `${lineas[indice - 1]}`.slice(0, -2)
+
+
+        nombreLiga = `${lineas[lineas.length - 3]}`
+        pais = `${lineas[lineas.length - 2]}`.slice(0, -2)
+
         let liga = `${pais} - ${nombreLiga}`;
         // console.log({ liga });
 
@@ -215,9 +229,10 @@ async function main() {
           //   ligaEncontrada,
           // });
           // console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
-          let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 210: ${liga}`;
+          let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 218: ${liga}`;
           console.error({
             mensajeDeError,
+            pais, nombreLiga,
 
             testigo: "opciones.includes(line)",
             indice,
@@ -248,9 +263,7 @@ async function main() {
 
       // console.log({ line })
 
-      if (line === "MUNDIAL" || line === "MUNDIAL: ") {
-        esMundial = true;
-      }
+
 
       if (esHora && indiceEsHora + 4 === indice) {
         let partido = {
