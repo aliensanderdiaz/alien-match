@@ -8,6 +8,36 @@
 // },
 
 let LIGAS_OBJETOS = [
+    {
+    nombreFlashcore: "ITALIA - Supercopa",
+    nombreWplay: "SUPER COPA",
+    abreviado: "ITAS",
+    codigoWplay: 19948,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+
+
+  {
+    nombreFlashcore: "ALEMANIA - DFL-Supercup",
+    nombreWplay: "SUPER COPA",
+    abreviado: "ALES",
+    codigoWplay: 19830,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+      {
+    nombreFlashcore: "ALEMANIA - Supercup",
+    nombreWplay: "SUPER COPA",
+    abreviado: "ALES",
+    codigoWplay: 19830,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
 {
     nombreFlashcore: '',
     "nombreWplay": 'Amistosos Sub19',
@@ -81,15 +111,7 @@ let LIGAS_OBJETOS = [
     mitad: false,
     favorito: false
 },
-    {
-    nombreFlashcore: "ALEMANIA - Supercup",
-    nombreWplay: "SUPER COPA",
-    abreviado: "ALES",
-    codigoWplay: 19830,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+
     {
     nombreFlashcore: "EUROPA - Europa League - Clasificación",
     "nombreWplay": 'UEFA - Europa League Qualifying',
@@ -3475,27 +3497,7 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: "ITALIA - Supercopa",
-    nombreWplay: "SUPER COPA",
-    abreviado: "ITAS",
-    codigoWplay: 19948,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
 
-
-
-  {
-    nombreFlashcore: "ALEMANIA - DFL-Supercup",
-    nombreWplay: "SUPER COPA",
-    abreviado: "ALES",
-    codigoWplay: 19830,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
 
   {
     nombreFlashcore: "FRANCIA - Supercopa",
