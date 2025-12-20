@@ -3825,6 +3825,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Tocantinense - Playoffs",
+    abreviado: "BTOC",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "47826",
+    nombreWplay: "Brazil - Campeonato Tocantinense",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Sul-Matogrossense",
     abreviado: "BSMAT",
     mitad: false,
