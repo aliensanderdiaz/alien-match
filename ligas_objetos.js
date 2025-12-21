@@ -8,6 +8,14 @@
 // },
 
 let LIGAS_OBJETOS = [
+  {
+      nombreFlashcore: 'ÁFRICA - Copa de África de Naciones',
+      "nombreWplay": 'Copa Africana de Naciones Partidos',
+      "abreviado": 'CAFR',
+      "codigoWplay": 557799,
+      mitad: true,
+      favorito: true
+  },
     {
     nombreFlashcore: "ITALIA - Supercopa",
     nombreWplay: "SUPER COPA",

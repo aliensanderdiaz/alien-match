@@ -1,12 +1,12 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1122100000;
+const FECHA_PARTIDO_MANANA = 1122200000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 803; // CAMBIAR ESTA
+HORA += 740; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -102,14 +102,14 @@ async function main() {
         let ligaEncontrada = LIGAS_OBJETOS.find(
           (ligaObjeto) => ligaObjeto.nombreFlashcore === liga
         );
-        console.log({ liga, ligaEncontrada, mesaje: 'ESMUNDIAL', line, lineas })
+        // console.log({ liga, ligaEncontrada, mesaje: 'ESMUNDIAL', line, lineas })
         if (!ligaEncontrada) {
           liga = `${lineas[1]}`;
           ligaEncontrada = LIGAS_OBJETOS.find(
             (ligaObjeto) => ligaObjeto.nombreFlashcore === liga
           );
         }
-        console.log({ liga, ligaEncontrada, mesaje: 'ESMUNDIAL', line, lineas })
+        // console.log({ liga, ligaEncontrada, mesaje: 'ESMUNDIAL', line, lineas })
         if (!ligaEncontrada) {
           let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 101 ${liga}`;
           console.log({ nombreFlashcore: liga, error: mensajeDeError });
@@ -125,7 +125,7 @@ async function main() {
           codigoWplay: ligaEncontrada.codigoWplay,
         };
         if (ligaEncontrada.abreviado === "I-AMI") {
-          console.log({ testigo: 'esMundial y amistoso paises', ligaObjeto })
+          // console.log({ testigo: 'esMundial y amistoso paises', ligaObjeto })
           let ligasAmistosos = [
             {
               liga: "I-AMI",
@@ -171,7 +171,7 @@ async function main() {
           console.log({ cantidad: ligas.length })
           // console.log({ ligas })
         } else if (ligaEncontrada.abreviado === "AMIE") {
-          console.log({ testigo: 'esMundial y amistoso clubes', ligaObjeto })
+          // console.log({ testigo: 'esMundial y amistoso clubes', ligaObjeto })
           let ligasAmistosos = [
             {
               liga: "AMIE",

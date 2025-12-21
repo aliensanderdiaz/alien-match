@@ -1,13 +1,12 @@
-// {
-//     nombreFlashcore:
-//     "nombreWplay":
-//     "abreviado":
-//     "codigoWplay":
-//     mitad:
-//     favorito:
-// },
-
 let LIGAS_OBJETOS = [
+  {
+      nombreFlashcore: 'ÁFRICA - Copa de África de Naciones',
+      "nombreWplay": 'Copa Africana de Naciones Partidos',
+      "abreviado": 'CAFR',
+      "codigoWplay": 557799,
+      mitad: true,
+      favorito: true
+  },
     {
     nombreFlashcore: "ITALIA - Supercopa",
     nombreWplay: "SUPER COPA",
@@ -3843,23 +3842,3 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
 ];
-
-// LIGAS_OBJETOS.sort((a, b) => {
-//     const nameA = a.abreviado.toUpperCase(); // ignore upper and lowercase
-//     const nameB = b.abreviado.toUpperCase(); // ignore upper and lowercase
-//     if (nameA < nameB) {
-//         return -1;
-//     }
-//     if (nameA > nameB) {
-//         return 1;
-//     }
-
-//     // names must be equal
-//     return 0;
-// });
-
-// console.log(LIGAS_OBJETOS)
-
-// const fs = require('fs')
-
-// fs.writeFileSync('ligas_objetos.txt', JSON.stringify(LIGAS_OBJETOS))
