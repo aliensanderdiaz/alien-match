@@ -1,12 +1,12 @@
 let HORA = 10000;
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1122700000;
+const FECHA_PARTIDO_MANANA = 1122800000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 0; // CAMBIAR ESTA
+HORA += 731; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -166,9 +166,9 @@ async function main() {
               mitadFavorito: true
             },
           ];
-          console.log({ cantidad: ligas.length })
+          // console.log({ cantidad: ligas.length })
           ligas = ligas.concat(...ligasAmistosos);
-          console.log({ cantidad: ligas.length })
+          // console.log({ cantidad: ligas.length })
           // console.log({ ligas })
         } else if (ligaEncontrada.abreviado === "AMIE") {
           // console.log({ testigo: 'esMundial y amistoso clubes', ligaObjeto })
@@ -186,9 +186,9 @@ async function main() {
               mitadFavorito: true,
             },
           ];
-          console.log({ cantidad: ligas.length })
+          // console.log({ cantidad: ligas.length })
           ligas = ligas.concat(...ligasAmistosos);
-          console.log({ cantidad: ligas.length })
+          // console.log({ cantidad: ligas.length })
         } else {
           ligas.push(ligaObjeto);
           // console.log({ mensaje: 'LIGA NO ES AMISTOSO', ligaObjeto })
@@ -327,7 +327,7 @@ async function main() {
       archivoSalida3
     );
 
-    console.log({ LIGAS_RESPONSE, PARTIDOS_RESPONSE });
+    // console.log({ LIGAS_RESPONSE, PARTIDOS_RESPONSE });
   }
 
   await sacarLigasPartidosSinCuota();
