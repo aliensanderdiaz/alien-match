@@ -1,2 +1,4 @@
 let APUESTAS_ABIERTAS = [
+	["322,016",[10730,"Leeds United","Manchester United","mitad",1.363,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19157",19157],[10800,"Sevilla","Levante","mitad",1.363,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19160",19160],[10800,"Sporting Gijon","Malaga","mitad",1.444,"https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=48352",48352]],
+	["3,411,316",[10700,"Bolton Wanderers","Northampton","mitad",1.3],[10700,"Lincoln City","Peterborough United","mitad",1.363],[10700,"Cheltenham Town","Crawley Town","mitad",1.35],[10700,"MK Dons","Chesterfield","mitad",1.363]],
 ]
