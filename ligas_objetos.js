@@ -2280,6 +2280,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "GRECIA - Copa - Playoffs",
+    nombreWplay: "COPA DEL GRECIA",
+    abreviado: "YE-GREC",
+    codigoWplay: 19412,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "GRECIA - Copa - Clasificación",
     nombreWplay: "COPA DEL GRECIA",
     abreviado: "YE-GREC",
