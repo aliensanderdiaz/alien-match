@@ -10,6 +10,15 @@
 // https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
+    {
+    nombreFlashcore: "ESPAÑA - Supercopa",
+    nombreWplay: "SUPER COPA",
+    abreviado: "ESPS",
+    codigoWplay: 19511,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
       nombreFlashcore: 'ÁFRICA - Copa de África de Naciones - Playoffs',
       "nombreWplay": 'Copa Africana de Naciones Partidos',
@@ -686,6 +695,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ASIA - Copa Asiática Sub-23 AFC - Clasificación",
+    nombreWplay: "AFC CHAMPIONSHIP U23",
+    abreviado: "I-AFC",
+    codigoWplay: 32287,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Copa Asiática Sub-23 AFC",
     nombreWplay: "AFC CHAMPIONSHIP U23",
     abreviado: "I-AFC",
     codigoWplay: 32287,
@@ -1844,15 +1862,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: "ESPAÑA - Supercopa",
-    nombreWplay: "SUPER COPA",
-    abreviado: "ESPS",
-    codigoWplay: 19511,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+
   {
     nombreFlashcore: "ESPAÑA - LaLiga EA Sports",
     nombreWplay: "LA LIGA",

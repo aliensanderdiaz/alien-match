@@ -694,6 +694,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ASIA - Copa Asiática Sub-23 AFC",
+    nombreWplay: "AFC CHAMPIONSHIP U23",
+    abreviado: "I-AFC",
+    codigoWplay: 32287,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "ASIA - AFC Asian Cup U23 - Playoffs",
     nombreWplay: "AFC CHAMPIONSHIP U23",
     abreviado: "I-AFC",
