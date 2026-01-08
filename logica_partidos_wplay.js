@@ -462,6 +462,8 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos Mitad</a>
         -------
         <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=MRES&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos</a>
+        -------
+        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19511-19873-19948-19830" target="_blank" rel="noopener noreferrer">Super Copa 19511-E-19873-F-19948-I-19830-A</a>
       </div>
     </div>
     `
