@@ -11,38 +11,24 @@
 
 let LIGAS_OBJETOS = [
   {
-      nombreFlashcore: 'ÁFRICA - Copa de África de Naciones - Playoffs',
-      "nombreWplay": 'Copa Africana de Naciones Partidos',
-      "abreviado": 'CAFR',
-      "codigoWplay": 557799,
-      mitad: true,
-      favorito: true
+    nombreFlashcore: "ESPAÑA - Supercopa",
+    nombreWplay: "SUPER COPA",
+    abreviado: "ESPS",
+    codigoWplay: 19511,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
   },
   {
-      nombreFlashcore: 'ÁFRICA - Copa de África de Naciones',
-      "nombreWplay": 'Copa Africana de Naciones Partidos',
-      "abreviado": 'CAFR',
-      "codigoWplay": 557799,
-      mitad: true,
-      favorito: true
+    nombreFlashcore: "FRANCIA - Supercopa",
+    nombreWplay: "SUPER COPA",
+    abreviado: "FRAS",
+    codigoWplay: 19873,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
   },
   {
-      nombreFlashcore: 'ÁFRICA - Copa de África de Naciones',
-      "nombreWplay": 'Copa Africana de Naciones- Partidos',
-      "abreviado": 'CAFR',
-      "codigoWplay": 557799,
-      mitad: true,
-      favorito: true
-  },
-  {
-      nombreFlashcore: 'ÁFRICA - Copa de África de Naciones',
-      "nombreWplay": 'Copa Africana de Naciones - Partidos',
-      "abreviado": 'CAFR',
-      "codigoWplay": 557799,
-      mitad: true,
-      favorito: true
-  },
-    {
     nombreFlashcore: "ITALIA - Supercopa",
     nombreWplay: "SUPER COPA",
     abreviado: "ITAS",
@@ -51,9 +37,6 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-
-
-
   {
     nombreFlashcore: "ALEMANIA - DFL-Supercup",
     nombreWplay: "SUPER COPA",
@@ -63,7 +46,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-      {
+  {
     nombreFlashcore: "ALEMANIA - Supercup",
     nombreWplay: "SUPER COPA",
     abreviado: "ALES",
@@ -72,39 +55,73 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-{
+
+  {
+    nombreFlashcore: 'ÁFRICA - Copa de África de Naciones - Playoffs',
+    "nombreWplay": 'Copa Africana de Naciones Partidos',
+    "abreviado": 'CAFR',
+    "codigoWplay": 557799,
+    mitad: true,
+    favorito: true
+  },
+  {
+    nombreFlashcore: 'ÁFRICA - Copa de África de Naciones',
+    "nombreWplay": 'Copa Africana de Naciones Partidos',
+    "abreviado": 'CAFR',
+    "codigoWplay": 557799,
+    mitad: true,
+    favorito: true
+  },
+  {
+    nombreFlashcore: 'ÁFRICA - Copa de África de Naciones',
+    "nombreWplay": 'Copa Africana de Naciones- Partidos',
+    "abreviado": 'CAFR',
+    "codigoWplay": 557799,
+    mitad: true,
+    favorito: true
+  },
+  {
+    nombreFlashcore: 'ÁFRICA - Copa de África de Naciones',
+    "nombreWplay": 'Copa Africana de Naciones - Partidos',
+    "abreviado": 'CAFR',
+    "codigoWplay": 557799,
+    mitad: true,
+    favorito: true
+  },
+
+  {
     nombreFlashcore: '',
     "nombreWplay": 'Amistosos Sub19',
     "abreviado": 'AMI19',
     "codigoWplay": 19351,
     mitad: false,
     favorito: false
-},
-{
+  },
+  {
     nombreFlashcore: '',
     "nombreWplay": 'Friendlies U22',
     "abreviado": 'AMI22',
     "codigoWplay": 59494,
     mitad: false,
     favorito: false
-},
+  },
 
-   {
-     nombreFlashcore: 'BOLIVIA - Copa Paceña - Playoffs',
-     "nombreWplay": 'Bolivia - Copa Division Profesional',
-     "abreviado": 'ZA-BOLC',
-     "codigoWplay": 795780,
-     mitad: false,
-     favorito: false
- },
-   {
-     nombreFlashcore: 'BRASIL - Copa do Brasil Sub-20',
-     "nombreWplay": 'Brazil - U20 Cups',
-     "abreviado": 'ZA-B20C',
-     "codigoWplay": 57416,
-     mitad: false,
-     favorito: false
- },
+  {
+    nombreFlashcore: 'BOLIVIA - Copa Paceña - Playoffs',
+    "nombreWplay": 'Bolivia - Copa Division Profesional',
+    "abreviado": 'ZA-BOLC',
+    "codigoWplay": 795780,
+    mitad: false,
+    favorito: false
+  },
+  {
+    nombreFlashcore: 'BRASIL - Copa do Brasil Sub-20',
+    "nombreWplay": 'Brazil - U20 Cups',
+    "abreviado": 'ZA-B20C',
+    "codigoWplay": 57416,
+    mitad: false,
+    favorito: false
+  },
   {
     nombreFlashcore: 'Mundial Sub-20',
     "nombreWplay": 'Copa Mundial Sub-20',
@@ -112,7 +129,7 @@ let LIGAS_OBJETOS = [
     "codigoWplay": 32567,
     mitad: false,
     favorito: true
-},
+  },
   {
     nombreFlashcore: 'MUNDIAL - Mundial Sub-20 - Playoffs',
     "nombreWplay": 'Copa Mundial Sub-20',
@@ -120,7 +137,7 @@ let LIGAS_OBJETOS = [
     "codigoWplay": 32567,
     mitad: false,
     favorito: true
-},
+  },
   {
     nombreFlashcore: 'Copa Intercontinental FIFA',
     "nombreWplay": 'FIFA - Intercontinental Cup',
@@ -128,7 +145,7 @@ let LIGAS_OBJETOS = [
     "codigoWplay": 2026787,
     mitad: false,
     favorito: false
-},
+  },
   {
     nombreFlashcore: 'ASIA - CAFA Nations Cup - Playoffs',
     "nombreWplay": 'CAFA Nations Cup',
@@ -136,7 +153,7 @@ let LIGAS_OBJETOS = [
     "codigoWplay": 874783,
     mitad: false,
     favorito: false
-},
+  },
   {
     nombreFlashcore: 'ASIA - CAFA Nations Cup',
     "nombreWplay": 'CAFA Nations Cup',
@@ -144,9 +161,9 @@ let LIGAS_OBJETOS = [
     "codigoWplay": 874783,
     mitad: false,
     favorito: false
-},
+  },
 
-    {
+  {
     nombreFlashcore: "EUROPA - Europa League - Clasificación",
     "nombreWplay": 'UEFA - Europa League Qualifying',
     abreviado: "U-EUROQ",
@@ -155,7 +172,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-    {
+  {
     nombreFlashcore: "EUROPA - Europa League - Clasificación",
     "nombreWplay": 'UEFA - Europa League Clasificatorios',
     abreviado: "U-EUROQ",
@@ -165,7 +182,7 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
 
-    {
+  {
     nombreFlashcore: "EUROPA - Europa League - Clasificación",
     nombreWplay: "UEFA - Liga Europa",
     abreviado: "U-EURO",
@@ -174,7 +191,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-    {
+  {
     nombreFlashcore: "Mundial de Clubes FIFA - Playoffs",
     nombreWplay: "Copa Mundial de Clubes",
     abreviado: "MUNC",
@@ -183,7 +200,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-    {
+  {
     nombreFlashcore: "Mundial de Clubes FIFA",
     nombreWplay: "Copa Mundial de Clubes",
     abreviado: "MUNC",
@@ -192,7 +209,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-    {
+  {
     nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
     nombreWplay: "Liga de Naciones Partidos",
     abreviado: "UNAT",
@@ -208,7 +225,7 @@ let LIGAS_OBJETOS = [
     "codigoWplay": 31374,
     mitad: true,
     favorito: true
-},
+  },
   {
     nombreFlashcore: "ESCOCIA - Premiership - Descenso",
     "nombreWplay": "Escocia - Championship",
@@ -216,7 +233,7 @@ let LIGAS_OBJETOS = [
     "codigoWplay": 19879,
     mitad: false,
     favorito: true,
-},
+  },
   {
     nombreFlashcore: "ALEMANIA - Bundesliga - descenso",
     "nombreWplay": "Bundesliga Relegation/Promotion Play-Offs",
@@ -224,7 +241,7 @@ let LIGAS_OBJETOS = [
     "codigoWplay": 45452,
     mitad: true,
     favorito: true
-},
+  },
 
   {
     nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Copa Oro - Clasificación',
@@ -842,7 +859,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-  
+
   {
     nombreFlashcore:
       "NORTE, CENTROAMÉRICA Y CARIBE - Mundial - Clasificación - Primera fase",
@@ -1099,7 +1116,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-    {
+  {
     nombreFlashcore: "EUROPA - Europeo Sub-21 - Clasificación",
     nombreWplay: "UEFA - EURO U21 CLASIFICACIÓN",
     abreviado: "U-E21C",
@@ -1853,15 +1870,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: "ESPAÑA - Supercopa",
-    nombreWplay: "SUPER COPA",
-    abreviado: "ESPS",
-    codigoWplay: 19511,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+
   {
     nombreFlashcore: "ESPAÑA - LaLiga EA Sports",
     nombreWplay: "LA LIGA",
@@ -1977,7 +1986,7 @@ let LIGAS_OBJETOS = [
     abreviado: "R-ESC2",
     codigoWplay: 19879,
     mitad: false,
-    favorito:true,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -2013,7 +2022,7 @@ let LIGAS_OBJETOS = [
     abreviado: "R-ESC2",
     codigoWplay: 19879,
     mitad: false,
-    favorito:true,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -2022,7 +2031,7 @@ let LIGAS_OBJETOS = [
     abreviado: "R-ESC2",
     codigoWplay: 19879,
     mitad: false,
-    favorito:true,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -3175,7 +3184,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-    {
+  {
     nombreFlashcore: "MÉXICO - Campeón de Campeones",
     nombreWplay: "Mexico - Campeon de Campeones",
     abreviado: "ZA-MEXCC",
@@ -3551,15 +3560,7 @@ let LIGAS_OBJETOS = [
   },
 
 
-  {
-    nombreFlashcore: "FRANCIA - Supercopa",
-    nombreWplay: "SUPER COPA",
-    abreviado: "FRAS",
-    codigoWplay: 19873,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+
   {
     nombreFlashcore: "BRASIL - Paulista",
     abreviado: "BPAU1",
@@ -3567,6 +3568,16 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoWplay: "19457",
     nombreWplay: "Brazil - Campeonato Paulista A1",
+    codigoBetplay: ''
+  },
+  
+  {
+    nombreFlashcore: "BRASIL - Paulista A2 - Primera fase",
+    abreviado: "BPAU2",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "890797",
+    nombreWplay: "Brazil - Campeonato Paulista A2",
     codigoBetplay: ''
   },
   {

@@ -1,6 +1,6 @@
 let LIGAS_FALTANTES = [
 
- 'BPARAN'
+ 'BPAU2'
 
 ]
 

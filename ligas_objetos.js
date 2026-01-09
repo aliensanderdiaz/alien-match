@@ -3570,6 +3570,16 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Brazil - Campeonato Paulista A1",
     codigoBetplay: ''
   },
+  
+  {
+    nombreFlashcore: "BRASIL - Paulista A2 - Primera fase",
+    abreviado: "BPAU2",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "890797",
+    nombreWplay: "Brazil - Campeonato Paulista A2",
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "BRASIL - Paulista A2",
     abreviado: "BPAU2",
