@@ -3779,6 +3779,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Potiguar",
+    abreviado: "BPOT",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19793",
+    nombreWplay: "Brasil - Campeonato Potiguar",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Sergipano",
     abreviado: "BSER",
     mitad: false,
