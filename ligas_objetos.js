@@ -2886,8 +2886,18 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoBetplay: ''
   },
+  
   {
     nombreFlashcore: "BRASIL - Copinha",
+    nombreWplay: "Brazil - Copa Sao Paulo U20",
+    abreviado: "ZA-BRAC20",
+    codigoWplay: 1187789,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Copinha - Playoffs",
     nombreWplay: "Brazil - Copa Sao Paulo U20",
     abreviado: "ZA-BRAC20",
     codigoWplay: 1187789,
@@ -3404,6 +3414,15 @@ let LIGAS_OBJETOS = [
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URU1",
     codigoWplay: 19398,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "URUGUAY - Copa de la Liga AUF",
+    nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
+    abreviado: "ZA-URUC",
+    codigoWplay: 616779,
     mitad: false,
     favorito: true,
     codigoBetplay: ''
