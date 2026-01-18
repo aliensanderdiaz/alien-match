@@ -3420,6 +3420,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "URUGUAY - Copa de la Liga AUF",
+    nombreWplay: "URUGUAY - COPA DE LA LIGA",
+    abreviado: "ZA-URUC",
+    codigoWplay: 2314787,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "URUGUAY - Copa de la Liga AUF",
     nombreWplay: "URUGUAY - PRIMERA DIVISIÓN",
     abreviado: "ZA-URUC",
     codigoWplay: 616779,
