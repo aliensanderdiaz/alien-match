@@ -2705,6 +2705,16 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
+  
+  {
+    nombreFlashcore: "ARGENTINA - Liga Profesional - Apertura",
+    nombreWplay: "Argentina - Liga Profesional de Fútbol",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "ARGENTINA - Copa de la Liga Profesional",
     nombreWplay: "Argentina - Liga Profesional de Fútbol",
