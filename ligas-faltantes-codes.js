@@ -1,9 +1,5 @@
 let LIGAS_FALTANTES = [
- 'BPAU3' ,
  'BCAP' ,
- 'BPOT' ,
- 'BMAR' ,
- 'BRON' ,
  'BPIA' ,
  'BCEA' ,
 ]
