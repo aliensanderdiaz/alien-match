@@ -3871,6 +3871,16 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Brasil - Campeonato Cearense",
     codigoBetplay: ''
   },
+  
+  {
+    nombreFlashcore: "BRASIL - Cearense - Grupo Descenso",
+    abreviado: "BCEA",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19454",
+    nombreWplay: "Brasil - Campeonato Cearense",
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "BRASIL - Cearense - Grupo de Campeonato",
     abreviado: "BCEA",
