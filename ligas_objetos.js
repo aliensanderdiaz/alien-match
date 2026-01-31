@@ -576,6 +576,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Amazonense - Primera fase - Playoffs",
+    nombreWplay: "Brazil - Campeonato Amazonense",
+    abreviado: "BAMA",
+    codigoWplay: 32578,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Amazonense - Primera fase",
     nombreWplay: "Brazil - Campeonato Amazonense",
     abreviado: "BAMA",
@@ -3754,6 +3763,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Catarinense - Playoffs",
+    abreviado: "BCAT",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19788",
+    nombreWplay: "Brasil - Campeonato Catarinense",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Catarinense",
     abreviado: "BCAT",
     mitad: false,
@@ -3773,6 +3791,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Paranaense",
+    abreviado: "BPARAN",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19790",
+    nombreWplay: "Brasil - Campeonato Paranaense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Paranaense - Playoffs",
     abreviado: "BPARAN",
     mitad: false,
     favorito: false,

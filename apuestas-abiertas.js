@@ -1,1 +1,2 @@
-[]
+let APUESTAS_ABIERTAS = [
+]
