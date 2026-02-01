@@ -11,6 +11,14 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: 'URUGUAY - Supercopa',
+    "nombreWplay": 'Uruguay - Super Cup',
+    "abreviado": 'ZA-URUS',
+    "codigoWplay": 50050,
+    mitad: true,
+    favorito: true
+},
+  {
     nombreFlashcore: "ESPAÑA - Supercopa",
     nombreWplay: "SUPER COPA",
     abreviado: "ESPS",
@@ -3791,6 +3799,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Paranaense",
+    abreviado: "BPARAN",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19790",
+    nombreWplay: "Brasil - Campeonato Paranaense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Paranaense - Descenso - Playoffs",
     abreviado: "BPARAN",
     mitad: false,
     favorito: false,

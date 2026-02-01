@@ -11,6 +11,14 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: 'URUGUAY - Supercopa',
+    "nombreWplay": 'Uruguay - Super Cup',
+    "abreviado": 'ZA-URUS',
+    "codigoWplay": 50050,
+    mitad: true,
+    favorito: true
+},
+  {
     nombreFlashcore: "ESPAÑA - Supercopa",
     nombreWplay: "SUPER COPA",
     abreviado: "ESPS",
@@ -576,6 +584,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Amazonense - Primera fase - Playoffs",
+    nombreWplay: "Brazil - Campeonato Amazonense",
+    abreviado: "BAMA",
+    codigoWplay: 32578,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Amazonense - Primera fase",
     nombreWplay: "Brazil - Campeonato Amazonense",
     abreviado: "BAMA",
@@ -703,6 +720,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ASIA - Copa Asiática Sub-23 AFC - Clasificación",
+    nombreWplay: "AFC CHAMPIONSHIP U23",
+    abreviado: "I-AFC",
+    codigoWplay: 32287,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ASIA - Copa Asiática Sub-23 AFC - Playoffs",
     nombreWplay: "AFC CHAMPIONSHIP U23",
     abreviado: "I-AFC",
     codigoWplay: 32287,
@@ -2705,6 +2731,16 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
+  
+  {
+    nombreFlashcore: "ARGENTINA - Liga Profesional - Apertura",
+    nombreWplay: "Argentina - Liga Profesional de Fútbol",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "ARGENTINA - Copa de la Liga Profesional",
     nombreWplay: "Argentina - Liga Profesional de Fútbol",
@@ -3735,6 +3771,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Catarinense - Playoffs",
+    abreviado: "BCAT",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19788",
+    nombreWplay: "Brasil - Campeonato Catarinense",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Catarinense",
     abreviado: "BCAT",
     mitad: false,
@@ -3754,6 +3799,24 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Paranaense",
+    abreviado: "BPARAN",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19790",
+    nombreWplay: "Brasil - Campeonato Paranaense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Paranaense - Descenso - Playoffs",
+    abreviado: "BPARAN",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19790",
+    nombreWplay: "Brasil - Campeonato Paranaense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Paranaense - Playoffs",
     abreviado: "BPARAN",
     mitad: false,
     favorito: false,
@@ -3845,6 +3908,25 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Cearense",
+    abreviado: "BCEA",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19454",
+    nombreWplay: "Brasil - Campeonato Cearense",
+    codigoBetplay: ''
+  },
+  
+  {
+    nombreFlashcore: "BRASIL - Cearense - Grupo Descenso",
+    abreviado: "BCEA",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19454",
+    nombreWplay: "Brasil - Campeonato Cearense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Cearense - Grupo de Campeonato",
     abreviado: "BCEA",
     mitad: false,
     favorito: false,
