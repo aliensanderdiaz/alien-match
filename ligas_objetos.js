@@ -3771,6 +3771,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Catarinense - Grupo Descenso",
+    abreviado: "BCAT",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19788",
+    nombreWplay: "Brasil - Campeonato Catarinense",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Catarinense - Playoffs",
     abreviado: "BCAT",
     mitad: false,
