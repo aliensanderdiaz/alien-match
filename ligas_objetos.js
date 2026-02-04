@@ -2592,7 +2592,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "TURQUIA - COPA",
     abreviado: "YE-TURC",
     codigoWplay: 19447,
-    mitad: false,
+    mitad: true,
     favorito: false,
     codigoBetplay: ''
   },
@@ -2601,7 +2601,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "TURQUIA - COPA",
     abreviado: "YE-TURC",
     codigoWplay: 19447,
-    mitad: false,
+    mitad: true,
     favorito: false,
     codigoBetplay: ''
   },
@@ -3840,6 +3840,15 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "28509",
     nombreWplay: "Brazil - Campeonato Paraibano",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Pernambucano - Playoffs",
+    abreviado: "BPER",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19792",
+    nombreWplay: "Brasil - Campeonato Pernambucano",
     codigoBetplay: ''
   },
   {
