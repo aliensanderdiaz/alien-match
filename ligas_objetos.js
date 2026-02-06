@@ -3681,6 +3681,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Gaucho - Playoffs",
+    abreviado: "BGAU",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19458",
+    nombreWplay: "Brasil - Campeonato Gaucho",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Gaucho",
     abreviado: "BGAU",
     mitad: false,
