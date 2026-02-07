@@ -3816,6 +3816,24 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Maranhense - Playoffs",
+    abreviado: "BMAR",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "44672",
+    nombreWplay: "Brazil - Campeonato Maranhense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Maranhense - Descenso",
+    abreviado: "BMAR",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "44672",
+    nombreWplay: "Brazil - Campeonato Maranhense",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Paranaense",
     abreviado: "BPARAN",
     mitad: false,
