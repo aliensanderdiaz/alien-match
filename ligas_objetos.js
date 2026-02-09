@@ -602,6 +602,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Amazonense - Segunda fase",
+    nombreWplay: "Brazil - Campeonato Amazonense",
+    abreviado: "BAMA",
+    codigoWplay: 32578,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Amazonense - Clasificación",
     nombreWplay: "Brazil - Campeonato Amazonense",
     abreviado: "BAMA",
@@ -3691,6 +3700,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Gaucho",
+    abreviado: "BGAU",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19458",
+    nombreWplay: "Brasil - Campeonato Gaucho",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Gaucho - Descenso",
     abreviado: "BGAU",
     mitad: false,
     favorito: false,
