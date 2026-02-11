@@ -3771,7 +3771,25 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Carioca - Grupo Descenso",
+    abreviado: "BCAR",
+    mitad: false,
+    favorito: true,
+    codigoWplay: "19456",
+    nombreWplay: "Brasil - Campeonato Carioca",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Goiano",
+    abreviado: "BGOI",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19789",
+    nombreWplay: "Brasil - Campeonato Goiano",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Goiano - Playoffs",
     abreviado: "BGOI",
     mitad: false,
     favorito: false,
@@ -3978,6 +3996,15 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Brasil - Campeonato Cearense",
     codigoBetplay: ''
   },
+  {
+    nombreFlashcore: "BRASIL - Cearense - Puestos 5º-6º",
+    abreviado: "BCEA",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19454",
+    nombreWplay: "Brasil - Campeonato Cearense",
+    codigoBetplay: ''
+  },
   
   {
     nombreFlashcore: "BRASIL - Cearense - Grupo Descenso",
@@ -4053,6 +4080,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Matogrossense",
+    abreviado: "BMAT",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "44888",
+    nombreWplay: "Brazil - Campeonato Matogrossense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Matogrossense - Playoffs",
     abreviado: "BMAT",
     mitad: false,
     favorito: false,
