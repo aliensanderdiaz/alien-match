@@ -5,7 +5,7 @@ let LIGAS = [
 	{"liga":"ZA-ARG1","mitad":true,"mitadFavorito":true,"codigoWplay":19296},
 	{"liga":"ZA-ARG2","mitad":false,"mitadFavorito":false,"codigoWplay":19342},
 	{"liga":"YE-BEL1","mitad":true,"mitadFavorito":true,"codigoWplay":19372},
-	{"liga":"BCAR","mitad":false,"mitadFavorito":true,"codigoWplay":"19456"},
+	{"liga":"BCAR","mitad":false,"mitadFavorito":true,"codigoWplay":19456},
 	{"liga":"BCAT","mitad":false,"mitadFavorito":false,"codigoWplay":"19788"},
 	{"liga":"BPARAI","mitad":false,"mitadFavorito":false,"codigoWplay":"28509"},
 	{"liga":"BPIA","mitad":false,"mitadFavorito":false,"codigoWplay":"55406"},
