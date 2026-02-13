@@ -3762,6 +3762,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Carioca - Taça Guanabara - Playoffs",
+    abreviado: "BCAR",
+    mitad: false,
+    favorito: true,
+    codigoWplay: "19456",
+    nombreWplay: "Brasil - Campeonato Carioca",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Carioca",
     abreviado: "BCAR",
     mitad: false,
