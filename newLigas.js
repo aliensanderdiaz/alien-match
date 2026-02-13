@@ -35,7 +35,7 @@ let LIGAS = [
 	{"nombresFlashscore":["BRASIL - Brasileirao Sub-20"],"nombresWplay":["Brasil - U20"],"abreviado":"ZA-BRA20","codigoWplay":26866,"mitad":false,"favorito":false,"codigoBetplay":""},
 	{"nombresFlashscore":["BRASIL - Brasiliense"],"nombresWplay":["Brazil - Campeonato Brasiliense"],"abreviado":"BBRA","codigoWplay":"29814","mitad":false,"favorito":false,"codigoBetplay":""},
 	{"nombresFlashscore":["BRASIL - Capixaba"],"nombresWplay":["Brazil - Campeonato Capixaba"],"abreviado":"BCAP","codigoWplay":"44910","mitad":false,"favorito":false,"codigoBetplay":""},
-	{"nombresFlashscore":["BRASIL - Carioca - Taça Guanabara","BRASIL - Carioca"],"nombresWplay":["Brasil - Campeonato Carioca"],"abreviado":"BCAR","codigoWplay":"19456","mitad":false,"favorito":true,"codigoBetplay":""},
+	{"nombresFlashscore":["BRASIL - Carioca - Taça Guanabara","BRASIL - Carioca"],"nombresWplay":["Brasil - Campeonato Carioca"],"abreviado":"BCAR","codigoWplay":19456,"mitad":false,"favorito":true,"codigoBetplay":""},
 	{"nombresFlashscore":["BRASIL - Catarinense"],"nombresWplay":["Brasil - Campeonato Catarinense"],"abreviado":"BCAT","codigoWplay":"19788","mitad":false,"favorito":false,"codigoBetplay":""},
 	{"nombresFlashscore":["BRASIL - Cearense 2"],"nombresWplay":["Brazil - Campeonato Cearense Serie B"],"abreviado":"BCEA2","codigoWplay":"44929","mitad":false,"favorito":false,"codigoBetplay":""},
 	{"nombresFlashscore":["BRASIL - Cearense"],"nombresWplay":["Brasil - Campeonato Cearense"],"abreviado":"BCEA","codigoWplay":"19454","mitad":false,"favorito":false,"codigoBetplay":""},

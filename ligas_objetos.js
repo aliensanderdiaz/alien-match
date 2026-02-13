@@ -3757,7 +3757,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAR",
     mitad: false,
     favorito: true,
-    codigoWplay: "19456",
+    codigoWplay: 19456,
     nombreWplay: "Brasil - Campeonato Carioca",
     codigoBetplay: ''
   },
@@ -3766,7 +3766,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAR",
     mitad: false,
     favorito: true,
-    codigoWplay: "19456",
+    codigoWplay: 19456,
     nombreWplay: "Brasil - Campeonato Carioca",
     codigoBetplay: ''
   },
@@ -3775,7 +3775,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAR",
     mitad: false,
     favorito: true,
-    codigoWplay: "19456",
+    codigoWplay: 19456,
     nombreWplay: "Brasil - Campeonato Carioca",
     codigoBetplay: ''
   },
@@ -3784,7 +3784,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAR",
     mitad: false,
     favorito: true,
-    codigoWplay: "19456",
+    codigoWplay: 19456,
     nombreWplay: "Brasil - Campeonato Carioca",
     codigoBetplay: ''
   },

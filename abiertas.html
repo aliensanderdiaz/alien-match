@@ -39,7 +39,7 @@
                         <small>${partido[2].slice(0, 15)}</small>
                     </div>
                     <div class="col-2">
-                        <small><a href="${ partido[5] }" target="_blank">${partido[3].substring(0, 3).toUpperCase()}</a></small>
+                        <small><a href="${partido[5]}" target="_blank">${partido[3].substring(0, 3).toUpperCase()}</a></small>
                         <br>
                         <small>${partido[6]}</small>
                     </div>
@@ -102,6 +102,44 @@
         document.querySelector('#container-todos').innerHTML = html_todos
 
 
+    </script>
+
+    <script>
+        let codes_mitad = []
+        let codes_ambos = []
+        let codes_over = []
+        let codes_local = []
+        let codes_visitante = []
+
+        let todas = []
+
+        APUESTAS_ABIERTAS.forEach(apuesta => {
+            apuesta.forEach(ap => { if (Array.isArray(ap)) { todas.push(ap) } })
+        })
+
+        console.log(todas)
+
+        todas.forEach(apuesta => {
+            if (apuesta[3] === 'mitad') { codes_mitad.push(apuesta[6]) }
+            if (apuesta[3] === 'ambos') { codes_ambos.push(apuesta[6]) }
+            if (apuesta[3] === 'over') { codes_over.push(apuesta[6]) }
+            if (apuesta[3] === 'local') { codes_local.push(apuesta[6]) }
+            if (apuesta[3] === 'visitante') { codes_visitante.push(apuesta[6]) }
+        })
+
+        codes_mitad = [...new Set(codes_mitad)]
+        codes_ambos = [...new Set(codes_ambos)]
+        codes_over = [...new Set(codes_over)]
+        codes_local = [...new Set(codes_local)]
+        codes_visitante = [...new Set(codes_visitante)]
+
+        console.log({
+            codes_mitad,
+            codes_ambos,
+            codes_over,
+            codes_local,
+            codes_visitante,
+        })
     </script>
 </body>
 
