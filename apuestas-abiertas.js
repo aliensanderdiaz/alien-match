@@ -1,123 +1,22 @@
 let APUESTAS_ABIERTAS = [
-	["2,750",
-		[11930, "Godoy Cruz", "Ciudad de Bolivar", "mitad", 1.666, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19342", 19342],
-
-		[12000, "Gimnasia y Tiro de Salta", "Club Atletico Colegiales", "mitad", 1.65, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19342", 19342],
-
-		[11900, "Joinville SC", "Carlos Renaux SC", "mitad", 1.48, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19788", "19788"],
-
-		[11930, "Liverpool Montevideo", "Defensor Sporting", "mitad", 1.42, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19398", 19398],
-
-		[11830, "Palestino", "Universidad de Chile", "mitad", 1.42, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19303", 19303],
-
-		[11900, "Atletico Rafaela", "Club Almagro", "mitad", 1.8, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19342", 19342],
-
-		[11700, "Cerro Largo FC", "Montevideo Wanderers", "mitad", 1.5, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19398", 19398],
-
-		[11700, "Carabobo FC", "Monagas SC", "mitad", 1.42, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=20080", 20080],
-
-		[11830, "Deportivo Recoleta", "Sportivo Luqueno", "mitad", 1.48, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19359", 19359],
-
-		[11830, "UCV FC", "Metropolitano SC", "mitad", 1.42, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=20080", 20080],
-
-		[11800, "CA Independiente", "Atletico Lanus", "mitad", 1.571, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19296", 19296],
-
-		[12000, "América de Cali", "Independiente Santa Fe", "mitad", 1.55, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19311", 19311],
-
-		[12015, "Defensa y Justicia", "Velez Sarsfield", "mitad", 1.6, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19296", 19296],
-
-		[12015, "Union Santa Fe", "San Lorenzo", "mitad", 1.727, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19296", 19296],
-
-	],
-	["5,372",
-
-		[11700, "Cerro Largo FC", "Montevideo Wanderers", "local", 2.15, "", 19398],
-
-		[12000, "Alebrijes de Oaxaca", "Coyotes FC", "local", 2, "", 61826],
-
-		[11800, "CD Tapatio", "Jaiba Brava", "local", 2, "", 61826],
-
-		[11630, "Guarani Asuncion", "Sportivo San Lorenzo", "local", 1.75, "", 19359],
-
-		[11930, "Liverpool Montevideo", "Defensor Sporting", "local", 2, "", 19398],
-
-		[12015, "Union Santa Fe", "San Lorenzo", "local", 2.35, "", 19296],
-
-		[11800, "CA Independiente", "Atletico Lanus", "local", 2.1, "", 19296],
-
-		[12000, "América de Cali", "Independiente Santa Fe", "local", 2.05, "", 19311],
-
-		[12000, "Puebla", "Pumas UNAM", "local", 2.1, "", 19329],
-
-
-	],
-	["4,476",
-
-		[11830, "Palestino", "Universidad de Chile", "visitante", 2, "", 19303],
-
-		[11830, "Deportivo Recoleta", "Sportivo Luqueno", "visitante", 2.25, "", 19359],
-
-		[12015, "Defensa y Justicia", "Velez Sarsfield", "visitante", 2.25, "", 19296],
-
-
-	],
-	["6,731",
-
-		[11900, "Atletico Rafaela", "Club Almagro", "over", 3.35, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19342", 19342],
-
-		[11930, "Godoy Cruz", "Ciudad de Bolivar", "over", 2.85, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19342", 19342],
-
-		[12000, "Gimnasia y Tiro de Salta", "Club Atletico Colegiales", "over", 3.1, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19342", 19342],
-
-		[11700, "Carabobo FC", "Monagas SC", "over", 2.05, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=20080", 20080],
-
-		[11830, "UCV FC", "Metropolitano SC", "over", 2.05, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=20080", 20080],
-
-		[11900, "Joinville SC", "Carlos Renaux SC", "over", 2.2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19788", "19788"],
-
-		[11930, "Liverpool Montevideo", "Defensor Sporting", "over", 2.15, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19398", 19398],
-
-		[12000, "América de Cali", "Independiente Santa Fe", "over", 2.3, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19311", 19311],
-
-		[12015, "Defensa y Justicia", "Velez Sarsfield", "over", 2.75, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19296", 19296],
-
-		[12015, "Union Santa Fe", "San Lorenzo", "over", 3.4, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19296", 19296],
-
-		[11700, "Cerro Largo FC", "Montevideo Wanderers", "over", 2.45, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19398", 19398],
-
-		[11800, "CA Independiente", "Atletico Lanus", "over", 2.7, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19296", 19296],
-
-		[11800, "CD Tapatio", "Jaiba Brava", "over", 2.1, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=61826", 61826],
-
-		[11830, "Deportivo Recoleta", "Sportivo Luqueno", "over", 2.35, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19359", 19359],
-
-		[12000, "Puebla", "Pumas UNAM", "over", 2.1, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19329", 19329],
-
-
-	],
-	["21,769",
-		[11930, "Godoy Cruz", "Ciudad de Bolivar", "ambos", 2.5, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=19342", 19342],
-
-		[12000, "Gimnasia y Tiro de Salta", "Club Atletico Colegiales", "ambos", 2.6, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=19342", 19342],
-
-		[11700, "America de Cali (F)", "Junior de Barranquilla (F)", "ambos", 2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=48455", 48455],
-
-		[11730, "Treze PB", "Esporte de Patos", "ambos", 2.3, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=28509", "28509"],
-
-		[11730, "Real Cartagena", "Atletico de Cali", "ambos", 2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=29812", 29812],
-
-		[11900, "Atletico Rafaela", "Club Almagro", "ambos", 2.5, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=19342", 19342],
-
-		[11800, "CA Independiente", "Atletico Lanus", "ambos", 2.2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=19296", 19296],
-
-		[12000, "América de Cali", "Independiente Santa Fe", "ambos", 2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=19311", 19311],
-
-		[12015, "Defensa y Justicia", "Velez Sarsfield", "ambos", 2.15, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=19296", 19296],
-
-		[12015, "Union Santa Fe", "San Lorenzo", "ambos", 2.55, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=19296", 19296],
-
-
-
-	],
-
+	["117,391",[11330,"Associacao Desportiva Atletica Gloriense","Dorense FC","over",2.05],[11300,"Vitoria Guimaraes","CF Estrela","over",2.1],[11300,"Benfica B","FC Felgueiras 1932","over",2],[11300,"CA Joseense","Sao Caetano SP","over",2.45],[11300,"Deportivo Garcilaso","Asociacion Deportiva Tarma","over",2.1],[11300,"CA Taquaritinga SP","AE Aracatuba","over",2.65]],
+	["1,030,317",[11300,"Volos NPS","Aris Thessaloniki","over",2.5],[11300,"Juventus SP","CA Votuporanguense","over",2.05],[11300,"Santo Andre SP","Gremio Prudente SP","over",2.15],[11300,"EC Taubate SP","Monte Azul SP","over",2.25],[11300,"Desportivo Brasil SP","Rio Branco SP","over",2.45],[11300,"Rio Claro SP","Rio Preto SP","over",2.5],[11330,"Sao Bento SP","Oeste SP","over",2.95],[11330,"Centro Oeste GO","Aparecidense GO","over",2.3]],
+	["357,642",[11300,"Vitoria Guimaraes","CF Estrela","ambos",2.05],[11300,"CA Joseense","Sao Caetano SP","ambos",2],[11300,"CA Taquaritinga SP","AE Aracatuba","ambos",2.15],[11300,"Desportivo Brasil SP","Rio Branco SP","ambos",2],[11300,"Rio Claro SP","Rio Preto SP","ambos",2.1],[11330,"Sao Bento SP","Oeste SP","ambos",2.3],[11330,"Falcon SE","Desportiva Aracaju","ambos",2.1],[11300,"Volos NPS","Aris Thessaloniki","ambos",2]],
+	["206,445",[11300,"Juventus SP","CA Votuporanguense","mitad",1.444],[11300,"Santo Andre SP","Gremio Prudente SP","mitad",1.48],[11300,"CA Joseense","Sao Caetano SP","mitad",1.5],[11300,"EC Taubate SP","Monte Azul SP","mitad",1.45],[11300,"Deportivo Garcilaso","Asociacion Deportiva Tarma","mitad",1.48],[11300,"CA Taquaritinga SP","AE Aracatuba","mitad",1.55],[11300,"Desportivo Brasil SP","Rio Branco SP","mitad",1.533],[11300,"Rio Claro SP","Rio Preto SP","mitad",1.55],[11330,"Sao Bento SP","Oeste SP","mitad",1.666],[11330,"Centro Oeste GO","Aparecidense GO","mitad",1.48],[11300,"Volos NPS","Aris Thessaloniki","mitad",1.5],[11300,"Benfica B","FC Felgueiras 1932","mitad",1.42],[11230,"Levadiakos","Olympiacos","mitad",1.55]],
+	["7,964",[11300,"Benfica B","FC Felgueiras 1932","local",2.05],[11330,"Cesena","Venezia","visitante",1.85],[11300,"Volos NPS","Aris Thessaloniki","visitante",2.1]],
+	["4,715",[11330,"Centro Oeste GO","Aparecidense GO","over",2.3],[11330,"Associacao Desportiva Atletica Gloriense","Dorense FC","over",2.05]],
+	["40,655",[11300,"EC Taubate SP","Monte Azul SP","over",2.25],[11300,"Desportivo Brasil SP","Rio Branco SP","over",2.45],[11300,"Rio Claro SP","Rio Preto SP","over",2.5],[11330,"Sao Bento SP","Oeste SP","over",2.95]],
+	["21,597",[11300,"Volos NPS","Aris Thessaloniki","over",2.45],[11300,"Benfica B","FC Felgueiras 1932","over",2],[11300,"Juventus SP","CA Votuporanguense","over",2.05],[11300,"Santo Andre SP","Gremio Prudente SP","over",2.15]],
+	["29,314",[11300,"Vitoria Guimaraes","CF Estrela","over",2.1],[11300,"CA Joseense","Sao Caetano SP","over",2.45],[11300,"Deportivo Garcilaso","Asociacion Deportiva Tarma","over",2.15],[11300,"CA Taquaritinga SP","AE Aracatuba","over",2.65]],
+	["20,286",[11300,"Desportivo Brasil SP","Rio Branco SP","ambos",2],[11300,"Rio Claro SP","Rio Preto SP","ambos",2.1],[11330,"Sao Bento SP","Oeste SP","ambos",2.3],[11330,"Falcon SE","Desportiva Aracaju","ambos",2.1]],
+	["17,630",[11300,"Vitoria Guimaraes","CF Estrela","ambos",2.05],[11300,"CA Joseense","Sao Caetano SP","ambos",2],[11300,"CA Taquaritinga SP","AE Aracatuba","ambos",2.15],[11300,"Volos NPS","Aris Thessaloniki","ambos",2]],
+	["5,862",[11330,"Sao Bento SP","Oeste SP","mitad",1.666],[11300,"Desportivo Brasil SP","Rio Branco SP","mitad",1.533],[11300,"Rio Claro SP","Rio Preto SP","mitad",1.55],[11330,"Centro Oeste GO","Aparecidense GO","mitad",1.48]],
+	["4,989",[11300,"CA Joseense","Sao Caetano SP","mitad",1.5],[11300,"EC Taubate SP","Monte Azul SP","mitad",1.45],[11300,"Deportivo Garcilaso","Asociacion Deportiva Tarma","mitad",1.48],[11300,"CA Taquaritinga SP","AE Aracatuba","mitad",1.55]],
+	["4,553",[11300,"Juventus SP","CA Votuporanguense","mitad",1.444],[11300,"Volos NPS","Aris Thessaloniki","mitad",1.5],[11300,"Benfica B","FC Felgueiras 1932","mitad",1.42],[11300,"Santo Andre SP","Gremio Prudente SP","mitad",1.48]],
+	["339,209",[11200,"FC Zurich","FC Luzern","local",1.95],[11215,"Charleroi","KAA Gent","local",1.85],[11230,"Sevilla","CD Alaves","local",2.05],[11230,"Cultural Leonesa","Real Zaragoza","local",1.95],[11245,"Aston Villa","Newcastle","local",1.85],[11245,"SBV Excelsior","AZ Alkmaar","visitante",1.85],[11200,"Lazio","Atalanta","visitante",1.909]],
+	["13,348",[11215,"Charleroi","KAA Gent","local",1.85],[11200,"FC Zurich","FC Luzern","local",1.95],[11245,"SBV Excelsior","AZ Alkmaar","visitante",1.85]],
+	["14,118",[11200,"Lazio","Atalanta","visitante",1.909],[11230,"Sevilla","CD Alaves","local",2.05],[11230,"Cultural Leonesa","Real Zaragoza","local",1.95],[11245,"Aston Villa","Newcastle","local",1.85]],
+	["23,204",[11230,"Sevilla","CD Alaves","over",2.45],[11230,"Cultural Leonesa","Real Zaragoza","over",2.2],[11200,"Sigma Olomouc","Viktoria Plzen","over",2.1],[11230,"Levadiakos","Olympiacos","over",2.05]],
+	["9,482",[11200,"Universitatea Cluj","Csikszereda Miercurea Ciuc","ambos",2.15],[11230,"Sevilla","CD Alaves","ambos",2.1],[11230,"Levadiakos","Olympiacos","ambos",2.1]],
+	["2,984",[11230,"Sevilla","CD Alaves","mitad",1.48],[11230,"Cultural Leonesa","Real Zaragoza","mitad",1.42]],
 ]

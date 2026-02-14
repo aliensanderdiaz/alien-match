@@ -3708,6 +3708,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Gaucho - Troféu Farroupilha - Play Offs",
+    abreviado: "BGAU",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19458",
+    nombreWplay: "Brasil - Campeonato Gaucho",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Gaucho - Descenso",
     abreviado: "BGAU",
     mitad: false,
@@ -3736,6 +3745,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Alagoano",
+    abreviado: "BALA",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "32464",
+    nombreWplay: "Brazil - Campeonato Alagoano",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Alagoano - Playoffs",
     abreviado: "BALA",
     mitad: false,
     favorito: false,
@@ -3807,6 +3825,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Goiano - Descenso",
+    abreviado: "BGOI",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19789",
+    nombreWplay: "Brasil - Campeonato Goiano",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Goiano",
     abreviado: "BGOI2",
     mitad: false,
@@ -3822,6 +3849,15 @@ let LIGAS_OBJETOS = [
     favorito: false,
     codigoWplay: "48612",
     nombreWplay: "Brazil - Campeonato Goiano 2",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Catarinense - Puestos 5º-8º - Playoffs",
+    abreviado: "BCAT",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19788",
+    nombreWplay: "Brasil - Campeonato Catarinense",
     codigoBetplay: ''
   },
   {
@@ -3998,6 +4034,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Cearense",
+    abreviado: "BCEA",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19454",
+    nombreWplay: "Brasil - Campeonato Cearense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Cearense - Playoffs",
     abreviado: "BCEA",
     mitad: false,
     favorito: false,
