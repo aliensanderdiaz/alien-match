@@ -10,12 +10,12 @@
 </head>
 
 <body>
-    
+
     <div id="container" class="container pt-4">
 
     </div>
 
-        <div class="container container-apuestas-agrupadas">
+    <div class="container container-apuestas-agrupadas">
 
     </div>
     <div id="container-todos" class="container pb-4">
@@ -167,7 +167,7 @@
         let codes_visitante_de_cinco = pedazos(codes_visitante)
 
         function generarLinks(array, tipo) {
-            return array.map(codes => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=${ tipo }&sb_type_ids=${codes.join('-')}`)
+            return array.map(codes => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=${tipo}&sb_type_ids=${codes.join('-')}`)
         }
 
         let links_mitad_de_cinco = generarLinks(codes_mitad_de_cinco, 'OUH1')
@@ -199,6 +199,18 @@
 
         CONTAINER_APUESTAS_AGRUPADAS.innerHTML = html_agrupados
 
+    </script>
+
+    <script>
+        const ponerEventosEnLasAnclas = () => {
+
+            const anclas = document.querySelectorAll('a')
+            anclas.forEach(ancla => ancla.addEventListener('click', (e) => {
+                e.target.style = 'background-color: #d0b2b0'
+            }))
+        }
+
+        ponerEventosEnLasAnclas()
     </script>
 </body>
 
