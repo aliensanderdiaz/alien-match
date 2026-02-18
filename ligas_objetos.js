@@ -4133,6 +4133,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Paraense - Playoffs",
+    abreviado: "BPARAE",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "47614",
+    nombreWplay: "Brazil - Campeonato Paraense",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Matogrossense",
     abreviado: "BMAT",
     mitad: false,
