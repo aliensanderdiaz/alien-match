@@ -3780,6 +3780,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Carioca - Taça Río",
+    abreviado: "BCAR",
+    mitad: false,
+    favorito: true,
+    codigoWplay: 19456,
+    nombreWplay: "Brasil - Campeonato Carioca",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Carioca - Taça Guanabara - Playoffs",
     abreviado: "BCAR",
     mitad: false,
@@ -4005,7 +4014,7 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
-    nombreFlashcore: "BRASIL - Sergipano",
+    nombreFlashcore: "BRASIL - Sergipano - Playoffs",
     abreviado: "BSER",
     mitad: false,
     favorito: false,
@@ -4025,6 +4034,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Capixaba",
+    abreviado: "BCAP",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "44910",
+    nombreWplay: "Brazil - Campeonato Capixaba",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Capixaba - Playoffs",
     abreviado: "BCAP",
     mitad: false,
     favorito: false,
@@ -4116,6 +4134,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Mineiro",
+    abreviado: "BMIN",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19460",
+    nombreWplay: "Brasil - Campeonato Mineiro",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Mineiro - Puestos 5º-8º",
     abreviado: "BMIN",
     mitad: false,
     favorito: false,
