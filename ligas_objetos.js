@@ -3643,6 +3643,18 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Brazil - Campeonato Paulista A1",
     codigoBetplay: ''
   },
+
+
+
+  {
+    nombreFlashcore: "BRASIL - Paulista - Playoffs",
+    abreviado: "BPAU1",
+    mitad: false,
+    favorito: true,
+    codigoWplay: "19457",
+    nombreWplay: "Brazil - Campeonato Paulista A1",
+    codigoBetplay: ''
+  },
   
   {
     nombreFlashcore: "BRASIL - Paulista A2 - Primera fase",
@@ -3817,6 +3829,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Goiano",
+    abreviado: "BGOI",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19789",
+    nombreWplay: "Brasil - Campeonato Goiano",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Goiano - Puestos 5º-8º - Playoffs",
     abreviado: "BGOI",
     mitad: false,
     favorito: false,
@@ -4143,6 +4164,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Mineiro - Puestos 5º-8º",
+    abreviado: "BMIN",
+    mitad: false,
+    favorito: false,
+    codigoWplay: "19460",
+    nombreWplay: "Brasil - Campeonato Mineiro",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Mineiro - Playoffs",
     abreviado: "BMIN",
     mitad: false,
     favorito: false,
