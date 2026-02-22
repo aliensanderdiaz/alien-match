@@ -1,6 +1,5 @@
 let LIGAS_FALTANTES = [
  'BRON' ,
- 'BROR' ,
  'BSMAT' ,
 ]
 
