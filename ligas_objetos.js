@@ -3639,7 +3639,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPAU1",
     mitad: false,
     favorito: true,
-    codigoWplay: "19457",
+    codigoWplay: 19457,
     nombreWplay: "Brazil - Campeonato Paulista A1",
     codigoBetplay: ''
   },
@@ -3651,7 +3651,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPAU1",
     mitad: false,
     favorito: true,
-    codigoWplay: "19457",
+    codigoWplay: 19457,
     nombreWplay: "Brazil - Campeonato Paulista A1",
     codigoBetplay: ''
   },
@@ -3661,7 +3661,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPAU2",
     mitad: false,
     favorito: false,
-    codigoWplay: "890797",
+    codigoWplay: 890797,
     nombreWplay: "Brazil - Campeonato Paulista A2",
     codigoBetplay: ''
   },
@@ -3670,7 +3670,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPAU2",
     mitad: false,
     favorito: false,
-    codigoWplay: "890797",
+    codigoWplay: 890797,
     nombreWplay: "Brazil - Campeonato Paulista A2",
     codigoBetplay: ''
   },
@@ -3679,7 +3679,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPAU3",
     mitad: false,
     favorito: false,
-    codigoWplay: "1209784",
+    codigoWplay: 1209784,
     nombreWplay: "Brasil - Campeonato Paulista A3",
     codigoBetplay: ''
   },
@@ -3688,7 +3688,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPAU4",
     mitad: false,
     favorito: false,
-    codigoWplay: "1209785",
+    codigoWplay: 1209785,
     nombreWplay: "Brazil - Campeonato Paulista A4",
     codigoBetplay: ''
   },
@@ -3697,7 +3697,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPAU2",
     mitad: false,
     favorito: false,
-    codigoWplay: "890797",
+    codigoWplay: 890797,
     nombreWplay: "Brasil - Campeonato Paulista A2",
     codigoBetplay: ''
   },
@@ -3706,7 +3706,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGAU",
     mitad: false,
     favorito: false,
-    codigoWplay: "19458",
+    codigoWplay: 19458,
     nombreWplay: "Brasil - Campeonato Gaucho",
     codigoBetplay: ''
   },
@@ -3715,7 +3715,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGAU",
     mitad: false,
     favorito: false,
-    codigoWplay: "19458",
+    codigoWplay: 19458,
     nombreWplay: "Brasil - Campeonato Gaucho",
     codigoBetplay: ''
   },
@@ -3724,7 +3724,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGAU",
     mitad: false,
     favorito: false,
-    codigoWplay: "19458",
+    codigoWplay: 19458,
     nombreWplay: "Brasil - Campeonato Gaucho",
     codigoBetplay: ''
   },
@@ -3733,7 +3733,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGAU",
     mitad: false,
     favorito: false,
-    codigoWplay: "19458",
+    codigoWplay: 19458,
     nombreWplay: "Brasil - Campeonato Gaucho",
     codigoBetplay: ''
   },
@@ -3742,7 +3742,7 @@ let LIGAS_OBJETOS = [
     abreviado: "",
     mitad: false,
     favorito: false,
-    codigoWplay: "60442",
+    codigoWplay: 60442,
     nombreWplay: "Brazil - Supercopa do Brasil",
     codigoBetplay: ''
   },
@@ -3751,7 +3751,7 @@ let LIGAS_OBJETOS = [
     abreviado: "",
     mitad: false,
     favorito: false,
-    codigoWplay: "1187789",
+    codigoWplay: 1187789,
     nombreWplay: "Brazil - Copa Sao Paulo U20",
     codigoBetplay: ''
   },
@@ -3760,7 +3760,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BALA",
     mitad: false,
     favorito: false,
-    codigoWplay: "32464",
+    codigoWplay: 32464,
     nombreWplay: "Brazil - Campeonato Alagoano",
     codigoBetplay: ''
   },
@@ -3769,7 +3769,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BALA",
     mitad: false,
     favorito: false,
-    codigoWplay: "32464",
+    codigoWplay: 32464,
     nombreWplay: "Brazil - Campeonato Alagoano",
     codigoBetplay: ''
   },
@@ -3778,7 +3778,16 @@ let LIGAS_OBJETOS = [
     abreviado: "BBAI",
     mitad: false,
     favorito: false,
-    codigoWplay: "19791",
+    codigoWplay: 19791,
+    nombreWplay: "Brasil - Campeonato Baiano",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Baiano - Playoffs",
+    abreviado: "BBAI",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 19791,
     nombreWplay: "Brasil - Campeonato Baiano",
     codigoBetplay: ''
   },
@@ -3832,7 +3841,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGOI",
     mitad: false,
     favorito: false,
-    codigoWplay: "19789",
+    codigoWplay: 19789,
     nombreWplay: "Brasil - Campeonato Goiano",
     codigoBetplay: ''
   },
@@ -3841,7 +3850,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGOI",
     mitad: false,
     favorito: false,
-    codigoWplay: "19789",
+    codigoWplay: 19789,
     nombreWplay: "Brasil - Campeonato Goiano",
     codigoBetplay: ''
   },
@@ -3850,7 +3859,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGOI",
     mitad: false,
     favorito: false,
-    codigoWplay: "19789",
+    codigoWplay: 19789,
     nombreWplay: "Brasil - Campeonato Goiano",
     codigoBetplay: ''
   },
@@ -3859,7 +3868,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGOI",
     mitad: false,
     favorito: false,
-    codigoWplay: "19789",
+    codigoWplay: 19789,
     nombreWplay: "Brasil - Campeonato Goiano",
     codigoBetplay: ''
   },
@@ -3868,7 +3877,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGOI2",
     mitad: false,
     favorito: false,
-    codigoWplay: "48612",
+    codigoWplay: 48612,
     nombreWplay: "Brasil - Campeonato Goiano 2",
     codigoBetplay: ''
   },
@@ -3877,7 +3886,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BGOI2",
     mitad: false,
     favorito: false,
-    codigoWplay: "48612",
+    codigoWplay: 48612,
     nombreWplay: "Brazil - Campeonato Goiano 2",
     codigoBetplay: ''
   },
@@ -3886,7 +3895,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAT",
     mitad: false,
     favorito: false,
-    codigoWplay: "19788",
+    codigoWplay: 19788,
     nombreWplay: "Brasil - Campeonato Catarinense",
     codigoBetplay: ''
   },
@@ -3895,7 +3904,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAT",
     mitad: false,
     favorito: false,
-    codigoWplay: "19788",
+    codigoWplay: 19788,
     nombreWplay: "Brasil - Campeonato Catarinense",
     codigoBetplay: ''
   },
@@ -3904,7 +3913,16 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAT",
     mitad: false,
     favorito: false,
-    codigoWplay: "19788",
+    codigoWplay: 19788,
+    nombreWplay: "Brasil - Campeonato Catarinense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Catarinense - Playoffs perdedores",
+    abreviado: "BCAT",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 19788,
     nombreWplay: "Brasil - Campeonato Catarinense",
     codigoBetplay: ''
   },
@@ -3913,7 +3931,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAT",
     mitad: false,
     favorito: false,
-    codigoWplay: "19788",
+    codigoWplay: 19788,
     nombreWplay: "Brasil - Campeonato Catarinense",
     codigoBetplay: ''
   },
@@ -3922,7 +3940,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BMAR",
     mitad: false,
     favorito: false,
-    codigoWplay: "44672",
+    codigoWplay: 44672,
     nombreWplay: "Brazil - Campeonato Maranhense",
     codigoBetplay: ''
   },
@@ -3931,7 +3949,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BMAR",
     mitad: false,
     favorito: false,
-    codigoWplay: "44672",
+    codigoWplay: 44672,
     nombreWplay: "Brazil - Campeonato Maranhense",
     codigoBetplay: ''
   },
@@ -3940,7 +3958,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BMAR",
     mitad: false,
     favorito: false,
-    codigoWplay: "44672",
+    codigoWplay: 44672,
     nombreWplay: "Brazil - Campeonato Maranhense",
     codigoBetplay: ''
   },
@@ -3949,7 +3967,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPARAN",
     mitad: false,
     favorito: false,
-    codigoWplay: "19790",
+    codigoWplay: 19790,
     nombreWplay: "Brasil - Campeonato Paranaense",
     codigoBetplay: ''
   },
@@ -3958,7 +3976,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPARAN",
     mitad: false,
     favorito: false,
-    codigoWplay: "19790",
+    codigoWplay: 19790,
     nombreWplay: "Brasil - Campeonato Paranaense",
     codigoBetplay: ''
   },
@@ -3967,7 +3985,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPARAN",
     mitad: false,
     favorito: false,
-    codigoWplay: "19790",
+    codigoWplay: 19790,
     nombreWplay: "Brasil - Campeonato Paranaense",
     codigoBetplay: ''
   },
@@ -3976,7 +3994,16 @@ let LIGAS_OBJETOS = [
     abreviado: "BPARAI",
     mitad: false,
     favorito: false,
-    codigoWplay: "28509",
+    codigoWplay: 28509,
+    nombreWplay: "Brazil - Campeonato Paraibano",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Paraibano - Playoffs",
+    abreviado: "BPARAI",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 28509,
     nombreWplay: "Brazil - Campeonato Paraibano",
     codigoBetplay: ''
   },
@@ -3985,7 +4012,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPER",
     mitad: false,
     favorito: false,
-    codigoWplay: "19792",
+    codigoWplay: 19792,
     nombreWplay: "Brasil - Campeonato Pernambucano",
     codigoBetplay: ''
   },
@@ -3994,8 +4021,17 @@ let LIGAS_OBJETOS = [
     abreviado: "BPER",
     mitad: false,
     favorito: false,
-    codigoWplay: "19792",
+    codigoWplay: 19792,
     nombreWplay: "Brasil - Campeonato Pernambucano",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Piauiense - Playoffs",
+    abreviado: "BPIA",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 55406,
+    nombreWplay: "Brazil - Campeonato Piauiense",
     codigoBetplay: ''
   },
   {
@@ -4003,7 +4039,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPIA",
     mitad: false,
     favorito: false,
-    codigoWplay: "55406",
+    codigoWplay: 55406,
     nombreWplay: "Brazil - Campeonato Piauiense",
     codigoBetplay: ''
   },
@@ -4012,7 +4048,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPIA",
     mitad: false,
     favorito: false,
-    codigoWplay: "55406",
+    codigoWplay: 55406,
     nombreWplay: "Brazil - Campeonato Piauiense",
     codigoBetplay: ''
   },
@@ -4021,7 +4057,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPOT",
     mitad: false,
     favorito: false,
-    codigoWplay: "19793",
+    codigoWplay: 19793,
     nombreWplay: "Brasil - Campeonato Potiguar",
     codigoBetplay: ''
   },
@@ -4030,7 +4066,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPOT",
     mitad: false,
     favorito: false,
-    codigoWplay: "19793",
+    codigoWplay: 19793,
     nombreWplay: "Brasil - Campeonato Potiguar",
     codigoBetplay: ''
   },
@@ -4039,7 +4075,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BSER",
     mitad: false,
     favorito: false,
-    codigoWplay: "47533",
+    codigoWplay: 47533,
     nombreWplay: "Brazil - Campeonato Sergipano",
     codigoBetplay: ''
   },
@@ -4049,7 +4085,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BBRA",
     mitad: false,
     favorito: false,
-    codigoWplay: "29814",
+    codigoWplay: 29814,
     nombreWplay: "Brazil - Campeonato Brasiliense",
     codigoBetplay: ''
   },
@@ -4058,7 +4094,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAP",
     mitad: false,
     favorito: false,
-    codigoWplay: "44910",
+    codigoWplay: 44910,
     nombreWplay: "Brazil - Campeonato Capixaba",
     codigoBetplay: ''
   },
@@ -4067,7 +4103,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCAP",
     mitad: false,
     favorito: false,
-    codigoWplay: "44910",
+    codigoWplay: 44910,
     nombreWplay: "Brazil - Campeonato Capixaba",
     codigoBetplay: ''
   },
@@ -4076,7 +4112,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCEA",
     mitad: false,
     favorito: false,
-    codigoWplay: "19454",
+    codigoWplay: 19454,
     nombreWplay: "Brasil - Campeonato Cearense",
     codigoBetplay: ''
   },
@@ -4085,7 +4121,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCEA",
     mitad: false,
     favorito: false,
-    codigoWplay: "19454",
+    codigoWplay: 19454,
     nombreWplay: "Brasil - Campeonato Cearense",
     codigoBetplay: ''
   },
@@ -4094,7 +4130,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCEA",
     mitad: false,
     favorito: false,
-    codigoWplay: "19454",
+    codigoWplay: 19454,
     nombreWplay: "Brasil - Campeonato Cearense",
     codigoBetplay: ''
   },
@@ -4104,7 +4140,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCEA",
     mitad: false,
     favorito: false,
-    codigoWplay: "19454",
+    codigoWplay: 19454,
     nombreWplay: "Brasil - Campeonato Cearense",
     codigoBetplay: ''
   },
@@ -4113,7 +4149,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCEA",
     mitad: false,
     favorito: false,
-    codigoWplay: "19454",
+    codigoWplay: 19454,
     nombreWplay: "Brasil - Campeonato Cearense",
     codigoBetplay: ''
   },
@@ -4122,7 +4158,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BCEA2",
     mitad: false,
     favorito: false,
-    codigoWplay: "44929",
+    codigoWplay: 44929,
     nombreWplay: "Brazil - Campeonato Cearense Serie B",
     codigoBetplay: ''
   },
@@ -4131,7 +4167,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BRON",
     mitad: false,
     favorito: false,
-    codigoWplay: "44931",
+    codigoWplay: 44931,
     nombreWplay: "Brasil - Campeonato Rondoniense",
     codigoBetplay: ''
   },
@@ -4140,7 +4176,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BRON",
     mitad: false,
     favorito: false,
-    codigoWplay: "44931",
+    codigoWplay: 44931,
     nombreWplay: "Brazil - Campeonato Rondoniense",
     codigoBetplay: ''
   },
@@ -4149,7 +4185,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BALAC",
     mitad: false,
     favorito: false,
-    codigoWplay: "60289",
+    codigoWplay: 60289,
     nombreWplay: "Brazil - Alagoano Cup",
     codigoBetplay: ''
   },
@@ -4158,7 +4194,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BMIN",
     mitad: false,
     favorito: false,
-    codigoWplay: "19460",
+    codigoWplay: 19460,
     nombreWplay: "Brasil - Campeonato Mineiro",
     codigoBetplay: ''
   },
@@ -4167,7 +4203,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BMIN",
     mitad: false,
     favorito: false,
-    codigoWplay: "19460",
+    codigoWplay: 19460,
     nombreWplay: "Brasil - Campeonato Mineiro",
     codigoBetplay: ''
   },
@@ -4176,7 +4212,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BMIN",
     mitad: false,
     favorito: false,
-    codigoWplay: "19460",
+    codigoWplay: 19460,
     nombreWplay: "Brasil - Campeonato Mineiro",
     codigoBetplay: ''
   },
@@ -4185,7 +4221,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPARAE",
     mitad: false,
     favorito: false,
-    codigoWplay: "47614",
+    codigoWplay: 47614,
     nombreWplay: "Brazil - Campeonato Paraense",
     codigoBetplay: ''
   },
@@ -4194,7 +4230,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BPARAE",
     mitad: false,
     favorito: false,
-    codigoWplay: "47614",
+    codigoWplay: 47614,
     nombreWplay: "Brazil - Campeonato Paraense",
     codigoBetplay: ''
   },
@@ -4203,7 +4239,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BMAT",
     mitad: false,
     favorito: false,
-    codigoWplay: "44888",
+    codigoWplay: 44888,
     nombreWplay: "Brazil - Campeonato Matogrossense",
     codigoBetplay: ''
   },
@@ -4212,7 +4248,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BMAT",
     mitad: false,
     favorito: false,
-    codigoWplay: "44888",
+    codigoWplay: 44888,
     nombreWplay: "Brazil - Campeonato Matogrossense",
     codigoBetplay: ''
   },
@@ -4221,7 +4257,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BTOC",
     mitad: false,
     favorito: false,
-    codigoWplay: "47826",
+    codigoWplay: 47826,
     nombreWplay: "Brazil - Campeonato Tocantinense",
     codigoBetplay: ''
   },
@@ -4230,7 +4266,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BTOC",
     mitad: false,
     favorito: false,
-    codigoWplay: "47826",
+    codigoWplay: 47826,
     nombreWplay: "Brazil - Campeonato Tocantinense",
     codigoBetplay: ''
   },
@@ -4239,7 +4275,7 @@ let LIGAS_OBJETOS = [
     abreviado: "BSMAT",
     mitad: false,
     favorito: false,
-    codigoWplay: "330774",
+    codigoWplay: 330774,
     nombreWplay: "Brazil - Campeonato Sul-Mato-Grossense",
     codigoBetplay: ''
   },

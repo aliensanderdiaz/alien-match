@@ -1,12 +1,13 @@
 let HORA = 10000;
+let ligas_mal = []
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1022400000;
+const FECHA_PARTIDO_MANANA = 1022500000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 1624; // CAMBIAR ESTA
+HORA += 0; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -236,19 +237,22 @@ async function main() {
           //   ligaEncontrada,
           // });
           // console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
-          let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 218: ${liga}`;
-          console.error({
-            mensajeDeError,
-            pais, nombreLiga,
+          // let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar 218: ${liga}`;
+          // console.error({
+          //   mensajeDeError,
+          //   pais, nombreLiga,
 
-            testigo: "opciones.includes(line)",
-            indice,
-            line,
-            indiceLine,
-            lineas,
-            liga,
-            ligaEncontrada,
-          })
+          //   testigo: "opciones.includes(line)",
+          //   indice,
+          //   line,
+          //   indiceLine,
+          //   lineas,
+          //   liga,
+          //   ligaEncontrada,
+          // })
+          if (!ligas_mal.includes(liga)) {
+            ligas_mal.push(liga)
+          }
           // throw new Error(mensajeDeError);
           continue
         }
@@ -469,6 +473,8 @@ async function main() {
 
       indice++;
     }
+
+    console.log({ ligas_mal })
 
     if (PartidosWplay.length < 1) {
       console.log({ FECHA_PARTIDO_MANANA });
@@ -1335,18 +1341,34 @@ async function main() {
 
     // if (diferencia_ligas_total > 0) {
     console.log("Ligas Flashcore");
-    ligas_flashscore_no_repeat.forEach((liga) => {
-      if (!ligas_wplay_no_repeat.includes(liga)) {
-        console.log({ liga });
-      }
-    });
+    // ligas_flashscore_no_repeat.forEach((liga) => {
+    //   if (!ligas_wplay_no_repeat.includes(liga)) {
+    //     console.log({ liga });
+    //   }
+    // });
+
+    
+    const diferencia = (a, b) => {
+      const setB = new Set(b);
+      return a.filter(x => !setB.has(x));
+    };
+
+    let ligas_flashscore_faltantes = diferencia(ligas_flashscore_no_repeat, ligas_wplay_no_repeat)
+    ligas_flashscore_faltantes.sort()
+
+    console.log({ ligas_flashscore_faltantes })
+
     // } else if (diferencia_ligas_total < 0) {
     console.log("Ligas Wplay");
-    ligas_wplay_no_repeat.forEach((liga) => {
-      if (!ligas_flashscore_no_repeat.includes(liga)) {
-        console.log({ liga });
-      }
-    });
+    // ligas_wplay_no_repeat.forEach((liga) => {
+    //   if (!ligas_flashscore_no_repeat.includes(liga)) {
+    //     console.log({ liga });
+    //   }
+    // });
+
+    let ligas_wplay_faltantes = diferencia(ligas_wplay_no_repeat, ligas_flashscore_no_repeat)
+    ligas_wplay_faltantes.sort()
+    console.log({ ligas_wplay_faltantes })
     // }
 
     // // if (diferencia_de_partidos_total > 0 && diferencia_ligas_total === 0) {
@@ -1775,6 +1797,9 @@ async function main() {
   }
 
   await sacarApuestasAbiertas();
+
+
 }
 
 main();
+
