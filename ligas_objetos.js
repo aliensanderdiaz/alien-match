@@ -584,6 +584,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Amazonense - Segunda fase - Playoffs",
+    nombreWplay: "Brazil - Campeonato Amazonense",
+    abreviado: "BAMA",
+    codigoWplay: 32578,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Amazonense - Primera fase - Playoffs",
     nombreWplay: "Brazil - Campeonato Amazonense",
     abreviado: "BAMA",
@@ -4053,6 +4062,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Potiguar - Playoffs",
+    abreviado: "BPOT",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 19793,
+    nombreWplay: "Brasil - Campeonato Potiguar",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Potiguar - Primera fase",
     abreviado: "BPOT",
     mitad: false,
@@ -4082,6 +4100,16 @@ let LIGAS_OBJETOS = [
 
   {
     nombreFlashcore: "BRASIL - Brasiliense",
+    abreviado: "BBRA",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 29814,
+    nombreWplay: "Brazil - Campeonato Brasiliense",
+    codigoBetplay: ''
+  },
+
+  {
+    nombreFlashcore: "BRASIL - Brasiliense - Playoffs",
     abreviado: "BBRA",
     mitad: false,
     favorito: false,
@@ -4272,6 +4300,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Sul-Matogrossense",
+    abreviado: "BSMAT",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 330774,
+    nombreWplay: "Brazil - Campeonato Sul-Mato-Grossense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Sul-Matogrossense - Playoffs",
     abreviado: "BSMAT",
     mitad: false,
     favorito: false,
