@@ -3684,6 +3684,16 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Brazil - Campeonato Paulista A2",
     codigoBetplay: ''
   },
+  
+  {
+    nombreFlashcore: "BRASIL - Paulista A2 - Segunda fase",
+    abreviado: "BPAU2",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 890797,
+    nombreWplay: "Brazil - Campeonato Paulista A2",
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "BRASIL - Paulista A2",
     abreviado: "BPAU2",
@@ -4202,6 +4212,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Rondoniense",
+    abreviado: "BRON",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 44931,
+    nombreWplay: "Brasil - Campeonato Rondoniense",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Rondoniense - Playoffs",
     abreviado: "BRON",
     mitad: false,
     favorito: false,
