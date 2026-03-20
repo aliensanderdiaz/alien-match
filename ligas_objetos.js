@@ -1469,6 +1469,16 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "RUMANÍA - Superliga - Grupo de Campeonato",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+
+  {
     nombreFlashcore: "RUMANÍA - Liga 1 - Superliga - Descenso",
     nombreWplay: "RUMANÍA - LIGA 1",
     abreviado: "YE-RUM1",
