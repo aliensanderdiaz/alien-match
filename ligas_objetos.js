@@ -11,6 +11,14 @@
 
 let LIGAS_OBJETOS = [
   {
+    nombreFlashcore: 'MUNDIAL: ',
+    "nombreWplay": 'World Cup 2026 - Int-Conf. Playoff',
+    "abreviado": 'MUN',
+    "codigoWplay": 583781,
+    mitad: true,
+    favorito: true
+},
+  {
     nombreFlashcore: 'URUGUAY - Supercopa',
     "nombreWplay": 'Uruguay - Super Cup',
     "abreviado": 'ZA-URUS',
@@ -227,6 +235,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "EUROPA - UEFA Nations League - Liga A - Playoffs",
+    nombreWplay: "Partidos de la Liga de Naciones",
+    abreviado: "UNAT",
+    codigoWplay: 556801,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "Mundial de Clubes FIFA - Play-in",
     "nombreWplay": "Copa Mundial de Clubes",
     "abreviado": "COPAC",
@@ -266,6 +283,15 @@ let LIGAS_OBJETOS = [
     "abreviado": 'A-ORO',
     "codigoWplay": 20145,
     mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: 'EUROPA - Mundial - Clasificación - Ascenso',
+    "nombreWplay": 'World Cup 2026 - Europe Qualification',
+    "abreviado": 'M-EURO',
+    "codigoWplay": 583780,
+    mitad: true,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1093,6 +1119,15 @@ let LIGAS_OBJETOS = [
     nombreWplay: "EURO 2024 - ELIMINATORIAS",
     abreviado: "EURO",
     codigoWplay: 55650,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - UEFA Nations League - Liga C/D - Descenso",
+    nombreWplay: "NATIONS LEAGUE PARTIDOS",
+    abreviado: "UNAT",
+    codigoWplay: 556801,
     mitad: true,
     favorito: true,
     codigoBetplay: ''

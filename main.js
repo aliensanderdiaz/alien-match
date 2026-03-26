@@ -2,7 +2,7 @@ let HORA = 10000;
 let ligas_mal = []
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1032600000;
+const FECHA_PARTIDO_MANANA = 1032700000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
@@ -251,6 +251,7 @@ async function main() {
           //   ligaEncontrada,
           // })
           if (!ligas_mal.includes(liga)) {
+            console.log({liga, indiceLine, line})
             ligas_mal.push(liga)
           }
           // throw new Error(mensajeDeError);
