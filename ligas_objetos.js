@@ -610,6 +610,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Roraimense - Playoffs",
+    nombreWplay: "Brazil - Campeonato Roraimense",
+    abreviado: "BROR",
+    codigoWplay: 47888,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Amazonense - Segunda fase - Playoffs",
     nombreWplay: "Brazil - Campeonato Amazonense",
     abreviado: "BAMA",
@@ -4293,6 +4302,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "BRASIL - Copa Alagoas",
+    abreviado: "BALAC",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 60289,
+    nombreWplay: "Brazil - Alagoano Cup",
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "BRASIL - Copa Alagoas - Playoffs",
     abreviado: "BALAC",
     mitad: false,
     favorito: false,
