@@ -1370,6 +1370,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "GRECIA - Superliga - Conference League Group",
+    nombreWplay: "GRECIA - SUPER LEAGUE",
+    abreviado: "YE-GRE1",
+    codigoWplay: 19209,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "GRECIA - Superliga - Grupo Descenso",
     nombreWplay: "GRECIA - SUPER LEAGUE",
     abreviado: "YE-GRE1",
