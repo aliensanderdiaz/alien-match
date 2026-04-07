@@ -3214,6 +3214,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Champions Cup",
+    nombreWplay: "CONCACAF CHAMPIONS cup",
+    abreviado: "ZA-CONC",
+    codigoWplay: 20140,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "NORTE, CENTROAMÉRICA Y CARIBE - CONCACAF Champions Cup",
     nombreWplay: "CONCACAF CHAMPIONS LEAGUE",
     abreviado: "ZA-CONC",
     codigoWplay: 20140,
