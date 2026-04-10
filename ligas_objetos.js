@@ -3803,6 +3803,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "BRASIL - Paulista A4 - Playoffs",
+    abreviado: "BPAU4",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 1209785,
+    nombreWplay: "Brazil - Campeonato Paulista A4",
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "BRASIL - Paulista A2",
     abreviado: "BPAU2",
     mitad: false,
