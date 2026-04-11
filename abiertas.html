@@ -21,6 +21,9 @@
     <div id="container-todos" class="container pb-4">
 
     </div>
+    <div id="container-pedazos" class="container pb-4">
+
+    </div>
 
 
 
@@ -218,6 +221,31 @@
 
         CONTAINER_APUESTAS_AGRUPADAS.innerHTML = html_agrupados
 
+    </script>
+
+    <script>
+        const todas_pedazos = pedazos(todas, 3)
+        console.log(todas_pedazos)
+        const CONTAINER_APUESTAS_PEDAZOS = document.querySelector('#container-pedazos')
+
+        
+        let html_pedazos = '<h1>Todas Pedazos</h1>'
+        
+        todas_pedazos.forEach(arrayPedazo => {
+            let codes = arrayPedazo.map(ap => ap[6])
+            let locales = arrayPedazo.map(ap => ap[1])
+            codes = [...new Set(codes)]
+
+            let link = 'https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=' + codes.join('-')
+
+            html_pedazos += `
+                <p>
+                    <a target="_blank" href="${ link }">${ locales.join(' - ')}</a>
+                </p>
+            `
+        })
+
+        CONTAINER_APUESTAS_PEDAZOS.innerHTML = html_pedazos
     </script>
 
     <script>
