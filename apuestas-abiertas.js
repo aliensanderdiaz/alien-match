@@ -1,17 +1,6 @@
 let APUESTAS_ABIERTAS = [
 	[
 		"799,726,006",
-		[10000, "Daejeon Citizen", "Gangwon FC", "over", 2.1, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19306", 19306],
-		[10000, "Urawa Red Diamonds", "Tokyo Verdy", "over", 2.35, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19378", 19378],
-		[10230, "Gimcheon Sangmu", "Anyang LG Cheetahs", "over", 2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19306", 19306],
-		[10500, "Feirense", "FC Vizela", "over", 2.2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19338", 19338],
-		[10515, "Cracovia Krakow", "Arka Gdynia", "over", 2.1, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19336", 19336],
-		[10530, "Génova", "Sassuolo", "over", 2.1, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19159", 19159],
-		[10630, "Konyaspor", "Karagumruk", "over", 2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19363", 19363],
-		[10700, "Granada", "Cultural Leonesa", "over", 2.1, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=48352", 48352],
-		[10800, "Biancoscudati Padova", "Empoli", "over", 2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19328", 19328],
-		[10800, "Central Espanol FC", "Danubio", "over", 2.45, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19398", 19398],
-		[10800, "Parma", "Napoles", "over", 2.2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19159", 19159],
 		[10830, "FK Pardubice", "Sigma Olomouc", "over", 2, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19403", 19403],
 		[10830, "FK Teplice", "AC Sparta Prague", "over", 2.1, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19403", 19403],
 		[10900, "Goztepe", "Kasimpasa", "over", 2.1, "https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=19363", 19363],
