@@ -233,7 +233,7 @@
         
         todas_pedazos.forEach(arrayPedazo => {
             let codes = arrayPedazo.map(ap => ap[6])
-            let locales = arrayPedazo.map(ap => ap[1])
+            let locales = arrayPedazo.map(ap => `${ap[0]}-${ap[1]}`)
             codes = [...new Set(codes)]
 
             let link = 'https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=' + codes.join('-')
