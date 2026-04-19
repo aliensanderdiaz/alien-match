@@ -10,6 +10,24 @@
 // https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
+    {
+    nombreFlashcore: "BRASIL - Serie A Betano",
+    nombreWplay: "BRASIL - SERIE A",
+    abreviado: "ZA-BRA1",
+    codigoWplay: 2400790,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+    {
+    nombreFlashcore: "BRASIL - Brasileirao Serie B",
+    nombreWplay: "BRASIL - SERIE B",
+    abreviado: "ZA-BRA2",
+    codigoWplay: 2434787,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: 'MUNDIAL: ',
     "nombreWplay": 'World Cup 2026 - Int-Conf. Playoff',
