@@ -10,6 +10,25 @@
 // https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
+  
+  {
+    nombreFlashcore: "BRASIL - Copa do Brasil",
+    nombreWplay: "BRASIL - COPA DO BRASIL",
+    abreviado: "ZA-BRAC",
+    codigoWplay: 2434793,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+    {
+    nombreFlashcore: "BRASIL - Paulista A2 - Playoffs",
+    abreviado: "BPAU2",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 2434858,
+    nombreWplay: "Campeonato Paulista A2",
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: "BRASIL - Serie A Betano",
     nombreWplay: "BRASIL - SERIE A",
@@ -2715,6 +2734,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "TURQUÍA - Copa - Playoffs",
+    nombreWplay: "TURQUIA - COPA",
+    abreviado: "YE-TURC",
+    codigoWplay: 19447,
+    mitad: true,
+    favorito: false,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "TURQUÍA - Süper Lig",
     nombreWplay: "TURQUÍA - SUPER LEAGUE",
     abreviado: "YE-TUR1",
@@ -3767,6 +3795,16 @@ let LIGAS_OBJETOS = [
   
   {
     nombreFlashcore: "BRASIL - Paulista A2 - Primera fase",
+    abreviado: "BPAU2",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 890797,
+    nombreWplay: "Brazil - Campeonato Paulista A2",
+    codigoBetplay: ''
+  },
+  
+  {
+    nombreFlashcore: "BRASIL - Paulista A2 - Playoffs",
     abreviado: "BPAU2",
     mitad: false,
     favorito: false,
