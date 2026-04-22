@@ -10,7 +10,24 @@
 // https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
-  
+    {
+    nombreFlashcore: "BRASIL - Paulista A3",
+    abreviado: "BPAU3",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 2434860,
+    nombreWplay: "Brasil - Campeonato Paulista A3",
+    codigoBetplay: ''
+  },
+    {
+    nombreFlashcore: "BRASIL - Paulista A3",
+    abreviado: "BPAU3",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 2434860,
+    nombreWplay: "Paulista A3",
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "BRASIL - Copa do Brasil",
     nombreWplay: "BRASIL - COPA DO BRASIL",
