@@ -2615,6 +2615,33 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "REPÚBLICA CHECA - Chance Liga - Puestos 7º-10º",
+    nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
+    abreviado: "YE-REP1",
+    codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "REPÚBLICA CHECA - Chance Liga - Grupo Descenso",
+    nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
+    abreviado: "YE-REP1",
+    codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "REPÚBLICA CHECA - Chance Liga - Grupo de Campeonato",
+    nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
+    abreviado: "YE-REP1",
+    codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "REPÚBLICA CHECA - FORTUNA:LIGA - Descenso",
     nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
     abreviado: "YE-REP1",
