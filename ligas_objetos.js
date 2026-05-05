@@ -2524,6 +2524,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "PAÍSES BAJOS - Keuken Kampioen Divisie - Ascenso",
+    nombreWplay: "NETHERLANDS - KEUKEN KAMPIOEN PLAY-OFFS",
+    abreviado: "YE-HOL1D",
+    codigoWplay: 861779,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "PAÍSES BAJOS - KNVB Beker",
     nombreWplay: "HOLANDA - COPA KNVB",
     abreviado: "YE-HOLC",
