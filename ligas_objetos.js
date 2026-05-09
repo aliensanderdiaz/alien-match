@@ -10,6 +10,25 @@
 // https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
+  
+  {
+    nombreFlashcore: "BRASIL - Paulista A4",
+    abreviado: "BPAU4",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 2434861,
+    nombreWplay: "Campeonato Paulista A4",
+    codigoBetplay: ''
+  },
+    {
+    nombreFlashcore: "BRASIL - Cearense 2",
+    abreviado: "BCEA2",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 2434816,
+    nombreWplay: "Campeonato Cearense Serie B",
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: "BRASIL - Paulista A3",
     abreviado: "BPAU3",
@@ -2877,6 +2896,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "ARGENTINA - Liga Profesional - Apertura - Playoffs",
+    nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "ARGENTINA - Torneo Betano - Clausura",
     nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
     abreviado: "ZA-ARG1",
@@ -4400,6 +4428,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Brasil - Campeonato Cearense",
     codigoBetplay: ''
   },
+
   {
     nombreFlashcore: "BRASIL - Cearense 2",
     abreviado: "BCEA2",

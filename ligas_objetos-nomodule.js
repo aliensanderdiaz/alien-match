@@ -10,6 +10,25 @@
 // https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
+  
+  {
+    nombreFlashcore: "BRASIL - Paulista A4",
+    abreviado: "BPAU4",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 2434861,
+    nombreWplay: "Campeonato Paulista A4",
+    codigoBetplay: ''
+  },
+    {
+    nombreFlashcore: "BRASIL - Cearense 2",
+    abreviado: "BCEA2",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 2434816,
+    nombreWplay: "Campeonato Cearense Serie B",
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: "BRASIL - Paulista A3",
     abreviado: "BPAU3",
@@ -2524,6 +2543,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "PAÍSES BAJOS - Keuken Kampioen Divisie - Ascenso",
+    nombreWplay: "NETHERLANDS - KEUKEN KAMPIOEN PLAY-OFFS",
+    abreviado: "YE-HOL1D",
+    codigoWplay: 861779,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "PAÍSES BAJOS - KNVB Beker",
     nombreWplay: "HOLANDA - COPA KNVB",
     abreviado: "YE-HOLC",
@@ -2607,6 +2635,33 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "REPÚBLICA CHECA - Chance Liga",
+    nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
+    abreviado: "YE-REP1",
+    codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "REPÚBLICA CHECA - Chance Liga - Puestos 7º-10º",
+    nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
+    abreviado: "YE-REP1",
+    codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "REPÚBLICA CHECA - Chance Liga - Grupo Descenso",
+    nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
+    abreviado: "YE-REP1",
+    codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "REPÚBLICA CHECA - Chance Liga - Grupo de Campeonato",
     nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
     abreviado: "YE-REP1",
     codigoWplay: 19403,
@@ -2833,6 +2888,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ARGENTINA - Torneo Betano - Apertura",
+    nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
+    abreviado: "ZA-ARG1",
+    codigoWplay: 19296,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ARGENTINA - Liga Profesional - Apertura - Playoffs",
     nombreWplay: "ARGENTINA - COPA DE LA LIGA PROFESIONAL",
     abreviado: "ZA-ARG1",
     codigoWplay: 19296,
@@ -4364,6 +4428,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Brasil - Campeonato Cearense",
     codigoBetplay: ''
   },
+
   {
     nombreFlashcore: "BRASIL - Cearense 2",
     abreviado: "BCEA2",
