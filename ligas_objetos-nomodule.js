@@ -10,7 +10,15 @@
 // https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
-  
+    {
+    nombreFlashcore: "BRASIL - Brasileirao Sub-20",
+    nombreWplay: "U20 LEAGUES",
+    abreviado: "ZA-BRA20",
+    codigoWplay: 2434800,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "BRASIL - Paulista A4",
     abreviado: "BPAU4",
@@ -22,6 +30,15 @@ let LIGAS_OBJETOS = [
   },
     {
     nombreFlashcore: "BRASIL - Cearense 2",
+    abreviado: "BCEA2",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 2434816,
+    nombreWplay: "Campeonato Cearense Serie B",
+    codigoBetplay: ''
+  },
+    {
+    nombreFlashcore: "BRASIL - Cearense 2 - Descenso",
     abreviado: "BCEA2",
     mitad: false,
     favorito: false,
@@ -1839,7 +1856,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "COLOMBIA - COPA COLOMBIA",
     abreviado: "ZA-COLC",
     codigoWplay: 29698,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1848,7 +1865,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "COLOMBIA - COPA COLOMBIA",
     abreviado: "ZA-COLC",
     codigoWplay: 29698,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1857,7 +1874,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "COLOMBIA - COPA COLOMBIA",
     abreviado: "ZA-COLC",
     codigoWplay: 29698,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
@@ -1866,7 +1883,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "COLOMBIA - COPA COLOMBIA",
     abreviado: "ZA-COLC",
     codigoWplay: 29698,
-    mitad: true,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },

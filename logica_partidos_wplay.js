@@ -8,7 +8,7 @@ let favorito = 'local'
 let baseUrl = 'https://local.wplay.co/es/t/'
 let baseUrl2 = 'https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort='
 // GSH1&sb_type_ids=
-let baseUrlSm = 'https://m.wplay.co/es/t/'
+let baseUrlSm = 'https://local.wplay.co/es/t/'
 
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
 const CONTENEDOR_DATOS_SM = document.getElementById('contenedor-datos-sm')
@@ -477,11 +477,19 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 }
 
 const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
+    let  partidosDibujar = partidos.filter(partido => partido.random1 && partido.random2 && partido.random3).map(
+        partido => {
+            return {
+                ...partido,
+                aleatorio: partido.random1 + partido.random2 + partido.random3
+            }
+        }
+    )
     let html = ''
     let indice = 0
-    let total = partidos.length
+    let total = partidosDibujar.length
     let acumulado = 1
-    for (const partido of partidos) {
+    for (const partido of partidosDibujar) {
 
         let mitad = partido.mitad ? `<a href="${baseUrlSm + partido.codigoWplay + '?mkt_sort=GSH1'}" target="_blank" rel="noopener noreferrer">M</a>` : ''
         let local = partido.mitadFavorito ? ` <a href="${baseUrlSm + partido.codigoWplay + '?mkt_sort=OU1H'}" target="_blank" rel="noopener noreferrer">L</a>` : ''
@@ -496,14 +504,14 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
         let acumuladoEntero = Math.floor(acumulado)
         indice++
         html += `
-        <div class="row ${partido.cantidadDeApuestas < 60 ? 'bg-warning' : ''} ${partido.cantidadDeApuestas < 60 && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : ''}">
+        <div class="row">
             <div class="col-2 border">
                 ${indice}/${total}<br>
                 ${partido.hora - 10000}
             </div>
             <div class="col-4 border ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''} ${partido.cuotaCualquiera && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 && partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-danger' : ''}">
                 <small>
-                    <a href="${baseUrlSm + partido.codigoWplay}" target="_blank" rel="noopener noreferrer">${partido.liga}</a>
+                    <a href="${baseUrlSm + partido.codigoWplay}/xxx" target="_blank" rel="noopener noreferrer">${partido.liga}</a>
                     ${mitad} ${local} ${visitante}
                 </small>
                 <br>
@@ -517,20 +525,30 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <div class="${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaVisitante?.toFixed(2)}</div>
             </div>
             <div class="col-2 border">
+                <!--
                 <small>${partido.cuotaCualquiera?.toFixed(2) || ''}</small>
                 <br>
                 <small>${partido.cuotaFavorito?.toFixed(2) || 1}</small>
                 <br>
                 <small>${partido.rate || 1}</small>
+                -->
+                <small>${partido.random1}</small>
+                <br>
+                <small>${partido.random2}</small>
+                <br>
+                <small>${partido.random3}</small>
+                <br>
             </div>
             <div class="col-2 border">
            
 
-                <small>${acumuladoEntero}</small>
+                <!-- <small>${acumuladoEntero}</small>
                 <br>
                 <small>${partido.stake || 0}</small>
                 <br>
                 <small>${partido.cantidadDeApuestas || 0}</small>
+                -->
+                <small>${partido.aleatorio}</small>
             </div>
         </div>
         `

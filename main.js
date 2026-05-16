@@ -2,12 +2,12 @@ let HORA = 10000;
 let ligas_mal = []
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1051600000;
+const FECHA_PARTIDO_MANANA = 1051700000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
-HORA += 1649; // CAMBIAR ESTA
+HORA += 650; // CAMBIAR ESTA
 
 let FECHA_PARTIDO_HOY = FECHA_PARTIDO_MANANA - 100000;
 // let FECHA_PARTIDO_HOY      = 1083100000
@@ -1288,11 +1288,17 @@ async function main() {
 
     if (partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
       let random = Math.random()
+      let random1 = Math.random()
+      let random2 = Math.random()
+      let random3 = Math.random()
 
       return {
         ...partido,
         apostar: random >= 0.8 ? 'SI' : 'NO',
-        random: Math.trunc(random * 10)
+        random: Math.trunc(random * 10),
+        random1: Math.trunc(random1 * 100),
+        random2: Math.trunc(random2 * 100),
+        random3: Math.trunc(random3 * 100),
       }
     }
 
