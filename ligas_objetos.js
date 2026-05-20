@@ -10,6 +10,16 @@
 // https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
+  
+  {
+    nombreFlashcore: "BRASIL - Copa do Nordeste - Playoffs",
+    nombreWplay: "BRASIL - COPA DO NORDESTE",
+    abreviado: "ZA-BRACN",
+    codigoWplay: 2434801,
+    mitad: false,
+    favorito: false,
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: "BRASIL - Brasileirao Sub-20",
     nombreWplay: "U20 LEAGUES",
@@ -39,6 +49,15 @@ let LIGAS_OBJETOS = [
   },
     {
     nombreFlashcore: "BRASIL - Cearense 2 - Descenso",
+    abreviado: "BCEA2",
+    mitad: false,
+    favorito: false,
+    codigoWplay: 2434816,
+    nombreWplay: "Campeonato Cearense Serie B",
+    codigoBetplay: ''
+  },
+    {
+    nombreFlashcore: "BRASIL - Cearense 2 - Playoffs",
     abreviado: "BCEA2",
     mitad: false,
     favorito: false,
