@@ -370,6 +370,14 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "ALEMANIA - Bundesliga - descenso",
+    "nombreWplay": "Bundesliga Descenso / Ascenso Play - Offs",
+    "abreviado": "ALE1D",
+    "codigoWplay": 45452,
+    mitad: true,
+    favorito: true
+  },
+  {
+    nombreFlashcore: "ALEMANIA - Bundesliga - descenso",
     "nombreWplay": "Bundesliga Relegation/Promotion Play-Offs",
     "abreviado": "ALE1D",
     "codigoWplay": 45452,
