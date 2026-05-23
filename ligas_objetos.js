@@ -10,7 +10,14 @@
 // https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
-  
+  {
+    nombreFlashcore: 'MÉXICO - Liga de Expansión MX - Superfinal',
+    "nombreWplay": 'mexico - Campeón de Campeones Liga de Expansion',
+    "abreviado": 'ZA-MEX2C',
+    "codigoWplay":583782,
+    mitad: true,
+    favorito: true
+},
   {
     nombreFlashcore: "BRASIL - Copa do Nordeste - Playoffs",
     nombreWplay: "BRASIL - COPA DO NORDESTE",
