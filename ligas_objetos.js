@@ -1616,6 +1616,14 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "Superliga - Conference League - Play Offs",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },  {
     nombreFlashcore: "RUMANÍA - Liga 1 - Grupo Descenso",
     nombreWplay: "RUMANÍA - LIGA 1",
     abreviado: "YE-RUM1",
@@ -2168,6 +2176,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "FRANCIA - Ligue 2",
+    nombreWplay: "LIGUE 2",
+    abreviado: "FRA2",
+    codigoWplay: 19405,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "FRANCIA - Ligue 2 - Descenso",
     nombreWplay: "LIGUE 2",
     abreviado: "FRA2",
     codigoWplay: 19405,
@@ -2753,6 +2770,15 @@ let LIGAS_OBJETOS = [
     nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
     abreviado: "YE-REP1",
     codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "RUMANÍA - Superliga - Conference League - Play Offs",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
     mitad: false,
     favorito: true,
     codigoBetplay: ''
