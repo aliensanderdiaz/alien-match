@@ -2401,6 +2401,24 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "JAPÓN - J1 League - Playoffs",
+    nombreWplay: "JAPÓN - LIGA J",
+    abreviado: "S-JAP1",
+    codigoWplay: 19378,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "JAPÓN - J1 League - Definición Puestos",
+    nombreWplay: "JAPÓN - LIGA J",
+    abreviado: "S-JAP1",
+    codigoWplay: 19378,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "JAPÓN - Emperors Cup",
     nombreWplay: "JAPAN - EMPERORS CUP",
     abreviado: "S-JAPE",
@@ -2694,6 +2712,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "REPÚBLICA CHECA - FORTUNA:LIGA",
+    nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
+    abreviado: "YE-REP1",
+    codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "REPÚBLICA CHECA - Chance Liga - Descenso",
     nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
     abreviado: "YE-REP1",
     codigoWplay: 19403,
