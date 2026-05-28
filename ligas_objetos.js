@@ -2693,6 +2693,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "PORTUGAL - Liga Portugal - Descenso",
+    nombreWplay: "Portugal - Primeira Liga Descenso / Ascenso Play - Offs",
+    abreviado: "YE-PORD",
+    codigoWplay: 374773,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "PORTUGAL - Liga Portugal 2",
     nombreWplay: "PORTUGAL - SEGUNDA LIGA",
     abreviado: "YE-POR2",
