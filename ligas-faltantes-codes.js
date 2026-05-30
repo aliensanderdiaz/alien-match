@@ -1,9 +1,5 @@
 let LIGAS_FALTANTES = [
-        'FRA1',    'ITA2',
-    'ZA-ARG2', 'ZA-BOL1',
-    'ZA-BRA2', 'ZA-COL2',
-    'ZA-COLC', 'ZA-ECUC',
-    'ZA-URU1'
+    'ZA-MEX2'
     
 ]
 
