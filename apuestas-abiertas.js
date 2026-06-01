@@ -1,3 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	["62,374",[11700,"Atletico Lanus","Mirassol SP","mitad",1.533],[11930,"Universitario de Deportes","Tolima","mitad",1.5],[11930,"Estudiantes de La Plata","Independiente Medellin","mitad",1.42],[11930,"Nacional Montevideo","Coquimbo","mitad",1.42],[11530,"Deportivo Pereira","Jaguares De Córdoba","mitad",1.533],[11530,"Real Cundinamarca","Aguilas Doradas Rionegro","mitad",1.5],[11700,"Palestino","Deportivo Riestra","mitad",1.45],[11700,"Millonarios","O'Higgins","mitad",1.42],[11930,"San Lorenzo","Deportivo Recoleta","mitad",1.42]],
 ]
