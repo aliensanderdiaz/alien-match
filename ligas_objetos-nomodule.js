@@ -869,6 +869,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "Torneo Maurice Revello",
+    nombreWplay: "Torneo Maurice Revello",
+    abreviado: "I-TOU",
+    codigoWplay: 20192,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "Maurice Revello Tournament",
     nombreWplay: "TORNEO ESPERANZAS DE TOULON",
     abreviado: "I-TOU",
@@ -1616,6 +1625,14 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: "Superliga - Conference League - Play Offs",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },  {
     nombreFlashcore: "RUMANÍA - Liga 1 - Grupo Descenso",
     nombreWplay: "RUMANÍA - LIGA 1",
     abreviado: "YE-RUM1",
@@ -2176,6 +2193,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "FRANCIA - Ligue 2 - Descenso",
+    nombreWplay: "LIGUE 2",
+    abreviado: "FRA2",
+    codigoWplay: 19405,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "ITALIA - Serie A",
     nombreWplay: "SERIE A",
     abreviado: "ITA1",
@@ -2376,6 +2402,24 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "JAPÓN - J1 League",
+    nombreWplay: "JAPÓN - LIGA J",
+    abreviado: "S-JAP1",
+    codigoWplay: 19378,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "JAPÓN - J1 League - Playoffs",
+    nombreWplay: "JAPÓN - LIGA J",
+    abreviado: "S-JAP1",
+    codigoWplay: 19378,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "JAPÓN - J1 League - Definición Puestos",
     nombreWplay: "JAPÓN - LIGA J",
     abreviado: "S-JAP1",
     codigoWplay: 19378,
@@ -2658,6 +2702,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "PORTUGAL - Liga Portugal - Descenso",
+    nombreWplay: "Portugal - Primeira Liga Descenso / Ascenso Play - Offs",
+    abreviado: "YE-PORD",
+    codigoWplay: 374773,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "PORTUGAL - Liga Portugal 2",
     nombreWplay: "PORTUGAL - SEGUNDA LIGA",
     abreviado: "YE-POR2",
@@ -2677,6 +2730,15 @@ let LIGAS_OBJETOS = [
   },
   {
     nombreFlashcore: "REPÚBLICA CHECA - FORTUNA:LIGA",
+    nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
+    abreviado: "YE-REP1",
+    codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "REPÚBLICA CHECA - Chance Liga - Descenso",
     nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
     abreviado: "YE-REP1",
     codigoWplay: 19403,
@@ -2753,6 +2815,15 @@ let LIGAS_OBJETOS = [
     nombreWplay: "REPÚBLICA CHECA - FIRST LEAGUE",
     abreviado: "YE-REP1",
     codigoWplay: 19403,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "RUMANÍA - Superliga - Conference League - Play Offs",
+    nombreWplay: "RUMANÍA - LIGA 1",
+    abreviado: "YE-RUM1",
+    codigoWplay: 46019,
     mitad: false,
     favorito: true,
     codigoBetplay: ''

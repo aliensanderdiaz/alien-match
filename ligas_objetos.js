@@ -869,6 +869,15 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
   {
+    nombreFlashcore: "Torneo Maurice Revello",
+    nombreWplay: "Torneo Maurice Revello",
+    abreviado: "I-TOU",
+    codigoWplay: 20192,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
     nombreFlashcore: "Maurice Revello Tournament",
     nombreWplay: "TORNEO ESPERANZAS DE TOULON",
     abreviado: "I-TOU",
