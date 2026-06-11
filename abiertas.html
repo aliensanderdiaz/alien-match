@@ -170,7 +170,7 @@
         let codes_visitante_de_cinco = pedazos(codes_visitante)
 
         function generarLinks(array, tipo) {
-            return array.map(codes => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=${tipo}&sb_type_ids=${codes.join('-')}`)
+            return array.map(codes => `https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=${tipo}&sb_type_ids=${codes.join('-')}`)
         }
 
         let links_mitad_de_cinco = generarLinks(codes_mitad_de_cinco, 'OUH1')
@@ -236,7 +236,7 @@
             let locales = arrayPedazo.map(ap => `${ap[0]}-${ap[1]}`)
             codes = [...new Set(codes)]
 
-            let link = 'https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=' + codes.join('-')
+            let link = 'https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=' + codes.join('-')
 
             html_pedazos += `
                 <p>

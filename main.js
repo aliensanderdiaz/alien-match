@@ -2,7 +2,7 @@ let HORA = 10000;
 let ligas_mal = []
 
 // 1MMDD00000
-const FECHA_PARTIDO_MANANA = 1060300000;
+const FECHA_PARTIDO_MANANA = 1061200000;
 // CAMBIAR ESTA// CAMBIAR ESTA
 // CAMBIAR ESTA
 // CAMBIAR ESTA
@@ -1578,9 +1578,9 @@ async function main() {
   //     apuesta.forEach(partido => {
   //       if (Array.isArray(partido)) {
 
-  //         const linkMitad = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${code}`
-  //         const linkAmbos = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${code}`
-  //         const linkOver = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${code}`
+  //         const linkMitad = (code) => `https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${code}`
+  //         const linkAmbos = (code) => `https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${code}`
+  //         const linkOver = (code) => `https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${code}`
   //         // console.log({ partido })
   //         let partidoEncontrado = partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])
   //         // console.log({ partidoEncontrado })
@@ -1758,9 +1758,9 @@ async function main() {
       apuesta.forEach(partido => {
         if (Array.isArray(partido)) {
 
-          const linkMitad = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${code}`
-          const linkAmbos = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${code}`
-          const linkOver = (code) => `https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${code}`
+          const linkMitad = (code) => `https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${code}`
+          const linkAmbos = (code) => `https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${code}`
+          const linkOver = (code) => `https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${code}`
           // console.log({ partido })
           let partidoEncontrado = partidos_optimizados.find(p => p.local === partido[1] && p.visitante === partido[2])
           // console.log({ partidoEncontrado })

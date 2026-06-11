@@ -1,2 +1,3 @@
 let APUESTAS_ABIERTAS = [
+	["441,672",[11400,"Mexico","Sudafrica","mitad",1.42,"https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=296772",296772],[12100,"Corea del Sur","Republica Checa","mitad",1.48,"https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=296772",296772],[11400,"Canadá","Bosnia & Herzegovina","mitad",1.42],[12000,"EE.UU","Paraguay","mitad",1.48]],
 ]

@@ -7,9 +7,17 @@
 //     favorito:
 // },
 
-// https://local.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
+// https://apuestas.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
+  {
+    nombreFlashcore: 'mundial - CAMPEONATO DEL MUNDO',
+    "nombreWplay": 'MUNDIAL 2026 - PARTIDOS',
+    "abreviado": 'MMM',
+    "codigoWplay": 296772,
+    mitad: true,
+    favorito: true
+},
   {
     nombreFlashcore: 'MÉXICO - Liga de Expansión MX - Superfinal',
     "nombreWplay": 'mexico - Campeón de Campeones Liga de Expansion',

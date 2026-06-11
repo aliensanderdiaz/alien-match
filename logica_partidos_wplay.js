@@ -4,11 +4,11 @@ let PARTIDOS_BACKUP = [...PARTIDOS_OPTIMIZADOS]
 let indiceFavorito = 0
 let favorito = 'local'
 
-// let baseUrl = 'https://local.wplay.co/es/t/'
-let baseUrl = 'https://local.wplay.co/es/t/'
-let baseUrl2 = 'https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort='
+// let baseUrl = 'https://apuestas.wplay.co/es/t/'
+let baseUrl = 'https://apuestas.wplay.co/es/t/'
+let baseUrl2 = 'https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort='
 // GSH1&sb_type_ids=
-let baseUrlSm = 'https://local.wplay.co/es/t/'
+let baseUrlSm = 'https://apuestas.wplay.co/es/t/'
 
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
 const CONTENEDOR_DATOS_SM = document.getElementById('contenedor-datos-sm')
@@ -331,7 +331,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         html += `
     <div class="row">
       <div class="col">
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
       </div>
     </div>
         `
@@ -347,7 +347,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         html += `
     <div class="row">
       <div class="col">
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
       </div>
     </div>
         `
@@ -364,7 +364,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         html += `
     <div class="row">
       <div class="col">
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
       </div>
     </div>
         `
@@ -381,7 +381,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         html += `
     <div class="row">
       <div class="col">
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
       </div>
     </div>
         `
@@ -399,9 +399,9 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         html += `
     <div class="row">
       <div class="col">
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link} - LOCAL</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link} - LOCAL</a>
         ------
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link} - VISITANTE</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link} - VISITANTE</a>
       </div>
     </div>
         `
@@ -418,7 +418,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         html += `
     <div class="row">
       <div class="col">
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=SBTYPE&mkt_sort=MRES&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=SBTYPE&mkt_sort=MRES&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
       </div>
     </div>
         `
@@ -435,14 +435,14 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         html += `
     <div class="row">
       <div class="col">
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${link}" target="_blank" rel="noopener noreferrer">${link}</a>
       </div>
     </div>
         `
     }
 
 
-    // https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=19296-19160-48352-19159-19328
+    // https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=19296-19160-48352-19159-19328
 
     console.log({ links })
 
@@ -457,13 +457,13 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     <div class="row">
       <div class="col">
       
-      <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=SBTYPE&mkt_sort=MRES&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos Ligas</a>
+      <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=SBTYPE&mkt_sort=MRES&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos Ligas</a>
         -------
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos Mitad</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos Mitad</a>
         -------
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=MRES&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=MRES&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos</a>
         -------
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19511-19873-19948-19830" target="_blank" rel="noopener noreferrer">Super Copa 19511-E-19873-F-19948-I-19830-A</a>
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=19511-19873-19948-19830" target="_blank" rel="noopener noreferrer">Super Copa 19511-E-19873-F-19948-I-19830-A</a>
       </div>
     </div>
     `
