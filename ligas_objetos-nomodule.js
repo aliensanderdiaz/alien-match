@@ -10,9 +10,33 @@
 // https://apuestas.wplay.co/es/t/557799/Copa-Africana-de-Naciones-Partidos
 
 let LIGAS_OBJETOS = [
+//     {
+//     nombreFlashcore: 'MUNDIAL: ',
+//     "nombreWplay": 'World Cup 2026 - Int-Conf. Playoff',
+//     "abreviado": 'MUN',
+//     "codigoWplay": 583781,
+//     mitad: true,
+//     favorito: true
+// },
+    {
+    nombreFlashcore: 'MUNDIAL: ',
+    "nombreWplay": 'World Cup 2026 - Int-Conf. Playoff',
+    "abreviado": 'MUN',
+    "codigoWplay": 296772,
+    mitad: true,
+    favorito: true
+},
   {
     nombreFlashcore: 'mundial - CAMPEONATO DEL MUNDO',
     "nombreWplay": 'MUNDIAL 2026 - PARTIDOS',
+    "abreviado": 'MMM',
+    "codigoWplay": 296772,
+    mitad: true,
+    favorito: true
+},
+  {
+    nombreFlashcore: 'mundial - CAMPEONATO DEL MUNDO',
+    "nombreWplay": 'COPA M 2026 - PARTIDOS',
     "abreviado": 'MMM',
     "codigoWplay": 296772,
     mitad: true,
@@ -134,14 +158,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: 'MUNDIAL: ',
-    "nombreWplay": 'World Cup 2026 - Int-Conf. Playoff',
-    "abreviado": 'MUN',
-    "codigoWplay": 583781,
-    mitad: true,
-    favorito: true
-},
+
   {
     nombreFlashcore: 'URUGUAY - Supercopa',
     "nombreWplay": 'Uruguay - Super Cup',

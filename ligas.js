@@ -1,9 +1,9 @@
 let LIGAS = [
 	{"liga":"ZA-ARG2","mitad":false,"mitadFavorito":false,"codigoWplay":19342},
 	{"liga":"ZA-BRA2","mitad":true,"mitadFavorito":true,"codigoWplay":2434787},
+	{"liga":"ZA-BRA20","mitad":false,"mitadFavorito":false,"codigoWplay":2434800},
 	{"liga":"ZA-CHIC","mitad":false,"mitadFavorito":false,"codigoWplay":19799},
-	{"liga":"MUN","mitad":true,"mitadFavorito":true,"codigoWplay":583781},
+	{"liga":"MUN","mitad":true,"mitadFavorito":true,"codigoWplay":296772},
 	{"liga":"AMIE","codigoWplay":617783,"mitad":false,"mitadFavorito":true},
 	{"liga":"AMIC","codigoWplay":20183,"mitad":false,"mitadFavorito":true},
-	{"liga":"ZA-URU2","mitad":false,"mitadFavorito":false,"codigoWplay":26834},
 ]
