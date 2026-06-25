@@ -28,6 +28,14 @@ let LIGAS_OBJETOS = [
 },
   {
     nombreFlashcore: 'mundial - CAMPEONATO DEL MUNDO',
+    "nombreWplay": 'Campeonato Del Mundo - Partidos',
+    "abreviado": 'MMM',
+    "codigoWplay": 296772,
+    mitad: true,
+    favorito: true
+},
+  {
+    nombreFlashcore: 'mundial - CAMPEONATO DEL MUNDO',
     "nombreWplay": 'MUNDIAL 2026 - PARTIDOS',
     "abreviado": 'MMM',
     "codigoWplay": 296772,
