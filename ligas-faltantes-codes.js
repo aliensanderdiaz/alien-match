@@ -1,5 +1,5 @@
 let LIGAS_FALTANTES = [
- 'MMM','MUN', 'AMIC'
+ 'MMM','MUN', 'AMIC', 'CS20'
     
 ]
 
