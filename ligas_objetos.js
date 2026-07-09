@@ -29,7 +29,7 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: 'mundial - CAMPEONATO DEL MUNDO',
     "nombreWplay": 'Campeonato Del Mundo - Partidos',
-    "abreviado": 'MMM',
+    "abreviado": 'MUN',
     "codigoWplay": 296772,
     mitad: true,
     favorito: true
@@ -37,7 +37,7 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: 'mundial - CAMPEONATO DEL MUNDO',
     "nombreWplay": 'MUNDIAL 2026 - PARTIDOS',
-    "abreviado": 'MMM',
+    "abreviado": 'MUN',
     "codigoWplay": 296772,
     mitad: true,
     favorito: true
@@ -45,7 +45,7 @@ let LIGAS_OBJETOS = [
   {
     nombreFlashcore: 'mundial - CAMPEONATO DEL MUNDO',
     "nombreWplay": 'COPA M 2026 - PARTIDOS',
-    "abreviado": 'MMM',
+    "abreviado": 'MUN',
     "codigoWplay": 296772,
     mitad: true,
     favorito: true
@@ -2538,6 +2538,15 @@ let LIGAS_OBJETOS = [
     abreviado: "U-CONF",
     codigoWplay: 413776,
     mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - Conference League - Clasificación",
+    nombreWplay: "UEFA - Conference League Clasificatorios",
+    abreviado: "U-CONFC",
+    codigoWplay: 1431783,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
