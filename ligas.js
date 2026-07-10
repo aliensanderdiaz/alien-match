@@ -1,8 +1,7 @@
 let LIGAS = [
-	{"liga":"ZA-BOL1","mitad":false,"mitadFavorito":false,"codigoWplay":19786},
-	{"liga":"ZA-ECU2","mitad":false,"mitadFavorito":false,"codigoWplay":30530},
-	{"liga":"U-EUROQ","mitad":false,"mitadFavorito":true,"codigoWplay":61810},
-	{"liga":"U-CONFC","mitad":false,"mitadFavorito":true,"codigoWplay":1431783},
+	{"liga":"ZA-BRA2","mitad":true,"mitadFavorito":true,"codigoWplay":2434787},
+	{"liga":"S-CHI1","mitad":false,"mitadFavorito":true,"codigoWplay":19485},
+	{"liga":"ZA-ECU1","mitad":true,"mitadFavorito":true,"codigoWplay":19373},
 	{"liga":"MUN","mitad":true,"mitadFavorito":true,"codigoWplay":296772},
 	{"liga":"I-AMI","mitad":false,"mitadFavorito":true,"codigoWplay":19287},
 	{"liga":"I-AMI23","mitad":false,"mitadFavorito":false,"codigoWplay":20182},
@@ -12,4 +11,5 @@ let LIGAS = [
 	{"liga":"CS20","codigoWplay":32567,"mitad":false,"mitadFavorito":true},
 	{"liga":"AMIE","codigoWplay":617783,"mitad":false,"mitadFavorito":true},
 	{"liga":"AMIC","codigoWplay":20183,"mitad":false,"mitadFavorito":true},
+	{"liga":"ZA-URU1","mitad":false,"mitadFavorito":true,"codigoWplay":19398},
 ]
