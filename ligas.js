@@ -1,12 +1,6 @@
 let LIGAS = [
 	{"liga":"ZA-ARG2","mitad":false,"mitadFavorito":false,"codigoWplay":19342},
-	{"liga":"ZA-ARGC","mitad":false,"mitadFavorito":true,"codigoWplay":19572},
-	{"liga":"ZA-BOL1","mitad":false,"mitadFavorito":false,"codigoWplay":19786},
 	{"liga":"ZA-BRA2","mitad":true,"mitadFavorito":true,"codigoWplay":2434787},
-	{"liga":"ZA-CHIC","mitad":false,"mitadFavorito":false,"codigoWplay":19799},
-	{"liga":"S-CHI1","mitad":false,"mitadFavorito":true,"codigoWplay":19485},
-	{"liga":"S-COR1","mitad":true,"mitadFavorito":true,"codigoWplay":19306},
-	{"liga":"ZA-ECU1","mitad":true,"mitadFavorito":true,"codigoWplay":19373},
 	{"liga":"I-AMI","mitad":false,"mitadFavorito":true,"codigoWplay":19287},
 	{"liga":"I-AMI23","mitad":false,"mitadFavorito":false,"codigoWplay":20182},
 	{"liga":"I-AMI21","mitad":false,"mitadFavorito":false,"codigoWplay":19345},
