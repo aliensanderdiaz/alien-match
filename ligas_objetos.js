@@ -18,6 +18,83 @@ let LIGAS_OBJETOS = [
 //     mitad: true,
 //     favorito: true
 // },
+  {
+    nombreFlashcore: "MÉXICO - Liga MX - Clausura",
+    nombreWplay: "LIGA MX",
+    abreviado: "ZA-MEX1",
+    // codigoWplay: 19329,
+        codigoWplay: 2434894,
+
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "MÉXICO - Liga MX - Clausura",
+    nombreWplay: "MÉXICO - LIGA MX",
+    abreviado: "ZA-MEX1",
+    // codigoWplay: 19329,
+        codigoWplay: 2434894,
+
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "MÉXICO - Liga MX - Apertura",
+    nombreWplay: "MÉXICO - LIGA MX",
+    abreviado: "ZA-MEX1",
+    // codigoWplay: 19329,
+        codigoWplay: 2434894,
+
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "MÉXICO - Liga MX - Apertura - Play In",
+    nombreWplay: "MÉXICO - LIGA MX",
+    abreviado: "ZA-MEX1",
+    // codigoWplay: 19329,
+        codigoWplay: 2434894,
+
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "MÉXICO - Liga MX - Apertura - Playoffs",
+    nombreWplay: "MÉXICO - LIGA MX",
+    abreviado: "ZA-MEX1",
+    // codigoWplay: 19329,
+        codigoWplay: 2434894,
+
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "MÉXICO - Liga MX - Clausura - Play In",
+    nombreWplay: "MÉXICO - LIGA MX",
+    abreviado: "ZA-MEX1",
+    // codigoWplay: 19329,
+        codigoWplay: 2434894,
+
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "MÉXICO - Liga MX - Clausura - Playoffs",
+    nombreWplay: "MÉXICO - LIGA MX",
+    abreviado: "ZA-MEX1",
+    // codigoWplay: 19329,
+        codigoWplay: 2434894,
+
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: 'MUNDIAL: ',
     "nombreWplay": 'World Cup 2026 - Int-Conf. Playoff',
@@ -3585,42 +3662,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: "MÉXICO - Liga MX - Clausura",
-    nombreWplay: "MÉXICO - LIGA MX",
-    abreviado: "ZA-MEX1",
-    codigoWplay: 19329,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
-  {
-    nombreFlashcore: "MÉXICO - Liga MX - Apertura",
-    nombreWplay: "MÉXICO - LIGA MX",
-    abreviado: "ZA-MEX1",
-    codigoWplay: 19329,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
-  {
-    nombreFlashcore: "MÉXICO - Liga MX - Apertura - Play In",
-    nombreWplay: "MÉXICO - LIGA MX",
-    abreviado: "ZA-MEX1",
-    codigoWplay: 19329,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
-  {
-    nombreFlashcore: "MÉXICO - Liga MX - Apertura - Playoffs",
-    nombreWplay: "MÉXICO - LIGA MX",
-    abreviado: "ZA-MEX1",
-    codigoWplay: 19329,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+
   {
     nombreFlashcore: "MÉXICO - Campeón de Campeones",
     nombreWplay: "Mexico - Campeon de Campeones",
@@ -3640,24 +3682,6 @@ let LIGAS_OBJETOS = [
     codigoBetplay: ''
   },
 
-  {
-    nombreFlashcore: "MÉXICO - Liga MX - Clausura - Play In",
-    nombreWplay: "MÉXICO - LIGA MX",
-    abreviado: "ZA-MEX1",
-    codigoWplay: 19329,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
-  {
-    nombreFlashcore: "MÉXICO - Liga MX - Clausura - Playoffs",
-    nombreWplay: "MÉXICO - LIGA MX",
-    abreviado: "ZA-MEX1",
-    codigoWplay: 19329,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
 
   {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Clausura - Play In",
