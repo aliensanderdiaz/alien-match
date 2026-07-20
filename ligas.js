@@ -1,8 +1,16 @@
 let LIGAS = [
 	{"liga":"ZA-BOL1","mitad":false,"mitadFavorito":false,"codigoWplay":19786},
+	{"liga":"ZA-BRA1","mitad":true,"mitadFavorito":true,"codigoWplay":2400790},
+	{"liga":"ZA-BRA2","mitad":true,"mitadFavorito":true,"codigoWplay":2434787},
+	{"liga":"S-CHIF","mitad":false,"mitadFavorito":true,"codigoWplay":23200},
+	{"liga":"ZA-COLC","mitad":false,"mitadFavorito":true,"codigoWplay":29698},
+	{"liga":"S-COR1","mitad":true,"mitadFavorito":true,"codigoWplay":19306},
 	{"liga":"ZA-ECU1","mitad":true,"mitadFavorito":true,"codigoWplay":19373},
+	{"liga":"R-ESCL","mitad":false,"mitadFavorito":true,"codigoWplay":19409},
+	{"liga":"U-CHAMC","mitad":false,"mitadFavorito":true,"codigoWplay":61789},
+	{"liga":"U-CONFC","mitad":false,"mitadFavorito":true,"codigoWplay":1431783},
+	{"liga":"ZA-MEX1","mitad":true,"mitadFavorito":true,"codigoWplay":2434894},
 	{"liga":"AMIE","codigoWplay":617783,"mitad":false,"mitadFavorito":true},
 	{"liga":"AMIC","codigoWplay":20183,"mitad":false,"mitadFavorito":true},
-	{"liga":"YE-RUM1","mitad":false,"mitadFavorito":true,"codigoWplay":46019},
-	{"liga":"ZA-URU1","mitad":false,"mitadFavorito":true,"codigoWplay":19398},
+	{"liga":"ZA-SUDA","mitad":false,"mitadFavorito":true,"codigoWplay":19348},
 ]
