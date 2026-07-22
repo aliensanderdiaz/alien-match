@@ -1,5 +1,5 @@
 let LIGAS_FALTANTES = [
- 'ZA-ECU2'
+ 'ZA-BRA20', 'ZA-ECU2'
     
 ]
 
