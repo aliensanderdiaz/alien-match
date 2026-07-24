@@ -18,6 +18,86 @@ let LIGAS_OBJETOS = [
 //     mitad: true,
 //     favorito: true
 // },
+{
+    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Apertura",
+    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 2560822,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+{
+    nombreFlashcore: 'MÉXICO - Liga de Expansión MX - Superfinal',
+    "nombreWplay": 'mexico - Campeón de Campeones Liga de Expansion',
+    "abreviado": 'ZA-MEX2C',
+    "codigoWplay":583782,
+    mitad: true,
+    favorito: true
+},
+{
+    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
+    nombreWplay: "Mexico - Liga de Expansion MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 61826,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+{
+    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Clausura - Play In",
+    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 61826,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+{
+    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Clausura - Playoffs",
+    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 61826,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+{
+    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Apertura - Playoffs",
+    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 61826,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+{
+    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Clausura",
+    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 61826,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+{
+    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Apertura",
+    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 61826,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+{
+    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
+    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
+    abreviado: "ZA-MEX2",
+    codigoWplay: 61826,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "MÉXICO - Liga MX - Clausura",
     nombreWplay: "LIGA MX",
@@ -124,14 +204,6 @@ let LIGAS_OBJETOS = [
     "nombreWplay": 'COPA M 2026 - PARTIDOS',
     "abreviado": 'MUN',
     "codigoWplay": 296772,
-    mitad: true,
-    favorito: true
-},
-  {
-    nombreFlashcore: 'MÉXICO - Liga de Expansión MX - Superfinal',
-    "nombreWplay": 'mexico - Campeón de Campeones Liga de Expansion',
-    "abreviado": 'ZA-MEX2C',
-    "codigoWplay":583782,
     mitad: true,
     favorito: true
 },
@@ -969,15 +1041,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
-    nombreWplay: "Mexico - Liga de Expansion MX",
-    abreviado: "ZA-MEX2",
-    codigoWplay: 61826,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+  
   {
     nombreFlashcore: "Torneo Maurice Revello",
     nombreWplay: "Torneo Maurice Revello",
@@ -3701,62 +3765,14 @@ let LIGAS_OBJETOS = [
   },
 
 
-  {
-    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Clausura - Play In",
-    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
-    abreviado: "ZA-MEX2",
-    codigoWplay: 61826,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+  
 
-  {
-    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Clausura - Playoffs",
-    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
-    abreviado: "ZA-MEX2",
-    codigoWplay: 61826,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+  
 
-  {
-    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Apertura - Playoffs",
-    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
-    abreviado: "ZA-MEX2",
-    codigoWplay: 61826,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
-  {
-    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Clausura",
-    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
-    abreviado: "ZA-MEX2",
-    codigoWplay: 61826,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
-  {
-    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Apertura",
-    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
-    abreviado: "ZA-MEX2",
-    codigoWplay: 61826,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
-  {
-    nombreFlashcore: "MÉXICO - Liga de Expansión MX - Superfinal",
-    nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
-    abreviado: "ZA-MEX2",
-    codigoWplay: 61826,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+  
+  
+  
+  
   {
     nombreFlashcore: "PARAGUAY - Primera División - Apertura",
     nombreWplay: "PARAGUAY - PRIMERA DIVISIÓN",
