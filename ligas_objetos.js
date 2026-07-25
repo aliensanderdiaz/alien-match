@@ -17,7 +17,24 @@ let LIGAS_OBJETOS = [
 //     "codigoWplay": 583781,
 //     mitad: true,
 //     favorito: true
-// },
+// },  
+{
+    nombreFlashcore: "MÉXICO - Campeón de Campeones",
+    nombreWplay: "Mexico - Campeon de Campeones",
+    abreviado: "ZA-MEXCC",
+    codigoWplay: 2434898,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },  {
+    nombreFlashcore: "MÉXICO - Campeón de Campeones",
+    nombreWplay: "Mexico - Campeon de Campeones",
+    abreviado: "ZA-MEXCC",
+    codigoWplay: 33025,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
 {
     nombreFlashcore: "MÉXICO - Liga de Expansión MX - Apertura",
     nombreWplay: "MEXICO - LIGA DE EXPANSION MX",
