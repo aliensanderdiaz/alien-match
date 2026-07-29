@@ -1,7 +1,12 @@
 let LIGAS = [
 	{"liga":"ZA-ARG1","mitad":true,"mitadFavorito":true,"codigoWplay":19296},
-	{"liga":"ZA-BRA2","mitad":true,"mitadFavorito":true,"codigoWplay":2434787},
+	{"liga":"ZA-BRA1","mitad":true,"mitadFavorito":true,"codigoWplay":2400790},
 	{"liga":"ZA-COLC","mitad":false,"mitadFavorito":true,"codigoWplay":29698},
+	{"liga":"S-CORC","mitad":false,"mitadFavorito":false,"codigoWplay":19959},
+	{"liga":"ZA-ECU2","mitad":false,"mitadFavorito":false,"codigoWplay":30530},
+	{"liga":"ZA-ECUC","mitad":false,"mitadFavorito":false,"codigoWplay":54272},
+	{"liga":"ZA-ESTA","mitad":true,"mitadFavorito":true,"codigoWplay":451833},
+	{"liga":"ZA-EST2","mitad":false,"mitadFavorito":true,"codigoWplay":20075},
 	{"liga":"U-CHAMC","mitad":false,"mitadFavorito":true,"codigoWplay":61789},
 	{"liga":"U-CONFC","mitad":false,"mitadFavorito":true,"codigoWplay":1431783},
 	{"liga":"AMIE","codigoWplay":617783,"mitad":false,"mitadFavorito":true},
