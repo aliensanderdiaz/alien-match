@@ -18,11 +18,19 @@ let LIGAS_OBJETOS = [
 //     mitad: true,
 //     favorito: true
 // },  
+    {
+    nombreFlashcore: 'MUNDIAL: ',
+    "nombreWplay": 'World Cup 2026 - Int-Conf. Playoff',
+    "abreviado": 'MUN',
+    "codigoWplay": 583781,
+    mitad: true,
+    favorito: true
+},  
 {
-    nombreFlashcore: "MÉXICO - Campeón de Campeones",
-    nombreWplay: "Mexico - Campeon de Campeones",
-    abreviado: "ZA-MEXCC",
-    codigoWplay: 2434898,
+    nombreFlashcore: "PORTUGAL - Supercopa",
+    nombreWplay: "PORTUGAL - Supercopa",
+    abreviado: "YE-PORS",
+    codigoWplay: 19509,
     mitad: true,
     favorito: true,
     codigoBetplay: ''
