@@ -18,6 +18,15 @@ let LIGAS_OBJETOS = [
 //     mitad: true,
 //     favorito: true
 // },  
+  {
+    nombreFlashcore: "BRASIL - Copa do Brasil",
+    nombreWplay: "BRASIL - COPA DO BRASIL",
+    abreviado: "ZA-BRAC",
+    codigoWplay: 2434793,
+    mitad: false,
+    favorito: true,
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: 'MUNDIAL: ',
     "nombreWplay": 'World Cup 2026 - Int-Conf. Playoff',
@@ -304,15 +313,7 @@ let LIGAS_OBJETOS = [
     nombreWplay: "Paulista A3",
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: "BRASIL - Copa do Brasil",
-    nombreWplay: "BRASIL - COPA DO BRASIL",
-    abreviado: "ZA-BRAC",
-    codigoWplay: 2434793,
-    mitad: false,
-    favorito: true,
-    codigoBetplay: ''
-  },
+
     {
     nombreFlashcore: "BRASIL - Paulista A2 - Playoffs",
     abreviado: "BPAU2",
