@@ -19,7 +19,7 @@ let LIGAS_OBJETOS = [
 //     favorito: true
 // },  
   {
-    nombreFlashcore: "BRASIL - Copa do Brasil",
+    nombreFlashcore: "BRASIL - Copa Betano do Brasil",
     nombreWplay: "BRASIL - COPA DO BRASIL",
     abreviado: "ZA-BRAC",
     codigoWplay: 2434793,
