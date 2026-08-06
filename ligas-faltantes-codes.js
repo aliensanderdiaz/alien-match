@@ -1,5 +1,5 @@
 let LIGAS_FALTANTES = [
-'U-CONFC', 'YE-RUSC'
+'ZA-ECU2'
     
 ]
 
