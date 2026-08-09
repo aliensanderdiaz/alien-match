@@ -84,8 +84,8 @@ function dividirPorCodigos(items, maxCodigos = 5) {
 
 // Aplicar a cada grupo ya creado
 const resultadoFinal = grupos.map(grupo => ({
-    local: dividirPorCodigos(grupo.local, 5),
-    visitante: dividirPorCodigos(grupo.visitante, 5)
+  local: dividirPorCodigos(grupo.local, 5),
+  visitante: dividirPorCodigos(grupo.visitante, 5)
 }));
 
 console.log({ resultadoFinal });
@@ -95,22 +95,64 @@ const container = document.querySelector('.container')
 let html = ''
 
 resultadoFinal.forEach(grupo => {
-    grupo.local.forEach((subgrupoLocal, index) => {
-        console.log({ subgrupoLocal, index })
-        const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
-        const locales = subgrupoLocal.map((partido, index) => `[${ index + 1 }]${partido.local}`)
+  grupo.local.forEach((subgrupoLocal, index) => {
+    console.log({ subgrupoLocal, index })
+    const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
+    const locales = subgrupoLocal.map((partido, index) => `[${index + 1}]${partido.local}`)
 
-        html += `Locales: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
-        console.log({ codigosWplay })
-    })
-    grupo.visitante.forEach((subgrupoVisitante) => {
-        const codigosWplay = [...new Set(subgrupoVisitante.map(partido => partido.codigoWplay))]
-        const visitantes = subgrupoVisitante.map((partido, index) => `[${ index + 1 }]${partido.visitante}`)
+    html += `Locales: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
+    console.log({ codigosWplay })
+  })
+  grupo.visitante.forEach((subgrupoVisitante) => {
+    const codigosWplay = [...new Set(subgrupoVisitante.map(partido => partido.codigoWplay))]
+    const visitantes = subgrupoVisitante.map((partido, index) => `[${index + 1}]${partido.visitante}`)
 
-        html += `Visitantes: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${visitantes.join(' - ')}</a><br><br>`
-    })
+    html += `Visitantes: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${visitantes.join(' - ')}</a><br><br>`
+  })
 
-    html += `<hr><hr>`
+  html += `<hr><hr>`
 })
 
 container.innerHTML = html
+
+const container2 = document.querySelector('.container-2')
+
+let html2 = ''
+
+let resultado2 = PARTIDOS_OPTIMIZADOS.filter(p => p.cuotaCualquiera >= 1.42);
+
+console.log({ resultado2 })
+
+function dividirEnGrupos(array, tamano = 25) {
+  const grupos = [];
+
+  for (let i = 0; i < array.length; i += tamano) {
+    grupos.push(array.slice(i, i + tamano));
+  }
+
+  return grupos;
+}
+
+const gruposCualquiera = dividirEnGrupos(resultado2)
+
+console.log({ gruposCualquiera })
+
+
+gruposCualquiera.forEach(grupo => {
+  grupo.forEach((partido, index) => {
+    // https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=26834
+
+    html2 += `
+    <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${partido.codigoWplay}"
+    target="_blank">
+    ${index + 1} - ${partido.local} vs. ${partido.visitante}
+    </a>
+    <br>
+  `
+  })
+
+  html2+= '<hr><hr>'
+})
+
+
+container2.innerHTML = html2
