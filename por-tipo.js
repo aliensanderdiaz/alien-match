@@ -156,3 +156,118 @@ gruposCualquiera.forEach(grupo => {
 
 
 container2.innerHTML = html2
+
+
+let resultado3 = PARTIDOS_OPTIMIZADOS.filter(p => p.over >= 2);
+console.log({ resultado3})
+
+
+
+
+function dividirPorMultiplicacion(items, propiedad, limite = 800) {
+  const grupos = [];
+
+  let grupoActual = [];
+  let acumulado = 1;
+
+  for (const item of items) {
+    const nuevoAcumulado = acumulado * item[propiedad];
+
+    grupoActual.push(item);
+
+    if (nuevoAcumulado > limite) {
+      grupos.push(grupoActual);
+
+      grupoActual = [];
+      acumulado = 1;
+    } else {
+      acumulado = nuevoAcumulado;
+    }
+  }
+
+  if (grupoActual.length) {
+    grupos.push(grupoActual);
+  }
+
+  return grupos;
+}
+
+const gruposOver = dividirPorMultiplicacion(resultado3, 'over')
+
+console.log({ gruposOver })
+
+const resultadoFinalOver =  gruposOver.map(grupo => {
+  return dividirPorCodigos(grupo,  5)
+});
+
+console.log({ resultadoFinalOver })
+
+const containerOver = document.querySelector('.over')
+
+let htmlOver = ''
+
+resultadoFinalOver.forEach(grupo => {
+  grupo.forEach((subgrupoLocal, index) => {
+    console.log({ subgrupoLocal, index })
+    const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
+    const locales = subgrupoLocal.map((partido, index) => `[${index + 1}]${partido.local}`)
+
+    htmlOver += `Grupo ${ index + 1 }: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
+    console.log({ codigosWplay })
+  })
+
+  htmlOver += `<hr><hr>`
+})
+
+containerOver.innerHTML = htmlOver
+
+
+
+
+// dividirPorCodigos
+
+
+// dividirEnGruposd
+// dividirEnGruposd
+// d
+// d
+// d
+// d
+
+
+
+let resultado4 = PARTIDOS_OPTIMIZADOS.filter(p => p.ambosAnotan >= 2);
+console.log({ resultado4})
+
+
+
+
+
+const gruposAmbosAnotan = dividirPorMultiplicacion(resultado4, 'ambosAnotan')
+
+console.log({ gruposAmbosAnotan })
+
+const resultadoFinalAmbos =  gruposAmbosAnotan.map(grupo => {
+  return dividirPorCodigos(grupo,  5)
+});
+
+console.log({ resultadoFinalAmbos })
+
+const containerAmbos = document.querySelector('.ambos')
+
+let htmlAmbos = ''
+
+resultadoFinalAmbos.forEach(grupo => {
+  grupo.forEach((subgrupoLocal, index) => {
+    console.log({ subgrupoLocal, index })
+    const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
+    const locales = subgrupoLocal.map((partido, index) => `[${index + 1}]${partido.local}`)
+
+    htmlAmbos += `Grupo ${ index + 1 }: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
+    console.log({ codigosWplay })
+  })
+
+  htmlAmbos += `<hr><hr>`
+})
+
+containerAmbos.innerHTML = htmlAmbos
