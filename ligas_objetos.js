@@ -18,6 +18,14 @@ let LIGAS_OBJETOS = [
 //     mitad: true,
 //     favorito: true
 // },  
+    {
+    nombreFlashcore: 'GRECIA - Super Cup',
+    "nombreWplay": 'Greece - Super Cup',
+    "abreviado": 'YE-GRES',
+    "codigoWplay": 2278787,
+    mitad: false,
+    favorito: false
+},  
   {
     nombreFlashcore: "BRASIL - Copa Betano do Brasil",
     nombreWplay: "BRASIL - COPA DO BRASIL",
