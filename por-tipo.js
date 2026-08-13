@@ -1,13 +1,16 @@
-console.log({ PARTIDOS_OPTIMIZADOS })
-
-
+const ordenar_hora = (partidos, cual = 'local')  => {
+  return partidos.sort((a,b) => a.hora - b.hora).map((partido, index) => `[${index + 1}][${partido.hora - 10000}]${partido[cual]}`)
+}
+const  HORA = 11646
+const PARTIDOS_OPTIMIZADOS_HORA = PARTIDOS_OPTIMIZADOS.filter(p => p.hora >= HORA)
+console.log({ PARTIDOS_OPTIMIZADOS_HORA })
 
 // Obtener el parámetro ?tipo=
 const params = new URLSearchParams(window.location.search);
 const tipo = params.get("tipo");
 
 // Filtrar
-const resultado = PARTIDOS_OPTIMIZADOS.filter(p => (p.favorito === "local" || p.favorito === "visitante") && p.cuotaFavorito >= 1.74);
+const resultado = PARTIDOS_OPTIMIZADOS_HORA.filter(p => (p.favorito === "local" || p.favorito === "visitante") && p.cuotaFavorito >= 1.74);
 
 console.log({ resultado })
 
@@ -98,14 +101,14 @@ resultadoFinal.forEach(grupo => {
   grupo.local.forEach((subgrupoLocal, index) => {
     console.log({ subgrupoLocal, index })
     const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
-    const locales = subgrupoLocal.map((partido, index) => `[${index + 1}]${partido.local}`)
+    const locales = ordenar_hora(subgrupoLocal)
 
     html += `Locales: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
     console.log({ codigosWplay })
   })
   grupo.visitante.forEach((subgrupoVisitante) => {
     const codigosWplay = [...new Set(subgrupoVisitante.map(partido => partido.codigoWplay))]
-    const visitantes = subgrupoVisitante.map((partido, index) => `[${index + 1}]${partido.visitante}`)
+    const visitantes = ordenar_hora(subgrupoVisitante, 'visitante')
 
     html += `Visitantes: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${visitantes.join(' - ')}</a><br><br>`
   })
@@ -119,7 +122,7 @@ const container2 = document.querySelector('.container-2')
 
 let html2 = ''
 
-let resultado2 = PARTIDOS_OPTIMIZADOS.filter(p => p.cuotaCualquiera >= 1.42);
+let resultado2 = PARTIDOS_OPTIMIZADOS_HORA.filter(p => p.cuotaCualquiera >= 1.42);
 
 console.log({ resultado2 })
 
@@ -158,7 +161,7 @@ gruposCualquiera.forEach(grupo => {
 container2.innerHTML = html2
 
 
-let resultado3 = PARTIDOS_OPTIMIZADOS.filter(p => p.over >= 2);
+let resultado3 = PARTIDOS_OPTIMIZADOS_HORA.filter(p => p.over >= 2);
 console.log({ resultado3})
 
 
@@ -210,7 +213,7 @@ resultadoFinalOver.forEach(grupo => {
   grupo.forEach((subgrupoLocal, index) => {
     console.log({ subgrupoLocal, index })
     const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
-    const locales = subgrupoLocal.map((partido, index) => `[${index + 1}]${partido.local}`)
+    const locales = ordenar_hora(subgrupoLocal)
 
     htmlOver += `Grupo ${ index + 1 }: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
     console.log({ codigosWplay })
@@ -236,7 +239,7 @@ containerOver.innerHTML = htmlOver
 
 
 
-let resultado4 = PARTIDOS_OPTIMIZADOS.filter(p => p.ambosAnotan >= 2);
+let resultado4 = PARTIDOS_OPTIMIZADOS_HORA.filter(p => p.ambosAnotan >= 2);
 console.log({ resultado4})
 
 
@@ -261,7 +264,7 @@ resultadoFinalAmbos.forEach(grupo => {
   grupo.forEach((subgrupoLocal, index) => {
     console.log({ subgrupoLocal, index })
     const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
-    const locales = subgrupoLocal.map((partido, index) => `[${index + 1}]${partido.local}`)
+    const locales = ordenar_hora(subgrupoLocal)
 
     htmlAmbos += `Grupo ${ index + 1 }: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
     console.log({ codigosWplay })
