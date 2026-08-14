@@ -3858,7 +3858,7 @@ let LIGAS_OBJETOS = [
     abreviado: "ZA-PER1",
     codigoWplay: 19340,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -3867,7 +3867,7 @@ let LIGAS_OBJETOS = [
     abreviado: "ZA-PER1",
     codigoWplay: 19340,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
@@ -3876,7 +3876,7 @@ let LIGAS_OBJETOS = [
     abreviado: "ZA-PER1",
     codigoWplay: 19340,
     mitad: false,
-    favorito: false,
+    favorito: true,
     codigoBetplay: ''
   },
   {
