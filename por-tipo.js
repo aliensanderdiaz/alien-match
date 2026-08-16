@@ -1,8 +1,29 @@
+const iniciar = (hora = 0) => {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const ordenar_hora = (partidos, cual = 'local')  => {
   return partidos.sort((a,b) => a.hora - b.hora).map((partido, index) => `[${index + 1}][${partido.hora - 10000}]${partido[cual]}`)
 }
-const  HORA = 11453
-const PARTIDOS_OPTIMIZADOS_HORA = PARTIDOS_OPTIMIZADOS.filter(p => p.hora >= HORA)
+
+hora += 10000
+const PARTIDOS_OPTIMIZADOS_HORA = PARTIDOS_OPTIMIZADOS.filter(p => p.hora >= hora)
 console.log({ PARTIDOS_OPTIMIZADOS_HORA })
 
 // Obtener el parámetro ?tipo=
@@ -274,3 +295,13 @@ resultadoFinalAmbos.forEach(grupo => {
 })
 
 containerAmbos.innerHTML = htmlAmbos
+}
+
+iniciar()
+
+const HORA = document.getElementById('hora')
+const CAMBIAR = document.getElementById('cambiar')
+
+CAMBIAR.addEventListener('click', () => {
+  iniciar(Number(HORA.value))
+})

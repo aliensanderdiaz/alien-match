@@ -18,6 +18,24 @@ let LIGAS_OBJETOS = [
 //     mitad: true,
 //     favorito: true
 // },  
+  {
+    nombreFlashcore: "FRANCIA - Supercopa",
+    nombreWplay: "SUPER COPA",
+    abreviado: "FRAS",
+    codigoWplay: 19873,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+    {
+    nombreFlashcore: "ESPAÑA - Supercopa",
+    nombreWplay: "SUPER COPA",
+    abreviado: "ESPS",
+    codigoWplay: 19511,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
     {
     nombreFlashcore: 'GRECIA - Super Cup',
     "nombreWplay": 'Greece - Super Cup',
@@ -358,24 +376,8 @@ let LIGAS_OBJETOS = [
     mitad: true,
     favorito: true
 },
-  {
-    nombreFlashcore: "ESPAÑA - Supercopa",
-    nombreWplay: "SUPER COPA",
-    abreviado: "ESPS",
-    codigoWplay: 19511,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
-  {
-    nombreFlashcore: "FRANCIA - Supercopa",
-    nombreWplay: "SUPER COPA",
-    abreviado: "FRAS",
-    codigoWplay: 19873,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+
+
   {
     nombreFlashcore: "ITALIA - Supercopa",
     nombreWplay: "SUPER COPA",
