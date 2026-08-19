@@ -35,7 +35,7 @@ const resultado = PARTIDOS_OPTIMIZADOS_HORA.filter(p => (p.favorito === "local" 
 
 console.log({ resultado })
 
-function agrupar(productos, limite = 800) {
+function agrupar(productos, limite = 500000) {
   const grupos = [];
 
   let grupoActual = {
@@ -188,7 +188,7 @@ console.log({ resultado3})
 
 
 
-function dividirPorMultiplicacion(items, propiedad, limite = 800) {
+function dividirPorMultiplicacion(items, propiedad, limite = 500000) {
   const grupos = [];
 
   let grupoActual = [];

@@ -457,6 +457,15 @@ let LIGAS_OBJETOS = [
   },
 
   {
+    nombreFlashcore: 'BOLIVIA - Copa Paceña',
+    "nombreWplay": 'Bolivia - Copa Division Profesional',
+    "abreviado": 'ZA-BOLC',
+    "codigoWplay": 795780,
+    mitad: false,
+    favorito: false
+  },
+
+  {
     nombreFlashcore: 'BOLIVIA - Copa Paceña - Playoffs',
     "nombreWplay": 'Bolivia - Copa Division Profesional',
     "abreviado": 'ZA-BOLC',
@@ -2670,6 +2679,15 @@ let LIGAS_OBJETOS = [
     abreviado: "U-CHAM",
     codigoWplay: 19161,
     mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "EUROPA - Champions League - Clasificación",
+    nombreWplay: "UEFA - CHAMPIONS LEAGUE Clasificatorios",
+    abreviado: "U-CHAMC",
+    codigoWplay: 61789,
+    mitad: false,
     favorito: true,
     codigoBetplay: ''
   },
