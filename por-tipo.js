@@ -1,3 +1,6 @@
+const LIMITE = 1_000_000
+
+
 const iniciar = (hora = 0) => {
 
 
@@ -19,7 +22,7 @@ const iniciar = (hora = 0) => {
 
 
 const ordenar_hora = (partidos, cual = 'local')  => {
-  return partidos.sort((a,b) => a.hora - b.hora).map((partido, index) => `[${index + 1}][${partido.hora - 10000}]${partido[cual]}`)
+  return partidos.sort((a,b) => a.hora - b.hora).map((partido, index) => `<li>[${index + 1}][${partido.hora - 10000}]${partido[cual]}</li>`)
 }
 
 hora += 10000
@@ -35,7 +38,7 @@ const resultado = PARTIDOS_OPTIMIZADOS_HORA.filter(p => (p.favorito === "local" 
 
 console.log({ resultado })
 
-function agrupar(productos, limite = 500000) {
+function agrupar(productos, limite = LIMITE) {
   const grupos = [];
 
   let grupoActual = {
@@ -188,7 +191,7 @@ console.log({ resultado3})
 
 
 
-function dividirPorMultiplicacion(items, propiedad, limite = 500000) {
+function dividirPorMultiplicacion(items, propiedad, limite = LIMITE) {
   const grupos = [];
 
   let grupoActual = [];
