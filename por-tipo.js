@@ -22,7 +22,7 @@ const iniciar = (hora = 0) => {
 
 
 const ordenar_hora = (partidos, cual = 'local')  => {
-  return partidos.sort((a,b) => a.hora - b.hora).map((partido, index) => `<li>[${index + 1}][${partido.hora - 10000}]${partido[cual]}</li>`)
+  return partidos.sort((a,b) => a.hora - b.hora).map((partido, index) => `<li>[${index + 1}] [${partido.hora - 10000}] ${partido[cual]}</li>`)
 }
 
 hora += 10000
@@ -39,6 +39,28 @@ const resultado = PARTIDOS_OPTIMIZADOS_HORA.filter(p => (p.favorito === "local" 
 console.log({ resultado })
 
 function agrupar(productos, limite = LIMITE) {
+  const limites = [
+    {
+      minimo: 1,
+      maximo: 5,
+      factor: 300_000,
+    },
+    {
+      minimo: 6,
+      maximo: 15,
+      factor: 500_000,
+    },
+    {
+      minimo: 16,
+      maximo: 24,
+      factor: 800_000,
+    },
+    {
+      minimo: 25,
+      maximo: 25,
+      factor: 1_000_000,
+    },
+  ]
   const grupos = [];
 
   let grupoActual = {
@@ -49,8 +71,21 @@ function agrupar(productos, limite = LIMITE) {
   let factorActual = 1;
 
   for (const producto of productos) {
-    grupoActual[producto.favorito].push(producto);
+    
     factorActual *= producto.cuotaFavorito;
+
+    let cantidadActual = grupoActual[producto.favorito].length
+
+    let factorEncontrado = limites.find(limite => {
+      console.log({ limites })
+      return cantidadActual + 1 >= limite.minimo && cantidadActual + 1 <= limite.maximo
+    }).factor
+
+    console.log({ cantidadActual, factorEncontrado })
+
+    // AQUI QUEDE
+    
+    grupoActual[producto.favorito].push(producto);
 
     // si ya se pasó del límite, este producto se queda
     // en el grupo actual y el próximo inicia otro grupo
@@ -127,14 +162,14 @@ resultadoFinal.forEach(grupo => {
     const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
     const locales = ordenar_hora(subgrupoLocal)
 
-    html += `Locales: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
+    html += `Locales: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${codigosWplay.join('-')}" target="_blank">Aquí</a>${ locales.join('') }<br>`
     console.log({ codigosWplay })
   })
   grupo.visitante.forEach((subgrupoVisitante) => {
     const codigosWplay = [...new Set(subgrupoVisitante.map(partido => partido.codigoWplay))]
     const visitantes = ordenar_hora(subgrupoVisitante, 'visitante')
 
-    html += `Visitantes: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${visitantes.join(' - ')}</a><br><br>`
+    html += `Visitantes: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${codigosWplay.join('-')}" target="_blank">Aquí</a>${visitantes.join('')}<br>`
   })
 
   html += `<hr><hr>`
@@ -239,7 +274,7 @@ resultadoFinalOver.forEach(grupo => {
     const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
     const locales = ordenar_hora(subgrupoLocal)
 
-    htmlOver += `Grupo ${ index + 1 }: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
+    htmlOver += `Grupo ${ index + 1 }: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${codigosWplay.join('-')}" target="_blank">Aquí</a>${locales.join('')}<br>`
     console.log({ codigosWplay })
   })
 
@@ -290,7 +325,7 @@ resultadoFinalAmbos.forEach(grupo => {
     const codigosWplay = [...new Set(subgrupoLocal.map(partido => partido.codigoWplay))]
     const locales = ordenar_hora(subgrupoLocal)
 
-    htmlAmbos += `Grupo ${ index + 1 }: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${codigosWplay.join('-')}" target="_blank">${locales.join(' - ')}</a><br><br>`
+    htmlAmbos += `Grupo ${ index + 1 }: <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${codigosWplay.join('-')}" target="_blank">Aquí</a>${locales.join('')}<br>`
     console.log({ codigosWplay })
   })
 
