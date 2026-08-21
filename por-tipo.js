@@ -1,44 +1,5 @@
 const LIMITE = 1_000_000
 
-
-const iniciar = (hora = 0) => {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const ordenar_hora = (partidos, cual = 'local')  => {
-  return partidos.sort((a,b) => a.hora - b.hora).map((partido, index) => `<li>[${index + 1}] [${partido.hora - 10000}] ${partido[cual]}</li>`)
-}
-
-hora += 10000
-const PARTIDOS_OPTIMIZADOS_HORA = PARTIDOS_OPTIMIZADOS.filter(p => p.hora >= hora)
-console.log({ PARTIDOS_OPTIMIZADOS_HORA })
-
-// Obtener el parámetro ?tipo=
-const params = new URLSearchParams(window.location.search);
-const tipo = params.get("tipo");
-
-// Filtrar
-const resultado = PARTIDOS_OPTIMIZADOS_HORA.filter(p => (p.favorito === "local" || p.favorito === "visitante") && p.cuotaFavorito >= 1.74);
-
-console.log({ resultado })
-
-function agrupar(productos, limite = LIMITE) {
   const limites = [
     {
       minimo: 1,
@@ -61,6 +22,47 @@ function agrupar(productos, limite = LIMITE) {
       factor: 1_000_000,
     },
   ]
+
+
+const iniciar = (hora = 0) => {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const ordenar_hora = (partidos, cual = 'local')  => {
+  return partidos.sort((a,b) => a.hora - b.hora).map((partido, index) => `<li>[${index + 1}] [${partido.hora - 10000}] ${partido[cual]} [${ partido.cuotaFavorito }]</li>`)
+}
+
+hora += 10000
+const PARTIDOS_OPTIMIZADOS_HORA = PARTIDOS_OPTIMIZADOS.filter(p => p.hora >= hora)
+console.log({ PARTIDOS_OPTIMIZADOS_HORA })
+
+// Obtener el parámetro ?tipo=
+const params = new URLSearchParams(window.location.search);
+const tipo = params.get("tipo");
+
+// Filtrar
+const resultado = PARTIDOS_OPTIMIZADOS_HORA.filter(p => (p.favorito === "local" || p.favorito === "visitante") && p.cuotaFavorito >= 1.74);
+
+console.log({ resultado })
+
+function agrupar(productos, limite = LIMITE) {
+
   const grupos = [];
 
   let grupoActual = {
@@ -74,30 +76,34 @@ function agrupar(productos, limite = LIMITE) {
     
     factorActual *= producto.cuotaFavorito;
 
-    let cantidadActual = grupoActual[producto.favorito].length
+    let cantidadActual = grupoActual.local.length + grupoActual.visitante.length
 
     let factorEncontrado = limites.find(limite => {
       console.log({ limites })
       return cantidadActual + 1 >= limite.minimo && cantidadActual + 1 <= limite.maximo
     }).factor
 
-    console.log({ cantidadActual, factorEncontrado })
+    console.log({ linea: 86, cantidadActual, factorEncontrado, producto })
 
     // AQUI QUEDE
     
-    grupoActual[producto.favorito].push(producto);
+    
 
-    // si ya se pasó del límite, este producto se queda
-    // en el grupo actual y el próximo inicia otro grupo
-    if (factorActual > limite) {
-      grupos.push(grupoActual);
+    if (factorActual < factorEncontrado) {
+      grupoActual[producto.favorito].push(producto);
+
+
+    } else {
+            grupos.push(grupoActual);
 
       grupoActual = {
         local: [],
         visitante: []
       };
 
-      factorActual = 1;
+      grupoActual[producto.favorito].push(producto);
+
+      factorActual = producto.cuotaFavorito;
     }
   }
 
@@ -207,7 +213,7 @@ gruposCualquiera.forEach(grupo => {
     html2 += `
     <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${partido.codigoWplay}"
     target="_blank">
-    ${index + 1} - ${partido.local} vs. ${partido.visitante}
+    ${index + 1} - [${ partido.hora - 10000 }] - ${partido.local} vs. ${partido.visitante}
     </a>
     <br>
   `
@@ -235,14 +241,28 @@ function dividirPorMultiplicacion(items, propiedad, limite = LIMITE) {
   for (const item of items) {
     const nuevoAcumulado = acumulado * item[propiedad];
 
-    grupoActual.push(item);
+    
 
-    if (nuevoAcumulado > limite) {
+
+    /** Esto es lo nuevo */
+    let cantidadActual = grupoActual.length
+
+    let factorEncontrado = limites.find(limite => {
+      console.log({ limites, cantidadActual })
+      return cantidadActual + 1 >= limite.minimo && cantidadActual + 1 <= limite.maximo
+    }).factor
+    /** Termina lo nuevo */
+
+
+
+    if (nuevoAcumulado > factorEncontrado) {
       grupos.push(grupoActual);
 
       grupoActual = [];
+      grupoActual.push(item);
       acumulado = 1;
     } else {
+      grupoActual.push(item);
       acumulado = nuevoAcumulado;
     }
   }

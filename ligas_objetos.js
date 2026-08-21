@@ -17,7 +17,25 @@ let LIGAS_OBJETOS = [
 //     "codigoWplay": 583781,
 //     mitad: true,
 //     favorito: true
-// },  
+// },    
+{
+    nombreFlashcore: "ALEMANIA - DFL-Supercup",
+    nombreWplay: "SUPER COPA",
+    abreviado: "ALES",
+    codigoWplay: 19830,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
+  {
+    nombreFlashcore: "ALEMANIA - Supercup",
+    nombreWplay: "SUPER COPA",
+    abreviado: "ALES",
+    codigoWplay: 19830,
+    mitad: true,
+    favorito: true,
+    codigoBetplay: ''
+  },
   {
     nombreFlashcore: "FRANCIA - Supercopa",
     nombreWplay: "SUPER COPA",
@@ -387,24 +405,7 @@ let LIGAS_OBJETOS = [
     favorito: true,
     codigoBetplay: ''
   },
-  {
-    nombreFlashcore: "ALEMANIA - DFL-Supercup",
-    nombreWplay: "SUPER COPA",
-    abreviado: "ALES",
-    codigoWplay: 19830,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
-  {
-    nombreFlashcore: "ALEMANIA - Supercup",
-    nombreWplay: "SUPER COPA",
-    abreviado: "ALES",
-    codigoWplay: 19830,
-    mitad: true,
-    favorito: true,
-    codigoBetplay: ''
-  },
+
 
   {
     nombreFlashcore: 'ÁFRICA - Copa de África de Naciones - Playoffs',
